@@ -1,0 +1,483 @@
+{
+  "last_updated": "2026-03-26T21:49:53.587808+00:00",
+  "top_weapons": [
+    {
+      "name": "Voyak KT-3",
+      "game": "bo7",
+      "rank": 1
+    },
+    {
+      "name": "Dravec 45",
+      "game": "bo7",
+      "rank": 2
+    },
+    {
+      "name": "Hawker HX",
+      "game": "bo7",
+      "rank": 3
+    },
+    {
+      "name": "Razor 9mm",
+      "game": "bo7",
+      "rank": 4
+    },
+    {
+      "name": "EGRT-17",
+      "game": "bo7",
+      "rank": 5
+    },
+    {
+      "name": "Peacekeeper Mk1",
+      "game": "bo7",
+      "rank": 6
+    },
+    {
+      "name": "Ryden 45K",
+      "game": "bo7",
+      "rank": 7
+    },
+    {
+      "name": "MK.78",
+      "game": "bo7",
+      "rank": 8
+    },
+    {
+      "name": "VS Recon",
+      "game": "bo7",
+      "rank": 9
+    },
+    {
+      "name": "Kogot-7",
+      "game": "bo7",
+      "rank": 10
+    },
+    {
+      "name": "HDR",
+      "game": "mw2019",
+      "rank": 11
+    },
+    {
+      "name": "AK-27",
+      "game": "bo7",
+      "rank": 12
+    },
+    {
+      "name": "Carbon 57",
+      "game": "bo7",
+      "rank": 13
+    },
+    {
+      "name": "XR-3 Ion",
+      "game": "bo7",
+      "rank": 14
+    },
+    {
+      "name": "REV-46",
+      "game": "bo7",
+      "rank": 15
+    },
+    {
+      "name": "MXR-17",
+      "game": "bo7",
+      "rank": 16
+    },
+    {
+      "name": "M15 Mod 0",
+      "game": "bo7",
+      "rank": 17
+    },
+    {
+      "name": "X9 Maverick",
+      "game": "bo7",
+      "rank": 18
+    },
+    {
+      "name": "Sokol 545",
+      "game": "bo7",
+      "rank": 19
+    },
+    {
+      "name": "Swordfish A1",
+      "game": "bo7",
+      "rank": 20
+    }
+  ],
+  "top_meta_scores": [
+    {
+      "name": "Voyak KT-3",
+      "score": 5.8
+    },
+    {
+      "name": "Dravec 45",
+      "score": 5.4
+    },
+    {
+      "name": "Hawker HX",
+      "score": 5.3
+    },
+    {
+      "name": "Razor 9mm",
+      "score": 5.2
+    },
+    {
+      "name": "EGRT-17",
+      "score": 4.9
+    },
+    {
+      "name": "Peacekeeper Mk1",
+      "score": 4.8
+    },
+    {
+      "name": "Ryden 45K",
+      "score": 4.7
+    },
+    {
+      "name": "MK.78",
+      "score": 4.6
+    },
+    {
+      "name": "Kogot-7",
+      "score": 4.6
+    },
+    {
+      "name": "VS Recon",
+      "score": 4.6
+    },
+    {
+      "name": "HDR",
+      "score": 4.5
+    },
+    {
+      "name": "AK-27",
+      "score": 4.4
+    },
+    {
+      "name": "Carbon 57",
+      "score": 4.4
+    },
+    {
+      "name": "XR-3 Ion",
+      "score": 4.4
+    },
+    {
+      "name": "REV-46",
+      "score": 4.38
+    },
+    {
+      "name": "M15 Mod 0",
+      "score": 4.35
+    },
+    {
+      "name": "MXR-17",
+      "score": 4.35
+    },
+    {
+      "name": "X9 Maverick",
+      "score": 4.32
+    },
+    {
+      "name": "Sokol 545",
+      "score": 4.3
+    },
+    {
+      "name": "Swordfish A1",
+      "score": 4.3
+    },
+    {
+      "name": "Sturmwolf 45",
+      "score": 4.25
+    },
+    {
+      "name": "DS20 Mirage",
+      "score": 4.2
+    },
+    {
+      "name": "TR2",
+      "score": 4.2
+    },
+    {
+      "name": "M8A1",
+      "score": 4.1
+    },
+    {
+      "name": "LC10",
+      "score": 4.1
+    },
+    {
+      "name": "Victus XMR",
+      "score": 4.1
+    },
+    {
+      "name": "Maddox RFB",
+      "score": 3.9
+    },
+    {
+      "name": "MPC-25",
+      "score": 3.9
+    },
+    {
+      "name": "Striker",
+      "score": 3.9
+    },
+    {
+      "name": "Kar98k",
+      "score": 3.8
+    },
+    {
+      "name": "KATT-AMR",
+      "score": 3.75
+    },
+    {
+      "name": "KOMPAKT 92",
+      "score": 3.65
+    },
+    {
+      "name": "KSV",
+      "score": 3.65
+    },
+    {
+      "name": "MX9",
+      "score": 3.65
+    },
+    {
+      "name": "Shadow SK",
+      "score": 3.65
+    },
+    {
+      "name": "KILO 141",
+      "score": 3.6
+    },
+    {
+      "name": "Merrick 556",
+      "score": 3.6
+    },
+    {
+      "name": "Velox 5.7",
+      "score": 3.6
+    },
+    {
+      "name": "PDSW 528",
+      "score": 3.6
+    },
+    {
+      "name": "RK-9",
+      "score": 3.6
+    },
+    {
+      "name": "Akita",
+      "score": 3.6
+    },
+    {
+      "name": "FJX Imperium",
+      "score": 3.6
+    },
+    {
+      "name": "CR-56 Amax",
+      "score": 3.5
+    },
+    {
+      "name": "Vaznev-9k",
+      "score": 3.5
+    },
+    {
+      "name": "WSP-9",
+      "score": 3.5
+    },
+    {
+      "name": "SG-12",
+      "score": 3.5
+    },
+    {
+      "name": "Warden 308",
+      "score": 3.45
+    },
+    {
+      "name": "Cypher 091",
+      "score": 3.4
+    },
+    {
+      "name": "GPR 91",
+      "score": 3.4
+    },
+    {
+      "name": "XM4",
+      "score": 3.4
+    }
+  ],
+  "top_attachments": [
+    {
+      "name": "Casus Brake",
+      "count": 64
+    },
+    {
+      "name": "JAK Glassless Optic",
+      "count": 59
+    },
+    {
+      "name": "Compensator",
+      "count": 45
+    },
+    {
+      "name": "Extended Mag II",
+      "count": 44
+    },
+    {
+      "name": "Monolithic Suppressor",
+      "count": 35
+    },
+    {
+      "name": "Vertical Foregrip",
+      "count": 31
+    },
+    {
+      "name": "Bruen Pendulum",
+      "count": 29
+    },
+    {
+      "name": "FANG HoverPoint ELO",
+      "count": 27
+    },
+    {
+      "name": "Long Barrel",
+      "count": 23
+    },
+    {
+      "name": "Gain-Twist Barrel",
+      "count": 22
+    },
+    {
+      "name": "Bruen Tactical Vertical Grip",
+      "count": 22
+    },
+    {
+      "name": "50 Round Drum",
+      "count": 22
+    },
+    {
+      "name": "Ergonomic Grip",
+      "count": 18
+    },
+    {
+      "name": "45 Round Mag",
+      "count": 18
+    },
+    {
+      "name": "Recoil Springs",
+      "count": 17
+    },
+    {
+      "name": "Ranger Foregrip",
+      "count": 16
+    },
+    {
+      "name": "VT-7 Spiritfire Suppressor",
+      "count": 16
+    },
+    {
+      "name": "Corio Eagleseye 2.5x",
+      "count": 15
+    },
+    {
+      "name": "Willis 3x",
+      "count": 14
+    },
+    {
+      "name": "60 Round Mag",
+      "count": 14
+    },
+    {
+      "name": "Reinforced Barrel",
+      "count": 14
+    },
+    {
+      "name": "FSS OLE-V laser",
+      "count": 14
+    },
+    {
+      "name": "Paracord Grip",
+      "count": 13
+    },
+    {
+      "name": "40 Round Mag",
+      "count": 12
+    },
+    {
+      "name": "Balanced Stock",
+      "count": 11
+    },
+    {
+      "name": "DR-6 Handstop",
+      "count": 11
+    },
+    {
+      "name": "Cronen Mini Pro",
+      "count": 10
+    },
+    {
+      "name": "Kepler Microflex",
+      "count": 9
+    },
+    {
+      "name": "50 Round Mag",
+      "count": 9
+    },
+    {
+      "name": "Forge TAC Delta 4",
+      "count": 9
+    }
+  ],
+  "top_slots": [
+    {
+      "slot": "Muzzle",
+      "count": 271
+    },
+    {
+      "slot": "Barrel",
+      "count": 226
+    },
+    {
+      "slot": "Magazine",
+      "count": 220
+    },
+    {
+      "slot": "Optic",
+      "count": 184
+    },
+    {
+      "slot": "Underbarrel",
+      "count": 148
+    },
+    {
+      "slot": "Stock",
+      "count": 117
+    },
+    {
+      "slot": "Rear Grip",
+      "count": 109
+    },
+    {
+      "slot": "Ammunition",
+      "count": 65
+    },
+    {
+      "slot": "Fire Mods",
+      "count": 63
+    },
+    {
+      "slot": "Laser",
+      "count": 56
+    },
+    {
+      "slot": "Conversion Kit",
+      "count": 17
+    }
+  ],
+  "playstyle_coverage": {
+    "aggressive": 94,
+    "long_range": 98,
+    "balanced": 0,
+    "sniper_support": 112
+  },
+  "popularity": [],
+  "total_weapons": 256
+}

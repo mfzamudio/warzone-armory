@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WARZONE ARMORY — Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Share+Tech&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/analytics.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon">&#9651;</div>
+      <h1>WARZONE <span>ARMORY</span></h1>
+    </div>
+    <nav class="header-nav">
+      <a href="index.html" class="nav-link">&#9651; Armory</a>
+      <a href="analytics.html" class="nav-link active">&#9636; Analytics</a>
+    </nav>
+    <div class="header-meta">
+      <div class="season-tag" id="season-label">S2R · BLACK OPS 6</div>
+      <div id="last-updated-label">Loading...</div>
+    </div>
+  </header>
+
+  <main class="page-wrapper">
+
+    <!-- Loading -->
+    <div class="loading-screen" id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading analytics...</div>
+    </div>
+
+    <div id="content" style="display:none">
+
+      <!-- ===== ANALYTICS HERO ===== -->
+      <section class="hero-intro">
+        <div class="hero-badge">&#9636; ANALYTICS · WARZONE BLACK OPS 6</div>
+        <h2 class="hero-title">Weapon Intelligence Dashboard</h2>
+        <p class="hero-desc">
+          Data-driven breakdowns of the current meta — ranked performance stats, most-used attachments, playstyle coverage, and interactive TTK comparisons across all 256 weapons.
+          Use these charts to identify which weapons dominate each stat category and find the edge in your loadout decisions.
+        </p>
+      </section>
+
+      <!-- ===== SECTION: TOP META ===== -->
+      <section class="analytics-section">
+        <div class="section-header">
+          <h2 class="section-title">&#9733; Meta Rankings</h2>
+          <p class="section-subtitle">Best weapons by performance stat — ranked across all 256 weapons</p>
+          <p class="analytics-module-desc">
+            Select a stat category below to rank all weapons from best to worst. The top-ranked weapon is highlighted — use this to quickly identify the strongest options in each category without having to compare weapons manually.
+          </p>
+        </div>
+
+        <div class="rank-tabs" id="rank-tabs">
+          <button class="rank-tab active" data-rank="ttk" data-tooltip="Time-to-Kill: minimum ms to eliminate an enemy at close range. Lower is better.">Fastest TTK</button>
+          <button class="rank-tab" data-rank="ads" data-tooltip="Aim Down Sight speed in ms — how quickly you shoulder the weapon. Lower is better.">Fastest ADS</button>
+          <button class="rank-tab" data-rank="rpm" data-tooltip="Rounds Per Minute — fire rate. Higher RPM can compensate for lower damage per shot.">Highest RPM</button>
+          <button class="rank-tab" data-rank="range" data-tooltip="Bullet Velocity in m/s — determines effective range and target-lead at distance. Higher is better.">Best Range</button>
+          <button class="rank-tab" data-rank="meta" data-tooltip="Community meta score from CODMunity — reflects current pick-rate and competitive viability.">Meta Score</button>
+        </div>
+
+        <div class="rank-chart-wrap">
+          <canvas id="rank-chart" height="320"></canvas>
+        </div>
+      </section>
+
+      <!-- ===== SECTION: ATTACHMENT META (CSS bars, no canvas) ===== -->
+      <section class="analytics-section two-col">
+
+        <div class="analytics-card">
+          <div class="card-header">
+            <h3 class="card-title">&#9670; Most Used Attachments</h3>
+            <p class="card-subtitle">Top 12 across all meta loadouts</p>
+          </div>
+          <p class="analytics-module-desc">Attachments appearing most frequently across all 321 meta loadouts — if an attachment ranks high here, it likely provides broadly useful stat benefits regardless of weapon class.</p>
+          <div class="css-bars" id="attachment-bars"></div>
+        </div>
+
+        <div class="analytics-card">
+          <div class="card-header">
+            <h3 class="card-title">&#9670; Most Used Slots</h3>
+            <p class="card-subtitle">Which slots dominate meta builds</p>
+          </div>
+          <p class="analytics-module-desc">Attachment slots filled most often in meta builds. Slots near the top are considered almost mandatory — skipping them typically leaves significant stat gains on the table.</p>
+          <div class="css-bars" id="slot-bars"></div>
+        </div>
+
+      </section>
+
+      <!-- ===== SECTION: COVERAGE ===== -->
+      <section class="analytics-section two-col">
+
+        <div class="analytics-card">
+          <div class="card-header">
+            <h3 class="card-title">&#9670; Playstyle Coverage</h3>
+            <p class="card-subtitle">Weapons with a meta loadout per playstyle</p>
+          </div>
+          <p class="analytics-module-desc">How many weapons have a community-curated loadout for each playstyle. A larger slice means more weapon variety is viable for that role.</p>
+          <div class="donut-wrap">
+            <canvas id="playstyle-chart" height="260"></canvas>
+          </div>
+        </div>
+
+        <div class="analytics-card">
+          <div class="card-header">
+            <h3 class="card-title">&#9670; Weapons by Class</h3>
+            <p class="card-subtitle">Distribution across weapon categories</p>
+          </div>
+          <p class="analytics-module-desc">Total number of weapons in each class. Classes with more weapons generally offer wider variety and more niche playstyle options within that category.</p>
+          <div class="css-bars" id="class-bars"></div>
+        </div>
+
+      </section>
+
+      <!-- ===== SECTION: TTK COMPARISON ===== -->
+      <section class="analytics-section">
+        <div class="section-header">
+          <h2 class="section-title">&#128200; TTK Comparison</h2>
+          <p class="section-subtitle">Time-to-kill at each damage drop-off range — select up to 4 weapons</p>
+          <p class="analytics-module-desc">
+            Compare how each weapon's TTK changes as range increases due to damage drop-off. A weapon that spikes up sharply at distance loses its close-range advantage quickly.
+            Lower on the chart is always better — the weapon that stays lowest across your expected engagement ranges is the strongest pick.
+            Only weapons with multi-range damage data are available in the selectors.
+          </p>
+        </div>
+
+        <div class="ttk-controls">
+          <div class="ttk-selectors" id="ttk-selectors">
+            <div class="ttk-selector-slot" data-slot="0">
+              <select class="ttk-select" id="ttk-sel-0" data-tooltip="Weapon plotted in green">
+                <option value="">— Select weapon —</option>
+              </select>
+              <span class="ttk-color-dot" style="background:#6aaa72"></span>
+            </div>
+            <div class="ttk-selector-slot" data-slot="1">
+              <select class="ttk-select" id="ttk-sel-1" data-tooltip="Weapon plotted in blue">
+                <option value="">— Select weapon —</option>
+              </select>
+              <span class="ttk-color-dot" style="background:#4a9fd4"></span>
+            </div>
+            <div class="ttk-selector-slot" data-slot="2">
+              <select class="ttk-select" id="ttk-sel-2" data-tooltip="Weapon plotted in gold">
+                <option value="">— Select weapon —</option>
+              </select>
+              <span class="ttk-color-dot" style="background:#d4a44a"></span>
+            </div>
+            <div class="ttk-selector-slot" data-slot="3">
+              <select class="ttk-select" id="ttk-sel-3" data-tooltip="Weapon plotted in red">
+                <option value="">— Select weapon —</option>
+              </select>
+              <span class="ttk-color-dot" style="background:#d46a6a"></span>
+            </div>
+          </div>
+          <button class="btn-clear" id="ttk-clear">Clear All</button>
+        </div>
+
+        <div class="ttk-chart-wrap">
+          <canvas id="ttk-chart" height="340"></canvas>
+        </div>
+
+        <div class="ttk-hint" id="ttk-hint">
+          Select weapons above to compare their TTK across ranges
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Backup de datos (generado por el scraper, no necesario en repo)
+data/*.backup.json
+
+# Playwright browsers (se instalan en CI, no commitear)
+.playwright/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Debug files
+scraper/debug/
+
+# Variables de entorno locales
+.env

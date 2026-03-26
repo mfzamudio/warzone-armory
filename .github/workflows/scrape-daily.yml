@@ -1,0 +1,33 @@
+name: Daily Weapon Data Scraper
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # Cada dia a las 4 AM UTC
+  workflow_dispatch:        # Permite correrlo manualmente desde GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        run: python scraper/scraper.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/weapons.json data/meta.json
+          git diff --staged --quiet || git commit -m "chore: update weapon data $(date -u '+%Y-%m-%d')"
+          git push
