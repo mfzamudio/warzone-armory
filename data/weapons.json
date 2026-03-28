@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T05:44:51.478749+00:00",
+  "last_updated": "2026-03-28T05:23:30.584445+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -8060,7 +8060,7 @@
             },
             {
               "slot": "Barrel",
-              "name": "25\" EAM Heavy Barrel"
+              "name": "22\" Impulse HB-762 Barrel"
             },
             {
               "slot": "Optic",
