@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T05:44:33.269025+00:00",
+  "last_updated": "2026-04-03T05:44:45.404063+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -1477,14 +1477,14 @@
               "name": "Griffon Reserve Extended Ii"
             },
             {
-              "slot": "Rear Grip",
-              "name": "A1-C Control Grip"
+              "slot": "Stock",
+              "name": "Weighted Stock"
             }
           ],
-          "rating": 3.8,
+          "rating": 3.9,
           "description": "Long Range meta build",
-          "loadout_code": "A05-26ESB-WF4FQ-11",
-          "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-4346.webp"
+          "loadout_code": "A05-34FBS-SSSND-11",
+          "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -1510,7 +1510,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.2,
+          "rating": 4.3,
           "description": "Sniper Support meta build",
           "loadout_code": "A05-AUXZ3-94Q55-1",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2627.webp"
@@ -1608,7 +1608,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -4045,14 +4045,126 @@
       "name": "MK35 ISR",
       "type": "Assault Rifle",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/MK35-ISR.webp",
       "description": "Full-auto assault rifle. Low recoil for excellent accuracy with moderate damage and handling.",
-      "stats": {},
+      "stats": {
+        "rpm": 750,
+        "ads": 235,
+        "bv": 910,
+        "damage": [
+          {
+            "dropoff": 0,
+            "base_rpm": 750,
+            "final_rpm": 750,
+            "head": 46,
+            "neck": 39,
+            "chest": 39,
+            "upperarm": 39,
+            "lowerarm": 39,
+            "stomach": 31,
+            "upperleg": 31,
+            "lowerleg": 31,
+            "time_between_shots": 80,
+            "shots_to_kill": 9,
+            "ttk": 640,
+            "enemies_per_magazine": 0
+          },
+          {
+            "base_rpm": 750,
+            "final_rpm": 750,
+            "dropoff": 38,
+            "neck": 35,
+            "chest": 35,
+            "upperarm": 35,
+            "lowerarm": 35,
+            "head": 42,
+            "upperleg": 28,
+            "lowerleg": 28,
+            "stomach": 28,
+            "time_between_shots": 80,
+            "shots_to_kill": 9,
+            "ttk": 640,
+            "enemies_per_magazine": 0
+          },
+          {
+            "base_rpm": 750,
+            "final_rpm": 750,
+            "dropoff": 52,
+            "neck": 31,
+            "chest": 31,
+            "upperarm": 31,
+            "lowerarm": 31,
+            "head": 37,
+            "upperleg": 24,
+            "lowerleg": 24,
+            "stomach": 24,
+            "time_between_shots": 80,
+            "shots_to_kill": 11,
+            "ttk": 807.1428571428571,
+            "enemies_per_magazine": 1
+          }
+        ],
+        "mag": 30
+      },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "16.5\" Greaves Bellum Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Bowen Siren Drum"
+            }
+          ],
+          "rating": 5.8,
+          "description": "Long Range meta build",
+          "loadout_code": "A12-34FK5-DRNJU-11",
+          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
+        },
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Barrel",
+              "name": "19\" MFS Nightfall Suppressed Barrel"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Gen-X04 Extended Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Verdugo Brigand Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "Bowen ST-Move Stock ADS"
+            }
+          ],
+          "rating": 5.1,
+          "description": "Sniper Support meta build",
+          "loadout_code": "A12-9LGAJ-6F11",
+          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Sniper-Support-Warzone-Loadout-CODMunity-6991.webp"
+        }
       }
     },
     {
@@ -4315,14 +4427,14 @@
             "base_rpm": 500,
             "final_rpm": 500,
             "dropoff": 40,
-            "neck": 43,
-            "upperleg": 41,
-            "lowerleg": 41,
-            "upperarm": 43,
-            "chest": 43,
-            "stomach": 41,
-            "lowerarm": 43,
-            "head": 51,
+            "neck": 44,
+            "upperleg": 42,
+            "lowerleg": 42,
+            "upperarm": 44,
+            "chest": 44,
+            "stomach": 42,
+            "lowerarm": 44,
+            "head": 52,
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
@@ -5800,7 +5912,7 @@
               "name": "V-Last Control Pad"
             }
           ],
-          "rating": 5.8,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "A09-34FBS-SSUFL-11",
           "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-4393.webp"
@@ -10379,14 +10491,14 @@
       "icon": "https://assets.codmunity.gg/optimized/M34-Novaline-Green.webp",
       "description": "Two-round burst Marksman Rifle. Two-round burst marksman rifle. Exceptional damage and range, but low mobility and fire rate.",
       "stats": {
-        "rpm": 218,
+        "rpm": 235,
         "ads": 300,
         "bv": 885,
         "damage": [
           {
             "dropoff": 0,
-            "base_rpm": 218,
-            "final_rpm": 218,
+            "base_rpm": 235,
+            "final_rpm": 235,
             "head": 81,
             "neck": 66,
             "upperleg": 48,
@@ -10395,15 +10507,15 @@
             "stomach": 48,
             "upperarm": 66,
             "lowerarm": 66,
-            "time_between_shots": 275.22935779816515,
+            "time_between_shots": 255.31914893617022,
             "shots_to_kill": 5,
-            "ttk": 1100.9174311926606,
+            "ttk": 1021.2765957446809,
             "enemies_per_magazine": 0
           },
           {
             "dropoff": 30,
-            "base_rpm": 218,
-            "final_rpm": 218,
+            "base_rpm": 235,
+            "final_rpm": 235,
             "neck": 63,
             "upperleg": 46,
             "lowerleg": 46,
@@ -10412,14 +10524,14 @@
             "stomach": 46,
             "lowerarm": 63,
             "head": 78,
-            "time_between_shots": 275.22935779816515,
+            "time_between_shots": 255.31914893617022,
             "shots_to_kill": 6,
-            "ttk": 1376.1467889908258,
+            "ttk": 1276.595744680851,
             "enemies_per_magazine": 0
           },
           {
-            "base_rpm": 218,
-            "final_rpm": 218,
+            "base_rpm": 235,
+            "final_rpm": 235,
             "dropoff": 45,
             "head": 62,
             "upperleg": 36,
@@ -10429,9 +10541,9 @@
             "chest": 50,
             "upperarm": 50,
             "lowerarm": 50,
-            "time_between_shots": 275.22935779816515,
+            "time_between_shots": 255.31914893617022,
             "shots_to_kill": 7,
-            "ttk": 1652.2236044161095,
+            "ttk": 1532.76235124414,
             "enemies_per_magazine": 0
           }
         ],
@@ -10451,21 +10563,21 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "Ironhold Angled Grip"
+              "name": "Greaves AccuSpot 3x"
             },
             {
               "slot": "Magazine",
               "name": "Bowen 762 Extended Mag"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "7.62 NATO Overpressured"
             }
           ],
           "rating": 2.8,
           "description": "Long Range meta build",
-          "loadout_code": "M03-QMJVZ-JWIN1-1",
-          "image": "https://assets.codmunity.gg/optimized/M34-Novaline-Long-Range-Warzone-Loadout-CODMunity-7792.webp"
+          "loadout_code": "M03-2JDWB-HF4FC-1511",
+          "image": "https://assets.codmunity.gg/optimized/M34-Novaline-Long-Range-Warzone-Loadout-CODMunity-6634.webp"
         },
         "balanced": null,
         "sniper_support": null
@@ -14691,7 +14803,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 5.2,
+          "rating": 4.9,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVWP-G8731",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
@@ -17902,10 +18014,10 @@
             "chest": 26,
             "stomach": 22,
             "lowerarm": 26,
-            "head": 29,
+            "head": 28,
             "time_between_shots": 60,
-            "shots_to_kill": 12,
-            "ttk": 660,
+            "shots_to_kill": 13,
+            "ttk": 720,
             "enemies_per_magazine": 1
           },
           {
@@ -18148,14 +18260,14 @@
           {
             "dropoff": 0,
             "head": 39,
-            "neck": 31,
+            "neck": 32,
             "base_rpm": 923,
             "final_rpm": 923,
-            "chest": 31,
+            "chest": 32,
             "upperleg": 30,
             "lowerleg": 30,
-            "upperarm": 31,
-            "lowerarm": 31,
+            "upperarm": 32,
+            "lowerarm": 32,
             "stomach": 30,
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 10,
@@ -18168,29 +18280,29 @@
             "dropoff": 13,
             "neck": 27,
             "chest": 27,
-            "lowerleg": 25,
+            "lowerleg": 26,
             "upperarm": 27,
             "lowerarm": 27,
-            "stomach": 25,
-            "upperleg": 25,
-            "head": 33,
+            "stomach": 26,
+            "upperleg": 26,
+            "head": 34,
             "time_between_shots": 65.00541711809318,
-            "shots_to_kill": 12,
-            "ttk": 715.059588299025,
+            "shots_to_kill": 11,
+            "ttk": 650.0541711809318,
             "enemies_per_magazine": 1
           },
           {
             "base_rpm": 923,
             "final_rpm": 923,
             "dropoff": 23,
-            "neck": 20,
-            "chest": 20,
-            "lowerleg": 19,
-            "upperarm": 20,
-            "lowerarm": 20,
-            "stomach": 19,
-            "upperleg": 19,
-            "head": 25,
+            "neck": 21,
+            "chest": 21,
+            "lowerleg": 20,
+            "upperarm": 21,
+            "lowerarm": 21,
+            "stomach": 20,
+            "upperleg": 20,
+            "head": 26,
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 15,
             "ttk": 910.0758396533045,
@@ -19257,14 +19369,126 @@
       "name": "VST",
       "type": "SMG",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/VST.webp",
       "description": "Full-auto submachine gun. Lightweight for excellent mobility with good handling. Supports multiple calibers.",
-      "stats": {},
+      "stats": {
+        "rpm": 1091,
+        "ads": 155,
+        "bv": 520,
+        "damage": [
+          {
+            "base_rpm": 1091,
+            "final_rpm": 1091,
+            "dropoff": 0,
+            "head": 32,
+            "neck": 29,
+            "chest": 29,
+            "upperarm": 29,
+            "lowerarm": 29,
+            "stomach": 24,
+            "upperleg": 24,
+            "lowerleg": 24,
+            "time_between_shots": 54.995417048579284,
+            "shots_to_kill": 11,
+            "ttk": 549.9541704857928,
+            "enemies_per_magazine": 1
+          },
+          {
+            "base_rpm": 1091,
+            "final_rpm": 1091,
+            "dropoff": 13,
+            "neck": 27,
+            "chest": 27,
+            "upperarm": 27,
+            "lowerarm": 27,
+            "head": 30,
+            "upperleg": 22,
+            "lowerleg": 22,
+            "stomach": 22,
+            "time_between_shots": 54.995417048579284,
+            "shots_to_kill": 12,
+            "ttk": 604.9495875343721,
+            "enemies_per_magazine": 1
+          },
+          {
+            "base_rpm": 1091,
+            "final_rpm": 1091,
+            "dropoff": 21,
+            "neck": 22,
+            "chest": 22,
+            "upperarm": 22,
+            "lowerarm": 22,
+            "head": 24,
+            "upperleg": 18,
+            "lowerleg": 18,
+            "stomach": 18,
+            "time_between_shots": 54.995417048579284,
+            "shots_to_kill": 15,
+            "ttk": 769.93583868011,
+            "enemies_per_magazine": 1
+          }
+        ],
+        "mag": 30
+      },
       "loadouts": {
-        "aggressive": null,
+        "aggressive": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Hawker Series 45"
+            },
+            {
+              "slot": "Barrel",
+              "name": "14\" LTI Expedition Barrel"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Avarice Extended Mag II"
+            },
+            {
+              "slot": "Stock",
+              "name": "Hawker Cub-55 Pad"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "Buffer Springs"
+            }
+          ],
+          "rating": 5.5,
+          "description": "Close Range meta build",
+          "loadout_code": "S12-462AJ-51",
+          "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-3527.webp"
+        },
         "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Barrel",
+              "name": "14\" LTI Expedition Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "MFS Glacial Extended Mag"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "MFS 5.56M Defense Conversion"
+            }
+          ],
+          "rating": 4.32,
+          "description": "Sniper Support meta build",
+          "loadout_code": "S12-21YNH-SGVMS-3U11",
+          "image": "https://assets.codmunity.gg/optimized/VST-Sniper-Support-Warzone-Loadout-CODMunity-3590.webp"
+        }
       }
     },
     {
