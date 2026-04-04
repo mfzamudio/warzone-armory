@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T05:44:45.397145+00:00",
+  "last_updated": "2026-04-04T05:23:56.876480+00:00",
   "top_weapons": [
     {
       "name": "MK35 ISR",
@@ -7,42 +7,42 @@
       "rank": 1
     },
     {
-      "name": "VST",
+      "name": "Razor 9mm",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Razor 9mm",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Hawker HX",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Dravec 45",
+      "name": "VST",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "EGRT-17",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Ryden 45K",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 9
     },
@@ -57,7 +57,7 @@
       "rank": 11
     },
     {
-      "name": "Kogot-7",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 12
     },
@@ -108,35 +108,35 @@
       "score": 5.8
     },
     {
-      "name": "VST",
-      "score": 5.5
-    },
-    {
       "name": "Razor 9mm",
-      "score": 5.4
+      "score": 5.5
     },
     {
       "name": "Hawker HX",
       "score": 5.3
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Peacekeeper Mk1",
       "score": 4.9
+    },
+    {
+      "name": "VST",
+      "score": 4.9
+    },
+    {
+      "name": "Voyak KT-3",
+      "score": 4.8
     },
     {
       "name": "Dravec 45",
-      "score": 4.9
+      "score": 4.8
     },
     {
       "name": "EGRT-17",
-      "score": 4.8
+      "score": 4.7
     },
     {
-      "name": "Peacekeeper Mk1",
-      "score": 4.8
-    },
-    {
-      "name": "Ryden 45K",
+      "name": "Kogot-7",
       "score": 4.7
     },
     {
@@ -144,7 +144,7 @@
       "score": 4.6
     },
     {
-      "name": "Kogot-7",
+      "name": "Ryden 45K",
       "score": 4.6
     },
     {
@@ -445,7 +445,7 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 150
+      "count": 152
     },
     {
       "slot": "Stock",
@@ -453,11 +453,11 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 109
+      "count": 108
     },
     {
       "slot": "Fire Mods",
-      "count": 66
+      "count": 65
     },
     {
       "slot": "Ammunition",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T05:44:45.404063+00:00",
+  "last_updated": "2026-04-04T05:23:56.883410+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -1608,7 +1608,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.7,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -4866,7 +4866,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "A06-34FBS-SSSP3-11",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Long-Range-Warzone-Loadout-CODMunity-5636.webp"
@@ -5904,18 +5904,18 @@
               "name": "FANG HoverPoint ELO"
             },
             {
-              "slot": "Magazine",
-              "name": "SK-Garrison Drum"
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
             },
             {
-              "slot": "Stock",
-              "name": "V-Last Control Pad"
+              "slot": "Magazine",
+              "name": "SK-Garrison Drum"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Long Range meta build",
-          "loadout_code": "A09-34FBS-SSUFL-11",
-          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-4393.webp"
+          "loadout_code": "A09-34FK5-DRJZW-11",
+          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-5088.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -8180,7 +8180,7 @@
             },
             {
               "slot": "Underbarrel",
-              "name": "Bowen Sentry Foregrip"
+              "name": "VAS Convergence Foregrip"
             },
             {
               "slot": "Stock",
@@ -8189,8 +8189,8 @@
           ],
           "rating": 4.6,
           "description": "Long Range meta build",
-          "loadout_code": "L01-2R4TE-5EBBD-11",
-          "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-9930.webp"
+          "loadout_code": "L01-2R4XJ-XDNRN-11",
+          "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-3467.webp"
         },
         "balanced": null,
         "sniper_support": null
@@ -14803,7 +14803,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVWP-G8731",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
@@ -16258,7 +16258,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.7,
           "description": "Close Range meta build",
           "loadout_code": "S10-5Q9BU-31",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5417.webp"
@@ -18060,13 +18060,13 @@
               "name": "Zealot Extended Mag II"
             },
             {
-              "slot": "Rear Grip",
-              "name": "Microdot Recovery Grip"
+              "slot": "Stock",
+              "name": "Serpent Pad"
             }
           ],
-          "rating": 5.4,
+          "rating": 5.5,
           "description": "Close Range meta build",
-          "loadout_code": "S03-AUY8X-JMFY1-1",
+          "loadout_code": "S03-AUXZ3-92ZB1-1",
           "image": "https://assets.codmunity.gg/optimized/Razor-9mm-Close-Range-Warzone-Loadout-CODMunity-9809.webp"
         },
         "long_range": null,
@@ -18335,7 +18335,7 @@
               "name": "MFS Full Stock+"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Close Range meta build",
           "loadout_code": "S01-AUY8U-EXTF1-1",
           "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-4682.webp"
@@ -19442,22 +19442,22 @@
               "name": "14\" LTI Expedition Barrel"
             },
             {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
+            },
+            {
               "slot": "Magazine",
               "name": "Avarice Extended Mag II"
             },
             {
               "slot": "Stock",
               "name": "Hawker Cub-55 Pad"
-            },
-            {
-              "slot": "Fire Mods",
-              "name": "Buffer Springs"
             }
           ],
-          "rating": 5.5,
+          "rating": 4.9,
           "description": "Close Range meta build",
-          "loadout_code": "S12-462AJ-51",
-          "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-3527.webp"
+          "loadout_code": "S12-9CQP5-C311",
+          "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
         },
         "long_range": null,
         "balanced": null,
