@@ -1,2 +1,4 @@
 # HTTP requests
 requests>=2.31.0
+# HTML parsing (rewards scraper)
+beautifulsoup4>=4.12.0

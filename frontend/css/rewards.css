@@ -1,0 +1,250 @@
+/**
+ * Warzone Armory — Free Drops / Rewards CSS
+ * Standalone styles for the rewards page (promo codes, Twitch Drops, Prime Gaming)
+ */
+
+/* ============================================================================
+   Rewards Sections
+   ============================================================================ */
+
+.rewards-section {
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.rewards-section .section-header {
+  margin-bottom: 1.5rem;
+}
+
+.rewards-section .section-title {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.rewards-section .section-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.rewards-section .section-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0.5rem 0 0 0;
+}
+
+/* ============================================================================
+   Promo Code List
+   ============================================================================ */
+
+.rewards-code-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reward-code-row {
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(106, 170, 114, 0.06);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold-dim);
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  transition: all 0.15s ease;
+}
+
+.reward-code-row:hover {
+  border-left-color: var(--green-bright);
+  background: rgba(106, 170, 114, 0.12);
+}
+
+.reward-code-value {
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  word-break: break-all;
+}
+
+.reward-code-reward {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.copy-btn {
+  background: none;
+  border: 1px solid rgba(106, 170, 114, 0.5);
+  color: var(--green-bright);
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  outline: none;
+}
+
+.copy-btn:hover {
+  background: rgba(106, 170, 114, 0.15);
+  border-color: var(--green-bright);
+  transform: translateY(-1px);
+}
+
+.copy-btn.copied {
+  background: rgba(106, 170, 114, 0.25);
+  color: #fff;
+  border-color: var(--green-bright);
+}
+
+/* ============================================================================
+   News Cards (Twitch Drops & Prime Gaming)
+   ============================================================================ */
+
+.rewards-news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.news-card {
+  display: block;
+  text-decoration: none;
+  padding: 0.9rem 1rem;
+  background: rgba(106, 170, 114, 0.06);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border-accent);
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  transition: all 0.15s ease;
+  color: inherit;
+}
+
+.news-card:hover {
+  border-left-color: var(--green-bright);
+  background: rgba(106, 170, 114, 0.12);
+  transform: translateX(2px);
+}
+
+.news-card-title {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.news-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.news-source-badge {
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green-bright);
+  border: 1px solid rgba(106, 170, 114, 0.6);
+  padding: 0.15rem 0.45rem;
+  clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
+  font-weight: 600;
+}
+
+.news-date {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+/* ============================================================================
+   Empty State
+   ============================================================================ */
+
+.rewards-empty {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  background: rgba(106, 170, 114, 0.05);
+  border: 1px dashed var(--border);
+  clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
+}
+
+.rewards-empty p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.rewards-empty a {
+  color: var(--green-bright);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(106, 170, 114, 0.6);
+  transition: border-color 0.15s;
+}
+
+.rewards-empty a:hover {
+  border-bottom-color: var(--green-bright);
+}
+
+/* ============================================================================
+   Responsive
+   ============================================================================ */
+
+@media (max-width: 768px) {
+  .reward-code-row {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 0.5rem;
+  }
+
+  .reward-code-reward {
+    grid-column: 1;
+  }
+
+  .copy-btn {
+    grid-column: 1;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 480px) {
+  .rewards-section {
+    padding: 0 0.75rem;
+  }
+
+  .rewards-section .section-title {
+    font-size: 1rem;
+  }
+
+  .reward-code-value {
+    font-size: 0.85rem;
+  }
+
+  .news-card-title {
+    font-size: 0.75rem;
+  }
+
+  .news-card-meta {
+    gap: 0.5rem;
+  }
+}

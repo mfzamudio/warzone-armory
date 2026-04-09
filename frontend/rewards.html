@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WARZONE ARMORY — Free Drops</title>
+  <meta name="description" content="Free promo codes, Twitch Drops, and Prime Gaming rewards for Call of Duty Warzone. Updated daily.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Share+Tech&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rewards.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon">&#9651;</div>
+      <h1>WARZONE <span>ARMORY</span></h1>
+    </div>
+    <nav class="header-nav">
+      <a href="index.html" class="nav-link">&#9651; Armory</a>
+      <a href="analytics.html" class="nav-link">&#9636; Analytics</a>
+      <a href="rewards.html" class="nav-link active">&#9733; Free Drops</a>
+    </nav>
+    <div class="header-meta">
+      <div class="season-tag" id="season-tag">FREE REWARDS</div>
+      <div id="last-updated-label">Loading...</div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="page-wrapper">
+
+    <!-- Loading -->
+    <div class="loading-screen" id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading rewards data...</div>
+    </div>
+
+    <!-- Content -->
+    <div id="content" style="display:none">
+
+      <!-- Hero -->
+      <section class="hero-intro">
+        <div class="hero-badge">&#9733; FREE DROPS · WARZONE BLACK OPS 6</div>
+        <h2 class="hero-title">Free Rewards Tracker</h2>
+        <p class="hero-desc">
+          Active promo codes for free in-game items, current Twitch Drops campaigns,
+          and Prime Gaming bundle availability — updated daily, no login required to browse.
+          Click any code to copy it, then redeem at
+          <strong>callofduty.com/redeem</strong>.
+        </p>
+        <div class="hero-stats" id="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-val" id="hero-code-count">—</span>
+            <span class="hero-stat-lbl">Active Codes</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-val" id="hero-news-count">—</span>
+            <span class="hero-stat-lbl">News Items</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-val">Daily</span>
+            <span class="hero-stat-lbl">Updated</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promo Codes Section -->
+      <section class="rewards-section" id="codes-section">
+        <div class="section-header">
+          <h2 class="section-title">&#9733; Active Promo Codes</h2>
+          <p class="section-subtitle">Redeem at callofduty.com/redeem — click any code to copy</p>
+          <p class="section-desc">
+            Codes are scraped daily from Dexerto. Expired codes are excluded.
+            Codes may have limited redemptions or region restrictions.
+          </p>
+        </div>
+        <div id="codes-list"></div>
+      </section>
+
+      <!-- Twitch Drops Section -->
+      <section class="rewards-section" id="twitch-section">
+        <div class="section-header">
+          <h2 class="section-title">&#127909; Twitch Drops</h2>
+          <p class="section-subtitle">Recent Twitch Drops news from CharlieintelNEWS</p>
+          <p class="section-desc">
+            Link your Twitch and Activision accounts at twitch.tv/drops to earn in-game rewards
+            by watching partnered Warzone streams. Check the articles below for which streams qualify.
+          </p>
+        </div>
+        <div id="twitch-list"></div>
+      </section>
+
+      <!-- Prime Gaming Section -->
+      <section class="rewards-section" id="prime-section">
+        <div class="section-header">
+          <h2 class="section-title">&#9733; Prime Gaming</h2>
+          <p class="section-subtitle">Recent Prime Gaming bundle news from CharlieintelNEWS</p>
+          <p class="section-desc">
+            Amazon Prime members can claim free Warzone bundles each month at gaming.amazon.com.
+            Link your Amazon and Activision accounts to receive rewards automatically.
+          </p>
+        </div>
+        <div id="prime-list"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="js/rewards.js"></script>
+</body>
+</html>

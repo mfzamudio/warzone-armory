@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-04-09T17:52:44.252043+00:00",
+  "promo_codes": {
+    "active": [
+      {
+        "code": "KZE3K7ENKV6RW",
+        "reward": "KB High Road Calling Card"
+      },
+      {
+        "code": "KYHPCVYSNP6HY",
+        "reward": "Verdansk is Back Calling Card30-minute Double Weapon XP"
+      }
+    ],
+    "expired_count": 2
+  },
+  "news_items": [],
+  "sources": {
+    "promo_codes": "https://www.dexerto.com/wikis/warzone/warzone-codes/",
+    "news": "https://www.charlieintel.com/call-of-duty/warzone/"
+  }
+}
