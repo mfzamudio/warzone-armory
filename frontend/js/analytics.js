@@ -416,13 +416,6 @@ function buildRankChart(rankKey) {
       indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
-      onClick: (event, elements) => {
-        if (elements.length > 0) {
-          const index = elements[0].index;
-          const weapon = ranked[index].weapon;
-          if (weapon) openPanel(weapon);
-        }
-      },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -445,6 +438,25 @@ function buildRankChart(rankKey) {
         },
       },
     },
+  });
+
+  // Add click handler to open weapon panel
+  const canvas = document.getElementById('rank-chart');
+  canvas.style.cursor = 'pointer';
+  canvas.addEventListener('click', (event) => {
+    const canvasRect = canvas.getBoundingClientRect();
+    const x = event.clientX - canvasRect.left;
+    const y = event.clientY - canvasRect.top;
+
+    const canvasPosition = { x, y };
+    const dataY = rankChart.scales.y.getValueForPixel(canvasPosition.y);
+
+    if (dataY != null && dataY >= 0 && dataY < ranked.length) {
+      const index = Math.round(dataY);
+      if (index >= 0 && index < ranked.length && ranked[index]) {
+        openPanel(ranked[index].weapon);
+      }
+    }
   });
 
   // Update note
