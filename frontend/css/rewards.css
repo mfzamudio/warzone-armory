@@ -4,6 +4,40 @@
  */
 
 /* ============================================================================
+   Header Navigation (shared across all pages)
+   ============================================================================ */
+
+.header-nav {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-muted);
+  padding: 0.4rem 0.9rem;
+  border: 1px solid transparent;
+  clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  transition: all 0.15s;
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+  border-color: var(--border);
+  background: var(--bg-surface);
+}
+
+.nav-link.active {
+  color: var(--green-bright);
+  border-color: var(--green-dim);
+  background: rgba(78, 128, 85, 0.12);
+}
+
+/* ============================================================================
    Rewards Sections
    ============================================================================ */
 
