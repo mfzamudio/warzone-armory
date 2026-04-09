@@ -24,36 +24,67 @@ No backend server. Everything is static. The frontend JS reads the JSON files di
 
 ## Project Structure
 ```
-warzone-loadout/
+warzone-armory/
 ├── .github/
 │   └── workflows/
-│       └── scrape-daily.yml    # GitHub Action: daily scraper + data commit
+│       └── scrape-daily.yml           # GitHub Action: daily scraper + data commit
 ├── frontend/
-│   ├── index.html              # Main page — weapon browser
-│   ├── analytics.html          # Analytics dashboard
+│   ├── index.html                     # Main page — weapon browser
+│   ├── analytics.html                 # Analytics dashboard
+│   ├── rewards.html                   # Free Drops — promo codes & rewards
 │   ├── css/
-│   │   ├── style.css           # Military dark theme
-│   │   └── analytics.css       # Analytics page layout + chart styles
+│   │   ├── style.css                  # Military dark theme (shared)
+│   │   ├── analytics.css              # Analytics page styles
+│   │   └── rewards.css                # Rewards page styles (independent)
 │   └── js/
-│       ├── app.js              # Loads JSON, filters by type/playstyle, renders UI
-│       └── analytics.js        # Rankings, attachment frequency, TTK comparison charts
+│       ├── app.js                     # Main page: weapon browser + detail panel
+│       ├── analytics.js               # Analytics: charts + weapon detail overlay
+│       └── rewards.js                 # Rewards page: codes & news rendering
 ├── scraper/
-│   ├── scraper.py              # Scraping script — updates weapons.json + meta.json
-│   └── requirements.txt        # Scraper dependencies (requests only)
+│   ├── scraper.py                     # Weapon & meta scraper (CODMunity.gg)
+│   ├── rewards_scraper.py             # Rewards scraper (Dexerto + CharlieintelNEWS)
+│   └── requirements.txt               # Dependencies: requests, beautifulsoup4
 ├── data/
-│   ├── weapons.json            # Full weapon catalog with stats and loadouts
-│   └── meta.json               # Meta scores, top attachments, playstyle coverage
+│   ├── weapons.json                   # Weapon catalog + loadouts (updated daily)
+│   ├── meta.json                      # Meta rankings + attachment frequency
+│   ├── rewards.json                   # Promo codes + news items (updated daily)
+│   └── weapons.backup.json            # Safety backup of weapons.json
 ├── .gitignore
-└── CLAUDE.md
+├── CLAUDE.md                          # Developer guide (this file)
+├── README.md                          # User-facing documentation
+├── PRD.md                             # Product Requirements Document
+├── progress.md                        # Implementation progress & status
+└── .claude/
+    └── settings.local.json            # Local CLI settings
 ```
 
 ## Key Features
-1. **Weapon Browser** — grid of weapons grouped by type, Warzone armory style
-2. **Type Filter** — filter by category: AR, SMG, LMG, Sniper, Marksman, Shotgun, Pistol
-3. **Playstyle Filter** — see the best attachments per playstyle
-4. **Attachment Display** — shows the 5 recommended attachments with stat impact bars
-5. **Daily Refresh** — GitHub Action updates data automatically every day
-6. **Analytics Page** — rankings (TTK/ADS/RPM/Range), attachment meta, TTK comparison chart
+
+### Page 1: Armory (index.html)
+1. **Weapon Browser** — grid of 256 weapons grouped by type (AR, SMG, LMG, etc.)
+2. **Type Filter** — filter by weapon category
+3. **Playstyle Filter** — see best attachments for: Aggressive, Long Range, Balanced, Sniper Support
+4. **Detail Panel** — click weapon to see gunsmith-style stat bars with attachment impact
+5. **Attachment Display** — shows 5 recommended attachments with delta indicators
+
+### Page 2: Analytics (analytics.html)
+1. **Performance Rankings** — top 15 weapons ranked by TTK/ADS/RPM/Range/Meta Score
+2. **Clickable Charts** — click weapon names in rankings to open detail panel
+3. **Attachment Frequency** — top 12 most-used attachments across all meta builds
+4. **Playstyle Coverage** — doughnut chart showing weapon variety per playstyle
+5. **TTK Comparison** — line chart comparing time-to-kill across damage drop-off ranges for up to 4 weapons
+
+### Page 3: Free Drops (rewards.html)
+1. **Promo Codes** — active codes scraped daily from Dexerto with copy-to-clipboard
+2. **Twitch Drops** — news articles from CharlieintelNEWS about current Twitch campaigns
+3. **Prime Gaming** — news articles about Prime Gaming bundle availability
+4. **Relative Dates** — displays "Today", "Yesterday", "N days ago" format
+
+### All Pages
+- **Daily Refresh** — GitHub Actions runs both scrapers at 4 AM UTC every day
+- **No Login Required** — purely informational, no authentication needed
+- **Mobile Responsive** — clips and parallelograms scale properly on all screen sizes
+- **Military Theme** — dark green military aesthetic throughout
 
 ## Playstyle Categories
 | Playstyle | Focus |
@@ -67,11 +98,26 @@ warzone-loadout/
 Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotguns, Pistols, Launchers, Melee, Special
 
 ## Data Sources (Scraping)
-- **CODMunity.gg** — primary source: 256 weapons + 321 meta loadouts embedded as JSON in the page HTML
-  - https://codmunity.gg/weapon-stats/warzone
-  - Data is in `<script type="application/json">` — no Playwright needed, plain `requests` works
-  - Key keys: `global-assets.weapons` (catalog), `stats-comparator-assets-warzone.metaLoadouts` (loadouts)
-- Game version: **Warzone Season 2 Reloaded 2026 (Black Ops 6)**. Season 3: April 2, 2026
+
+### Weapon Data (scraper/scraper.py)
+- **CODMunity.gg** — primary source: 256 weapons + 326 meta loadouts
+  - URL: https://codmunity.gg/weapon-stats/warzone
+  - Data: `<script type="application/json">` Angular transfer state (no JS execution needed)
+  - Structure: `stats-comparator-page-warzone.{weapons, metaLoadouts, weaponStats}`
+  - Updated: Daily (whenever CODMunity updates their meta)
+- **Game Version**: Warzone Season 2 Reloaded 2026 (Black Ops 6)
+
+### Rewards Data (scraper/rewards_scraper.py)
+- **Dexerto** — promo codes (active & expired)
+  - URL: https://www.dexerto.com/wikis/warzone/warzone-codes/
+  - Data: HTML `<table class="min-w-full">` with code + reward text
+  - Structure: table[0] = active codes, table[1] = expired codes
+  - Updated: Daily
+- **CharlieintelNEWS** — Twitch Drops & Prime Gaming news (best-effort)
+  - URL: https://www.charlieintel.com/call-of-duty/warzone/
+  - Data: `<article>` tags filtered by keywords ("twitch", "prime", "drops")
+  - Status: May be empty if no recent articles match keywords
+  - Updated: Daily
 
 ## Data Format (data/weapons.json)
 ```json
@@ -106,14 +152,56 @@ Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotg
   "top_meta_scores": [{ "name": "Voyak KT-3", "score": 5.8 }],
   "top_attachments": [{ "name": "Casus Brake", "count": 45 }],
   "top_slots": [{ "slot": "Muzzle", "count": 271 }],
-  "playstyle_coverage": { "aggressive": 94, "long_range": 98, "sniper_support": 112 }
+  "playstyle_coverage": { "aggressive": 94, "long_range": 98, "sniper_support": 112 },
+  "total_weapons": 256
+}
+```
+
+## Data Format (data/rewards.json)
+```json
+{
+  "last_updated": "2026-04-09T04:00:00Z",
+  "promo_codes": {
+    "active": [
+      { "code": "WZFREEOP", "reward": "2XP Token + Calling Card" }
+    ],
+    "expired_count": 12
+  },
+  "news_items": [
+    {
+      "type": "twitch_drops",
+      "title": "Warzone Twitch Drops: All Active Drops & How to Get Them",
+      "url": "https://www.charlieintel.com/...",
+      "published": "2026-04-08T12:00:00Z",
+      "source": "charlieintel"
+    },
+    {
+      "type": "prime_gaming",
+      "title": "Warzone Prime Gaming Bundles April 2026",
+      "url": "https://www.charlieintel.com/...",
+      "published": "2026-04-07T10:00:00Z",
+      "source": "charlieintel"
+    }
+  ],
+  "sources": {
+    "promo_codes": "https://www.dexerto.com/wikis/warzone/warzone-codes/",
+    "news": "https://www.charlieintel.com/call-of-duty/warzone/"
+  }
 }
 ```
 
 ## GitHub Actions Workflow (scrape-daily.yml)
 - **Trigger**: cron `0 4 * * *` (4 AM UTC daily) + `workflow_dispatch` (manual trigger)
-- **Steps**: checkout → setup Python → install requests → run scraper → commit + push if changed
-- Scraper auto-commits with message `chore: update weapon data YYYY-MM-DD`
+- **Steps**:
+  1. Checkout repository
+  2. Setup Python 3.12
+  3. Install dependencies from `requirements.txt`
+  4. Run weapon scraper → `data/weapons.json` + `data/meta.json`
+  5. Run rewards scraper → `data/rewards.json`
+  6. Commit all data files if changed: `chore: update weapon data YYYY-MM-DD`
+  7. Push to main (GitHub Pages auto-deploys)
+- **Safety**: If weapon count drops >20%, scraper aborts (keeps previous data)
+- **No Secrets**: Uses implicit `GITHUB_TOKEN` for push
 
 ## Deployment (GitHub Pages)
 - Branch: `main`
@@ -123,22 +211,35 @@ Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotg
 
 ## Local Development
 ```bash
-# Install scraper dependencies
+# Install scraper dependencies (requests + beautifulsoup4)
 pip install -r scraper/requirements.txt
 
-# Run scraper manually (updates data/)
+# Run weapon scraper (updates data/weapons.json + data/meta.json)
 python scraper/scraper.py
+python scraper/scraper.py --dry-run    # test without saving
+python scraper/scraper.py --debug      # save raw HTML to scraper/debug/
+
+# Run rewards scraper (updates data/rewards.json)
+python scraper/rewards_scraper.py
+python scraper/rewards_scraper.py --dry-run
+python scraper/rewards_scraper.py --debug
 
 # Serve locally from the project root
 python -m http.server 8081
-# Open http://localhost:8081/frontend/
+# Open http://localhost:8081/frontend/index.html (or analytics.html or rewards.html)
 ```
 
 ## Development Guidelines
-- No build tools — pure ES6 JS, no npm, no Node.js
-- Scraper must handle errors gracefully: if scraping fails, do NOT overwrite existing JSON
-- Save a backup before overwriting (`data/weapons.backup.json`)
-- If weapon count drops >20% vs backup, abort and do not commit
-- Set a User-Agent header on all scraper requests
-- The analytics page uses Chart.js from CDN — no local install needed
-- CSS-based bars preferred over Chart.js canvas for compact data lists (avoids clip-path sizing bugs)
+- **No build tools** — pure ES6 JS, no npm, no Node.js
+- **Frontend**: Vanilla HTML/CSS/JavaScript only, served by GitHub Pages
+- **Scrapers**: Python 3 with `requests` + `beautifulsoup4` (no Playwright/Selenium)
+- **Error Handling**: If scraping fails, do NOT overwrite existing JSON; log warning and use empty arrays
+- **Data Safety**: Create backup before overwriting; weapon count drop >20% aborts commit
+- **User-Agent**: Set on all HTTP requests to avoid 403 blocks
+- **CSS Architecture**:
+  - `style.css` — shared theme/variables (all pages)
+  - `analytics.css` — analytics page styles + nav link styles (loaded by index.html too)
+  - `rewards.css` — rewards page styles + nav link styles (independent module)
+- **Chart.js**: Load from CDN; CSS-based bars preferred for compact data lists (avoids clip-path bugs)
+- **Module Independence**: rewards.html is completely independent (own CSS, own scraper, own data file)
+- **Three Pages**: index.html (browser), analytics.html (charts), rewards.html (codes/news)
