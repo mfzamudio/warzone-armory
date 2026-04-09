@@ -1,104 +1,104 @@
 {
-  "last_updated": "2026-04-06T06:02:51.896876+00:00",
+  "last_updated": "2026-04-09T16:46:00.968546+00:00",
   "top_weapons": [
     {
-      "name": "MK35 ISR",
+      "name": "CODA 9",
       "game": "bo7",
       "rank": 1
     },
     {
-      "name": "Razor 9mm",
+      "name": "Velox 5.7",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Hawker HX",
+      "name": "Jäger 45",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "VST",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Dravec 45",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Shadow SK",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Kogot-7",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "EGRT-17",
-      "game": "bo7",
+      "name": "BP50",
+      "game": "mw3",
       "rank": 9
     },
     {
-      "name": "MK.78",
-      "game": "bo7",
+      "name": "HRM-9",
+      "game": "mw3",
       "rank": 10
     },
     {
-      "name": "VS Recon",
-      "game": "bo7",
+      "name": "CR-56 Amax",
+      "game": "bo6",
       "rank": 11
     },
     {
-      "name": "Ryden 45K",
-      "game": "bo7",
+      "name": "SWAT 5.56",
+      "game": "bo6",
       "rank": 12
     },
     {
-      "name": "HDR",
-      "game": "mw2019",
+      "name": "MK35 ISR",
+      "game": "bo7",
       "rank": 13
     },
     {
-      "name": "AK-27",
-      "game": "bo7",
+      "name": "CI-19",
+      "game": "deltaforce",
       "rank": 14
     },
     {
-      "name": "Carbon 57",
-      "game": "bo7",
+      "name": "RAAL MG",
+      "game": "mw2019",
       "rank": 15
     },
     {
-      "name": "XR-3 Ion",
-      "game": "bo7",
+      "name": "Holger 556",
+      "game": "mw3",
       "rank": 16
     },
     {
-      "name": "REV-46",
-      "game": "bo7",
+      "name": "Bas-B",
+      "game": "mw3",
       "rank": 17
     },
     {
-      "name": "MXR-17",
-      "game": "bo7",
+      "name": "MODEL L",
+      "game": "bo6",
       "rank": 18
     },
     {
-      "name": "M15 Mod 0",
-      "game": "bo7",
+      "name": "M4A1",
+      "game": "mw2019",
       "rank": 19
     },
     {
-      "name": "X9 Maverick",
-      "game": "bo7",
+      "name": "SMG-45",
+      "game": "deltaforce",
       "rank": 20
     }
   ],
@@ -112,8 +112,8 @@
       "score": 5.5
     },
     {
-      "name": "Hawker HX",
-      "score": 5.3
+      "name": "Strider 300",
+      "score": 5.2
     },
     {
       "name": "Peacekeeper Mk1",
@@ -121,6 +121,10 @@
     },
     {
       "name": "VST",
+      "score": 4.9
+    },
+    {
+      "name": "Hawker HX",
       "score": 4.9
     },
     {
@@ -140,20 +144,16 @@
       "score": 4.7
     },
     {
+      "name": "XR-3 Ion",
+      "score": 4.7
+    },
+    {
       "name": "MK.78",
       "score": 4.6
     },
     {
       "name": "Ryden 45K",
       "score": 4.6
-    },
-    {
-      "name": "VS Recon",
-      "score": 4.6
-    },
-    {
-      "name": "HDR",
-      "score": 4.5
     },
     {
       "name": "AK-27",
@@ -164,7 +164,7 @@
       "score": 4.4
     },
     {
-      "name": "XR-3 Ion",
+      "name": "VS Recon",
       "score": 4.4
     },
     {
@@ -212,10 +212,6 @@
       "score": 4.1
     },
     {
-      "name": "Victus XMR",
-      "score": 4.1
-    },
-    {
       "name": "Maddox RFB",
       "score": 3.9
     },
@@ -228,12 +224,16 @@
       "score": 3.9
     },
     {
-      "name": "Kar98k",
+      "name": "HDR",
+      "score": 3.9
+    },
+    {
+      "name": "Victus XMR",
       "score": 3.8
     },
     {
-      "name": "KATT-AMR",
-      "score": 3.75
+      "name": "Kar98k",
+      "score": 3.7
     },
     {
       "name": "KOMPAKT 92",
@@ -245,10 +245,6 @@
     },
     {
       "name": "MX9",
-      "score": 3.65
-    },
-    {
-      "name": "Shadow SK",
       "score": 3.65
     },
     {
@@ -276,10 +272,6 @@
       "score": 3.6
     },
     {
-      "name": "FJX Imperium",
-      "score": 3.6
-    },
-    {
       "name": "CR-56 Amax",
       "score": 3.5
     },
@@ -302,6 +294,14 @@
     {
       "name": "Cypher 091",
       "score": 3.4
+    },
+    {
+      "name": "GPR 91",
+      "score": 3.4
+    },
+    {
+      "name": "XM4",
+      "score": 3.4
     }
   ],
   "top_attachments": [
@@ -323,7 +323,7 @@
     },
     {
       "name": "Monolithic Suppressor",
-      "count": 36
+      "count": 37
     },
     {
       "name": "Vertical Foregrip",
@@ -429,15 +429,15 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 273
+      "count": 274
     },
     {
       "slot": "Barrel",
-      "count": 230
+      "count": 231
     },
     {
       "slot": "Magazine",
-      "count": 224
+      "count": 225
     },
     {
       "slot": "Optic",
@@ -453,11 +453,11 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 108
+      "count": 109
     },
     {
       "slot": "Fire Mods",
-      "count": 65
+      "count": 66
     },
     {
       "slot": "Ammunition",
@@ -476,7 +476,7 @@
     "aggressive": 95,
     "long_range": 99,
     "balanced": 0,
-    "sniper_support": 114
+    "sniper_support": 115
   },
   "popularity": [],
   "total_weapons": 256

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T06:02:51.903905+00:00",
+  "last_updated": "2026-04-09T16:46:00.984864+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -10274,7 +10274,7 @@
               "name": "7.92 High Grain Rounds"
             }
           ],
-          "rating": 3.8,
+          "rating": 3.7,
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/80387030-6ad7-11ef-92e0-45607784a4f5.webp"
@@ -21056,7 +21056,7 @@
               "name": ".408 High Velocity"
             }
           ],
-          "rating": 3.6,
+          "rating": 3.3,
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/FJX-Imperium-Sniper-Warzone-Loadout-CODMunity-3615.webp"
@@ -21122,7 +21122,7 @@
               "name": "108mm Overpressured"
             }
           ],
-          "rating": 4.5,
+          "rating": 3.9,
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/HDR-Sniper-Warzone-Loadout-CODMunity-3817.webp"
@@ -21201,7 +21201,7 @@
               "name": ".50 CAL High Velocity"
             }
           ],
-          "rating": 3.75,
+          "rating": 3.3,
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/01/KATT-AMR-Long-Range-1.png"
@@ -22168,7 +22168,7 @@
               "name": ".50 CAL High Velocity"
             }
           ],
-          "rating": 4.1,
+          "rating": 3.8,
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Victus-XMR-Sniper-Warzone-Loadout-CODMunity-4292.webp"
@@ -22347,7 +22347,7 @@
               "name": ".338 LM Overpressured"
             }
           ],
-          "rating": 5.3,
+          "rating": 4.9,
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": "https://assets.codmunity.gg/optimized/Hawker-HX-undefined-Warzone-Loadout-CODMunity-7970.webp"
@@ -22430,7 +22430,7 @@
               "name": ".300 WM Overpressured"
             }
           ],
-          "rating": 3.65,
+          "rating": 2.9,
           "description": "Sniper meta build",
           "loadout_code": "R02-2JD6W-ZRA92-BY11",
           "image": "https://assets.codmunity.gg/optimized/Shadow-SK-Sniper-Black-Ops-7-Loadout-CODMunity-7399.webp"
@@ -22444,12 +22444,80 @@
       "game": "bo7",
       "icon": 0,
       "description": "Bolt-action sniper rifle. Fast handling with a slow rechamber and moderate stability. Hold breath while ADS to steady.",
-      "stats": {},
+      "stats": {
+        "rpm": 50,
+        "ads": 540,
+        "bv": 990,
+        "damage": [
+          {
+            "dropoff": 0,
+            "base_rpm": 50,
+            "final_rpm": 50,
+            "head": 300,
+            "neck": 165,
+            "chest": 165,
+            "stomach": 165,
+            "upperleg": 165,
+            "lowerleg": 165,
+            "upperarm": 165,
+            "lowerarm": 165,
+            "time_between_shots": 1200,
+            "shots_to_kill": 2,
+            "ttk": 1200,
+            "enemies_per_magazine": 0
+          },
+          {
+            "dropoff": 90,
+            "base_rpm": 50,
+            "final_rpm": 50,
+            "head": 290,
+            "neck": 159,
+            "chest": 159,
+            "stomach": 159,
+            "upperleg": 159,
+            "lowerleg": 159,
+            "upperarm": 159,
+            "lowerarm": 159,
+            "time_between_shots": 1200,
+            "shots_to_kill": 2,
+            "ttk": 1240.909090909091,
+            "enemies_per_magazine": 0
+          }
+        ],
+        "mag": 8
+      },
       "loadouts": {
         "aggressive": null,
         "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "25\" Bowen Grooved Barrel"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Carnation Fast Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Hatch Quick Grip"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": ".300 WM Overpressured"
+            }
+          ],
+          "rating": 5.2,
+          "description": "Sniper meta build",
+          "loadout_code": "R07-2JD6P-5NM5G-6J11",
+          "image": "https://assets.codmunity.gg/optimized/Strider-300-Sniper-Warzone-Loadout-CODMunity-9190.webp"
+        }
       }
     },
     {
@@ -22511,7 +22579,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.4,
           "description": "Sniper meta build",
           "loadout_code": "R01-21WSG-L369K-P711",
           "image": "https://assets.codmunity.gg/optimized/VS-Recon-Sniper-Warzone-Loadout-CODMunity-8935.webp"
@@ -22594,7 +22662,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.7,
           "description": "Sniper meta build",
           "loadout_code": "R03-2JDTU-ZRTEK-J911",
           "image": "https://assets.codmunity.gg/optimized/XR-3-Ion-Long-Range-Warzone-Loadout-CODMunity-7477.webp"

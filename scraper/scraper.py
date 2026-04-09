@@ -108,12 +108,12 @@ def build_weapons(state: dict) -> list[dict]:
     Combine weapon catalog + loadouts + stats from the JSON state.
     Returns a list of normalized weapon dicts.
     """
-    global_assets = state.get("global-assets", {})
-    wz_assets     = state.get("stats-comparator-assets-warzone", {})
+    # New structure: data moved to stats-comparator-page-warzone
+    page_data = state.get("stats-comparator-page-warzone", {})
 
-    raw_weapons  = global_assets.get("weapons", [])
-    raw_loadouts = wz_assets.get("metaLoadouts", [])
-    raw_stats    = wz_assets.get("weaponStats", [])
+    raw_weapons  = page_data.get("weapons", [])
+    raw_loadouts = page_data.get("metaLoadouts", [])
+    raw_stats    = page_data.get("weaponStats", [])
 
     log.info(f"Raw data: {len(raw_weapons)} weapons, {len(raw_loadouts)} loadouts, {len(raw_stats)} stat entries")
 
@@ -217,11 +217,11 @@ def build_meta(state: dict, weapons: list[dict]) -> dict:
       - playstyle_coverage: how many weapons have each playstyle loadout
       - popularity: pick-rate proxy from popularityByGame if available
     """
-    global_assets = state.get("global-assets", {})
-    wz_assets     = state.get("stats-comparator-assets-warzone", {})
+    page_data = state.get("stats-comparator-page-warzone", {})
+    global_data = page_data.get("global", {})
 
     # --- Top weapons list (CODMunity editorial ranking) ---
-    top_weapons_raw = global_assets.get("topWeapons", [])
+    top_weapons_raw = global_data.get("topWeapons", [])
     top_weapons = [
         {"name": w.get("WeaponName", ""), "game": w.get("appGame", ""), "rank": i + 1}
         for i, w in enumerate(top_weapons_raw)
@@ -268,7 +268,7 @@ def build_meta(state: dict, weapons: list[dict]) -> dict:
                 playstyle_coverage[ps] = playstyle_coverage.get(ps, 0) + 1
 
     # --- Popularity by game from global assets ---
-    popularity_raw = global_assets.get("popularityByGame", [])
+    popularity_raw = global_data.get("popularityByGame", [])
     popularity = []
     for entry in popularity_raw:
         if isinstance(entry, dict):
