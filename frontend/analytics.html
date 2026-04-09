@@ -172,6 +172,69 @@
     </div>
   </main>
 
+  <!-- ===== DETAIL PANEL (overlay) ===== -->
+  <div class="detail-overlay" id="detail-overlay">
+    <div class="detail-panel" id="detail-panel">
+
+      <div class="panel-header">
+        <div class="panel-weapon-img">
+          <img id="panel-img" src="" alt="">
+        </div>
+        <div class="panel-title-block">
+          <div class="panel-weapon-type" id="panel-type"></div>
+          <div class="panel-weapon-name" id="panel-name"></div>
+          <div class="panel-weapon-desc" id="panel-desc"></div>
+        </div>
+        <button class="panel-close" id="panel-close" aria-label="Close">&#10005;</button>
+      </div>
+
+      <!-- Stats row -->
+      <div class="panel-stats" id="panel-stats">
+        <div class="stat-cell">
+          <div class="stat-label" data-tooltip="Rounds Per Minute — how fast the weapon fires. Higher RPM means more bullets downrange.">RPM</div>
+          <div class="stat-value" id="stat-rpm">—</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-label" data-tooltip="Aim Down Sight time in ms — how quickly you can aim. Lower is faster and better.">ADS</div>
+          <div class="stat-value" id="stat-ads">—<span class="stat-unit">ms</span></div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-label" data-tooltip="Bullet Velocity in m/s — determines effective range and how much you lead moving targets.">Bullet Vel.</div>
+          <div class="stat-value" id="stat-bv">—<span class="stat-unit">m/s</span></div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-label" data-tooltip="Best Time-to-Kill in ms — minimum shots at close range. Lower means you eliminate faster.">Best TTK</div>
+          <div class="stat-value" id="stat-ttk">—<span class="stat-unit">ms</span></div>
+        </div>
+      </div>
+
+      <!-- Stats diagram (gunsmith-style bars) -->
+      <div class="panel-statbars" id="panel-statbars">
+        <!-- populated by JS -->
+      </div>
+
+      <!-- Playstyle tabs -->
+      <div class="panel-playstyle-bar" id="panel-playstyle-bar">
+        <button class="playstyle-tab" data-ps="aggressive">
+          <span class="ps-icon">&#128293;</span>Aggressive
+        </button>
+        <button class="playstyle-tab" data-ps="long_range">
+          <span class="ps-icon">&#127919;</span>Long Range
+        </button>
+        <button class="playstyle-tab" data-ps="balanced">
+          <span class="ps-icon">&#9878;</span>Balanced
+        </button>
+        <button class="playstyle-tab" data-ps="sniper_support">
+          <span class="ps-icon">&#128269;</span>Sniper Sup.
+        </button>
+      </div>
+
+      <!-- Loadout content -->
+      <div class="panel-loadout" id="panel-loadout"></div>
+
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="js/analytics.js"></script>
 </body>

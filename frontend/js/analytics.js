@@ -48,6 +48,42 @@ const WEAPON_TYPE_COLORS = [
 
 let weapons = [];
 let meta    = {};
+let selectedWeapon = null;
+
+// Playstyle labels
+const PLAYSTYLE_LABELS = {
+  aggressive:     'Aggressive',
+  long_range:     'Long Range',
+  balanced:       'Balanced',
+  sniper_support: 'Sniper Support',
+};
+
+// Stats shown in the gunsmith diagram, in display order
+const STAT_DEFS = [
+  { key: 'damage',    label: 'Damage',     unit: '',     invert: false },
+  { key: 'fire_rate', label: 'Fire Rate',  unit: 'rpm',  invert: false },
+  { key: 'range',     label: 'Range',      unit: 'm/s',  invert: false },
+  { key: 'ads',       label: 'ADS Speed',  unit: 'ms',   invert: true  },
+  { key: 'accuracy',  label: 'Accuracy',   unit: '',     invert: false },
+  { key: 'mobility',  label: 'Mobility',   unit: '',     invert: false },
+];
+
+// Attachment slot effects
+const SLOT_EFFECTS = {
+  'Muzzle':         { range: 2, accuracy: 2, ads: -1 },
+  'Barrel':         { range: 3, damage: 1, ads: -1 },
+  'Optic':          { accuracy: 1 },
+  'Underbarrel':    { accuracy: 3, mobility: -1 },
+  'Magazine':       { ads: -1 },
+  'Rear Grip':      { ads: 2, accuracy: 1 },
+  'Stock':          { mobility: 2, ads: 2 },
+  'Laser':          { ads: 3 },
+  'Fire Mods':      { fire_rate: 2 },
+  'Conversion Kit': { damage: 3, fire_rate: 1 },
+  'Ammunition':     { range: 2, damage: 2, ads: -1 },
+};
+
+let statNorms = {};
 
 async function loadData() {
   const [wRes, mRes] = await Promise.all([
@@ -60,6 +96,7 @@ async function loadData() {
   const mData = await mRes.json();
   weapons = wData.weapons || [];
   meta    = mData;
+  statNorms = computeNorms(weapons);
 
   document.getElementById('season-label').textContent =
     `${(wData.season || 'S2R').toUpperCase()} · BLACK OPS 6`;
@@ -68,6 +105,85 @@ async function loadData() {
     document.getElementById('last-updated-label').textContent =
       `Updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Stat normalization
+// ---------------------------------------------------------------------------
+
+function computeNorms(weps) {
+  const raw = { damage: [], fire_rate: [], range: [], ads: [], accuracy: [], mobility: [] };
+
+  weps.forEach(w => {
+    const s = w.stats || {};
+    if (Array.isArray(s.damage) && s.damage[0]?.ttk > 0) raw.damage.push(s.damage[0].ttk);
+    if (s.rpm)    raw.fire_rate.push(s.rpm);
+    if (s.bv)     raw.range.push(s.bv);
+    if (s.ads)    raw.ads.push(s.ads);
+  });
+
+  const norms = {};
+  Object.entries(raw).forEach(([key, values]) => {
+    if (!values.length) { norms[key] = { min: 0, max: 100 }; return; }
+    norms[key] = { min: Math.min(...values), max: Math.max(...values) };
+  });
+  return norms;
+}
+
+function normalizeVal(key, rawVal, invert) {
+  const n = statNorms[key];
+  if (!n || rawVal == null) return null;
+  const { min, max } = n;
+  if (max === min) return 50;
+  let pct = ((rawVal - min) / (max - min)) * 100;
+  if (invert) pct = 100 - pct;
+  return Math.round(Math.max(5, Math.min(95, pct)));
+}
+
+function getRawStat(key, stats) {
+  switch (key) {
+    case 'damage':    return Array.isArray(stats?.damage) ? stats.damage[0]?.ttk : null;
+    case 'fire_rate': return stats?.rpm ?? null;
+    case 'range':     return stats?.bv ?? null;
+    case 'ads':       return stats?.ads ?? null;
+    case 'accuracy':  return null;
+    case 'mobility':  return null;
+    default:          return null;
+  }
+}
+
+function getLoadoutDeltas(attachments) {
+  const totals = {};
+  (attachments || []).forEach(a => {
+    const effects = SLOT_EFFECTS[a.slot] || {};
+    Object.entries(effects).forEach(([key, val]) => {
+      totals[key] = (totals[key] || 0) + val;
+    });
+  });
+  return totals;
+}
+
+function getBestTTK(damageArr) {
+  if (!Array.isArray(damageArr) || !damageArr.length) return null;
+  const ttks = damageArr.map(d => d.ttk).filter(t => t && t > 0);
+  return ttks.length ? Math.round(Math.min(...ttks)) : null;
+}
+
+function ratingToStars(rating) {
+  if (!rating) return '';
+  const full  = Math.floor(rating / 2);
+  const half  = (rating % 2) >= 1 ? 1 : 0;
+  const empty = 5 - full - half;
+  return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(empty);
+}
+
+function escHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 // ---------------------------------------------------------------------------
@@ -95,6 +211,160 @@ function getStat(w, key) {
 }
 
 // ---------------------------------------------------------------------------
+// Detail Panel Functions
+// ---------------------------------------------------------------------------
+
+function renderStatBars(weapon, loadout) {
+  const container = document.getElementById('panel-statbars');
+  const stats     = weapon.stats || {};
+  const deltas    = loadout ? getLoadoutDeltas(loadout.attachments) : {};
+  const hasLoadout = loadout?.attachments?.length > 0;
+
+  const MAX_DELTA = 8;
+  const DELTA_BAR_MAX_PCT = 18;
+
+  const rows = STAT_DEFS.map(def => {
+    const rawVal  = getRawStat(def.key, stats);
+    const basePct = rawVal != null
+      ? normalizeVal(def.key, rawVal, def.invert)
+      : 50;
+
+    const isFallback = rawVal == null;
+    const deltaUnits = deltas[def.key] || 0;
+    const deltaPct   = Math.round((Math.abs(deltaUnits) / MAX_DELTA) * DELTA_BAR_MAX_PCT);
+    const deltaDir   = deltaUnits > 0 ? 'positive' : deltaUnits < 0 ? 'negative' : '';
+
+    const cappedBase = Math.min(basePct, 95 - (deltaDir === 'positive' ? deltaPct : 0));
+
+    const deltaLeft  = cappedBase;
+    const deltaLabel = deltaUnits > 0 ? `+${deltaUnits}` : deltaUnits < 0 ? `${deltaUnits}` : '';
+
+    const displayVal = isFallback
+      ? ''
+      : def.key === 'ads'       ? `${rawVal}ms`
+      : def.key === 'fire_rate' ? `${rawVal}`
+      : def.key === 'range'     ? `${rawVal}`
+      : '';
+
+    const deltaHtml = (hasLoadout && deltaUnits !== 0) ? `
+      <div class="statbar-delta ${deltaDir}"
+           style="left:${deltaLeft}%; width:${deltaPct}%">
+      </div>` : '';
+
+    const deltaLabelHtml = hasLoadout
+      ? `<span class="statbar-delta-label ${deltaUnits > 0 ? 'pos' : deltaUnits < 0 ? 'neg' : 'neu'}">
+           ${deltaLabel}
+         </span>`
+      : '<span class="statbar-delta-label neu"></span>';
+
+    return `
+      <div class="statbar-row">
+        <span class="statbar-label">${def.label}</span>
+        <div class="statbar-track">
+          <div class="statbar-mid-tick"></div>
+          <div class="statbar-fill" style="width:${cappedBase}%; opacity:${isFallback ? 0.35 : 1}"></div>
+          ${deltaHtml}
+        </div>
+        <span class="statbar-value">${displayVal}</span>
+        ${deltaLabelHtml}
+      </div>`;
+  }).join('');
+
+  const legendHtml = hasLoadout ? `
+    <div class="statbars-legend">
+      <div class="legend-item"><div class="legend-dot base"></div> Base</div>
+      <div class="legend-item"><div class="legend-dot positive"></div> Improves</div>
+      <div class="legend-item"><div class="legend-dot negative"></div> Trade-off</div>
+    </div>` : '';
+
+  container.innerHTML = `
+    <div class="statbars-title">Weapon Stats</div>
+    ${rows}
+    ${legendHtml}`;
+}
+
+function openPanel(weapon) {
+  selectedWeapon = weapon;
+
+  document.getElementById('panel-img').src  = weapon.icon || '';
+  document.getElementById('panel-img').alt  = weapon.name;
+  document.getElementById('panel-type').textContent = weapon.type;
+  document.getElementById('panel-name').textContent = weapon.name;
+  document.getElementById('panel-desc').textContent = weapon.description || '';
+
+  const stats = weapon.stats || {};
+  document.getElementById('stat-rpm').innerHTML =
+    stats.rpm ? stats.rpm : '<span style="color:var(--text-muted)">—</span>';
+  document.getElementById('stat-ads').innerHTML =
+    stats.ads ? `${stats.ads}<span class="stat-unit">ms</span>` : '<span style="color:var(--text-muted)">—</span>';
+  document.getElementById('stat-bv').innerHTML =
+    stats.bv ? `${stats.bv}<span class="stat-unit">m/s</span>` : '<span style="color:var(--text-muted)">—</span>';
+
+  const bestTTK = getBestTTK(stats.damage);
+  document.getElementById('stat-ttk').innerHTML =
+    bestTTK ? `${bestTTK}<span class="stat-unit">ms</span>` : '<span style="color:var(--text-muted)">—</span>';
+
+  const psTabs = document.querySelectorAll('.playstyle-tab');
+  psTabs.forEach(tab => {
+    const ps = tab.dataset.ps;
+    const hasData = weapon.loadouts?.[ps]?.attachments?.length > 0;
+    tab.classList.toggle('no-data', !hasData);
+  });
+
+  const firstAvailable = Object.keys(weapon.loadouts || {}).find(ps => weapon.loadouts[ps]?.attachments?.length);
+  const psToShow = firstAvailable || 'aggressive';
+
+  showLoadout(weapon, psToShow);
+  document.getElementById('detail-overlay').classList.add('open');
+}
+
+function showLoadout(weapon, ps) {
+  document.querySelectorAll('.playstyle-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.ps === ps);
+  });
+
+  const loadout = weapon.loadouts?.[ps];
+  renderStatBars(weapon, loadout || null);
+
+  const container = document.getElementById('panel-loadout');
+
+  if (!loadout || !loadout.attachments?.length) {
+    container.innerHTML = `
+      <div class="no-loadout">
+        &#9888;&nbsp; No ${PLAYSTYLE_LABELS[ps] || ps} loadout available for this weapon
+      </div>`;
+    return;
+  }
+
+  const stars = ratingToStars(loadout.rating);
+  const codeTag = loadout.loadout_code
+    ? `<span class="loadout-code">CODE: ${escHtml(loadout.loadout_code)}</span>`
+    : '';
+
+  const rows = loadout.attachments.map(a => `
+    <div class="attachment-row">
+      <span class="attachment-slot">${escHtml(a.slot)}</span>
+      <span class="attachment-name">${escHtml(a.name)}</span>
+    </div>`).join('');
+
+  container.innerHTML = `
+    <div class="loadout-meta">
+      <div class="loadout-rating">
+        <span>Meta Rating</span>
+        <span class="rating-stars">${stars}</span>
+        <span>${loadout.rating?.toFixed(1) ?? '—'}</span>
+      </div>
+      ${codeTag}
+    </div>
+    <div class="attachments-list">${rows}</div>`;
+}
+
+function closePanel() {
+  document.getElementById('detail-overlay').classList.remove('open');
+  selectedWeapon = null;
+}
+
+// ---------------------------------------------------------------------------
 // Chart 1 — Performance Rankings (horizontal bar)
 // ---------------------------------------------------------------------------
 
@@ -113,7 +383,7 @@ function buildRankChart(rankKey) {
 
   // Gather weapons with this stat
   let ranked = weapons
-    .map(w => ({ name: w.name, type: w.type, val: getStat(w, rankKey) }))
+    .map(w => ({ name: w.name, type: w.type, val: getStat(w, rankKey), weapon: w }))
     .filter(x => x.val != null);
 
   ranked.sort((a, b) => cfg.sort === 'asc' ? a.val - b.val : b.val - a.val);
@@ -146,6 +416,13 @@ function buildRankChart(rankKey) {
       indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
+      onClick: (event, elements) => {
+        if (elements.length > 0) {
+          const index = elements[0].index;
+          const weapon = ranked[index].weapon;
+          if (weapon) openPanel(weapon);
+        }
+      },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -406,6 +683,21 @@ function bindEvents() {
     }
     buildTTKChart();
     document.getElementById('ttk-hint').style.display = '';
+  });
+
+  // Detail panel events
+  document.getElementById('panel-playstyle-bar').addEventListener('click', e => {
+    const tab = e.target.closest('.playstyle-tab');
+    if (!tab || tab.classList.contains('no-data')) return;
+    if (selectedWeapon) showLoadout(selectedWeapon, tab.dataset.ps);
+  });
+
+  document.getElementById('panel-close').addEventListener('click', closePanel);
+  document.getElementById('detail-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('detail-overlay')) closePanel();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closePanel();
   });
 }
 
