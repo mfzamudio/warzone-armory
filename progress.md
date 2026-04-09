@@ -10,8 +10,8 @@
 
 Warzone Armory is a free, ad-free web application for browsing Warzone weapon meta and tracking free in-game rewards. The app consists of three independent pages (Armory, Analytics, Free Drops), with daily data updates via GitHub Actions.
 
-**Repository**: [github.com/mzamu/warzone-armory](https://github.com/mzamu/warzone-armory)
-**Live Demo**: [https://mzamu.github.io/warzone-armory/frontend/](https://mzamu.github.io/warzone-armory/frontend/)
+**Repository**: [github.com/mfzamudio/warzone-armory](https://github.com/mfzamudio/warzone-armory)
+**Live Demo**: [https://mfzamudio.github.io/warzone-armory/frontend/](https://mfzamudio.github.io/warzone-armory/frontend/)
 
 ---
 
@@ -226,7 +226,7 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 ### Current Environment: Production
 - **Platform**: GitHub Pages (free tier)
 - **Branch**: `main`
-- **URL**: https://mzamu.github.io/warzone-armory/frontend/
+- **URL**: https://mfzamudio.github.io/warzone-armory/frontend/
 - **SSL**: ✅ HTTPS enforced
 - **Uptime**: 99.9% (GitHub Pages SLA)
 - **Last Deployment**: 2026-04-09 (automatic on commit)
@@ -320,8 +320,8 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 
 ### For Users
 - **Questions?** See README.md FAQ section
-- **Bugs?** [Report on GitHub Issues](https://github.com/mzamu/warzone-armory/issues)
-- **Feature Requests?** [GitHub Discussions](https://github.com/mzamu/warzone-armory/discussions)
+- **Bugs?** [Report on GitHub Issues](https://github.com/mfzamudio/warzone-armory/issues)
+- **Feature Requests?** [GitHub Discussions](https://github.com/mfzamudio/warzone-armory/discussions)
 
 ### For Developers
 - **Setup Guide**: See CLAUDE.md "Local Development" section

@@ -4,7 +4,7 @@
 
 Warzone Armory is a free, open-source web app that helps you optimize your Warzone loadouts. Select your weapon, choose your playstyle (Aggressive, Long Range, Balanced, Sniper Support), and see exactly which attachments will dominate. Plus, track active promo codes and Twitch Drops in one place.
 
-**🎮 Live Demo**: [https://mzamu.github.io/warzone-armory/frontend/](https://mzamu.github.io/warzone-armory/frontend/)
+**🎮 Live Demo**: [https://mfzamudio.github.io/warzone-armory/frontend/](https://mfzamudio.github.io/warzone-armory/frontend/)
 
 ---
 
@@ -104,7 +104,7 @@ Warzone Armory is a free, open-source web app that helps you optimize your Warzo
 
 ```bash
 # Clone the repo
-git clone https://github.com/mzamu/warzone-armory.git
+git clone https://github.com/mfzamudio/warzone-armory.git
 cd warzone-armory
 
 # Install scraper dependencies
@@ -188,4 +188,4 @@ Warzone Armory is a **fan-made, unofficial project** not affiliated with Activis
 
 **Built with ⚔️ for the Warzone community.**
 
-[Check out Warzone Armory now →](https://mzamu.github.io/warzone-armory/frontend/)
+[Check out Warzone Armory now →](https://mfzamudio.github.io/warzone-armory/frontend/)
