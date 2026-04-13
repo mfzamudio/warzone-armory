@@ -32,9 +32,9 @@
 }
 
 .nav-link.active {
-  color: var(--green-bright);
-  border-color: var(--green-dim);
-  background: rgba(78, 128, 85, 0.12);
+  color: var(--sand-bright);
+  border-color: var(--sand-dim);
+  background: rgba(140, 106, 46, 0.12);
 }
 
 /* ============================================================================
@@ -91,7 +91,7 @@
   align-items: center;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background: rgba(106, 170, 114, 0.06);
+  background: rgba(200, 168, 78, 0.06);
   border: 1px solid var(--border);
   border-left: 3px solid var(--gold-dim);
   clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
@@ -99,8 +99,8 @@
 }
 
 .reward-code-row:hover {
-  border-left-color: var(--green-bright);
-  background: rgba(106, 170, 114, 0.12);
+  border-left-color: var(--sand-bright);
+  background: rgba(200, 168, 78, 0.12);
 }
 
 .reward-code-value {
@@ -122,8 +122,8 @@
 
 .copy-btn {
   background: none;
-  border: 1px solid rgba(106, 170, 114, 0.5);
-  color: var(--green-bright);
+  border: 1px solid rgba(200, 168, 78, 0.5);
+  color: var(--sand-bright);
   font-family: var(--font-body);
   font-size: 0.65rem;
   letter-spacing: 0.12em;
@@ -138,15 +138,15 @@
 }
 
 .copy-btn:hover {
-  background: rgba(106, 170, 114, 0.15);
-  border-color: var(--green-bright);
+  background: rgba(200, 168, 78, 0.15);
+  border-color: var(--sand-bright);
   transform: translateY(-1px);
 }
 
 .copy-btn.copied {
-  background: rgba(106, 170, 114, 0.25);
+  background: rgba(200, 168, 78, 0.25);
   color: #fff;
-  border-color: var(--green-bright);
+  border-color: var(--sand-bright);
 }
 
 /* ============================================================================
@@ -163,7 +163,7 @@
   display: block;
   text-decoration: none;
   padding: 0.9rem 1rem;
-  background: rgba(106, 170, 114, 0.06);
+  background: rgba(200, 168, 78, 0.06);
   border: 1px solid var(--border);
   border-left: 3px solid var(--border-accent);
   clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
@@ -172,8 +172,8 @@
 }
 
 .news-card:hover {
-  border-left-color: var(--green-bright);
-  background: rgba(106, 170, 114, 0.12);
+  border-left-color: var(--sand-bright);
+  background: rgba(200, 168, 78, 0.12);
   transform: translateX(2px);
 }
 
@@ -197,8 +197,8 @@
   font-size: 0.6rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--green-bright);
-  border: 1px solid rgba(106, 170, 114, 0.6);
+  color: var(--sand-bright);
+  border: 1px solid rgba(200, 168, 78, 0.6);
   padding: 0.15rem 0.45rem;
   clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
   font-weight: 600;
@@ -217,7 +217,7 @@
 .rewards-empty {
   padding: 1.5rem 1rem;
   text-align: center;
-  background: rgba(106, 170, 114, 0.05);
+  background: rgba(200, 168, 78, 0.05);
   border: 1px dashed var(--border);
   clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
 }
@@ -230,14 +230,14 @@
 }
 
 .rewards-empty a {
-  color: var(--green-bright);
+  color: var(--sand-bright);
   text-decoration: none;
-  border-bottom: 1px solid rgba(106, 170, 114, 0.6);
+  border-bottom: 1px solid rgba(200, 168, 78, 0.6);
   transition: border-color 0.15s;
 }
 
 .rewards-empty a:hover {
-  border-bottom-color: var(--green-bright);
+  border-bottom-color: var(--sand-bright);
 }
 
 /* ============================================================================

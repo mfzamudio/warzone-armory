@@ -1,0 +1,26 @@
+name: Update Deploy Version
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/version.json'   # Evita loop infinito
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Write version.json
+        run: |
+          echo "{\"deployed\": \"$(date -u '+%Y-%m-%dT%H:%M:%SZ')\"}" > data/version.json
+
+      - name: Commit version
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/version.json
+          git diff --staged --quiet || git commit -m "chore: update version [skip ci]"
+          git push

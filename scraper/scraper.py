@@ -50,10 +50,10 @@ PLAYSTYLE_MAP = {
     "Long Range":       "long_range",
     "Close Range":      "aggressive",
     "Sniper Support":   "sniper_support",
-    "Sniper":           "sniper_support",   # merge Sniper into sniper_support
-    "Mouse & Keyboard": "balanced",
+    "Sniper":           "long_range",       # sniper rifles are long-range builds
+    "Mouse & Keyboard": "balanced",         # PC-optimized versatile build
     "Semi Auto":        "long_range",
-    "Secondary":        "aggressive",
+    "Secondary":        "sniper_support",   # compact backup weapon alongside a primary
 }
 
 # If weapon count drops more than this vs previous run, abort
@@ -92,24 +92,88 @@ def fetch_page(url: str) -> str:
 
 
 def extract_json_state(html: str) -> dict:
-    """Extract the embedded Angular JSON transfer state from the page."""
-    m = re.search(r'<script[^>]+application/json[^>]*>(.*?)</script>', html, re.DOTALL)
-    if not m:
+    """Extract the embedded Angular JSON transfer state from the page.
+    Tries all <script type='application/json'> tags and returns the largest one
+    (most likely to be the Angular transfer state with weapon data).
+    """
+    matches = re.findall(r'<script[^>]+application/json[^>]*>(.*?)</script>', html, re.DOTALL)
+    if not matches:
         raise ValueError("Could not find <script type='application/json'> in page")
-    return json.loads(m.group(1))
+
+    best = None
+    for raw in matches:
+        try:
+            parsed = json.loads(raw)
+            if best is None or len(raw) > len(best[0]):
+                best = (raw, parsed)
+        except json.JSONDecodeError:
+            continue
+
+    if best is None:
+        raise ValueError("No valid JSON found in <script type='application/json'> tags")
+
+    log.info(f"Found JSON state ({len(best[0]):,} chars), top-level keys: {list(best[1].keys())[:10]}")
+    return best[1]
 
 
 # ---------------------------------------------------------------------------
 # Build weapons list
 # ---------------------------------------------------------------------------
 
+KNOWN_PAGE_KEYS = [
+    "stats-comparator-page-warzone",
+    "stats-comparator-assets-warzone",
+]
+
+def _find_weapons_recursive(obj, depth=0, max_depth=6, path="root"):
+    """Recursively search any JSON structure for a dict containing a 'weapons' list."""
+    if depth > max_depth:
+        return None
+    if isinstance(obj, dict):
+        weapons = obj.get("weapons")
+        if isinstance(weapons, list) and len(weapons) > 10 and isinstance(weapons[0], dict):
+            # Confirm it looks like weapon data (has WeaponName or appGame)
+            if weapons[0].get("WeaponName") or weapons[0].get("appGame"):
+                log.info(f"Found weapon data at path '{path}' ({len(weapons)} weapons)")
+                return obj
+        for key, val in obj.items():
+            result = _find_weapons_recursive(val, depth + 1, max_depth, f"{path}.{key}")
+            if result is not None:
+                return result
+    elif isinstance(obj, list):
+        for i, item in enumerate(obj[:5]):  # only scan first 5 list items
+            result = _find_weapons_recursive(item, depth + 1, max_depth, f"{path}[{i}]")
+            if result is not None:
+                return result
+    return None
+
+
+def find_page_data(state: dict) -> dict:
+    """Find the dict containing weapon data anywhere in the JSON state.
+    Tries known top-level keys first, then does a deep recursive search.
+    """
+    # Try known top-level keys first (fast path)
+    for key in KNOWN_PAGE_KEYS:
+        candidate = state.get(key, {})
+        if isinstance(candidate, dict) and candidate.get("weapons"):
+            log.info(f"Using known page data key: '{key}'")
+            return candidate
+
+    # Deep recursive search — handles Angular hash keys and nested structures
+    result = _find_weapons_recursive(state)
+    if result is not None:
+        return result
+
+    log.warning(f"Could not find weapon data. Top-level keys: {list(state.keys())}")
+    return {}
+
+
 def build_weapons(state: dict) -> list[dict]:
     """
     Combine weapon catalog + loadouts + stats from the JSON state.
     Returns a list of normalized weapon dicts.
     """
-    # New structure: data moved to stats-comparator-page-warzone
-    page_data = state.get("stats-comparator-page-warzone", {})
+    page_data = find_page_data(state)
 
     raw_weapons  = page_data.get("weapons", [])
     raw_loadouts = page_data.get("metaLoadouts", [])
@@ -217,7 +281,7 @@ def build_meta(state: dict, weapons: list[dict]) -> dict:
       - playstyle_coverage: how many weapons have each playstyle loadout
       - popularity: pick-rate proxy from popularityByGame if available
     """
-    page_data = state.get("stats-comparator-page-warzone", {})
+    page_data = find_page_data(state)
     global_data = page_data.get("global", {})
 
     # --- Top weapons list (CODMunity editorial ranking) ---

@@ -7,7 +7,11 @@
       "Bash(curl -s --max-time 20 -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/122.0.0.0 Safari/537.36\" \"https://www.dexerto.com/wikis/warzone/warzone-codes/\")",
       "Bash(pip install:*)",
       "Bash(python scraper/rewards_scraper.py --dry-run)",
-      "Bash(python scraper/rewards_scraper.py)"
+      "Bash(python scraper/rewards_scraper.py)",
+      "Bash(ls -lh *.md)",
+      "Bash(wc -l *.md)",
+      "Bash(grep -r mzamu *.md)",
+      "Bash(git push:*)"
     ]
   }
 }

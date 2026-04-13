@@ -105,6 +105,15 @@ async function loadData() {
     document.getElementById('last-updated-label').textContent =
       `Updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
   }
+
+  // Footer: show last code deploy date
+  fetch('../data/version.json').then(r => r.json()).then(v => {
+    if (v.deployed) {
+      const d = new Date(v.deployed);
+      document.getElementById('footer-updated').textContent =
+        `Last updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+    }
+  }).catch(() => {});
 }
 
 // ---------------------------------------------------------------------------

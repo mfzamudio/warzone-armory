@@ -1,7 +1,7 @@
 # Project Progress — Warzone Armory
 
 **Project Status**: 🟢 In Production
-**Last Updated**: 2026-04-09
+**Last Updated**: 2026-04-13
 **Version**: 1.0.0
 
 ---
@@ -93,6 +93,28 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
   - Created PRD.md (Product Requirements Document)
   - Created progress.md (this file)
 
+- ✅ **Desert Dark Theme** (2026-04-13)
+  - Replaced military green CSS variables (`--green-*`) with desert sand palette (`--sand-*`)
+  - Updated backgrounds, borders, accents, card glows, stat bars, and scrollbars across `style.css`, `analytics.css`, `rewards.css`
+  - Color palette: dark earth backgrounds (`#0c0904`), golden sand accents (`#c8a84e`), warm off-white text (`#e8dcc4`)
+
+- ✅ **Site Footer** (2026-04-13)
+  - Added `<footer>` to all 3 pages with last code deploy date + link to mzamudio.com
+  - Footer date reads from `data/version.json` (distinct from the scraper date shown in the header)
+  - New workflow `update-version.yml` writes `version.json` on every push to `main`
+  - `paths-ignore` prevents infinite loop when the workflow commits `version.json`
+
+- ✅ **Scraper Resilience: Recursive JSON Detection** (2026-04-13)
+  - CODMunity migrated Angular Transfer State from named keys (`stats-comparator-page-warzone`) to numeric hash keys (`3909856856.b`)
+  - Added `_find_weapons_recursive()`: deep search across any JSON structure to find the weapons array regardless of key names
+  - Added multi-script-tag scanning: tries all `<script type="application/json">` blocks, picks the largest valid JSON
+  - Logs the detected path on every run for future debugging
+
+- ✅ **Playstyle Map Corrections** (2026-04-13)
+  - `"Sniper"` → `long_range` (sniper rifles are long-range builds, not "sniper support" weapons)
+  - `"Secondary"` → `sniper_support` (compact backup weapons conceptually match "support weapon alongside a primary")
+  - `"Mouse & Keyboard"` comment clarified (already `balanced`, now documented as PC-optimized versatile builds)
+
 ---
 
 ## 📈 Current Stats
@@ -113,6 +135,28 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 ---
 
 ## 🔄 Recent Changes (Last 30 Days)
+
+### April 13, 2026
+1. **Desert Dark Theme**
+   - Replaced military green palette with sand/earth tones site-wide
+   - CSS variables renamed: `--green-*` → `--sand-*`
+   - All three CSS files updated (style.css, analytics.css, rewards.css)
+
+2. **Site Footer**
+   - Footer added to all 3 pages: last code deploy date + mzamudio.com link
+   - New `update-version.yml` workflow writes `data/version.json` on every push
+   - Footer date is deploy date; header date remains scraper date
+
+3. **Fixed Scraper: Angular Hash Key Structure**
+   - Issue: CODMunity changed Angular Transfer State to numeric hash keys → 0 weapons extracted
+   - Fix: Recursive JSON search (`_find_weapons_recursive`) auto-detects weapon data at any depth
+   - Fix: Multi-script-tag scanning picks the largest valid JSON block
+   - Result: 256 weapons + 326 loadouts extracted correctly
+
+2. **Corrected Playstyle Mappings**
+   - `"Sniper"` → `long_range` (was incorrectly `sniper_support`)
+   - `"Secondary"` → `sniper_support` (was `aggressive`; backup weapons are support weapons)
+   - `weapons.json` and `meta.json` regenerated with corrected assignments
 
 ### April 9, 2026
 1. **Fixed CODMunity Scraper**
@@ -157,7 +201,7 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 - **No Backend**: Can't track user preferences, analytics, or authenticate
 - **Static Hosting**: Can't do real-time updates (24h max latency acceptable)
 - **No User Input**: Can't accept custom loadouts or comments
-- **Scraper Fragility**: If CODMunity/Dexerto redesign, scraper may break
+- **Scraper Fragility (reduced)**: Weapon scraper now auto-detects JSON structure; Dexerto HTML changes may still break rewards scraper
 
 ### Data Limitations
 - **Loadout Count**: Only top 1 loadout per weapon + playstyle (top 5 attachments shown)
@@ -352,7 +396,7 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 | Field | Value |
 |-------|-------|
 | **Created** | 2026-04-09 |
-| **Last Updated** | 2026-04-09 |
+| **Last Updated** | 2026-04-13 |
 | **Reviewed By** | Claude (AI Assistant) |
 | **Next Review** | 2026-05-09 |
 | **Version** | 1.0 |
@@ -362,4 +406,4 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 
 **Ready for production. Monitoring for data freshness and scraper health.**
 
-Last health check: ✅ 2026-04-09 — All systems operational.
+Last health check: ✅ 2026-04-13 — All systems operational. Scraper fixed, theme updated to desert, footer added.

@@ -1,8 +1,8 @@
 # Product Requirements Document — Warzone Armory
 
-**Version**: 1.0
+**Version**: 1.2
 **Status**: In Production
-**Last Updated**: 2026-04-09
+**Last Updated**: 2026-04-13
 
 ---
 
@@ -359,6 +359,10 @@ Required Fields:
 - [x] CSS consistency across pages
 - [x] Documentation (CLAUDE.md, README.md, PRD.md)
 - [x] Error handling and empty states
+- [x] Scraper resilience: recursive JSON key detection survives Angular structure changes
+- [x] Playstyle map corrections: Sniper → Long Range, Secondary → Sniper Support
+- [x] Desert dark theme (replaced military green with sand/earth tones)
+- [x] Site footer: last code deploy date + link to mzamudio.com (via `data/version.json`)
 
 ### Phase 3: Optimization (Future)
 - [ ] Cache strategy for faster loads
@@ -372,7 +376,7 @@ Required Fields:
 
 | Risk | Impact | Likelihood | Mitigation |
 |------|--------|------------|-----------|
-| CODMunity.gg redesigns page | Scraper breaks, no weapon data | Medium | Monitor scraper logs, add version detection |
+| CODMunity.gg redesigns page | Scraper breaks, no weapon data | Medium | Recursive JSON search auto-detects new structure; known keys tried first as fast path |
 | GitHub Pages goes down | App unavailable | Low | Use backup CDN or mirror (costly, low priority) |
 | Weapon count drops >20% | Old data retained (staleness) | Low | Investigate scraper, roll back if needed |
 | Dexerto/CharlieintelNEWS blocked | Rewards data empty | Low | Graceful fallback with links to sources |

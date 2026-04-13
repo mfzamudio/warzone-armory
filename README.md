@@ -80,6 +80,8 @@ Warzone Armory is a free, open-source web app that helps you optimize your Warzo
 - ✅ Works offline (after first load)
 - ✅ Instant deploys with GitHub Pages
 
+> **Theme**: Desert dark aesthetic — sand/earth tones replacing the original military green.
+
 ---
 
 ## 📊 Data Sources

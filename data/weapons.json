@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T06:02:38.278201+00:00",
+  "last_updated": "2026-04-13T13:30:03.848879+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -10057,9 +10057,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Barrel",
@@ -10082,7 +10080,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Essex-Model-07-Sniper-Warzone-Loadout-CODMunity-1716.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -10253,9 +10253,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -10278,7 +10276,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/80387030-6ad7-11ef-92e0-45607784a4f5.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -10944,9 +10944,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -10973,7 +10971,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/SA-B-Warzone-2-Loadout.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -11027,9 +11027,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -11056,7 +11054,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/SPR-Warzone-2-Loadout.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -12296,7 +12296,10 @@
         "mag": 7
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -12319,10 +12322,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2022/12/50-GS-Warzone-2-Loadout.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -12490,7 +12490,10 @@
         "mag": 15
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -12513,10 +12516,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/09/9mm-Daemon-Close-Range.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -12646,7 +12646,30 @@
         },
         "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Barrel",
+              "name": "10.5\" FTAC Arrow"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "SO RO-99 Grip"
+            },
+            {
+              "slot": "Laser",
+              "name": "Revo-LSD 7MW"
+            },
+            {
+              "slot": "Ammunition",
+              "name": ".500 Snakeshot"
+            }
+          ],
+          "rating": 0.2,
+          "description": "Secondary meta build",
+          "loadout_code": null,
+          "image": "https://warzoneloadout.games/wp-content/uploads/2023/04/Basilisk-Warzone-2-Single-Pistol.png"
+        }
       }
     },
     {
@@ -12898,7 +12921,10 @@
         "mag": 32
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Barrel",
@@ -12925,10 +12951,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/05/FTAC-Siege-Al-Mazrah.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -12998,7 +13021,10 @@
         "mag": 7
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Barrel",
@@ -13025,10 +13051,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/05/GS-Magna.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -13481,7 +13504,10 @@
         "mag": 8
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -13504,10 +13530,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/P890-Warzone-2-Loadout.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -13560,7 +13583,10 @@
         "mag": 15
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -13587,10 +13613,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/04/Renetti-Close-Range.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -13760,7 +13783,10 @@
         "mag": 310
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Barrel",
@@ -13779,10 +13805,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/11/TYR-Akimbo.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -13935,7 +13958,10 @@
         "mag": 20
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -13962,10 +13988,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/07/WSP-Stinger-Akimbos.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -14052,7 +14075,10 @@
         "mag": 17
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -14075,10 +14101,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/x12-Warzone-2-Loadout-Akimbo.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -14182,7 +14205,10 @@
         "mag": 17
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -14209,10 +14235,7 @@
           "description": "Secondary meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/07/X13-SMG.png"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {
@@ -20848,9 +20871,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -20877,7 +20898,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/AMR-Mod-4-Sniper-Warzone-Loadout-CODMunity-8216.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -20948,9 +20971,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -20977,7 +20998,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/08/Carrack-Sniper.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21031,9 +21054,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21060,7 +21081,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/FJX-Imperium-Sniper-Warzone-Loadout-CODMunity-3615.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21097,9 +21120,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21126,7 +21147,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/HDR-Sniper-Warzone-Loadout-CODMunity-3817.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21180,9 +21203,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21205,7 +21226,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/01/KATT-AMR-Long-Range-1.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21259,9 +21282,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21288,7 +21309,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/11/KV-Inhibitor-Max-Range.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21359,9 +21382,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21388,7 +21409,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/LA-B-330-Warzone-2-Loadout-quickscope.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21442,9 +21465,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21471,7 +21492,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/LR-7.62-Sniper-Warzone-Loadout-CODMunity-7961.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21525,9 +21548,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21546,7 +21567,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/LW3A1-Frostline-Sniper-Warzone-Loadout-CODMunity-5046.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21617,9 +21640,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21642,7 +21663,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/11/Longbow-Max-Range.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21713,9 +21736,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21742,7 +21763,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/MCPR-300-Sniper-Warzone-Loadout-CODMunity-2330.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21796,9 +21819,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Barrel",
@@ -21821,7 +21842,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/MORS-Sniper-Warzone-Loadout-CODMunity-7753.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21892,9 +21915,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -21917,7 +21938,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/02/SP-X-Warzone-2-Loadouts.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -21996,34 +22019,7 @@
           "image": "https://assets.codmunity.gg/optimized/SVD-Long-Range-Warzone-Loadout-CODMunity-4052.webp"
         },
         "balanced": null,
-        "sniper_support": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Ported Compensator"
-            },
-            {
-              "slot": "Barrel",
-              "name": "Reinforced Barrel"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "Precision Handguard"
-            },
-            {
-              "slot": "Laser",
-              "name": "Target Laser"
-            },
-            {
-              "slot": "Fire Mods",
-              "name": "Recoil Springs"
-            }
-          ],
-          "rating": 1.4,
-          "description": "Sniper meta build",
-          "loadout_code": null,
-          "image": "https://assets.codmunity.gg/optimized/SVD-Sniper-Warzone-Loadout-CODMunity-4002.webp"
-        }
+        "sniper_support": null
       }
     },
     {
@@ -22077,9 +22073,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22106,7 +22100,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/06/Signal-50-long-Range.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22143,9 +22139,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22172,7 +22166,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Victus-XMR-Sniper-Warzone-Loadout-CODMunity-4292.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22243,9 +22239,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22268,7 +22262,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/02/Image-weapons.png"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22322,9 +22318,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22351,7 +22345,9 @@
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": "https://assets.codmunity.gg/optimized/Hawker-HX-undefined-Warzone-Loadout-CODMunity-7970.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22405,9 +22401,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22434,7 +22428,9 @@
           "description": "Sniper meta build",
           "loadout_code": "R02-2JD6W-ZRA92-BY11",
           "image": "https://assets.codmunity.gg/optimized/Shadow-SK-Sniper-Black-Ops-7-Loadout-CODMunity-7399.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22488,9 +22484,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22517,7 +22511,9 @@
           "description": "Sniper meta build",
           "loadout_code": "R07-2JD6P-5NM5G-6J11",
           "image": "https://assets.codmunity.gg/optimized/Strider-300-Sniper-Warzone-Loadout-CODMunity-9190.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22554,9 +22550,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22583,7 +22577,9 @@
           "description": "Sniper meta build",
           "loadout_code": "R01-21WSG-L369K-P711",
           "image": "https://assets.codmunity.gg/optimized/VS-Recon-Sniper-Warzone-Loadout-CODMunity-8935.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22637,9 +22633,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -22666,7 +22660,9 @@
           "description": "Sniper meta build",
           "loadout_code": "R03-2JDTU-ZRTEK-J911",
           "image": "https://assets.codmunity.gg/optimized/XR-3-Ion-Long-Range-Warzone-Loadout-CODMunity-7477.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22803,9 +22799,7 @@
       },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": {
+        "long_range": {
           "attachments": [
             {
               "slot": "Optic",
@@ -22824,7 +22818,9 @@
           "description": "Sniper meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/NX-Ravager-Sniper-Warzone-Loadout-CODMunity-5418.webp"
-        }
+        },
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -23018,7 +23014,10 @@
         "mag": 32
       },
       "loadouts": {
-        "aggressive": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
           "attachments": [
             {
               "slot": "Muzzle",
@@ -23045,10 +23044,7 @@
           "description": 1,
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Sirin-9mm-Close-Range-Warzone-Loadout-CODMunity-9255.webp"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+        }
       }
     },
     {

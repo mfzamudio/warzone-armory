@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-04-10T06:02:38.270983+00:00",
+  "last_updated": "2026-04-13T13:30:03.817427+00:00",
   "top_weapons": [
     {
-      "name": "CODA 9",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 1
     },
     {
-      "name": "Velox 5.7",
+      "name": "Razor 9mm",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Jäger 45",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 4
     },
@@ -27,78 +27,78 @@
       "rank": 5
     },
     {
-      "name": "XR-3 Ion",
+      "name": "VST",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Shadow SK",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "VS Recon",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "BP50",
-      "game": "mw3",
+      "name": "Kogot-7",
+      "game": "bo7",
       "rank": 9
     },
     {
-      "name": "HRM-9",
-      "game": "mw3",
+      "name": "XR-3 Ion",
+      "game": "bo7",
       "rank": 10
     },
     {
-      "name": "CR-56 Amax",
-      "game": "bo6",
+      "name": "EGRT-17",
+      "game": "bo7",
       "rank": 11
     },
     {
-      "name": "SWAT 5.56",
-      "game": "bo6",
+      "name": "MK.78",
+      "game": "bo7",
       "rank": 12
     },
     {
-      "name": "MK35 ISR",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "CI-19",
-      "game": "deltaforce",
+      "name": "AK-27",
+      "game": "bo7",
       "rank": 14
     },
     {
-      "name": "RAAL MG",
-      "game": "mw2019",
+      "name": "VS Recon",
+      "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Holger 556",
-      "game": "mw3",
+      "name": "Carbon 57",
+      "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Bas-B",
-      "game": "mw3",
+      "name": "REV-46",
+      "game": "bo7",
       "rank": 17
     },
     {
-      "name": "MODEL L",
-      "game": "bo6",
+      "name": "MXR-17",
+      "game": "bo7",
       "rank": 18
     },
     {
-      "name": "M4A1",
-      "game": "mw2019",
+      "name": "M15 Mod 0",
+      "game": "bo7",
       "rank": 19
     },
     {
-      "name": "SMG-45",
-      "game": "deltaforce",
+      "name": "X9 Maverick",
+      "game": "bo7",
       "rank": 20
     }
   ],
@@ -362,11 +362,11 @@
       "count": 18
     },
     {
-      "name": "Recoil Springs",
-      "count": 17
+      "name": "Ranger Foregrip",
+      "count": 16
     },
     {
-      "name": "Ranger Foregrip",
+      "name": "Recoil Springs",
       "count": 16
     },
     {
@@ -386,15 +386,15 @@
       "count": 14
     },
     {
-      "name": "Reinforced Barrel",
-      "count": 14
-    },
-    {
       "name": "FSS OLE-V laser",
       "count": 14
     },
     {
       "name": "Paracord Grip",
+      "count": 13
+    },
+    {
+      "name": "Reinforced Barrel",
       "count": 13
     },
     {
@@ -429,7 +429,7 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 274
+      "count": 273
     },
     {
       "slot": "Barrel",
@@ -445,7 +445,7 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 152
+      "count": 151
     },
     {
       "slot": "Stock",
@@ -453,14 +453,14 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 109
-    },
-    {
-      "slot": "Fire Mods",
-      "count": 66
+      "count": 110
     },
     {
       "slot": "Ammunition",
+      "count": 66
+    },
+    {
+      "slot": "Fire Mods",
       "count": 65
     },
     {
@@ -473,10 +473,10 @@
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 95,
-    "long_range": 99,
+    "aggressive": 84,
+    "long_range": 125,
     "balanced": 0,
-    "sniper_support": 115
+    "sniper_support": 100
   },
   "popularity": [],
   "total_weapons": 256

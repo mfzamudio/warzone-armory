@@ -243,9 +243,18 @@ function updateHeaderMeta(data) {
   }
   if (data.last_updated) {
     const d = new Date(data.last_updated);
-    const label = `Updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
-    document.getElementById('last-updated-label').textContent = label;
+    document.getElementById('last-updated-label').textContent =
+      `Updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
   }
+
+  // Footer: show last code deploy date (from version.json, written on every git push)
+  fetch('../data/version.json').then(r => r.json()).then(v => {
+    if (v.deployed) {
+      const d = new Date(v.deployed);
+      document.getElementById('footer-updated').textContent =
+        `Last updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+    }
+  }).catch(() => {});
   const heroTotal = document.getElementById('hero-total');
   if (heroTotal && allWeapons.length) heroTotal.textContent = allWeapons.length + '+';
 }

@@ -28,9 +28,9 @@
 }
 
 .nav-link.active {
-  color: var(--green-bright);
-  border-color: var(--green-dim);
-  background: rgba(78,128,85,0.12);
+  color: var(--sand-bright);
+  border-color: var(--sand-dim);
+  background: rgba(140,106,46,0.12);
 }
 
 /* ---- Analytics module description ---- */
@@ -128,8 +128,8 @@
   transition: all 0.15s;
 }
 
-.rank-tab:hover { border-color: var(--green-dim); color: var(--text-primary); }
-.rank-tab.active { background: var(--green-dim); border-color: var(--green-bright); color: #fff; font-weight: 700; }
+.rank-tab:hover { border-color: var(--sand-dim); color: var(--text-primary); }
+.rank-tab.active { background: var(--sand-dim); border-color: var(--sand-bright); color: #fff; font-weight: 700; }
 
 /* Rank tab tooltips — no dotted underline, use cursor instead */
 .rank-tab[data-tooltip] { border-bottom: none; cursor: pointer; }
@@ -182,8 +182,8 @@
   cursor: pointer;
 }
 
-.ttk-select:focus { border-color: var(--green-mid); }
-.ttk-select option { background: #111a12; }
+.ttk-select:focus { border-color: var(--sand-mid); }
+.ttk-select option { background: #16100a; }
 
 .ttk-color-dot {
   width: 10px;
@@ -258,7 +258,7 @@
 .css-bar-fill {
   position: absolute;
   top: 0; left: 0; height: 100%;
-  background: linear-gradient(90deg, var(--green-dim), var(--green-mid));
+  background: linear-gradient(90deg, var(--sand-dim), var(--sand-mid));
   transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
 }
 

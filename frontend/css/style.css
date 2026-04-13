@@ -1,28 +1,28 @@
 /* ============================================================
-   WARZONE ARMORY — Military Dark Theme
+   WARZONE ARMORY — Desert Dark Theme
    ============================================================ */
 
 :root {
-  --bg-base:        #080c09;
-  --bg-surface:     #0f1811;
-  --bg-card:        #141f15;
-  --bg-card-hover:  #1b2b1d;
-  --bg-panel:       #0b130c;
+  --bg-base:        #0c0904;
+  --bg-surface:     #161008;
+  --bg-card:        #1c140a;
+  --bg-card-hover:  #261c0e;
+  --bg-panel:       #110d06;
 
-  --border:         #253228;
-  --border-accent:  #3a5240;
+  --border:         #3a2c16;
+  --border-accent:  #5a4220;
 
-  --green-dim:      #3d6644;
-  --green-mid:      #4e8055;
-  --green-bright:   #6aaa72;
+  --sand-dim:       #6a4e1e;
+  --sand-mid:       #8c6a2e;
+  --sand-bright:    #c8a84e;
   --gold:           #c9a227;
   --gold-dim:       #7a611a;
   --orange:         #c86d1a;
   --red:            #8b2020;
 
-  --text-primary:   #dde8da;
-  --text-secondary: #8da88a;
-  --text-muted:     #4a5e4c;
+  --text-primary:   #e8dcc4;
+  --text-secondary: #a89060;
+  --text-muted:     #5a4a2c;
 
   --font-title: 'Rajdhani', 'Impact', 'Arial Narrow', sans-serif;
   --font-body:  'Share Tech', 'Courier New', monospace;
@@ -40,26 +40,26 @@ body {
   min-height: 100vh;
   /* subtle hex grid texture */
   background-image:
-    radial-gradient(ellipse at 50% 0%, #1a2e1c 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 0%, #2a1a08 0%, transparent 60%),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 39px,
-      rgba(37, 50, 40, 0.3) 39px,
-      rgba(37, 50, 40, 0.3) 40px
+      rgba(58, 44, 22, 0.3) 39px,
+      rgba(58, 44, 22, 0.3) 40px
     ),
     repeating-linear-gradient(
       90deg,
       transparent,
       transparent 39px,
-      rgba(37, 50, 40, 0.15) 39px,
-      rgba(37, 50, 40, 0.15) 40px
+      rgba(58, 44, 22, 0.15) 39px,
+      rgba(58, 44, 22, 0.15) 40px
     );
 }
 
 /* ---- Header ---- */
 header {
-  background: linear-gradient(180deg, #0b1410 0%, var(--bg-base) 100%);
+  background: linear-gradient(180deg, #110c04 0%, var(--bg-base) 100%);
   border-bottom: 1px solid var(--border-accent);
   padding: 0 2rem;
   position: sticky;
@@ -80,7 +80,7 @@ header {
 .logo-icon {
   width: 32px;
   height: 32px;
-  background: var(--green-mid);
+  background: var(--sand-mid);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ header {
 }
 
 .logo h1 span {
-  color: var(--green-bright);
+  color: var(--sand-bright);
 }
 
 .header-meta {
@@ -124,7 +124,7 @@ header {
 /* ---- Hero Intro ---- */
 .hero-intro {
   border: 1px solid var(--border-accent);
-  background: linear-gradient(135deg, #0b1610 0%, #0f1e12 60%, #0b1410 100%);
+  background: linear-gradient(135deg, #180e04 0%, #1e1408 60%, #160c04 100%);
   clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
   padding: 1.75rem 2rem;
   margin-bottom: 2rem;
@@ -136,7 +136,7 @@ header {
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--green-mid), var(--gold), transparent);
+  background: linear-gradient(90deg, transparent, var(--sand-mid), var(--gold), transparent);
 }
 
 .hero-badge {
@@ -165,7 +165,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.hero-desc strong { color: var(--green-bright); font-weight: 400; }
+.hero-desc strong { color: var(--sand-bright); font-weight: 400; }
 
 .hero-stats {
   display: flex;
@@ -184,7 +184,7 @@ header {
   font-family: var(--font-title);
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--green-bright);
+  color: var(--sand-bright);
   letter-spacing: 0.05em;
   line-height: 1;
 }
@@ -212,7 +212,7 @@ header {
   display: block;
   font-size: 0.62rem;
   letter-spacing: 0.15em;
-  color: var(--green-bright);
+  color: var(--sand-bright);
   text-transform: uppercase;
   margin-bottom: 0.2rem;
 }
@@ -233,7 +233,7 @@ header {
   bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
-  background: #0b130c;
+  background: #110d06;
   border: 1px solid var(--border-accent);
   color: var(--text-secondary);
   font-size: 0.68rem;
@@ -300,13 +300,13 @@ header {
 
 .tab-btn:hover {
   background: var(--bg-card-hover);
-  border-color: var(--green-dim);
+  border-color: var(--sand-dim);
   color: var(--text-primary);
 }
 
 .tab-btn.active {
-  background: var(--green-dim);
-  border-color: var(--green-bright);
+  background: var(--sand-dim);
+  border-color: var(--sand-bright);
   color: #fff;
   font-weight: 700;
 }
@@ -314,7 +314,7 @@ header {
 /* Playstyle tabs get special colors */
 .tab-btn[data-playstyle="aggressive"].active  { background: #6b2a2a; border-color: #c85050; }
 .tab-btn[data-playstyle="long_range"].active  { background: #1e4a6e; border-color: #3a8fc9; }
-.tab-btn[data-playstyle="balanced"].active    { background: var(--green-dim); border-color: var(--green-bright); }
+.tab-btn[data-playstyle="balanced"].active    { background: var(--sand-dim); border-color: var(--sand-bright); }
 .tab-btn[data-playstyle="sniper_support"].active { background: #5a4010; border-color: var(--gold); }
 
 /* ---- Search ---- */
@@ -338,7 +338,7 @@ header {
 }
 
 .search-bar input::placeholder { color: var(--text-muted); }
-.search-bar input:focus { border-color: var(--green-mid); }
+.search-bar input:focus { border-color: var(--sand-mid); }
 
 .search-icon {
   position: absolute;
@@ -362,7 +362,7 @@ header {
   text-transform: uppercase;
 }
 
-.results-bar .count { color: var(--green-bright); font-weight: 700; }
+.results-bar .count { color: var(--sand-bright); font-weight: 700; }
 
 /* ---- Weapons Grid ---- */
 .weapons-grid {
@@ -386,37 +386,37 @@ header {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(78,128,85,0.08) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(140,106,46,0.08) 0%, transparent 60%);
   pointer-events: none;
 }
 
 .weapon-card:hover {
-  border-color: var(--green-mid);
+  border-color: var(--sand-mid);
   background: var(--bg-card-hover);
   transform: translateY(-2px);
 }
 
 .weapon-card.active {
-  border-color: var(--green-bright);
+  border-color: var(--sand-bright);
   background: var(--bg-card-hover);
-  box-shadow: 0 0 16px rgba(106, 170, 114, 0.2), inset 0 0 12px rgba(106,170,114,0.05);
+  box-shadow: 0 0 16px rgba(200, 168, 78, 0.2), inset 0 0 12px rgba(200,168,78,0.05);
 }
 
 .card-type-bar {
   height: 3px;
-  background: var(--green-dim);
+  background: var(--sand-dim);
 }
 
 /* Type colors */
-.card-type-bar[data-type="Assault Rifle"]  { background: #3a6e42; }
-.card-type-bar[data-type="SMG"]            { background: #6e3a3a; }
-.card-type-bar[data-type="LMG"]            { background: #6e5a3a; }
+.card-type-bar[data-type="Assault Rifle"]  { background: #7a6030; }
+.card-type-bar[data-type="SMG"]            { background: #7a3a2a; }
+.card-type-bar[data-type="LMG"]            { background: #8a5a20; }
 .card-type-bar[data-type="Sniper Rifle"],
 .card-type-bar[data-type="Sniper"]         { background: #3a4e6e; }
-.card-type-bar[data-type="Marksman Rifle"] { background: #4e3a6e; }
-.card-type-bar[data-type="Battle Rifle"]   { background: #3a5e5e; }
+.card-type-bar[data-type="Marksman Rifle"] { background: #5a4060; }
+.card-type-bar[data-type="Battle Rifle"]   { background: #4a5040; }
 .card-type-bar[data-type="Shotgun"]        { background: #8b2020; }
-.card-type-bar[data-type="Pistol"]         { background: #5e5e3a; }
+.card-type-bar[data-type="Pistol"]         { background: #6a5828; }
 
 .card-img-wrap {
   display: flex;
@@ -483,7 +483,7 @@ header {
   clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
 }
 
-.badge-loadout { border-color: var(--green-dim); color: var(--green-bright); }
+.badge-loadout { border-color: var(--sand-dim); color: var(--sand-bright); }
 .badge-game    { border-color: var(--border); color: var(--text-muted); }
 
 /* ---- Detail Panel ---- */
@@ -505,9 +505,9 @@ header {
   max-height: 90vh;
   overflow-y: auto;
   clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
-  box-shadow: 0 0 40px rgba(0,0,0,0.8), 0 0 80px rgba(78,128,85,0.08);
+  box-shadow: 0 0 40px rgba(0,0,0,0.8), 0 0 80px rgba(140,106,46,0.08);
   scrollbar-width: thin;
-  scrollbar-color: var(--green-dim) transparent;
+  scrollbar-color: var(--sand-dim) transparent;
 }
 
 /* ---- Panel Header ---- */
@@ -517,7 +517,7 @@ header {
   gap: 1.5rem;
   padding: 1.5rem;
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(135deg, #0f1c10 0%, var(--bg-panel) 100%);
+  background: linear-gradient(135deg, #1c1206 0%, var(--bg-panel) 100%);
 }
 
 .panel-weapon-img {
@@ -541,7 +541,7 @@ header {
 .panel-weapon-type {
   font-size: 0.65rem;
   letter-spacing: 0.2em;
-  color: var(--green-bright);
+  color: var(--sand-bright);
   text-transform: uppercase;
   margin-bottom: 0.3rem;
 }
@@ -619,7 +619,7 @@ header {
 .panel-statbars {
   padding: 1rem 1.5rem;
   border-bottom: 1px solid var(--border);
-  background: #0c1410;
+  background: #140e06;
 }
 
 .statbars-title {
@@ -672,7 +672,7 @@ header {
   top: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(90deg, var(--green-dim) 0%, var(--green-mid) 100%);
+  background: linear-gradient(90deg, var(--sand-dim) 0%, var(--sand-mid) 100%);
   transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -762,7 +762,7 @@ header {
   flex-shrink: 0;
 }
 
-.legend-dot.base     { background: var(--green-dim); }
+.legend-dot.base     { background: var(--sand-dim); }
 .legend-dot.positive { background: #7fd486; }
 .legend-dot.negative { background: #c84040; }
 
@@ -797,7 +797,7 @@ header {
 .playstyle-tab.active {
   background: var(--bg-surface);
   color: var(--text-primary);
-  border-bottom: 2px solid var(--green-bright);
+  border-bottom: 2px solid var(--sand-bright);
 }
 
 .playstyle-tab.no-data { opacity: 0.35; cursor: default; }
@@ -850,11 +850,11 @@ header {
   padding: 0.6rem 0.9rem;
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--green-dim);
+  border-left: 3px solid var(--sand-dim);
   transition: border-color 0.15s;
 }
 
-.attachment-row:hover { border-left-color: var(--green-bright); }
+.attachment-row:hover { border-left-color: var(--sand-bright); }
 
 .attachment-slot {
   font-size: 0.62rem;
@@ -905,7 +905,7 @@ header {
   width: 40px;
   height: 40px;
   border: 3px solid var(--border);
-  border-top-color: var(--green-bright);
+  border-top-color: var(--sand-bright);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -922,7 +922,38 @@ header {
 /* ---- Scrollbar ---- */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-base); }
-::-webkit-scrollbar-thumb { background: var(--green-dim); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: var(--sand-dim); border-radius: 3px; }
+
+/* ---- Footer ---- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+  padding: 1.25rem 2rem;
+  background: linear-gradient(0deg, #0a0702 0%, transparent 100%);
+}
+
+.footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.footer-sep { color: var(--border-accent); }
+
+.footer-link {
+  color: var(--sand-bright);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-link:hover { color: var(--gold); }
 
 /* ---- Responsive ---- */
 @media (max-width: 768px) {

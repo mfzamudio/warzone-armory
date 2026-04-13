@@ -27,7 +27,8 @@ No backend server. Everything is static. The frontend JS reads the JSON files di
 warzone-armory/
 ├── .github/
 │   └── workflows/
-│       └── scrape-daily.yml           # GitHub Action: daily scraper + data commit
+│       ├── scrape-daily.yml           # GitHub Action: daily scraper + data commit
+│       └── update-version.yml         # GitHub Action: writes data/version.json on every push
 ├── frontend/
 │   ├── index.html                     # Main page — weapon browser
 │   ├── analytics.html                 # Analytics dashboard
@@ -48,6 +49,7 @@ warzone-armory/
 │   ├── weapons.json                   # Weapon catalog + loadouts (updated daily)
 │   ├── meta.json                      # Meta rankings + attachment frequency
 │   ├── rewards.json                   # Promo codes + news items (updated daily)
+│   ├── version.json                   # Deploy timestamp (updated on every git push)
 │   └── weapons.backup.json            # Safety backup of weapons.json
 ├── .gitignore
 ├── CLAUDE.md                          # Developer guide (this file)
@@ -84,15 +86,16 @@ warzone-armory/
 - **Daily Refresh** — GitHub Actions runs both scrapers at 4 AM UTC every day
 - **No Login Required** — purely informational, no authentication needed
 - **Mobile Responsive** — clips and parallelograms scale properly on all screen sizes
-- **Military Theme** — dark green military aesthetic throughout
+- **Desert Theme** — dark sand/earth aesthetic throughout (replaced military green in April 2026)
+- **Footer** — last code deploy date (from `data/version.json`) + link to mzamudio.com
 
 ## Playstyle Categories
-| Playstyle | Focus |
-|-----------|-------|
-| **Aggressive** | Fast ADS, high mobility, close-to-mid range |
-| **Long Range** | Damage range, bullet velocity, precision |
-| **Balanced** | All-around meta builds |
-| **Sniper Support** | Marksman/Sniper rifles, patience-based play |
+| Playstyle | Focus | CODMunity Source Labels |
+|-----------|-------|------------------------|
+| **Aggressive** | Fast ADS, high mobility, close-to-mid range | "Close Range" |
+| **Long Range** | Damage range, bullet velocity, precision — includes sniper rifles | "Long Range", "Sniper", "Semi Auto" |
+| **Balanced** | All-around meta builds, PC-optimized | "Mouse & Keyboard" |
+| **Sniper Support** | Compact backup weapon alongside a primary | "Sniper Support", "Secondary" |
 
 ## Weapon Types (Warzone BO6)
 Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotguns, Pistols, Launchers, Melee, Special
@@ -103,7 +106,7 @@ Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotg
 - **CODMunity.gg** — primary source: 256 weapons + 326 meta loadouts
   - URL: https://codmunity.gg/weapon-stats/warzone
   - Data: `<script type="application/json">` Angular transfer state (no JS execution needed)
-  - Structure: `stats-comparator-page-warzone.{weapons, metaLoadouts, weaponStats}`
+  - Structure: auto-detected via recursive search (Angular changed from named keys like `stats-comparator-page-warzone` to numeric hash keys like `3909856856.b` in April 2026)
   - Updated: Daily (whenever CODMunity updates their meta)
 - **Game Version**: Warzone Season 2 Reloaded 2026 (Black Ops 6)
 
@@ -190,7 +193,9 @@ Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotg
 }
 ```
 
-## GitHub Actions Workflow (scrape-daily.yml)
+## GitHub Actions Workflows
+
+### scrape-daily.yml
 - **Trigger**: cron `0 4 * * *` (4 AM UTC daily) + `workflow_dispatch` (manual trigger)
 - **Steps**:
   1. Checkout repository
@@ -202,6 +207,14 @@ Assault Rifles, SMGs, LMGs, Sniper Rifles, Marksman Rifles, Battle Rifles, Shotg
   7. Push to main (GitHub Pages auto-deploys)
 - **Safety**: If weapon count drops >20%, scraper aborts (keeps previous data)
 - **No Secrets**: Uses implicit `GITHUB_TOKEN` for push
+
+### update-version.yml
+- **Trigger**: every push to `main` (excludes pushes that only change `data/version.json` to avoid loops)
+- **Steps**:
+  1. Checkout repository
+  2. Write current UTC timestamp to `data/version.json`
+  3. Commit and push: `chore: update version [skip ci]`
+- **Purpose**: footer on all pages reads this file to show "Last updated" date of the code/site, distinct from the daily scraper date shown in the header
 
 ## Deployment (GitHub Pages)
 - Branch: `main`
@@ -237,9 +250,10 @@ python -m http.server 8081
 - **Data Safety**: Create backup before overwriting; weapon count drop >20% aborts commit
 - **User-Agent**: Set on all HTTP requests to avoid 403 blocks
 - **CSS Architecture**:
-  - `style.css` — shared theme/variables (all pages)
+  - `style.css` — shared desert dark theme/variables (all pages); CSS vars use `--sand-*` prefix (replaced `--green-*` April 2026)
   - `analytics.css` — analytics page styles + nav link styles (loaded by index.html too)
   - `rewards.css` — rewards page styles + nav link styles (independent module)
+- **Footer**: all pages share `.site-footer` in `style.css`; date populated from `data/version.json` via JS fetch
 - **Chart.js**: Load from CDN; CSS-based bars preferred for compact data lists (avoids clip-path bugs)
 - **Module Independence**: rewards.html is completely independent (own CSS, own scraper, own data file)
 - **Three Pages**: index.html (browser), analytics.html (charts), rewards.html (codes/news)

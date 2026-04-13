@@ -161,6 +161,15 @@ function escHtml(str) {
         `Updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
     }
 
+    // Footer: show last code deploy date
+    fetch('../data/version.json').then(r => r.json()).then(v => {
+      if (v.deployed) {
+        const d = new Date(v.deployed);
+        document.getElementById('footer-updated').textContent =
+          `Last updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+      }
+    }).catch(() => {});
+
     const activeCodes = data.promo_codes?.active ?? [];
     const allNews     = data.news_items ?? [];
     const twitchItems = allNews.filter(n => n.type === 'twitch_drops');
