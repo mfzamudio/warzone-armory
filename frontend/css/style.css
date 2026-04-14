@@ -483,8 +483,20 @@ header {
   clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
 }
 
-.badge-loadout { border-color: var(--sand-dim); color: var(--sand-bright); }
-.badge-game    { border-color: var(--border); color: var(--text-muted); }
+.badge-loadout  { border-color: var(--sand-dim); color: var(--sand-bright); }
+.badge-game     { border-color: var(--border); color: var(--text-muted); }
+.badge-meta     { border-color: var(--gold); color: var(--gold); background: rgba(201,162,39,0.12); }
+.badge-sleeper  { border-color: #4a9fd4; color: #4a9fd4; background: rgba(74,159,212,0.10); }
+
+.card-attach-match {
+  font-size: 0.58rem;
+  color: var(--sand-bright);
+  margin-top: 0.35rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.04em;
+}
 
 /* ---- Detail Panel ---- */
 .detail-overlay {

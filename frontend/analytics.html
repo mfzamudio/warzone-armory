@@ -161,6 +161,21 @@
           <button class="btn-clear" id="ttk-clear">Clear All</button>
         </div>
 
+        <!-- Accuracy slider (P1-C) -->
+        <div class="ttk-accuracy-row">
+          <div class="ttk-accuracy-header">
+            <span class="ttk-accuracy-icon">&#127919;</span>
+            <span class="ttk-accuracy-title">Your Accuracy</span>
+            <strong id="ttk-hs-val" class="ttk-hs-val">0% headshots (pro TTK)</strong>
+          </div>
+          <div class="ttk-accuracy-slider-wrap">
+            <span class="ttk-slider-end">0%</span>
+            <input type="range" id="ttk-hs-slider" min="0" max="100" value="0" step="5" class="ttk-hs-slider" aria-label="Headshot percentage">
+            <span class="ttk-slider-end">100%</span>
+          </div>
+          <p class="ttk-accuracy-hint">Adjust to match your headshot rate — TTK recalculates using your real accuracy vs. all bodyshots</p>
+        </div>
+
         <div class="ttk-chart-wrap">
           <canvas id="ttk-chart" height="340"></canvas>
         </div>

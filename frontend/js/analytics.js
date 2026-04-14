@@ -563,6 +563,21 @@ function buildClassChart() {
 
 const TTK_COLORS = [COLORS.green, COLORS.blue, COLORS.gold, COLORS.red];
 let ttkChart = null;
+let headshot_pct = 0;  // 0–100, set by the accuracy slider
+
+// Compute personal TTK given a damage entry and headshot percentage.
+// Uses Warzone standard 250 HP. Returns ms or null if data missing.
+function computePersonalTTK(entry, hs_pct) {
+  const HP   = 250;
+  const head = entry.head  || entry.chest || 0;
+  const body = entry.chest || 0;
+  const tbs  = entry.time_between_shots;
+  if (!body || !tbs) return null;
+  const dmg_per_shot = (hs_pct / 100) * head + (1 - hs_pct / 100) * body;
+  if (dmg_per_shot <= 0) return null;
+  const shots = Math.ceil(HP / dmg_per_shot);
+  return Math.round((shots - 1) * tbs);
+}
 
 function populateTTKSelects() {
   // Only weapons that have TTK data at multiple ranges
@@ -619,10 +634,11 @@ function buildTTKChart() {
     const damageArr = w.stats.damage;
     // For each range label, find the applicable TTK (use the last entry whose dropoff <= range)
     const ttkPoints = ranges.map(r => {
-      // Find the entry where dropoff <= r (damage that applies at this range)
       const applicable = damageArr.filter(d => d.dropoff <= r);
       if (!applicable.length) return null;
       const entry = applicable[applicable.length - 1];
+      // Use personal TTK formula when hs% slider is above 0
+      if (headshot_pct > 0) return computePersonalTTK(entry, headshot_pct);
       return entry.ttk ? Math.round(entry.ttk) : null;
     });
 
@@ -657,7 +673,10 @@ function buildTTKChart() {
         },
         tooltip: {
           callbacks: {
-            label: ctx => ` ${ctx.dataset.label}: ${ctx.raw ?? '—'} ms TTK`,
+            label: ctx => {
+              const suffix = headshot_pct > 0 ? ` (${headshot_pct}% HS)` : '';
+              return ` ${ctx.dataset.label}: ${ctx.raw ?? '—'} ms${suffix}`;
+            },
           },
         },
       },
@@ -668,7 +687,13 @@ function buildTTKChart() {
           ticks: { color: '#8da88a' },
         },
         y: {
-          title: { display: true, text: 'TTK (ms) — lower is better', color: '#4a5e4c', font: { size: 11 } },
+          title: {
+            display: true,
+            text: headshot_pct > 0
+              ? `TTK (ms) at ${headshot_pct}% headshots — lower is better`
+              : 'TTK (ms) — lower is better',
+            color: '#4a5e4c', font: { size: 11 }
+          },
           grid: { color: 'rgba(37,50,40,0.4)' },
           ticks: { color: '#8da88a' },
           reverse: false,
@@ -704,6 +729,23 @@ function bindEvents() {
     }
     buildTTKChart();
     document.getElementById('ttk-hint').style.display = '';
+  });
+
+  // Headshot accuracy slider (P1-C)
+  const hsSlider = document.getElementById('ttk-hs-slider');
+  hsSlider.addEventListener('input', e => {
+    headshot_pct = parseInt(e.target.value, 10);
+    // Update track fill via CSS custom property
+    e.target.style.setProperty('--slider-pct', `${headshot_pct}%`);
+    const label = document.getElementById('ttk-hs-val');
+    if (headshot_pct === 0) {
+      label.textContent = '0% headshots (pro TTK)';
+    } else if (headshot_pct === 100) {
+      label.textContent = '100% headshots (all head)';
+    } else {
+      label.textContent = `${headshot_pct}% headshots`;
+    }
+    buildTTKChart();
   });
 
   // Detail panel events

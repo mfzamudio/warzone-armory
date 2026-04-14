@@ -18,6 +18,10 @@ Warzone Armory is a free, open-source web app that helps you optimize your Warzo
   - 🎯 **Long Range** — precision and bullet velocity
   - ⚖️ **Balanced** — all-around versatility
   - 🔍 **Sniper Support** — secondary to marksman rifles
+- **Attachment Search** — Type any attachment name to find every weapon that uses it — reverse lookup across all 326 meta loadouts
+- **Meta & Sleeper Badges** — Cards are tagged automatically:
+  - **META** (gold) — top 15 by community meta score
+  - **SLEEPER** (blue) — top 25% TTK but overlooked by the meta
 - **Detail Panel** — Click any weapon to see:
   - Gunsmith-style stat bars
   - How each attachment impacts your stats
@@ -35,6 +39,7 @@ Warzone Armory is a free, open-source web app that helps you optimize your Warzo
 - **Attachment Meta** — Most-used attachments across all builds
 - **Playstyle Coverage** — How many weapons support each playstyle
 - **TTK Comparison** — Compare up to 4 weapons across damage ranges
+- **Personal Accuracy Slider** — Set your real headshot% (0–100%) and see TTK recalculated for your actual aim, not just pro stats
 
 ### 🎁 **Free Drops Page** — Track Free Rewards
 - **Promo Codes** — Active codes with 1-click copy (redeemable at callofduty.com/redeem)

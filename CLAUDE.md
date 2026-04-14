@@ -66,8 +66,10 @@ warzone-armory/
 1. **Weapon Browser** — grid of 256 weapons grouped by type (AR, SMG, LMG, etc.)
 2. **Type Filter** — filter by weapon category
 3. **Playstyle Filter** — see best attachments for: Aggressive, Long Range, Balanced, Sniper Support
-4. **Detail Panel** — click weapon to see gunsmith-style stat bars with attachment impact
-5. **Attachment Display** — shows 5 recommended attachments with delta indicators
+4. **Attachment Search (Reverse Lookup)** — search box matches weapon names AND attachment names; matched attachments shown on the card (e.g. `◆ Casus Brake · Spiral V2 Flash`)
+5. **Meta / Sleeper Badges** — META badge (gold) for top-15 community score weapons; SLEEPER badge (blue) for top-25% TTK weapons not in the community meta
+6. **Detail Panel** — click weapon to see gunsmith-style stat bars with attachment impact
+7. **Attachment Display** — shows 5 recommended attachments with delta indicators
 
 ### Page 2: Analytics (analytics.html)
 1. **Performance Rankings** — top 15 weapons ranked by TTK/ADS/RPM/Range/Meta Score
@@ -75,6 +77,7 @@ warzone-armory/
 3. **Attachment Frequency** — top 12 most-used attachments across all meta builds
 4. **Playstyle Coverage** — doughnut chart showing weapon variety per playstyle
 5. **TTK Comparison** — line chart comparing time-to-kill across damage drop-off ranges for up to 4 weapons
+6. **Personal Accuracy Slider** — headshot% slider (0–100%) recalculates TTK in real time using actual per-zone damage data (`head`, `chest`, `time_between_shots`); formula: `dmg = hs% × head + (1–hs%) × chest`, `shots = ceil(250/dmg)`, `ttk = (shots–1) × tbs`
 
 ### Page 3: Free Drops (rewards.html)
 1. **Promo Codes** — active codes scraped daily from Dexerto with copy-to-clipboard

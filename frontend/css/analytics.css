@@ -224,6 +224,92 @@
   margin-top: 0.75rem;
 }
 
+/* ---- Accuracy Slider (P1-C) ---- */
+.ttk-accuracy-row {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ttk-accuracy-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ttk-accuracy-icon { font-size: 0.9rem; }
+
+.ttk-accuracy-title {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.ttk-hs-val {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--sand-bright);
+  margin-left: 0.25rem;
+}
+
+.ttk-accuracy-slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ttk-slider-end {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  min-width: 26px;
+  text-align: center;
+}
+
+.ttk-hs-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: linear-gradient(90deg, var(--sand-bright) var(--slider-pct, 0%), var(--border) var(--slider-pct, 0%));
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.ttk-hs-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--sand-bright);
+  border: 2px solid var(--bg-base);
+  cursor: pointer;
+}
+
+.ttk-hs-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--sand-bright);
+  border: 2px solid var(--bg-base);
+  cursor: pointer;
+}
+
+.ttk-accuracy-hint {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
 /* ---- CSS Bars (attachment / slot lists — no canvas) ---- */
 .css-bars {
   display: flex;

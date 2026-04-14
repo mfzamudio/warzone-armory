@@ -14,6 +14,8 @@ let searchQuery   = '';
 let selectedWeapon = null;
 let activePanelPs  = null;   // currently shown playstyle in detail panel
 let statNorms     = {};      // global normalization ranges computed on load
+let attachmentMatchMap = {}; // weaponId → [matched attachment names] when searching by attachment
+let metaBadgeMap  = {};      // weaponId → 'meta' | 'sleeper'
 
 // ---------------------------------------------------------------------------
 // Stat bar configuration
@@ -191,20 +193,51 @@ const PLAYSTYLE_LABELS = {
 };
 
 // ---------------------------------------------------------------------------
+// Meta badge map — built once after data loads
+// ---------------------------------------------------------------------------
+
+function buildMetaBadgeMap(weapons, metaData) {
+  const map = {};
+  // Top 15 by community meta score = "META"
+  const topMetaNames = new Set(
+    (metaData.top_meta_scores || []).slice(0, 15).map(x => x.name)
+  );
+
+  // Top 25% by TTK (lower = better) but NOT in top meta = "SLEEPER"
+  const withTTK = weapons
+    .map(w => ({ id: w.id, name: w.name, ttk: getBestTTK(w.stats?.damage) }))
+    .filter(x => x.ttk != null)
+    .sort((a, b) => a.ttk - b.ttk);
+  const topCount  = Math.ceil(withTTK.length * 0.25);
+  const topTTKIds = new Set(withTTK.slice(0, topCount).map(x => x.id));
+
+  weapons.forEach(w => {
+    if (topMetaNames.has(w.name)) {
+      map[w.id] = 'meta';
+    } else if (topTTKIds.has(w.id)) {
+      map[w.id] = 'sleeper';
+    }
+  });
+  return map;
+}
+
+// ---------------------------------------------------------------------------
 // Init
 // ---------------------------------------------------------------------------
 
 async function init() {
   try {
-    // data/ is always one level up from frontend/ — works locally and on GitHub Pages
-    const dataPath = '../data/weapons.json';
-
-    const res = await fetch(dataPath);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    const [wRes, mRes] = await Promise.all([
+      fetch('../data/weapons.json'),
+      fetch('../data/meta.json'),
+    ]);
+    if (!wRes.ok) throw new Error(`HTTP ${wRes.status}`);
+    const data     = await wRes.json();
+    const metaData = mRes.ok ? await mRes.json() : {};
 
     allWeapons = data.weapons || [];
     statNorms  = computeNorms(allWeapons);
+    metaBadgeMap = buildMetaBadgeMap(allWeapons, metaData);
 
     // Update header meta
     updateHeaderMeta(data);
@@ -281,6 +314,7 @@ function buildTypeTabs() {
 // ---------------------------------------------------------------------------
 
 function getFilteredWeapons() {
+  attachmentMatchMap = {};
   return allWeapons.filter(w => {
     // Type filter
     if (activeType !== 'ALL' && w.type !== activeType) return false;
@@ -291,10 +325,26 @@ function getFilteredWeapons() {
       if (!loadout || !loadout.attachments?.length) return false;
     }
 
-    // Search filter
+    // Search filter — checks weapon name, type, AND attachment names
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
-      if (!w.name.toLowerCase().includes(q) && !w.type.toLowerCase().includes(q)) return false;
+      if (w.name.toLowerCase().includes(q) || w.type.toLowerCase().includes(q)) return true;
+
+      // Reverse lookup: find weapons that use this attachment
+      const matched = [];
+      Object.values(w.loadouts || {}).forEach(loadout => {
+        if (!loadout?.attachments) return;
+        loadout.attachments.forEach(a => {
+          if (a.name && a.name.toLowerCase().includes(q) && !matched.includes(a.name)) {
+            matched.push(a.name);
+          }
+        });
+      });
+      if (matched.length) {
+        attachmentMatchMap[w.id] = matched;
+        return true;
+      }
+      return false;
     }
 
     return true;
@@ -360,6 +410,21 @@ function buildCardHTML(w) {
     ? `<span class="badge badge-game">${escHtml(w.game.toUpperCase())}</span>`
     : '';
 
+  // Meta / Sleeper badge (P1-B)
+  const metaBadge = metaBadgeMap[w.id] === 'meta'
+    ? `<span class="badge badge-meta" title="Top 15 by community meta score">META</span>`
+    : metaBadgeMap[w.id] === 'sleeper'
+    ? `<span class="badge badge-sleeper" title="Underrated: top 25% TTK but low meta score">SLEEPER</span>`
+    : '';
+
+  // Attachment match indicator (P1-A) — shown only when search matched via attachment
+  const attachMatches = attachmentMatchMap[w.id];
+  const attachMatchHtml = attachMatches
+    ? `<div class="card-attach-match" title="Found in loadouts">&#9670; ${
+        attachMatches.slice(0, 2).map(escHtml).join(' · ')
+      }${attachMatches.length > 2 ? ` +${attachMatches.length - 2}` : ''}</div>`
+    : '';
+
   const isActive = selectedWeapon?.id === w.id ? 'active' : '';
 
   return `
@@ -371,7 +436,8 @@ function buildCardHTML(w) {
       <div class="card-info">
         <div class="card-name" title="${escHtml(w.name)}">${escHtml(w.name)}</div>
         <div class="card-type">${escHtml(w.type)}</div>
-        <div class="card-badges">${badges}${gameBadge}</div>
+        <div class="card-badges">${badges}${gameBadge}${metaBadge}</div>
+        ${attachMatchHtml}
       </div>
     </div>`;
 }

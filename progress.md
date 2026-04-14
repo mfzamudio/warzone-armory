@@ -134,7 +134,52 @@ Warzone Armory is a free, ad-free web application for browsing Warzone weapon me
 
 ---
 
+## ✅ Sprint Completado — (2026-04-13)
+
+### P1-A: Búsqueda por Accesorio (Reverse Lookup) ✅
+- [x] Búsqueda extendida: el input en Armory filtra por nombre de arma Y por nombre de accesorio
+- [x] Attachment match map: cuando el resultado es por accesorio, la tarjeta muestra qué accesorios encontró (e.g. "◆ Casus Brake · Spiral V2 Flash")
+- [x] Placeholder actualizado: "Search weapon or attachment..."
+- [x] Descripción del módulo actualizada para documentar la búsqueda inversa
+- **Archivos**: `frontend/js/app.js`, `frontend/index.html`, `frontend/css/style.css`
+
+### P1-B: Badges Meta/Sleeper en el Grid ✅
+- [x] Badge dorado "META" para armas en el top 15 de community meta score (de `meta.json`)
+- [x] Badge azul "SLEEPER" para armas en el top 25% de TTK que NO están en el top meta (armas subvaloradas)
+- [x] Badges visibles en las tarjetas del weapon grid junto a los badges de playstyle
+- [x] Tooltip descriptivo en cada badge
+- **Archivos**: `frontend/js/app.js`, `frontend/css/style.css`
+
+### P1-C: TTK con Precisión Personal ✅
+- [x] Slider de Accuracy (0–100% headshots) añadido bajo los selectores de TTK Comparison en analytics.html
+- [x] Recalcula TTK en tiempo real: `dmg = hs_pct × head + (1 - hs_pct) × chest`, `shots = ceil(250 / dmg)`, `ttk = (shots-1) × time_between_shots`
+- [x] Usa datos reales del JSON: campos `head`, `chest`, `time_between_shots` por rango de daño
+- [x] El eje Y del chart se actualiza: "TTK (ms) at X% headshots — lower is better"
+- [x] Tooltip actualizado: muestra el headshot% activo
+- [x] Slider con track fill animado vía CSS custom property `--slider-pct`
+- **Archivos**: `frontend/analytics.html`, `frontend/js/analytics.js`, `frontend/css/analytics.css`
+
+---
+
 ## 🔄 Recent Changes (Last 30 Days)
+
+### April 13, 2026 — Sprint Quick Wins
+
+4. **Búsqueda por Accesorio (Reverse Lookup)**
+   - Búsqueda en Armory page ahora busca también nombres de accesorios
+   - Al encontrar por accesorio, la tarjeta muestra qué accesorios coincidieron
+   - Placeholder: "Search weapon or attachment..."
+
+5. **Badges Meta / Sleeper**
+   - Badge dorado "META" = top 15 por community score (meta.json)
+   - Badge azul "SLEEPER" = top 25% TTK pero fuera del top meta
+   - Cargado en paralelo con weapons.json en init()
+
+6. **TTK con Precisión Personal**
+   - Slider de headshot% (0–100) bajo la sección TTK Comparison
+   - Recalcula TTK en tiempo real usando daño por zona real del JSON
+   - Fórmula: `dmg = hs_pct × head + (1–hs_pct) × chest`, 250HP Warzone
+   - Eje Y y tooltips del chart se actualizan dinámicamente
 
 ### April 13, 2026
 1. **Desert Dark Theme**
