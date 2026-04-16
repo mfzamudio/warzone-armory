@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T06:04:30.011518+00:00",
+  "last_updated": "2026-04-16T06:07:17.532810+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -22438,7 +22438,7 @@
       "name": "Strider 300",
       "type": "Sniper Rifle",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/strider300_bo7_icon.webp",
       "description": "Bolt-action sniper rifle. Fast handling with a slow rechamber and moderate stability. Hold breath while ADS to steady.",
       "stats": {
         "rpm": 50,
