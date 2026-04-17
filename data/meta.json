@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T06:07:17.524909+00:00",
+  "last_updated": "2026-04-17T06:08:00.859997+00:00",
   "top_weapons": [
     {
       "name": "MK35 ISR",
@@ -27,42 +27,42 @@
       "rank": 5
     },
     {
-      "name": "VST",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Dravec 45",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Kogot-7",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "XR-3 Ion",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "EGRT-17",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "MK.78",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "Ryden 45K",
+      "name": "VST",
       "game": "bo7",
       "rank": 13
     },
@@ -120,10 +120,6 @@
       "score": 4.9
     },
     {
-      "name": "VST",
-      "score": 4.9
-    },
-    {
       "name": "Hawker HX",
       "score": 4.9
     },
@@ -154,6 +150,10 @@
     {
       "name": "Ryden 45K",
       "score": 4.6
+    },
+    {
+      "name": "VST",
+      "score": 4.45
     },
     {
       "name": "AK-27",
@@ -228,6 +228,10 @@
       "score": 3.9
     },
     {
+      "name": "1911 Pistol",
+      "score": 3.8
+    },
+    {
       "name": "Victus XMR",
       "score": 3.8
     },
@@ -298,10 +302,6 @@
     {
       "name": "GPR 91",
       "score": 3.4
-    },
-    {
-      "name": "XM4",
-      "score": 3.4
     }
   ],
   "top_attachments": [
@@ -323,7 +323,7 @@
     },
     {
       "name": "Monolithic Suppressor",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Vertical Foregrip",
@@ -429,15 +429,15 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 273
+      "count": 274
     },
     {
       "slot": "Barrel",
-      "count": 231
+      "count": 232
     },
     {
       "slot": "Magazine",
-      "count": 225
+      "count": 226
     },
     {
       "slot": "Optic",
@@ -453,15 +453,15 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 110
+      "count": 111
+    },
+    {
+      "slot": "Fire Mods",
+      "count": 66
     },
     {
       "slot": "Ammunition",
       "count": 66
-    },
-    {
-      "slot": "Fire Mods",
-      "count": 65
     },
     {
       "slot": "Laser",
@@ -476,7 +476,7 @@
     "aggressive": 84,
     "long_range": 125,
     "balanced": 0,
-    "sniper_support": 100
+    "sniper_support": 101
   },
   "popularity": [],
   "total_weapons": 256

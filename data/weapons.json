@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-16T06:07:17.532810+00:00",
+  "last_updated": "2026-04-17T06:08:00.867501+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -12326,18 +12326,86 @@
       }
     },
     {
-      "id": "1911",
-      "name": "1911",
+      "id": "1911-pistol",
+      "name": "1911 Pistol",
       "type": "Pistol",
       "game": "bo7",
       "icon": 0,
       "description": "Semi-auto pistol. High damage at close range with decent recoil control and modest ammo capacity.",
-      "stats": {},
+      "stats": {
+        "rpm": 400,
+        "ads": 150,
+        "bv": 450,
+        "damage": [
+          {
+            "dropoff": 0,
+            "base_rpm": 400,
+            "final_rpm": 400,
+            "head": 80,
+            "neck": 60,
+            "chest": 60,
+            "upperarm": 60,
+            "lowerarm": 60,
+            "stomach": 40,
+            "upperleg": 40,
+            "lowerleg": 40,
+            "time_between_shots": 150,
+            "shots_to_kill": 6,
+            "ttk": 750,
+            "enemies_per_magazine": 0
+          },
+          {
+            "base_rpm": 400,
+            "final_rpm": 400,
+            "dropoff": 32.6,
+            "head": 60,
+            "upperleg": 30,
+            "lowerleg": 30,
+            "stomach": 30,
+            "neck": 45,
+            "chest": 45,
+            "upperarm": 45,
+            "lowerarm": 45,
+            "time_between_shots": 150,
+            "shots_to_kill": 8,
+            "ttk": 1072.4444444444443,
+            "enemies_per_magazine": 0
+          }
+        ],
+        "mag": 7
+      },
       "loadouts": {
         "aggressive": null,
         "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "6.4\" Long Slide Barrel"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Sirius Extended Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Interlock Advanced Grip"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "Sear Fast Trigger"
+            }
+          ],
+          "rating": 3.8,
+          "description": "Secondary meta build",
+          "loadout_code": "P07-42M62-TW11",
+          "image": "https://assets.codmunity.gg/optimized/1911-Pistol-Secondary-Warzone-Loadout-CODMunity-6509.webp"
+        }
       }
     },
     {
@@ -19477,7 +19545,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.45,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
