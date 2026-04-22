@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T06:07:25.274133+00:00",
+  "last_updated": "2026-04-22T06:04:51.462531+00:00",
   "top_weapons": [
     {
       "name": "MK35 ISR",
@@ -17,67 +17,67 @@
       "rank": 3
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "VST",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Hawker HX",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Dravec 45",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Kogot-7",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "EGRT-17",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "MK.78",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Ryden 45K",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "VST",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "AK-27",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "VS Recon",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Carbon 57",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 16
     },
@@ -116,6 +116,10 @@
       "score": 5.2
     },
     {
+      "name": "VST",
+      "score": 5.1
+    },
+    {
       "name": "Peacekeeper Mk1",
       "score": 4.9
     },
@@ -128,7 +132,7 @@
       "score": 4.8
     },
     {
-      "name": "Dravec 45",
+      "name": "Carbon 57",
       "score": 4.8
     },
     {
@@ -136,7 +140,7 @@
       "score": 4.7
     },
     {
-      "name": "Kogot-7",
+      "name": "Dravec 45",
       "score": 4.7
     },
     {
@@ -148,19 +152,15 @@
       "score": 4.6
     },
     {
+      "name": "Kogot-7",
+      "score": 4.6
+    },
+    {
       "name": "Ryden 45K",
       "score": 4.6
     },
     {
-      "name": "VST",
-      "score": 4.45
-    },
-    {
       "name": "AK-27",
-      "score": 4.4
-    },
-    {
-      "name": "Carbon 57",
       "score": 4.4
     },
     {

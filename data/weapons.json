@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T06:07:25.281740+00:00",
+  "last_updated": "2026-04-22T06:04:51.471361+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -4090,14 +4090,14 @@
             "base_rpm": 750,
             "final_rpm": 750,
             "dropoff": 52,
-            "neck": 31,
-            "chest": 31,
-            "upperarm": 31,
-            "lowerarm": 31,
-            "head": 37,
-            "upperleg": 24,
-            "lowerleg": 24,
-            "stomach": 24,
+            "neck": 29,
+            "chest": 29,
+            "upperarm": 29,
+            "lowerarm": 29,
+            "head": 34,
+            "upperleg": 23,
+            "lowerleg": 23,
+            "stomach": 23,
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 807.1428571428571,
@@ -4785,7 +4785,7 @@
       "stats": {
         "rpm": 870,
         "ads": 230,
-        "bv": 920,
+        "bv": 900,
         "damage": [
           {
             "dropoff": 0,
@@ -4824,7 +4824,7 @@
           {
             "base_rpm": 870,
             "final_rpm": 870,
-            "dropoff": 55,
+            "dropoff": 50,
             "neck": 23,
             "lowerleg": 23,
             "upperleg": 23,
@@ -4835,7 +4835,7 @@
             "head": 28,
             "time_between_shots": 68.96551724137932,
             "shots_to_kill": 13,
-            "ttk": 837.368815592204,
+            "ttk": 833.1417624521074,
             "enemies_per_magazine": 1
           }
         ],
@@ -14794,7 +14794,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.8,
           "description": "Close Range meta build",
           "loadout_code": "S05-6U1FG-HU51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-6856.webp"
@@ -14894,7 +14894,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.7,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVWP-G8731",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
@@ -16349,7 +16349,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Close Range meta build",
           "loadout_code": "S10-5Q9BU-31",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5417.webp"
@@ -16971,7 +16971,7 @@
       "description": "Full-auto submachine gun. Very high damage and excellent mobility and handling. Very high recoil and limited range.",
       "stats": {
         "rpm": 706,
-        "ads": 190,
+        "ads": 170,
         "bv": 520,
         "damage": [
           {
@@ -16995,17 +16995,17 @@
             "dropoff": 12.5,
             "base_rpm": 706,
             "final_rpm": 706,
-            "neck": 31,
-            "upperleg": 27,
-            "lowerleg": 27,
-            "upperarm": 31,
-            "chest": 31,
-            "stomach": 27,
-            "lowerarm": 31,
-            "head": 37,
+            "neck": 34,
+            "upperleg": 30,
+            "lowerleg": 30,
+            "upperarm": 34,
+            "chest": 34,
+            "stomach": 30,
+            "lowerarm": 34,
+            "head": 40,
             "time_between_shots": 84.98583569405099,
-            "shots_to_kill": 10,
-            "ttk": 764.872521246459,
+            "shots_to_kill": 9,
+            "ttk": 679.8866855524079,
             "enemies_per_magazine": 0
           },
           {
@@ -18082,13 +18082,13 @@
             "final_rpm": 1500,
             "dropoff": 0,
             "head": 35,
-            "neck": 32,
+            "neck": 31,
             "upperleg": 27,
             "lowerleg": 27,
-            "upperarm": 32,
-            "chest": 32,
+            "upperarm": 31,
+            "chest": 31,
             "stomach": 27,
-            "lowerarm": 32,
+            "lowerarm": 31,
             "time_between_shots": 60,
             "shots_to_kill": 10,
             "ttk": 540,
@@ -18097,14 +18097,14 @@
           {
             "base_rpm": 1500,
             "final_rpm": 1500,
-            "dropoff": 12,
-            "neck": 26,
+            "dropoff": 11.6,
+            "neck": 24,
             "upperleg": 22,
             "lowerleg": 22,
-            "upperarm": 26,
-            "chest": 26,
+            "upperarm": 24,
+            "chest": 24,
             "stomach": 22,
-            "lowerarm": 26,
+            "lowerarm": 24,
             "head": 28,
             "time_between_shots": 60,
             "shots_to_kill": 13,
@@ -18115,17 +18115,17 @@
             "base_rpm": 1500,
             "final_rpm": 1500,
             "dropoff": 21,
-            "neck": 21,
+            "neck": 20,
             "upperleg": 18,
             "lowerleg": 18,
-            "upperarm": 21,
-            "chest": 21,
+            "upperarm": 20,
+            "chest": 20,
             "stomach": 18,
-            "lowerarm": 21,
+            "lowerarm": 20,
             "head": 23,
             "time_between_shots": 60,
-            "shots_to_kill": 15,
-            "ttk": 840,
+            "shots_to_kill": 16,
+            "ttk": 900,
             "enemies_per_magazine": 1
           }
         ],
@@ -19487,7 +19487,7 @@
           {
             "base_rpm": 1091,
             "final_rpm": 1091,
-            "dropoff": 13,
+            "dropoff": 13.6,
             "neck": 27,
             "chest": 27,
             "upperarm": 27,
@@ -19545,7 +19545,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.45,
+          "rating": 5.1,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
@@ -22509,14 +22509,14 @@
       "icon": "https://assets.codmunity.gg/optimized/strider300_bo7_icon.webp",
       "description": "Bolt-action sniper rifle. Fast handling with a slow rechamber and moderate stability. Hold breath while ADS to steady.",
       "stats": {
-        "rpm": 50,
+        "rpm": 56,
         "ads": 540,
         "bv": 990,
         "damage": [
           {
             "dropoff": 0,
-            "base_rpm": 50,
-            "final_rpm": 50,
+            "base_rpm": 56,
+            "final_rpm": 56,
             "head": 300,
             "neck": 165,
             "chest": 165,
@@ -22525,15 +22525,15 @@
             "lowerleg": 165,
             "upperarm": 165,
             "lowerarm": 165,
-            "time_between_shots": 1200,
+            "time_between_shots": 1071.4285714285713,
             "shots_to_kill": 2,
-            "ttk": 1200,
+            "ttk": 1071.4285714285713,
             "enemies_per_magazine": 0
           },
           {
             "dropoff": 90,
-            "base_rpm": 50,
-            "final_rpm": 50,
+            "base_rpm": 56,
+            "final_rpm": 56,
             "head": 290,
             "neck": 159,
             "chest": 159,
@@ -22542,9 +22542,9 @@
             "lowerleg": 159,
             "upperarm": 159,
             "lowerarm": 159,
-            "time_between_shots": 1200,
+            "time_between_shots": 1071.4285714285713,
             "shots_to_kill": 2,
-            "ttk": 1240.909090909091,
+            "ttk": 1112.3376623376623,
             "enemies_per_magazine": 0
           }
         ],
