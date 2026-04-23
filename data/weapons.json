@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T06:04:51.471361+00:00",
+  "last_updated": "2026-04-23T06:10:56.478305+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -4160,7 +4160,7 @@
               "name": "Bowen ST-Move Stock ADS"
             }
           ],
-          "rating": 5.1,
+          "rating": 4.9,
           "description": "Sniper Support meta build",
           "loadout_code": "A12-9LGAJ-6F11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Sniper-Support-Warzone-Loadout-CODMunity-6991.webp"
@@ -4866,7 +4866,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A06-34FBS-SSSP3-11",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Long-Range-Warzone-Loadout-CODMunity-5636.webp"
@@ -4895,7 +4895,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.6,
           "description": "Sniper Support meta build",
           "loadout_code": "A06-AUXZ9-IJ8J1-1",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Sniper-Support-Warzone-Loadout-CODMunity-1122.webp"
@@ -19545,7 +19545,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 5.1,
+          "rating": 4.9,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
@@ -22409,7 +22409,7 @@
               "name": ".338 LM Overpressured"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.85,
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": "https://assets.codmunity.gg/optimized/Hawker-HX-undefined-Warzone-Loadout-CODMunity-7970.webp"

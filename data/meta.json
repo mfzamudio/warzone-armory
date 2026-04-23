@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22T06:04:51.462531+00:00",
+  "last_updated": "2026-04-23T06:10:56.468148+00:00",
   "top_weapons": [
     {
       "name": "MK35 ISR",
@@ -22,12 +22,12 @@
       "rank": 4
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Hawker HX",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 6
     },
@@ -117,15 +117,15 @@
     },
     {
       "name": "VST",
-      "score": 5.1
-    },
-    {
-      "name": "Peacekeeper Mk1",
       "score": 4.9
     },
     {
       "name": "Hawker HX",
-      "score": 4.9
+      "score": 4.85
+    },
+    {
+      "name": "Peacekeeper Mk1",
+      "score": 4.8
     },
     {
       "name": "Voyak KT-3",
