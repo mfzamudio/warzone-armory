@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T06:10:56.468148+00:00",
+  "last_updated": "2026-04-24T06:14:42.375328+00:00",
   "top_weapons": [
     {
       "name": "MK35 ISR",
@@ -32,7 +32,7 @@
       "rank": 6
     },
     {
-      "name": "Carbon 57",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 7
     },
@@ -42,7 +42,7 @@
       "rank": 8
     },
     {
-      "name": "Dravec 45",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 9
     },
@@ -62,22 +62,22 @@
       "rank": 12
     },
     {
-      "name": "Ryden 45K",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "Kogot-7",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "AK-27",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "VS Recon",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 16
     },
@@ -87,7 +87,7 @@
       "rank": 17
     },
     {
-      "name": "MXR-17",
+      "name": "X9 Maverick",
       "game": "bo7",
       "rank": 18
     },
@@ -97,7 +97,7 @@
       "rank": 19
     },
     {
-      "name": "X9 Maverick",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 20
     }
@@ -132,7 +132,7 @@
       "score": 4.8
     },
     {
-      "name": "Carbon 57",
+      "name": "Dravec 45",
       "score": 4.8
     },
     {
@@ -140,7 +140,7 @@
       "score": 4.7
     },
     {
-      "name": "Dravec 45",
+      "name": "Carbon 57",
       "score": 4.7
     },
     {
@@ -156,11 +156,11 @@
       "score": 4.6
     },
     {
-      "name": "Ryden 45K",
-      "score": 4.6
+      "name": "AK-27",
+      "score": 4.4
     },
     {
-      "name": "AK-27",
+      "name": "Ryden 45K",
       "score": 4.4
     },
     {
@@ -176,11 +176,11 @@
       "score": 4.35
     },
     {
-      "name": "MXR-17",
+      "name": "X9 Maverick",
       "score": 4.35
     },
     {
-      "name": "X9 Maverick",
+      "name": "MXR-17",
       "score": 4.32
     },
     {

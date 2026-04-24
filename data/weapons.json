@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T06:10:56.478305+00:00",
+  "last_updated": "2026-04-24T06:14:42.382222+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -4485,7 +4485,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.32,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -6039,7 +6039,7 @@
               "name": "4.73 Caseless Overpressured"
             }
           ],
-          "rating": 4.32,
+          "rating": 4.35,
           "description": "Long Range meta build",
           "loadout_code": "A04-2JFA4-GJ3XM-A311",
           "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-6273.webp"
@@ -14794,7 +14794,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.7,
           "description": "Close Range meta build",
           "loadout_code": "S05-6U1FG-HU51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-6856.webp"
@@ -14894,7 +14894,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.8,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVWP-G8731",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
@@ -18426,7 +18426,7 @@
               "name": "MFS Full Stock+"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.4,
           "description": "Close Range meta build",
           "loadout_code": "S01-AUY8U-EXTF1-1",
           "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-4682.webp"
