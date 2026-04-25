@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T06:14:42.382222+00:00",
+  "last_updated": "2026-04-25T05:52:15.411469+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -12330,7 +12330,7 @@
       "name": "1911 Pistol",
       "type": "Pistol",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/1911.webp",
       "description": "Semi-auto pistol. High damage at close range with decent recoil control and modest ammo capacity.",
       "stats": {
         "rpm": 400,
