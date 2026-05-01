@@ -1,114 +1,118 @@
 {
-  "last_updated": "2026-04-30T06:33:13.793406+00:00",
+  "last_updated": "2026-05-01T06:41:22.191047+00:00",
   "top_weapons": [
     {
-      "name": "MK35 ISR",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 1
     },
     {
-      "name": "Razor 9mm",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Strider 300",
+      "name": "VST",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "VST",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Hawker HX",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Dravec 45",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Carbon 57",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "EGRT-17",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "MK.78",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "Kogot-7",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "AK-27",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "VS Recon",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Ryden 45K",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "REV-46",
+      "name": "Razor 9mm",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "X9 Maverick",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "M15 Mod 0",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "MXR-17",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "MK35 ISR",
+      "name": "DS20 Mirage",
       "score": 5.8
     },
     {
-      "name": "Razor 9mm",
+      "name": "Voyak KT-3",
+      "score": 5.7
+    },
+    {
+      "name": "VST",
       "score": 5.5
     },
     {
@@ -116,7 +120,11 @@
       "score": 5.2
     },
     {
-      "name": "VST",
+      "name": "MK.78",
+      "score": 4.9
+    },
+    {
+      "name": "Kogot-7",
       "score": 4.9
     },
     {
@@ -124,16 +132,12 @@
       "score": 4.85
     },
     {
-      "name": "Peacekeeper Mk1",
-      "score": 4.8
-    },
-    {
-      "name": "Voyak KT-3",
-      "score": 4.8
-    },
-    {
       "name": "Dravec 45",
       "score": 4.8
+    },
+    {
+      "name": "AK-27",
+      "score": 4.7
     },
     {
       "name": "EGRT-17",
@@ -148,16 +152,24 @@
       "score": 4.7
     },
     {
-      "name": "MK.78",
-      "score": 4.6
+      "name": "MK35 ISR",
+      "score": 4.65
     },
     {
-      "name": "Kogot-7",
-      "score": 4.6
+      "name": "Peacekeeper Mk1",
+      "score": 4.61
     },
     {
-      "name": "AK-27",
-      "score": 4.4
+      "name": "MXR-17",
+      "score": 4.46
+    },
+    {
+      "name": "Sturmwolf 45",
+      "score": 4.45
+    },
+    {
+      "name": "Razor 9mm",
+      "score": 4.43
     },
     {
       "name": "Ryden 45K",
@@ -180,14 +192,6 @@
       "score": 4.35
     },
     {
-      "name": "MXR-17",
-      "score": 4.32
-    },
-    {
-      "name": "DS20 Mirage",
-      "score": 4.3
-    },
-    {
       "name": "Sokol 545",
       "score": 4.3
     },
@@ -196,8 +200,8 @@
       "score": 4.3
     },
     {
-      "name": "Sturmwolf 45",
-      "score": 4.25
+      "name": "MPC-25",
+      "score": 4.3
     },
     {
       "name": "TR2",
@@ -213,10 +217,6 @@
     },
     {
       "name": "Maddox RFB",
-      "score": 3.9
-    },
-    {
-      "name": "MPC-25",
       "score": 3.9
     },
     {
@@ -445,11 +445,11 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 151
+      "count": 150
     },
     {
       "slot": "Stock",
-      "count": 120
+      "count": 121
     },
     {
       "slot": "Rear Grip",

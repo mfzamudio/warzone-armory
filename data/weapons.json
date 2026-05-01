@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T06:33:13.802071+00:00",
+  "last_updated": "2026-05-01T06:41:22.198300+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -28,9 +28,9 @@
             "upperleg": 38,
             "lowerleg": 38,
             "time_between_shots": 121.21212121212122,
-            "shots_to_kill": 8,
-            "ttk": 848.4848484848485,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 727.2727272727273,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 495,
@@ -47,7 +47,7 @@
             "time_between_shots": 121.21212121212122,
             "shots_to_kill": 8,
             "ttk": 848.4848484848485,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 495,
@@ -64,7 +64,7 @@
             "time_between_shots": 121.21212121212122,
             "shots_to_kill": 9,
             "ttk": 977.5282949981746,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -157,7 +157,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 8,
             "ttk": 615.8357771260996,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 690,
@@ -174,7 +174,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 9,
             "ttk": 703.8123167155425,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 690,
@@ -191,7 +191,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 10,
             "ttk": 812.4410302180288,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -221,7 +221,7 @@
               "name": "Pugil Heavy Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.7,
           "description": "Long Range meta build",
           "loadout_code": "A02-2G9PV-4C1XB-11",
           "image": "https://assets.codmunity.gg/optimized/AK-27-Long-Range-Warzone-Loadout-CODMunity-8849.webp"
@@ -284,7 +284,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 8,
             "ttk": 644.1717791411043,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 652,
@@ -301,7 +301,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 9,
             "ttk": 736.1963190184049,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 652,
@@ -318,7 +318,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 10,
             "ttk": 840.5738000721761,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -437,7 +437,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 9,
             "ttk": 640,
-            "enemies_per_magazine": 0,
+            "enemies_per_magazine": 3,
             "dropoff": 0
           },
           {
@@ -455,7 +455,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 800,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 51,
@@ -472,7 +472,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 13,
             "ttk": 970.7142857142857,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -565,7 +565,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 11,
             "ttk": 669.6428571428571,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 896,
@@ -582,7 +582,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 12,
             "ttk": 736.6071428571428,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 896,
@@ -599,7 +599,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 14,
             "ttk": 878.3670395869191,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -665,7 +665,7 @@
             "time_between_shots": 85.95988538681948,
             "shots_to_kill": 9,
             "ttk": 687.6790830945558,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 698,
@@ -680,9 +680,9 @@
             "upperarm": 28,
             "lowerarm": 28,
             "time_between_shots": 85.95988538681948,
-            "shots_to_kill": 12,
-            "ttk": 945.5587392550143,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 11,
+            "ttk": 859.5988538681947,
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 41.9,
@@ -697,9 +697,9 @@
             "upperarm": 24,
             "lowerarm": 24,
             "time_between_shots": 85.95988538681948,
-            "shots_to_kill": 14,
-            "ttk": 1124.100131650275,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 13,
+            "ttk": 1038.1402462634555,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -763,9 +763,9 @@
             "upperarm": 30,
             "lowerarm": 30,
             "time_between_shots": 70.01166861143524,
-            "shots_to_kill": 11,
-            "ttk": 700.1166861143524,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 630.1050175029171,
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 14,
@@ -782,7 +782,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 11,
             "ttk": 700.1166861143524,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 857,
@@ -799,7 +799,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 12,
             "ttk": 770.1283547257876,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 857,
@@ -816,7 +816,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 13,
             "ttk": 840.1400233372228,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -930,7 +930,7 @@
             "time_between_shots": 94.9367088607595,
             "shots_to_kill": 8,
             "ttk": 664.5569620253165,
-            "enemies_per_magazine": 0,
+            "enemies_per_magazine": 3,
             "neck": 40,
             "stomach": 37,
             "upperleg": 37,
@@ -951,7 +951,7 @@
             "time_between_shots": 94.9367088607595,
             "shots_to_kill": 9,
             "ttk": 759.493670886076,
-            "enemies_per_magazine": 0,
+            "enemies_per_magazine": 3,
             "base_rpm": 632,
             "final_rpm": 632
           },
@@ -968,7 +968,7 @@
             "time_between_shots": 94.9367088607595,
             "shots_to_kill": 10,
             "ttk": 867.5256178420735,
-            "enemies_per_magazine": 0,
+            "enemies_per_magazine": 3,
             "base_rpm": 632,
             "final_rpm": 632
           }
@@ -1063,7 +1063,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 10,
             "ttk": 675,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 800,
@@ -1080,7 +1080,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 827.8571428571429,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -1095,9 +1095,9 @@
             "upperleg": 19,
             "lowerleg": 19,
             "time_between_shots": 75,
-            "shots_to_kill": 14,
-            "ttk": 1000,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 13,
+            "ttk": 925,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -1112,9 +1112,9 @@
             "upperleg": 17,
             "lowerleg": 17,
             "time_between_shots": 75,
-            "shots_to_kill": 16,
-            "ttk": 1190.7142857142858,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 15,
+            "ttk": 1115.7142857142858,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -1205,9 +1205,9 @@
             "upperleg": 40,
             "lowerleg": 40,
             "time_between_shots": 106.95187165775401,
-            "shots_to_kill": 8,
-            "ttk": 748.663101604278,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 641.7112299465241,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 561,
@@ -1224,7 +1224,7 @@
             "time_between_shots": 106.95187165775401,
             "shots_to_kill": 8,
             "ttk": 748.663101604278,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 561,
@@ -1241,7 +1241,7 @@
             "time_between_shots": 106.95187165775401,
             "shots_to_kill": 10,
             "ttk": 967.9885316667741,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -1334,7 +1334,7 @@
             "time_between_shots": 102.04081632653062,
             "shots_to_kill": 9,
             "ttk": 816.3265306122449,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 30.5,
@@ -1351,7 +1351,7 @@
             "time_between_shots": 102.04081632653062,
             "shots_to_kill": 10,
             "ttk": 918.3673469387755,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -1408,16 +1408,16 @@
             "dropoff": 0,
             "head": 53,
             "neck": 45,
-            "upperleg": 42,
-            "lowerleg": 42,
+            "upperleg": 41,
+            "lowerleg": 41,
             "upperarm": 45,
             "chest": 45,
-            "stomach": 42,
+            "stomach": 41,
             "lowerarm": 45,
             "time_between_shots": 99.00990099009901,
             "shots_to_kill": 7,
             "ttk": 594.059405940594,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 606,
@@ -1434,24 +1434,24 @@
             "time_between_shots": 99.00990099009901,
             "shots_to_kill": 9,
             "ttk": 792.0792079207921,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 606,
             "final_rpm": 606,
             "dropoff": 60,
             "neck": 33,
-            "upperleg": 31,
-            "lowerleg": 31,
+            "upperleg": 30,
+            "lowerleg": 30,
             "upperarm": 33,
             "chest": 33,
-            "stomach": 31,
+            "stomach": 30,
             "lowerarm": 33,
             "head": 39,
             "time_between_shots": 99.00990099009901,
             "shots_to_kill": 10,
             "ttk": 907.7557755775578,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -1481,7 +1481,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 3.9,
+          "rating": 5.8,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1510,7 +1510,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.65,
           "description": "Sniper Support meta build",
           "loadout_code": "A05-AUXZ3-94Q55-1",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2627.webp"
@@ -1544,7 +1544,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 9,
             "ttk": 591.8618988902589,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 38,
@@ -1559,9 +1559,9 @@
             "lowerleg": 27,
             "stomach": 27,
             "time_between_shots": 73.98273736128236,
-            "shots_to_kill": 11,
-            "ttk": 739.8273736128236,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 665.8446362515413,
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 55,
@@ -1576,9 +1576,9 @@
             "lowerleg": 22,
             "stomach": 22,
             "time_between_shots": 73.98273736128236,
-            "shots_to_kill": 13,
-            "ttk": 897.9021379528746,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 823.9194005915923,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 34
@@ -1608,7 +1608,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -1671,7 +1671,7 @@
             "time_between_shots": 63.96588486140725,
             "shots_to_kill": 11,
             "ttk": 639.6588486140724,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 938,
@@ -1688,7 +1688,7 @@
             "time_between_shots": 63.96588486140725,
             "shots_to_kill": 14,
             "ttk": 831.5565031982942,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 938,
@@ -1705,7 +1705,7 @@
             "time_between_shots": 63.96588486140725,
             "shots_to_kill": 15,
             "ttk": 900.9440748066894,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -1825,7 +1825,7 @@
             "time_between_shots": 108.30324909747293,
             "shots_to_kill": 8,
             "ttk": 758.1227436823106,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 554,
@@ -1842,7 +1842,7 @@
             "time_between_shots": 108.30324909747293,
             "shots_to_kill": 9,
             "ttk": 876.4259927797834,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 554,
@@ -1857,9 +1857,9 @@
             "upperleg": 27,
             "lowerleg": 27,
             "time_between_shots": 108.30324909747293,
-            "shots_to_kill": 9,
-            "ttk": 883.5093261131168,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 991.8125752105897,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 25
@@ -1925,7 +1925,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 12,
             "ttk": 715.059588299025,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 923,
@@ -1942,7 +1942,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 13,
             "ttk": 780.0650054171181,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 923,
@@ -2052,7 +2052,7 @@
             "time_between_shots": 129.87012987012986,
             "shots_to_kill": 7,
             "ttk": 779.2207792207791,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 462,
@@ -2067,9 +2067,9 @@
             "lowerleg": 34,
             "lowerarm": 43,
             "time_between_shots": 129.87012987012986,
-            "shots_to_kill": 8,
-            "ttk": 923.7250554323724,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 793.8549255622426,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 25
@@ -2135,7 +2135,7 @@
             "time_between_shots": 84.03361344537815,
             "shots_to_kill": 9,
             "ttk": 672.2689075630252,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 33,
@@ -2152,7 +2152,7 @@
             "time_between_shots": 84.03361344537815,
             "shots_to_kill": 10,
             "ttk": 756.3025210084033,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 714,
@@ -2169,7 +2169,7 @@
             "time_between_shots": 84.03361344537815,
             "shots_to_kill": 12,
             "ttk": 931.8697478991596,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -2260,9 +2260,9 @@
             "upperarm": 44,
             "lowerarm": 44,
             "time_between_shots": 107.52688172043011,
-            "shots_to_kill": 8,
-            "ttk": 752.6881720430108,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 645.1612903225807,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 588,
@@ -2277,9 +2277,9 @@
             "upperarm": 38,
             "lowerarm": 38,
             "time_between_shots": 107.52688172043011,
-            "shots_to_kill": 9,
-            "ttk": 860.2150537634409,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 752.6881720430108,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 588,
@@ -2296,7 +2296,7 @@
             "time_between_shots": 107.52688172043011,
             "shots_to_kill": 10,
             "ttk": 974.1616885702907,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -2388,7 +2388,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 9,
             "ttk": 800,
-            "enemies_per_magazine": 0,
+            "enemies_per_magazine": 3,
             "lowerarm": 35
           },
           {
@@ -2406,7 +2406,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 10,
             "ttk": 900,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -2423,7 +2423,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 12,
             "ttk": 1120.5555555555557,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -2516,7 +2516,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 10,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 750,
@@ -2531,9 +2531,9 @@
             "upperarm": 25,
             "lowerarm": 25,
             "time_between_shots": 80,
-            "shots_to_kill": 13,
-            "ttk": 960,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 880,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -2550,7 +2550,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 15,
             "ttk": 1130,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -2641,9 +2641,9 @@
             "upperleg": 34,
             "lowerleg": 34,
             "time_between_shots": 94.04388714733543,
-            "shots_to_kill": 8,
-            "ttk": 658.307210031348,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 752.3510971786834,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 638,
@@ -2658,9 +2658,9 @@
             "upperleg": 30,
             "lowerleg": 30,
             "time_between_shots": 94.04388714733543,
-            "shots_to_kill": 9,
-            "ttk": 752.3510971786834,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 846.3949843260189,
+            "enemies_per_magazine": 3
           },
           {
             "final_rpm": 638,
@@ -2677,7 +2677,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 10,
             "ttk": 852.4925453016286,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -2770,7 +2770,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 9,
             "ttk": 736.1963190184049,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 652,
@@ -2787,7 +2787,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 11,
             "ttk": 920.2453987730062,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 652,
@@ -2802,9 +2802,9 @@
             "upperleg": 23,
             "lowerleg": 23,
             "time_between_shots": 92.02453987730061,
-            "shots_to_kill": 13,
-            "ttk": 1121.5003608805484,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 1029.4758210032478,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -2897,7 +2897,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 9,
             "ttk": 800,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -2914,7 +2914,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 10,
             "ttk": 906.3888888888889,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -2931,7 +2931,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 11,
             "ttk": 1024.0277777777778,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3024,7 +3024,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 9,
             "ttk": 736.1963190184049,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 31.8,
@@ -3039,9 +3039,9 @@
             "base_rpm": 652,
             "final_rpm": 652,
             "time_between_shots": 92.02453987730061,
-            "shots_to_kill": 9,
-            "ttk": 740.0946241031506,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 832.1191639804513,
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 40.6,
@@ -3058,7 +3058,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 12,
             "ttk": 1031.0834979723406,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3151,7 +3151,7 @@
             "time_between_shots": 82.98755186721992,
             "shots_to_kill": 10,
             "ttk": 746.8879668049793,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 723,
@@ -3168,7 +3168,7 @@
             "time_between_shots": 82.98755186721992,
             "shots_to_kill": 11,
             "ttk": 829.8755186721992,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 723,
@@ -3185,7 +3185,7 @@
             "time_between_shots": 82.98755186721992,
             "shots_to_kill": 14,
             "ttk": 1090.9215076071923,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3278,7 +3278,7 @@
             "time_between_shots": 71.00591715976331,
             "shots_to_kill": 10,
             "ttk": 639.0532544378698,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 845,
@@ -3295,7 +3295,7 @@
             "time_between_shots": 71.00591715976331,
             "shots_to_kill": 12,
             "ttk": 781.9222316145393,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 845,
@@ -3312,7 +3312,7 @@
             "time_between_shots": 71.00591715976331,
             "shots_to_kill": 14,
             "ttk": 938.3626373626374,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3405,7 +3405,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 10,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 750,
@@ -3422,7 +3422,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 821.5384615384615,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -3439,7 +3439,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 13,
             "ttk": 1011.025641025641,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3532,7 +3532,7 @@
             "time_between_shots": 78.02340702210664,
             "shots_to_kill": 9,
             "ttk": 624.1872561768531,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 769,
@@ -3549,7 +3549,7 @@
             "time_between_shots": 78.02340702210664,
             "shots_to_kill": 11,
             "ttk": 780.2340702210664,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 769,
@@ -3566,7 +3566,7 @@
             "time_between_shots": 78.02340702210664,
             "shots_to_kill": 12,
             "ttk": 866.0352550209509,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3659,7 +3659,7 @@
             "time_between_shots": 100.67114093959732,
             "shots_to_kill": 8,
             "ttk": 704.6979865771813,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 596,
@@ -3674,9 +3674,9 @@
             "neck": 36,
             "chest": 36,
             "time_between_shots": 100.67114093959732,
-            "shots_to_kill": 10,
-            "ttk": 906.0402684563759,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 805.3691275167786,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 596,
@@ -3691,9 +3691,9 @@
             "upperarm": 25,
             "lowerarm": 25,
             "time_between_shots": 100.67114093959732,
-            "shots_to_kill": 11,
-            "ttk": 1024.489187173751,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 923.8180462341537,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -3786,7 +3786,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 10,
             "ttk": 665.8446362515413,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 811,
@@ -3803,7 +3803,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 12,
             "ttk": 816.4930378033742,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 811,
@@ -3820,7 +3820,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 14,
             "ttk": 979.9463174039877,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -3913,7 +3913,7 @@
             "time_between_shots": 84.03361344537815,
             "shots_to_kill": 9,
             "ttk": 672.2689075630252,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 714,
@@ -3930,7 +3930,7 @@
             "time_between_shots": 84.03361344537815,
             "shots_to_kill": 11,
             "ttk": 840.3361344537815,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 714,
@@ -3945,9 +3945,9 @@
             "upperleg": 23,
             "lowerleg": 23,
             "time_between_shots": 84.03361344537815,
-            "shots_to_kill": 13,
-            "ttk": 1017.6033613445379,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 14,
+            "ttk": 1101.636974789916,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -4067,7 +4067,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 9,
             "ttk": 640,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 750,
@@ -4078,22 +4078,22 @@
             "upperarm": 30,
             "lowerarm": 30,
             "head": 38,
-            "upperleg": 26,
-            "lowerleg": 26,
-            "stomach": 26,
+            "upperleg": 25,
+            "lowerleg": 25,
+            "stomach": 25,
             "time_between_shots": 80,
-            "shots_to_kill": 11,
-            "ttk": 800,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 720,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 750,
             "final_rpm": 750,
             "dropoff": 47,
-            "neck": 27,
-            "chest": 27,
-            "upperarm": 27,
-            "lowerarm": 27,
+            "neck": 26,
+            "chest": 26,
+            "upperarm": 26,
+            "lowerarm": 26,
             "head": 33,
             "upperleg": 22,
             "lowerleg": 22,
@@ -4101,7 +4101,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 12,
             "ttk": 881.6483516483516,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -4131,7 +4131,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 5.8,
+          "rating": 4.65,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -4160,7 +4160,7 @@
               "name": "Bowen ST-Move Stock ADS"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.4,
           "description": "Sniper Support meta build",
           "loadout_code": "A12-9LGAJ-6F11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Sniper-Support-Warzone-Loadout-CODMunity-6991.webp"
@@ -4192,9 +4192,9 @@
             "upperleg": 36,
             "lowerleg": 36,
             "time_between_shots": 100,
-            "shots_to_kill": 8,
-            "ttk": 700,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 600,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 600,
@@ -4209,9 +4209,9 @@
             "upperarm": 38,
             "lowerarm": 38,
             "time_between_shots": 100,
-            "shots_to_kill": 9,
-            "ttk": 800,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 700,
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 51,
@@ -4226,9 +4226,9 @@
             "base_rpm": 600,
             "final_rpm": 600,
             "time_between_shots": 100,
-            "shots_to_kill": 11,
-            "ttk": 1011.4457831325301,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 911.4457831325301,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -4294,7 +4294,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 11,
             "ttk": 739.8273736128236,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 811,
@@ -4311,7 +4311,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 12,
             "ttk": 813.810110974106,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 811,
@@ -4328,7 +4328,7 @@
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 13,
             "ttk": 908.3484038909438,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -4421,7 +4421,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 6,
             "ttk": 600,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 500,
@@ -4438,24 +4438,24 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 500,
             "final_rpm": 500,
             "dropoff": 55,
-            "neck": 43,
+            "neck": 42,
             "upperleg": 40,
             "lowerleg": 40,
-            "upperarm": 43,
-            "chest": 43,
+            "upperarm": 42,
+            "chest": 42,
             "stomach": 40,
-            "lowerarm": 43,
+            "lowerarm": 42,
             "head": 50,
             "time_between_shots": 120,
-            "shots_to_kill": 7,
-            "ttk": 729.7826086956521,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 849.7826086956521,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -4485,7 +4485,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.32,
+          "rating": 4.46,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -4548,7 +4548,7 @@
             "time_between_shots": 86.95652173913044,
             "shots_to_kill": 8,
             "ttk": 608.695652173913,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 5
           },
           {
             "dropoff": 32,
@@ -4565,7 +4565,7 @@
             "time_between_shots": 86.95652173913044,
             "shots_to_kill": 10,
             "ttk": 782.608695652174,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 52,
@@ -4582,7 +4582,7 @@
             "time_between_shots": 86.95652173913044,
             "shots_to_kill": 12,
             "ttk": 963.9803026663463,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 40
@@ -4675,7 +4675,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 9,
             "ttk": 655.7377049180328,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 36,
@@ -4692,7 +4692,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 11,
             "ttk": 819.672131147541,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 48,
@@ -4709,7 +4709,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 13,
             "ttk": 986.0655737704919,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -4802,7 +4802,7 @@
             "time_between_shots": 68.96551724137932,
             "shots_to_kill": 10,
             "ttk": 620.6896551724138,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 870,
@@ -4819,7 +4819,7 @@
             "time_between_shots": 68.96551724137932,
             "shots_to_kill": 12,
             "ttk": 758.6206896551724,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 870,
@@ -4834,9 +4834,9 @@
             "lowerarm": 23,
             "head": 28,
             "time_between_shots": 68.96551724137932,
-            "shots_to_kill": 13,
-            "ttk": 833.1417624521074,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 14,
+            "ttk": 902.1072796934867,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -4866,7 +4866,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.61,
           "description": "Long Range meta build",
           "loadout_code": "A06-34FBS-SSSP3-11",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Long-Range-Warzone-Loadout-CODMunity-5636.webp"
@@ -4929,7 +4929,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 800,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -4946,7 +4946,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 12,
             "ttk": 880,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -4963,7 +4963,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 13,
             "ttk": 964.5833333333334,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -4980,7 +4980,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 14,
             "ttk": 1058.75,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -5073,7 +5073,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 10,
             "ttk": 728.744939271255,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 741,
@@ -5090,7 +5090,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 11,
             "ttk": 809.7165991902834,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 741,
@@ -5107,7 +5107,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 13,
             "ttk": 976.3821412505622,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -5200,7 +5200,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 8,
             "ttk": 700,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -5217,7 +5217,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 10,
             "ttk": 902.9166666666666,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -5234,7 +5234,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 11,
             "ttk": 1020.5555555555555,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -5327,7 +5327,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 10,
             "ttk": 791.7888563049853,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 682,
@@ -5342,9 +5342,9 @@
             "upperarm": 27,
             "lowerarm": 27,
             "time_between_shots": 87.97653958944281,
-            "shots_to_kill": 11,
-            "ttk": 880.8765070055392,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 968.853046594982,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 682,
@@ -5361,7 +5361,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 13,
             "ttk": 1067.3851417399803,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 682,
@@ -5378,7 +5378,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 13,
             "ttk": 1077.662919517758,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -5471,7 +5471,7 @@
             "time_between_shots": 96,
             "shots_to_kill": 8,
             "ttk": 672,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 625,
@@ -5488,7 +5488,7 @@
             "time_between_shots": 96,
             "shots_to_kill": 9,
             "ttk": 768,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 625,
@@ -5505,7 +5505,7 @@
             "time_between_shots": 96,
             "shots_to_kill": 10,
             "ttk": 874.375,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -5598,7 +5598,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 9,
             "ttk": 752.3510971786834,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 638,
@@ -5615,7 +5615,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 10,
             "ttk": 846.3949843260189,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 638,
@@ -5632,7 +5632,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 12,
             "ttk": 1047.954980842912,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -5725,7 +5725,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 11,
             "ttk": 720.2881152460985,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 833,
@@ -5742,7 +5742,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 13,
             "ttk": 864.3457382953181,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 833,
@@ -5848,7 +5848,7 @@
             "time_between_shots": 91.04704097116844,
             "shots_to_kill": 8,
             "ttk": 637.329286798179,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 41,
@@ -5865,7 +5865,7 @@
             "time_between_shots": 91.04704097116844,
             "shots_to_kill": 9,
             "ttk": 728.3763277693475,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 60,
@@ -5882,7 +5882,7 @@
             "time_between_shots": 91.04704097116844,
             "shots_to_kill": 10,
             "ttk": 836.0900354071827,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -5904,18 +5904,18 @@
               "name": "FANG HoverPoint ELO"
             },
             {
-              "slot": "Underbarrel",
-              "name": "VAS Convergence Foregrip"
-            },
-            {
               "slot": "Magazine",
               "name": "SK-Garrison Drum"
+            },
+            {
+              "slot": "Stock",
+              "name": "V-Last Control Pad"
             }
           ],
-          "rating": 4.8,
+          "rating": 5.7,
           "description": "Long Range meta build",
-          "loadout_code": "A09-34FK5-DRJZW-11",
-          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-5088.webp"
+          "loadout_code": "A09-34FBS-SSUFL-11",
+          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2781.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -5975,7 +5975,7 @@
             "time_between_shots": 125.26096033402922,
             "shots_to_kill": 7,
             "ttk": 751.5657620041753,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 479,
@@ -5992,7 +5992,7 @@
             "time_between_shots": 125.26096033402922,
             "shots_to_kill": 8,
             "ttk": 880.5901631984195,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 479,
@@ -6009,7 +6009,7 @@
             "time_between_shots": 125.26096033402922,
             "shots_to_kill": 9,
             "ttk": 1016.6038117044918,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -6075,7 +6075,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 10,
             "ttk": 675,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 33,
@@ -6092,7 +6092,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 825,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 51,
@@ -6109,7 +6109,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 15,
             "ttk": 1062.1951219512196,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -6202,7 +6202,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 9,
             "ttk": 800,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 600,
@@ -6219,7 +6219,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 10,
             "ttk": 901.3924050632911,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -6310,9 +6310,9 @@
             "upperarm": 29,
             "lowerarm": 29,
             "time_between_shots": 89.02077151335311,
-            "shots_to_kill": 10,
-            "ttk": 801.186943620178,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 712.1661721068249,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 674,
@@ -6327,9 +6327,9 @@
             "upperarm": 24,
             "lowerarm": 24,
             "time_between_shots": 89.02077151335311,
-            "shots_to_kill": 12,
-            "ttk": 979.2284866468842,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 11,
+            "ttk": 890.2077151335311,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 674,
@@ -6344,9 +6344,9 @@
             "lowerarm": 20,
             "upperarm": 20,
             "time_between_shots": 89.02077151335311,
-            "shots_to_kill": 14,
-            "ttk": 1172.2700296735904,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 13,
+            "ttk": 1083.2492581602373,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 20
@@ -6437,9 +6437,9 @@
             "upperleg": 34,
             "lowerleg": 34,
             "time_between_shots": 127.11864406779661,
-            "shots_to_kill": 8,
-            "ttk": 889.8305084745763,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 762.7118644067797,
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 30.5,
@@ -6454,9 +6454,9 @@
             "upperleg": 28,
             "lowerleg": 28,
             "time_between_shots": 127.11864406779661,
-            "shots_to_kill": 9,
-            "ttk": 1016.9491525423729,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 889.8305084745763,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -6520,9 +6520,9 @@
             "upperleg": 48,
             "lowerleg": 48,
             "time_between_shots": 120,
-            "shots_to_kill": 6,
-            "ttk": 600,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 480,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 500,
@@ -6539,7 +6539,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 6,
             "ttk": 600,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 500,
@@ -6556,7 +6556,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 6,
             "ttk": 605.0847457627119,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 500,
@@ -6573,7 +6573,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 756.9491525423729,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -6637,9 +6637,9 @@
             "upperleg": 45,
             "lowerleg": 45,
             "time_between_shots": 114.94252873563218,
-            "shots_to_kill": 6,
-            "ttk": 574.7126436781609,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 689.655172413793,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 522,
@@ -6656,7 +6656,7 @@
             "time_between_shots": 114.94252873563218,
             "shots_to_kill": 7,
             "ttk": 689.655172413793,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 522,
@@ -6673,7 +6673,7 @@
             "time_between_shots": 114.94252873563218,
             "shots_to_kill": 8,
             "ttk": 804.5977011494252,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 522,
@@ -6690,7 +6690,7 @@
             "time_between_shots": 114.94252873563218,
             "shots_to_kill": 9,
             "ttk": 923.31777448107,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -6783,7 +6783,7 @@
             "time_between_shots": 110.90573012939002,
             "shots_to_kill": 8,
             "ttk": 776.3401109057302,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 541,
@@ -6800,7 +6800,7 @@
             "time_between_shots": 110.90573012939002,
             "shots_to_kill": 8,
             "ttk": 776.3401109057302,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 541,
@@ -6817,7 +6817,7 @@
             "time_between_shots": 110.90573012939002,
             "shots_to_kill": 9,
             "ttk": 898.3850815414493,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -6910,7 +6910,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 7,
             "ttk": 660.5504587155963,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 545,
@@ -6927,7 +6927,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 7,
             "ttk": 660.5504587155963,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 545,
@@ -6944,7 +6944,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 8,
             "ttk": 770.6422018348624,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 545,
@@ -6961,7 +6961,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 8,
             "ttk": 770.6422018348624,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -7025,9 +7025,9 @@
             "upperarm": 34,
             "lowerarm": 34,
             "time_between_shots": 85.95988538681948,
-            "shots_to_kill": 9,
-            "ttk": 687.6790830945558,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 601.7191977077364,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 698,
@@ -7042,9 +7042,9 @@
             "upperarm": 30,
             "lowerarm": 30,
             "time_between_shots": 85.95988538681948,
-            "shots_to_kill": 10,
-            "ttk": 773.6389684813753,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 687.6790830945558,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 698,
@@ -7059,9 +7059,9 @@
             "upperarm": 25,
             "lowerarm": 25,
             "time_between_shots": 85.95988538681948,
-            "shots_to_kill": 12,
-            "ttk": 952.180360876636,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 11,
+            "ttk": 866.2204754898164,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 20
@@ -7127,7 +7127,7 @@
             "time_between_shots": 160,
             "shots_to_kill": 5,
             "ttk": 640,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 375,
@@ -7144,7 +7144,7 @@
             "time_between_shots": 160,
             "shots_to_kill": 6,
             "ttk": 800,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 375,
@@ -7161,7 +7161,7 @@
             "time_between_shots": 160,
             "shots_to_kill": 6,
             "ttk": 800,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 20
@@ -7227,7 +7227,7 @@
             "time_between_shots": 105.07880910683012,
             "shots_to_kill": 8,
             "ttk": 735.5516637478108,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 571,
@@ -7244,7 +7244,7 @@
             "time_between_shots": 105.07880910683012,
             "shots_to_kill": 9,
             "ttk": 840.630472854641,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 571,
@@ -7261,7 +7261,7 @@
             "time_between_shots": 105.07880910683012,
             "shots_to_kill": 10,
             "ttk": 958.6040188035763,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -7327,7 +7327,7 @@
             "time_between_shots": 77.02182284980745,
             "shots_to_kill": 11,
             "ttk": 770.2182284980745,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           },
           {
             "base_rpm": 779,
@@ -7344,7 +7344,7 @@
             "time_between_shots": 77.02182284980745,
             "shots_to_kill": 12,
             "ttk": 857.3881994960301,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           }
         ],
         "mag": 75
@@ -7410,7 +7410,7 @@
             "time_between_shots": 79.05138339920948,
             "shots_to_kill": 11,
             "ttk": 790.5138339920949,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 9
           },
           {
             "base_rpm": 759,
@@ -7427,7 +7427,7 @@
             "time_between_shots": 79.05138339920948,
             "shots_to_kill": 12,
             "ttk": 872.8985507246377,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 8
           }
         ],
         "mag": 100
@@ -7520,7 +7520,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 10,
             "ttk": 764.872521246459,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 6
           },
           {
             "base_rpm": 706,
@@ -7537,7 +7537,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 11,
             "ttk": 849.8583569405099,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           },
           {
             "dropoff": 45.7,
@@ -7553,7 +7553,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 13,
             "ttk": 1033.302250550834,
-            "enemies_per_magazine": 2,
+            "enemies_per_magazine": 4,
             "lowerarm": 22
           }
         ],
@@ -7647,7 +7647,7 @@
             "time_between_shots": 130.1518438177874,
             "shots_to_kill": 7,
             "ttk": 780.9110629067245,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 76.2,
@@ -7664,7 +7664,7 @@
             "time_between_shots": 130.1518438177874,
             "shots_to_kill": 8,
             "ttk": 947.653815815421,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -7730,7 +7730,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 12,
             "ttk": 726.0726072607262,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 83.8,
@@ -7745,9 +7745,9 @@
             "upperleg": 22,
             "lowerleg": 22,
             "time_between_shots": 66.00660066006601,
-            "shots_to_kill": 13,
-            "ttk": 839.5210683859085,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 14,
+            "ttk": 905.5276690459744,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 50
@@ -7813,7 +7813,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 10,
             "ttk": 728.744939271255,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 6
           },
           {
             "base_rpm": 741,
@@ -7830,7 +7830,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 12,
             "ttk": 893.974972396025,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 741,
@@ -7847,7 +7847,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 13,
             "ttk": 989.2123665807876,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 60
@@ -7913,7 +7913,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 10,
             "ttk": 764.872521246459,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 6
           },
           {
             "base_rpm": 706,
@@ -7930,7 +7930,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 11,
             "ttk": 849.8583569405099,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           }
         ],
         "mag": 60
@@ -7996,7 +7996,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 11,
             "ttk": 750,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 9
           },
           {
             "base_rpm": 800,
@@ -8013,7 +8013,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 830.2173913043479,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 8
           },
           {
             "base_rpm": 800,
@@ -8030,7 +8030,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 13,
             "ttk": 927.2463768115942,
-            "enemies_per_magazine": 4
+            "enemies_per_magazine": 7
           }
         ],
         "mag": 100
@@ -8123,7 +8123,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 8,
             "ttk": 644.1717791411043,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 9
           },
           {
             "dropoff": 58,
@@ -8140,7 +8140,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 9,
             "ttk": 748.5619104162544,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 8
           },
           {
             "dropoff": 75,
@@ -8157,7 +8157,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 10,
             "ttk": 858.8660201860281,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 7
           }
         ],
         "mag": 75
@@ -8187,7 +8187,7 @@
               "name": "Shock Shield Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "L01-2R4XJ-XDNRN-11",
           "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-3467.webp"
@@ -8223,7 +8223,7 @@
             "time_between_shots": 75.09386733416771,
             "shots_to_kill": 10,
             "ttk": 675.8448060075094,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 10
           },
           {
             "dropoff": 76.2,
@@ -8238,9 +8238,9 @@
             "upperarm": 27,
             "lowerarm": 27,
             "time_between_shots": 75.09386733416771,
-            "shots_to_kill": 11,
-            "ttk": 786.556650869767,
-            "enemies_per_magazine": 3
+            "shots_to_kill": 12,
+            "ttk": 861.6505182039348,
+            "enemies_per_magazine": 8
           }
         ],
         "mag": 100
@@ -8306,7 +8306,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 10,
             "ttk": 720,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 7
           },
           {
             "base_rpm": 750,
@@ -8323,7 +8323,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 843.448275862069,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           }
         ],
         "mag": 75
@@ -8389,7 +8389,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 7,
             "ttk": 660.5504587155963,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 14
           },
           {
             "base_rpm": 545,
@@ -8406,7 +8406,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 8,
             "ttk": 782.356487549148,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 12
           },
           {
             "dropoff": 55.9,
@@ -8423,7 +8423,7 @@
             "time_between_shots": 110.09174311926606,
             "shots_to_kill": 9,
             "ttk": 910.5910878112713,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 11
           }
         ],
         "mag": 100
@@ -8487,9 +8487,9 @@
             "base_rpm": 555,
             "final_rpm": 555,
             "time_between_shots": 108.10810810810811,
-            "shots_to_kill": 6,
-            "ttk": 540.5405405405405,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 7,
+            "ttk": 648.6486486486486,
+            "enemies_per_magazine": 10
           },
           {
             "dropoff": 40.6,
@@ -8504,9 +8504,9 @@
             "base_rpm": 555,
             "final_rpm": 555,
             "time_between_shots": 108.10810810810811,
-            "shots_to_kill": 7,
-            "ttk": 648.7721054387721,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 8,
+            "ttk": 756.8802135468802,
+            "enemies_per_magazine": 9
           },
           {
             "dropoff": 53.3,
@@ -8521,9 +8521,9 @@
             "base_rpm": 555,
             "final_rpm": 555,
             "time_between_shots": 108.10810810810811,
-            "shots_to_kill": 8,
-            "ttk": 772.5592258925592,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 9,
+            "ttk": 880.6673340006673,
+            "enemies_per_magazine": 8
           }
         ],
         "mag": 75
@@ -8589,7 +8589,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 9,
             "ttk": 800,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 8
           },
           {
             "dropoff": 50.8,
@@ -8604,7 +8604,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 11,
             "ttk": 1023.6231884057971,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           }
         ],
         "mag": 75
@@ -8670,7 +8670,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 11,
             "ttk": 750,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           },
           {
             "dropoff": 45.7,
@@ -8687,7 +8687,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 840.7553956834532,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           },
           {
             "dropoff": 57.1,
@@ -8704,7 +8704,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 13,
             "ttk": 932.158273381295,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 5
           }
         ],
         "mag": 75
@@ -8770,7 +8770,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 8,
             "ttk": 644.1717791411043,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 12
           },
           {
             "dropoff": 35.6,
@@ -8787,7 +8787,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 9,
             "ttk": 736.1963190184049,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 11
           },
           {
             "dropoff": 45.7,
@@ -8804,7 +8804,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 10,
             "ttk": 841.2553416543262,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 10
           }
         ],
         "mag": 100
@@ -8870,7 +8870,7 @@
             "time_between_shots": 112.5703564727955,
             "shots_to_kill": 7,
             "ttk": 675.422138836773,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 14
           },
           {
             "base_rpm": 533,
@@ -8887,7 +8887,7 @@
             "time_between_shots": 112.5703564727955,
             "shots_to_kill": 8,
             "ttk": 788.5542930623774,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 12
           },
           {
             "base_rpm": 533,
@@ -8904,7 +8904,7 @@
             "time_between_shots": 112.5703564727955,
             "shots_to_kill": 9,
             "ttk": 920.2257731306786,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 11
           }
         ],
         "mag": 102
@@ -8970,7 +8970,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 14
           },
           {
             "base_rpm": 500,
@@ -8984,9 +8984,9 @@
             "upperleg": 34,
             "lowerleg": 34,
             "time_between_shots": 120,
-            "shots_to_kill": 9,
-            "ttk": 960,
-            "enemies_per_magazine": 2,
+            "shots_to_kill": 8,
+            "ttk": 840,
+            "enemies_per_magazine": 12,
             "final_rpm": 500
           },
           {
@@ -9004,7 +9004,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 9,
             "ttk": 981.2230215827338,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 11
           }
         ],
         "mag": 100
@@ -9097,7 +9097,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 9,
             "ttk": 560.0933488914819,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 8
           },
           {
             "dropoff": 40.6,
@@ -9114,7 +9114,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 10,
             "ttk": 640.2531656510653,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 7
           },
           {
             "dropoff": 50.8,
@@ -9131,7 +9131,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 11,
             "ttk": 725.3759453736117,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           }
         ],
         "mag": 75
@@ -9197,7 +9197,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 12,
             "ttk": 660,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 1000,
@@ -9214,7 +9214,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 14,
             "ttk": 789.7826086956521,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 60
@@ -9280,7 +9280,7 @@
             "time_between_shots": 86.0832137733142,
             "shots_to_kill": 9,
             "ttk": 688.6657101865136,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 11
           },
           {
             "dropoff": 86.4,
@@ -9297,7 +9297,7 @@
             "time_between_shots": 86.0832137733142,
             "shots_to_kill": 10,
             "ttk": 825.2140402388976,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 10
           }
         ],
         "mag": 100
@@ -9603,9 +9603,9 @@
             "lowerarm": 45,
             "dropoff": 0,
             "time_between_shots": 163.48773841961852,
-            "shots_to_kill": 7,
-            "ttk": 980.9264305177112,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 817.4386920980926,
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 367,
@@ -9620,9 +9620,9 @@
             "lowerarm": 38,
             "stomach": 38,
             "time_between_shots": 163.48773841961852,
-            "shots_to_kill": 8,
-            "ttk": 1144.6467270768644,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 981.158988657246,
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 30
@@ -9765,9 +9765,9 @@
             "upperleg": 50,
             "lowerleg": 50,
             "time_between_shots": 200,
-            "shots_to_kill": 6,
-            "ttk": 1000,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 800,
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 35.6,
@@ -9782,9 +9782,9 @@
             "upperarm": 40,
             "lowerarm": 40,
             "time_between_shots": 200,
-            "shots_to_kill": 7,
-            "ttk": 1200,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 1000,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 20
@@ -9850,7 +9850,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 6,
             "ttk": 699.3006993006993,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 429,
@@ -9867,7 +9867,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 7,
             "ttk": 850.8751248751249,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -9933,7 +9933,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 5,
             "ttk": 839.1608391608391,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 286,
@@ -9950,7 +9950,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 6,
             "ttk": 1066.3004465414103,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -10016,7 +10016,7 @@
             "time_between_shots": 895.5223880597015,
             "shots_to_kill": 2,
             "ttk": 895.5223880597015,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 25.4,
@@ -10033,7 +10033,7 @@
             "time_between_shots": 895.5223880597015,
             "shots_to_kill": 2,
             "ttk": 895.5223880597015,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 80,
@@ -10050,7 +10050,7 @@
             "time_between_shots": 895.5223880597015,
             "shots_to_kill": 3,
             "ttk": 1894.8909299655568,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 8
@@ -10112,7 +10112,7 @@
             "time_between_shots": 259.7402597402597,
             "shots_to_kill": 4,
             "ttk": 779.2207792207791,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 231,
@@ -10129,7 +10129,7 @@
             "time_between_shots": 259.7402597402597,
             "shots_to_kill": 4,
             "ttk": 779.9707792207791,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 231,
@@ -10146,7 +10146,7 @@
             "time_between_shots": 259.7402597402597,
             "shots_to_kill": 4,
             "ttk": 792.7207792207791,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 10
@@ -10212,7 +10212,7 @@
             "time_between_shots": 1090.909090909091,
             "shots_to_kill": 2,
             "ttk": 1090.909090909091,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 55,
@@ -10229,7 +10229,7 @@
             "time_between_shots": 1090.909090909091,
             "shots_to_kill": 2,
             "ttk": 1121.409090909091,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 55,
@@ -10246,7 +10246,7 @@
             "time_between_shots": 1090.909090909091,
             "shots_to_kill": 2,
             "ttk": 1189.0757575757577,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -10308,7 +10308,7 @@
             "time_between_shots": 180.18018018018017,
             "shots_to_kill": 5,
             "ttk": 720.7207207207207,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 40.6,
@@ -10325,7 +10325,7 @@
             "time_between_shots": 180.18018018018017,
             "shots_to_kill": 5,
             "ttk": 720.7207207207207,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 10
@@ -10391,7 +10391,7 @@
             "time_between_shots": 631.578947368421,
             "shots_to_kill": 3,
             "ttk": 1263.157894736842,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 95,
@@ -10408,7 +10408,7 @@
             "time_between_shots": 631.578947368421,
             "shots_to_kill": 3,
             "ttk": 1263.157894736842,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 95,
@@ -10425,7 +10425,7 @@
             "time_between_shots": 631.578947368421,
             "shots_to_kill": 4,
             "ttk": 1915.2923976608188,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 6
@@ -10510,7 +10510,7 @@
             "time_between_shots": 255.31914893617022,
             "shots_to_kill": 5,
             "ttk": 1021.2765957446809,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 30,
@@ -10525,9 +10525,9 @@
             "lowerarm": 63,
             "head": 78,
             "time_between_shots": 255.31914893617022,
-            "shots_to_kill": 6,
-            "ttk": 1276.595744680851,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 1021.2765957446809,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 235,
@@ -10542,9 +10542,9 @@
             "upperarm": 50,
             "lowerarm": 50,
             "time_between_shots": 255.31914893617022,
-            "shots_to_kill": 7,
-            "ttk": 1532.76235124414,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 1277.4432023079698,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 20
@@ -10608,9 +10608,9 @@
             "stomach": 34,
             "lowerarm": 34,
             "time_between_shots": 101.5228426395939,
-            "shots_to_kill": 9,
-            "ttk": 812.1827411167512,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 710.6598984771573,
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 45,
@@ -10627,7 +10627,7 @@
             "time_between_shots": 101.5228426395939,
             "shots_to_kill": 9,
             "ttk": 812.1827411167512,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 32
@@ -10720,7 +10720,7 @@
             "time_between_shots": 169.97167138810198,
             "shots_to_kill": 5,
             "ttk": 679.8866855524079,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 353,
@@ -10735,9 +10735,9 @@
             "upperleg": 48,
             "lowerleg": 48,
             "time_between_shots": 169.97167138810198,
-            "shots_to_kill": 5,
-            "ttk": 679.8866855524079,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 849.8583569405099,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -10801,9 +10801,9 @@
             "upperleg": 66,
             "lowerleg": 66,
             "time_between_shots": 280.3738317757009,
-            "shots_to_kill": 4,
-            "ttk": 841.1214953271028,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 1121.4953271028037,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 214,
@@ -10818,9 +10818,9 @@
             "upperleg": 64,
             "lowerleg": 64,
             "time_between_shots": 280.3738317757009,
-            "shots_to_kill": 4,
-            "ttk": 841.1214953271028,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 1121.4953271028037,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 214,
@@ -10837,7 +10837,7 @@
             "time_between_shots": 280.3738317757009,
             "shots_to_kill": 5,
             "ttk": 1125.7636197857305,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 214,
@@ -10854,7 +10854,7 @@
             "time_between_shots": 280.3738317757009,
             "shots_to_kill": 5,
             "ttk": 1136.4953271028037,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 10
@@ -10918,9 +10918,9 @@
             "lowerleg": 100,
             "lowerarm": 100,
             "time_between_shots": 923.0769230769231,
-            "shots_to_kill": 3,
-            "ttk": 1846.1538461538462,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 2,
+            "ttk": 923.0769230769231,
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 59,
@@ -10937,7 +10937,7 @@
             "time_between_shots": 923.0769230769231,
             "shots_to_kill": 3,
             "ttk": 1850.8760683760684,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 10
@@ -11001,9 +11001,9 @@
             "lowerarm": 100,
             "upperarm": 150,
             "time_between_shots": 1016.9491525423729,
-            "shots_to_kill": 3,
-            "ttk": 2033.8983050847457,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 2,
+            "ttk": 1016.9491525423729,
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 45.7,
@@ -11020,7 +11020,7 @@
             "time_between_shots": 1016.9491525423729,
             "shots_to_kill": 3,
             "ttk": 2046.5010448107732,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 5
@@ -11086,7 +11086,7 @@
             "time_between_shots": 149.2537313432836,
             "shots_to_kill": 6,
             "ttk": 746.2686567164179,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 402,
@@ -11103,7 +11103,7 @@
             "time_between_shots": 149.2537313432836,
             "shots_to_kill": 7,
             "ttk": 901.3465638838774,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 30
@@ -11196,7 +11196,7 @@
             "time_between_shots": 122.95081967213115,
             "shots_to_kill": 7,
             "ttk": 737.7049180327868,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 488,
@@ -11211,9 +11211,9 @@
             "stomach": 34,
             "head": 43,
             "time_between_shots": 122.95081967213115,
-            "shots_to_kill": 9,
-            "ttk": 983.6065573770492,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 860.655737704918,
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 36
@@ -11279,7 +11279,7 @@
             "time_between_shots": 250,
             "shots_to_kill": 4,
             "ttk": 750,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 240,
@@ -11296,7 +11296,7 @@
             "time_between_shots": 250,
             "shots_to_kill": 5,
             "ttk": 1014.2168674698795,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 10
@@ -11362,7 +11362,7 @@
             "time_between_shots": 150,
             "shots_to_kill": 7,
             "ttk": 900,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 400,
@@ -11379,7 +11379,7 @@
             "time_between_shots": 150,
             "shots_to_kill": 7,
             "ttk": 900,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -11499,7 +11499,7 @@
             "time_between_shots": 189.873417721519,
             "shots_to_kill": 4,
             "ttk": 569.620253164557,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 316,
@@ -11516,7 +11516,7 @@
             "time_between_shots": 189.873417721519,
             "shots_to_kill": 4,
             "ttk": 569.620253164557,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 316,
@@ -11533,7 +11533,7 @@
             "time_between_shots": 189.873417721519,
             "shots_to_kill": 6,
             "ttk": 960.5719078847034,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 20
@@ -11599,7 +11599,7 @@
             "time_between_shots": 451.1278195488722,
             "shots_to_kill": 4,
             "ttk": 1353.3834586466166,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "dropoff": 50.8,
@@ -11616,7 +11616,7 @@
             "time_between_shots": 451.1278195488722,
             "shots_to_kill": 5,
             "ttk": 1811.589929880882,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 20
@@ -11682,7 +11682,7 @@
             "time_between_shots": 89.55223880597015,
             "shots_to_kill": 4,
             "ttk": 268.65671641791045,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 670,
@@ -11699,7 +11699,7 @@
             "time_between_shots": 89.55223880597015,
             "shots_to_kill": 5,
             "ttk": 358.2089552238806,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "dropoff": 51,
@@ -11714,9 +11714,9 @@
             "chest": 50,
             "upperarm": 50,
             "time_between_shots": 89.55223880597015,
-            "shots_to_kill": 7,
-            "ttk": 540.9976433621367,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 451.4454045561665,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 8
@@ -12254,9 +12254,9 @@
             "upperleg": 78,
             "lowerleg": 78,
             "time_between_shots": 359.2814371257485,
-            "shots_to_kill": 4,
-            "ttk": 1077.8443113772455,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 3,
+            "ttk": 718.562874251497,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 167,
@@ -12273,7 +12273,7 @@
             "time_between_shots": 359.2814371257485,
             "shots_to_kill": 5,
             "ttk": 1440.5300038221428,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 167,
@@ -12290,7 +12290,7 @@
             "time_between_shots": 359.2814371257485,
             "shots_to_kill": 6,
             "ttk": 1821.0880366925721,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 7
@@ -12350,9 +12350,9 @@
             "upperleg": 40,
             "lowerleg": 40,
             "time_between_shots": 150,
-            "shots_to_kill": 6,
-            "ttk": 750,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 600,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 400,
@@ -12367,9 +12367,9 @@
             "upperarm": 45,
             "lowerarm": 45,
             "time_between_shots": 150,
-            "shots_to_kill": 8,
-            "ttk": 1072.4444444444443,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 922.4444444444445,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 7
@@ -12433,9 +12433,9 @@
             "upperarm": 50,
             "lowerarm": 50,
             "time_between_shots": 160,
-            "shots_to_kill": 7,
-            "ttk": 960,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 6,
+            "ttk": 800,
+            "enemies_per_magazine": 1
           },
           {
             "final_rpm": 375,
@@ -12450,9 +12450,9 @@
             "upperarm": 44,
             "lowerarm": 44,
             "time_between_shots": 160,
-            "shots_to_kill": 8,
-            "ttk": 1144.7058823529412,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 984.7058823529412,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -12516,9 +12516,9 @@
             "upperleg": 33,
             "lowerleg": 33,
             "time_between_shots": 129.87012987012986,
-            "shots_to_kill": 8,
-            "ttk": 909.090909090909,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 1038.9610389610389,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 462,
@@ -12533,9 +12533,9 @@
             "upperleg": 30,
             "lowerleg": 30,
             "time_between_shots": 129.87012987012986,
-            "shots_to_kill": 9,
-            "ttk": 1038.9610389610389,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 1168.8311688311687,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 462,
@@ -12552,7 +12552,7 @@
             "time_between_shots": 129.87012987012986,
             "shots_to_kill": 11,
             "ttk": 1303.3679653679653,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 15
@@ -12614,7 +12614,7 @@
             "time_between_shots": 200,
             "shots_to_kill": 3,
             "ttk": 400,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 300,
@@ -12629,9 +12629,9 @@
             "upperarm": 72,
             "lowerarm": 72,
             "time_between_shots": 200,
-            "shots_to_kill": 4,
-            "ttk": 600,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 3,
+            "ttk": 400,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 300,
@@ -12646,9 +12646,9 @@
             "lowerleg": 53,
             "upperleg": 53,
             "time_between_shots": 200,
-            "shots_to_kill": 5,
-            "ttk": 807.3333333333334,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 4,
+            "ttk": 607.3333333333334,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 300,
@@ -12665,7 +12665,7 @@
             "time_between_shots": 200,
             "shots_to_kill": 5,
             "ttk": 844.6666666666666,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 300,
@@ -12680,9 +12680,9 @@
             "upperarm": 42,
             "lowerarm": 42,
             "time_between_shots": 200,
-            "shots_to_kill": 6,
-            "ttk": 1063.8666666666666,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 5,
+            "ttk": 863.8666666666667,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 5
@@ -12765,9 +12765,9 @@
             "lowerarm": 28,
             "stomach": 25,
             "time_between_shots": 63.96588486140725,
-            "shots_to_kill": 12,
-            "ttk": 703.6247334754797,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 11,
+            "ttk": 639.6588486140724,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 938,
@@ -12784,7 +12784,7 @@
             "time_between_shots": 63.96588486140725,
             "shots_to_kill": 14,
             "ttk": 831.5565031982942,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "dropoff": 18,
@@ -12799,8 +12799,8 @@
             "lowerleg": 18,
             "stomach": 18,
             "time_between_shots": 63.96588486140725,
-            "shots_to_kill": 16,
-            "ttk": 973.773987206823,
+            "shots_to_kill": 15,
+            "ttk": 909.8081023454158,
             "enemies_per_magazine": 1
           }
         ],
@@ -12949,7 +12949,7 @@
             "time_between_shots": 50.04170141784821,
             "shots_to_kill": 20,
             "ttk": 950.7923269391159,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 1199,
@@ -12964,9 +12964,9 @@
             "upperarm": 13,
             "lowerarm": 13,
             "time_between_shots": 50.04170141784821,
-            "shots_to_kill": 21,
-            "ttk": 1000.8340283569642,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 22,
+            "ttk": 1050.8757297748125,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 1199,
@@ -12981,9 +12981,9 @@
             "upperarm": 12,
             "lowerarm": 12,
             "time_between_shots": 50.04170141784821,
-            "shots_to_kill": 23,
-            "ttk": 1132.2507645259939,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 24,
+            "ttk": 1182.292465943842,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 32
@@ -13047,8 +13047,8 @@
             "upperarm": 35,
             "lowerarm": 35,
             "time_between_shots": 122.95081967213115,
-            "shots_to_kill": 7,
-            "ttk": 737.7049180327868,
+            "shots_to_kill": 8,
+            "ttk": 860.655737704918,
             "enemies_per_magazine": 0
           },
           {
@@ -13149,7 +13149,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 6,
             "ttk": 1048.951048951049,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 286,
@@ -13166,7 +13166,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 7,
             "ttk": 1290.074592074592,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -13230,9 +13230,9 @@
             "upperleg": 81,
             "lowerleg": 81,
             "time_between_shots": 350.87719298245617,
-            "shots_to_kill": 4,
-            "ttk": 1052.6315789473686,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 3,
+            "ttk": 701.7543859649123,
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 25.4,
@@ -13249,7 +13249,7 @@
             "time_between_shots": 350.87719298245617,
             "shots_to_kill": 4,
             "ttk": 1070.364912280702,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 8
@@ -13315,7 +13315,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 9,
             "ttk": 640,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -13332,7 +13332,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 10,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 750,
@@ -13349,7 +13349,7 @@
             "time_between_shots": 80,
             "shots_to_kill": 12,
             "ttk": 900,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 20
@@ -13413,9 +13413,9 @@
             "stomach": 30,
             "lowerarm": 45,
             "time_between_shots": 100,
-            "shots_to_kill": 8,
-            "ttk": 700,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 600,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 600,
@@ -13432,7 +13432,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 10,
             "ttk": 900,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 10
@@ -13498,7 +13498,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 5,
             "ttk": 839.1608391608391,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 286,
@@ -13515,7 +13515,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 6,
             "ttk": 1048.951048951049,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 286,
@@ -13532,7 +13532,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 7,
             "ttk": 1286.7412587412587,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 286,
@@ -13549,7 +13549,7 @@
             "time_between_shots": 209.7902097902098,
             "shots_to_kill": 8,
             "ttk": 1528.5314685314686,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 286,
@@ -13564,8 +13564,8 @@
             "upperleg": 31,
             "lowerleg": 31,
             "time_between_shots": 209.7902097902098,
-            "shots_to_kill": 8,
-            "ttk": 1574.1314685314685,
+            "shots_to_kill": 9,
+            "ttk": 1783.9216783216782,
             "enemies_per_magazine": 0
           }
         ],
@@ -13628,7 +13628,7 @@
             "time_between_shots": 96.61835748792271,
             "shots_to_kill": 9,
             "ttk": 772.9468599033817,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 621,
@@ -13645,7 +13645,7 @@
             "time_between_shots": 96.61835748792271,
             "shots_to_kill": 12,
             "ttk": 1062.8019323671497,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 15
@@ -13711,7 +13711,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 20.3,
@@ -13728,7 +13728,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 10,
             "ttk": 1095.483870967742,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -13794,7 +13794,7 @@
             "time_between_shots": 230.76923076923077,
             "shots_to_kill": 2,
             "ttk": 230.76923076923077,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 155
           },
           {
             "dropoff": 5.6,
@@ -13809,9 +13809,9 @@
             "upperarm": 100,
             "lowerarm": 100,
             "time_between_shots": 230.76923076923077,
-            "shots_to_kill": 3,
-            "ttk": 461.53846153846155,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 2,
+            "ttk": 230.76923076923077,
+            "enemies_per_magazine": 155
           },
           {
             "dropoff": 14.5,
@@ -13828,7 +13828,7 @@
             "time_between_shots": 230.76923076923077,
             "shots_to_kill": 3,
             "ttk": 461.53846153846155,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 103
           },
           {
             "dropoff": 42.7,
@@ -13843,9 +13843,9 @@
             "upperarm": 75,
             "lowerarm": 75,
             "time_between_shots": 230.76923076923077,
-            "shots_to_kill": 4,
-            "ttk": 780.0496277915634,
-            "enemies_per_magazine": 3
+            "shots_to_kill": 3,
+            "ttk": 549.2803970223325,
+            "enemies_per_magazine": 103
           }
         ],
         "mag": 310
@@ -13903,7 +13903,7 @@
             "time_between_shots": 109.2896174863388,
             "shots_to_kill": 7,
             "ttk": 655.7377049180328,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 9,
@@ -13920,7 +13920,7 @@
             "time_between_shots": 109.2896174863388,
             "shots_to_kill": 10,
             "ttk": 983.6065573770492,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 15
@@ -13984,9 +13984,9 @@
             "upperarm": 24,
             "lowerarm": 24,
             "time_between_shots": 60,
-            "shots_to_kill": 13,
-            "ttk": 720,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 12,
+            "ttk": 660,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 1000,
@@ -14001,9 +14001,9 @@
             "upperarm": 22,
             "lowerarm": 22,
             "time_between_shots": 60,
-            "shots_to_kill": 14,
-            "ttk": 780,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 13,
+            "ttk": 720,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 1000,
@@ -14018,9 +14018,9 @@
             "upperarm": 20,
             "lowerarm": 20,
             "time_between_shots": 60,
-            "shots_to_kill": 15,
-            "ttk": 859.2,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 14,
+            "ttk": 799.2,
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 20
@@ -14086,7 +14086,7 @@
             "time_between_shots": 164.83516483516485,
             "shots_to_kill": 7,
             "ttk": 989.0109890109891,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 364,
@@ -14103,7 +14103,7 @@
             "time_between_shots": 164.83516483516485,
             "shots_to_kill": 8,
             "ttk": 1153.8461538461538,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 364,
@@ -14120,7 +14120,7 @@
             "time_between_shots": 164.83516483516485,
             "shots_to_kill": 9,
             "ttk": 1339.3479853479855,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 364,
@@ -14137,7 +14137,7 @@
             "time_between_shots": 164.83516483516485,
             "shots_to_kill": 10,
             "ttk": 1528.9831501831504,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 17
@@ -14199,7 +14199,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 12,
             "ttk": 715.059588299025,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 923,
@@ -14216,7 +14216,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 13,
             "ttk": 780.0650054171181,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 923,
@@ -14231,9 +14231,9 @@
             "upperleg": 19,
             "lowerleg": 19,
             "time_between_shots": 65.00541711809318,
-            "shots_to_kill": 15,
-            "ttk": 910.0758396533045,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 14,
+            "ttk": 845.0704225352113,
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 923,
@@ -14250,7 +14250,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 16,
             "ttk": 975.0812567713976,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 923,
@@ -14267,7 +14267,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 19,
             "ttk": 1200.0975081256772,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 0
           }
         ],
         "mag": 17
@@ -14333,7 +14333,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 10,
             "ttk": 648.2593037214887,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 833,
@@ -14350,7 +14350,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 11,
             "ttk": 720.2881152460985,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 833,
@@ -14367,7 +14367,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 12,
             "ttk": 792.3169267707084,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 833,
@@ -14384,7 +14384,7 @@
             "time_between_shots": 72.02881152460985,
             "shots_to_kill": 13,
             "ttk": 877.8642568138366,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -14475,9 +14475,9 @@
             "upperarm": 34,
             "lowerarm": 34,
             "time_between_shots": 68.96551724137932,
-            "shots_to_kill": 10,
-            "ttk": 620.6896551724138,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 551.7241379310345,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 870,
@@ -14492,9 +14492,9 @@
             "upperarm": 28,
             "lowerarm": 28,
             "time_between_shots": 68.96551724137932,
-            "shots_to_kill": 12,
-            "ttk": 758.6206896551724,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 11,
+            "ttk": 689.6551724137931,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 870,
@@ -14511,7 +14511,7 @@
             "time_between_shots": 68.96551724137932,
             "shots_to_kill": 15,
             "ttk": 965.5172413793105,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -14604,7 +14604,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 9,
             "ttk": 655.7377049180328,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 11,
@@ -14621,7 +14621,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 10,
             "ttk": 737.704918032787,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 18,
@@ -14638,7 +14638,7 @@
             "time_between_shots": 81.9672131147541,
             "shots_to_kill": 12,
             "ttk": 901.6393442622951,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -14731,7 +14731,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 9,
             "ttk": 560.0933488914819,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 857,
@@ -14748,7 +14748,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 10,
             "ttk": 630.1050175029171,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 857,
@@ -14765,7 +14765,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 13,
             "ttk": 840.1400233372228,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 40
@@ -14831,7 +14831,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 7,
             "ttk": 564.2633228840125,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 638,
@@ -14848,7 +14848,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 8,
             "ttk": 658.307210031348,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 638,
@@ -14865,7 +14865,7 @@
             "time_between_shots": 94.04388714733543,
             "shots_to_kill": 10,
             "ttk": 846.3949843260189,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 36
@@ -14924,7 +14924,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.63,
           "description": "Sniper Support meta build",
           "loadout_code": "S04-AUXZ7-Y6R35-1",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Sniper-Support-Warzone-Loadout-CODMunity-3785.webp"
@@ -14958,7 +14958,7 @@
             "time_between_shots": 111.94029850746269,
             "shots_to_kill": 7,
             "ttk": 671.6417910447761,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 536,
@@ -14975,7 +14975,7 @@
             "time_between_shots": 111.94029850746269,
             "shots_to_kill": 8,
             "ttk": 783.5820895522388,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 536,
@@ -14992,7 +14992,7 @@
             "time_between_shots": 111.94029850746269,
             "shots_to_kill": 9,
             "ttk": 895.5223880597015,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 32
@@ -15085,7 +15085,7 @@
             "time_between_shots": 60.97560975609756,
             "shots_to_kill": 11,
             "ttk": 609.7560975609756,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 984,
@@ -15102,7 +15102,7 @@
             "time_between_shots": 60.97560975609756,
             "shots_to_kill": 13,
             "ttk": 731.7073170731708,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 13.5,
@@ -15119,7 +15119,7 @@
             "time_between_shots": 60.97560975609756,
             "shots_to_kill": 15,
             "ttk": 853.6585365853658,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 25.9,
@@ -15136,7 +15136,7 @@
             "time_between_shots": 60.97560975609756,
             "shots_to_kill": 16,
             "ttk": 918.5924796747968,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 32
@@ -15229,7 +15229,7 @@
             "time_between_shots": 85.95988538681948,
             "shots_to_kill": 9,
             "ttk": 687.6790830945558,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 698,
@@ -15246,7 +15246,7 @@
             "time_between_shots": 85.95988538681948,
             "shots_to_kill": 11,
             "ttk": 859.5988538681947,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 698,
@@ -15263,7 +15263,7 @@
             "time_between_shots": 85.95988538681948,
             "shots_to_kill": 12,
             "ttk": 945.5587392550143,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 698,
@@ -15280,7 +15280,7 @@
             "time_between_shots": 85.95988538681948,
             "shots_to_kill": 14,
             "ttk": 1117.4785100286533,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 50
@@ -15373,7 +15373,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 13,
             "ttk": 659.9450045829515,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -15424,7 +15424,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 22,
             "ttk": 1186.5704246868318,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 30
@@ -15515,9 +15515,9 @@
             "upperleg": 28,
             "lowerleg": 28,
             "time_between_shots": 68.02721088435374,
-            "shots_to_kill": 10,
-            "ttk": 612.2448979591836,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 544.2176870748299,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 882,
@@ -15532,9 +15532,9 @@
             "upperleg": 23,
             "lowerleg": 23,
             "time_between_shots": 68.02721088435374,
-            "shots_to_kill": 12,
-            "ttk": 748.2993197278911,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 11,
+            "ttk": 680.2721088435374,
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 17.8,
@@ -15551,7 +15551,7 @@
             "time_between_shots": 68.02721088435374,
             "shots_to_kill": 15,
             "ttk": 952.3809523809523,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -15644,7 +15644,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 11,
             "ttk": 669.6428571428571,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 896,
@@ -15661,7 +15661,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 13,
             "ttk": 803.5714285714284,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 896,
@@ -15678,7 +15678,7 @@
             "time_between_shots": 66.96428571428571,
             "shots_to_kill": 15,
             "ttk": 937.4999999999999,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 896,
@@ -15788,7 +15788,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 12,
             "ttk": 660,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1000,
@@ -15805,7 +15805,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 15,
             "ttk": 840,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1000,
@@ -15839,7 +15839,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 22,
             "ttk": 1260,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 33
@@ -15932,7 +15932,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 8,
             "ttk": 615.8357771260996,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 682,
@@ -15947,9 +15947,9 @@
             "upperleg": 27,
             "lowerleg": 27,
             "time_between_shots": 87.97653958944281,
-            "shots_to_kill": 10,
-            "ttk": 791.7888563049853,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 9,
+            "ttk": 703.8123167155425,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 682,
@@ -15966,7 +15966,7 @@
             "time_between_shots": 87.97653958944281,
             "shots_to_kill": 11,
             "ttk": 879.7653958944281,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -16059,7 +16059,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 12,
             "ttk": 604.9495875343721,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -16076,7 +16076,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 14,
             "ttk": 714.9404216315307,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -16091,8 +16091,8 @@
             "lowerleg": 16,
             "stomach": 16,
             "time_between_shots": 54.995417048579284,
-            "shots_to_kill": 17,
-            "ttk": 879.9266727772685,
+            "shots_to_kill": 16,
+            "ttk": 824.9312557286893,
             "enemies_per_magazine": 1
           }
         ],
@@ -16157,9 +16157,9 @@
             "upperarm": 33,
             "lowerarm": 33,
             "time_between_shots": 75,
-            "shots_to_kill": 9,
-            "ttk": 600,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 675,
+            "enemies_per_magazine": 3
           },
           {
             "final_rpm": 800,
@@ -16176,7 +16176,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 11,
             "ttk": 750,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -16193,7 +16193,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 13,
             "ttk": 900,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -16286,7 +16286,7 @@
             "time_between_shots": 61.98347107438016,
             "shots_to_kill": 10,
             "ttk": 557.8512396694215,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 968,
@@ -16303,7 +16303,7 @@
             "time_between_shots": 61.98347107438016,
             "shots_to_kill": 11,
             "ttk": 619.8347107438017,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 968,
@@ -16318,9 +16318,9 @@
             "lowerleg": 19,
             "stomach": 19,
             "time_between_shots": 61.98347107438016,
-            "shots_to_kill": 15,
-            "ttk": 867.7685950413222,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 14,
+            "ttk": 805.7851239669421,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -16349,7 +16349,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.9,
           "description": "Close Range meta build",
           "loadout_code": "S10-5Q9BU-31",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5417.webp"
@@ -16413,7 +16413,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 9,
             "ttk": 600,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 800,
@@ -16428,9 +16428,9 @@
             "upperarm": 24,
             "lowerarm": 24,
             "time_between_shots": 75,
-            "shots_to_kill": 11,
-            "ttk": 750,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 675,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 800,
@@ -16445,9 +16445,9 @@
             "upperleg": 19,
             "lowerleg": 19,
             "time_between_shots": 75,
-            "shots_to_kill": 14,
-            "ttk": 975,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 13,
+            "ttk": 900,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 34
@@ -16540,7 +16540,7 @@
             "time_between_shots": 87.33624454148472,
             "shots_to_kill": 8,
             "ttk": 611.353711790393,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 687,
@@ -16555,9 +16555,9 @@
             "upperleg": 25,
             "lowerleg": 25,
             "time_between_shots": 87.33624454148472,
-            "shots_to_kill": 11,
-            "ttk": 873.3624454148471,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 786.0262008733624,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 687,
@@ -16574,7 +16574,7 @@
             "time_between_shots": 87.33624454148472,
             "shots_to_kill": 12,
             "ttk": 977.4109718584872,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 687,
@@ -16591,7 +16591,7 @@
             "time_between_shots": 87.33624454148472,
             "shots_to_kill": 15,
             "ttk": 1266.7888467761334,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 687,
@@ -16606,9 +16606,9 @@
             "upperleg": 17,
             "lowerleg": 17,
             "time_between_shots": 87.33624454148472,
-            "shots_to_kill": 16,
-            "ttk": 1408.179145371672,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 15,
+            "ttk": 1320.8429008301873,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -16701,7 +16701,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 10,
             "ttk": 675,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 10.7,
@@ -16718,7 +16718,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 825,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -16735,7 +16735,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 13,
             "ttk": 900,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -16752,7 +16752,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 14,
             "ttk": 975,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 800,
@@ -16862,7 +16862,7 @@
             "time_between_shots": 56.022408963585434,
             "shots_to_kill": 12,
             "ttk": 616.2464985994397,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 1071,
@@ -16879,7 +16879,7 @@
             "time_between_shots": 56.022408963585434,
             "shots_to_kill": 14,
             "ttk": 728.2913165266107,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1071,
@@ -16978,7 +16978,7 @@
             "base_rpm": 706,
             "final_rpm": 706,
             "dropoff": 0,
-            "head": 47,
+            "head": 48,
             "neck": 40,
             "upperleg": 38,
             "lowerleg": 38,
@@ -16989,7 +16989,7 @@
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 8,
             "ttk": 594.9008498583569,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 13,
@@ -16997,33 +16997,33 @@
             "final_rpm": 706,
             "neck": 36,
             "upperleg": 34,
-            "lowerleg": 30,
+            "lowerleg": 34,
             "upperarm": 36,
             "chest": 36,
             "stomach": 34,
             "lowerarm": 36,
-            "head": 42,
+            "head": 43,
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 9,
             "ttk": 679.8866855524079,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
-            "dropoff": 23.5,
+            "dropoff": 24,
             "base_rpm": 706,
             "final_rpm": 706,
             "neck": 27,
-            "lowerleg": 26,
-            "upperleg": 26,
+            "lowerleg": 25,
+            "upperleg": 25,
             "upperarm": 27,
             "chest": 27,
-            "stomach": 26,
+            "stomach": 25,
             "lowerarm": 27,
             "head": 32,
             "time_between_shots": 84.98583569405099,
-            "shots_to_kill": 11,
-            "ttk": 849.8583569405099,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 934.8441926345608,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -17052,7 +17052,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 3.8,
+          "rating": 4.3,
           "description": "Close Range meta build",
           "loadout_code": "S06-7YF4R-YD51",
           "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-1215.webp"
@@ -17116,7 +17116,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 8,
             "ttk": 566.8016194331984,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 741,
@@ -17133,7 +17133,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 9,
             "ttk": 647.7732793522267,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 741,
@@ -17150,7 +17150,7 @@
             "time_between_shots": 80.97165991902834,
             "shots_to_kill": 13,
             "ttk": 971.65991902834,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -17239,7 +17239,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 8,
             "ttk": 644.1717791411043,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 8
           },
           {
             "base_rpm": 652,
@@ -17256,7 +17256,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 10,
             "ttk": 828.2208588957055,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 6
           },
           {
             "base_rpm": 652,
@@ -17273,7 +17273,7 @@
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 11,
             "ttk": 938.5787321063395,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           }
         ],
         "mag": 64
@@ -17366,7 +17366,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 10,
             "ttk": 594.0594059405942,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 909,
@@ -17383,7 +17383,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 11,
             "ttk": 660.0660066006601,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 909,
@@ -17400,7 +17400,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 15,
             "ttk": 924.0924092409242,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 50
@@ -17479,9 +17479,9 @@
             "lowerarm": 37,
             "upperleg": 37,
             "time_between_shots": 96,
-            "shots_to_kill": 8,
-            "ttk": 672,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 9,
+            "ttk": 768,
+            "enemies_per_magazine": 7
           },
           {
             "base_rpm": 625,
@@ -17498,7 +17498,7 @@
             "time_between_shots": 96,
             "shots_to_kill": 9,
             "ttk": 768,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 7
           },
           {
             "base_rpm": 625,
@@ -17513,9 +17513,9 @@
             "upperarm": 30,
             "lowerarm": 30,
             "time_between_shots": 96,
-            "shots_to_kill": 11,
-            "ttk": 960,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 10,
+            "ttk": 864,
+            "enemies_per_magazine": 6
           }
         ],
         "mag": 64
@@ -17608,7 +17608,7 @@
             "time_between_shots": 63.02521008403362,
             "shots_to_kill": 11,
             "ttk": 630.2521008403362,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 952,
@@ -17625,7 +17625,7 @@
             "time_between_shots": 63.02521008403362,
             "shots_to_kill": 13,
             "ttk": 756.3025210084033,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 952,
@@ -17642,7 +17642,7 @@
             "time_between_shots": 63.02521008403362,
             "shots_to_kill": 16,
             "ttk": 945.3781512605043,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 32
@@ -17708,7 +17708,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 11,
             "ttk": 650.0541711809318,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 923,
@@ -17725,7 +17725,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 12,
             "ttk": 715.059588299025,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 17.5,
@@ -17742,7 +17742,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 13,
             "ttk": 780.0650054171181,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 25.5,
@@ -17759,7 +17759,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 14,
             "ttk": 851.7370892018779,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 43.2,
@@ -17776,7 +17776,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 16,
             "ttk": 1021.0812567713976,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 32
@@ -17865,7 +17865,7 @@
             "time_between_shots": 51.99306759098787,
             "shots_to_kill": 12,
             "ttk": 571.9237435008665,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1154,
@@ -17880,9 +17880,9 @@
             "lowerarm": 21,
             "head": 24,
             "time_between_shots": 51.99306759098787,
-            "shots_to_kill": 14,
-            "ttk": 675.9098786828423,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 15,
+            "ttk": 727.9029462738301,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1154,
@@ -17899,7 +17899,7 @@
             "time_between_shots": 51.99306759098787,
             "shots_to_kill": 17,
             "ttk": 831.8890814558059,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 35
@@ -17992,7 +17992,7 @@
             "time_between_shots": 105.26315789473684,
             "shots_to_kill": 7,
             "ttk": 631.578947368421,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 570,
@@ -18009,7 +18009,7 @@
             "time_between_shots": 105.26315789473684,
             "shots_to_kill": 8,
             "ttk": 736.8421052631578,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 570,
@@ -18026,7 +18026,7 @@
             "time_between_shots": 105.26315789473684,
             "shots_to_kill": 10,
             "ttk": 947.3684210526316,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -18083,21 +18083,21 @@
             "dropoff": 0,
             "head": 34,
             "neck": 30,
-            "upperleg": 26,
-            "lowerleg": 26,
+            "upperleg": 27,
+            "lowerleg": 27,
             "upperarm": 30,
             "chest": 30,
-            "stomach": 26,
+            "stomach": 27,
             "lowerarm": 30,
             "time_between_shots": 60,
-            "shots_to_kill": 11,
-            "ttk": 600,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 540,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 1500,
             "final_rpm": 1500,
-            "dropoff": 11.6,
+            "dropoff": 12,
             "neck": 24,
             "upperleg": 22,
             "lowerleg": 22,
@@ -18109,7 +18109,7 @@
             "time_between_shots": 60,
             "shots_to_kill": 13,
             "ttk": 720,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1500,
@@ -18124,9 +18124,9 @@
             "lowerarm": 20,
             "head": 23,
             "time_between_shots": 60,
-            "shots_to_kill": 16,
-            "ttk": 900,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 15,
+            "ttk": 840,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -18155,7 +18155,7 @@
               "name": "Serpent Pad"
             }
           ],
-          "rating": 5.5,
+          "rating": 4.43,
           "description": "Close Range meta build",
           "loadout_code": "S03-AUXZ3-92ZB1-1",
           "image": "https://assets.codmunity.gg/optimized/Razor-9mm-Close-Range-Warzone-Loadout-CODMunity-9809.webp"
@@ -18219,7 +18219,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 11,
             "ttk": 660.0660066006601,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 909,
@@ -18236,7 +18236,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 12,
             "ttk": 726.0726072607262,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 19.5,
@@ -18253,7 +18253,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 12,
             "ttk": 726.0726072607262,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 909,
@@ -18270,7 +18270,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 13,
             "ttk": 819.7387823888773,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -18363,7 +18363,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 10,
             "ttk": 585.0487540628386,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 923,
@@ -18378,9 +18378,9 @@
             "upperleg": 26,
             "head": 34,
             "time_between_shots": 65.00541711809318,
-            "shots_to_kill": 11,
-            "ttk": 650.0541711809318,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 715.059588299025,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 923,
@@ -18397,7 +18397,7 @@
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 15,
             "ttk": 910.0758396533045,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -18488,9 +18488,9 @@
             "upperleg": 26,
             "lowerleg": 26,
             "time_between_shots": 66.00660066006601,
-            "shots_to_kill": 11,
-            "ttk": 660.0660066006601,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 594.0594059405942,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 909,
@@ -18507,7 +18507,7 @@
             "time_between_shots": 66.00660066006601,
             "shots_to_kill": 12,
             "ttk": 726.0726072607262,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 909,
@@ -18522,9 +18522,9 @@
             "upperarm": 22,
             "lowerarm": 22,
             "time_between_shots": 66.00660066006601,
-            "shots_to_kill": 15,
-            "ttk": 924.0924092409242,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 14,
+            "ttk": 858.0858085808582,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 36
@@ -18590,7 +18590,7 @@
             "time_between_shots": 72.99270072992701,
             "shots_to_kill": 10,
             "ttk": 656.9343065693431,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 822,
@@ -18605,9 +18605,9 @@
             "upperleg": 25,
             "lowerleg": 25,
             "time_between_shots": 72.99270072992701,
-            "shots_to_kill": 11,
-            "ttk": 729.9270072992701,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 802.9197080291971,
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 17.5,
@@ -18622,9 +18622,9 @@
             "upperleg": 22,
             "lowerleg": 22,
             "time_between_shots": 72.99270072992701,
-            "shots_to_kill": 13,
-            "ttk": 875.9124087591241,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 14,
+            "ttk": 948.9051094890511,
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 22.9,
@@ -18639,9 +18639,9 @@
             "upperleg": 21,
             "lowerleg": 21,
             "time_between_shots": 72.99270072992701,
-            "shots_to_kill": 13,
-            "ttk": 875.9124087591241,
-            "enemies_per_magazine": 2
+            "shots_to_kill": 14,
+            "ttk": 948.9051094890511,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 50
@@ -18734,7 +18734,7 @@
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 7,
             "ttk": 558.1395348837209,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 645,
@@ -18751,7 +18751,7 @@
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 8,
             "ttk": 651.1627906976744,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 20.3,
@@ -18768,7 +18768,7 @@
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 10,
             "ttk": 837.2093023255813,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 30
@@ -18859,9 +18859,9 @@
             "upperleg": 28,
             "lowerleg": 28,
             "time_between_shots": 70.01166861143524,
-            "shots_to_kill": 11,
-            "ttk": 700.1166861143524,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 630.1050175029171,
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 857,
@@ -18878,7 +18878,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 11,
             "ttk": 700.1166861143524,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 857,
@@ -18893,9 +18893,9 @@
             "upperleg": 23,
             "lowerleg": 23,
             "time_between_shots": 70.01166861143524,
-            "shots_to_kill": 13,
-            "ttk": 840.1400233372228,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 770.1283547257876,
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 857,
@@ -18912,7 +18912,7 @@
             "time_between_shots": 70.01166861143524,
             "shots_to_kill": 14,
             "ttk": 914.1942451401475,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -18999,12 +18999,12 @@
             "upperleg": 38,
             "lowerleg": 38,
             "time_between_shots": 93.02325581395348,
-            "shots_to_kill": 8,
-            "ttk": 651.1627906976744,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 7,
+            "ttk": 558.1395348837209,
+            "enemies_per_magazine": 4
           },
           {
-            "dropoff": 12.2,
+            "dropoff": 12,
             "base_rpm": 645,
             "final_rpm": 645,
             "neck": 40,
@@ -19016,9 +19016,9 @@
             "lowerleg": 34,
             "stomach": 34,
             "time_between_shots": 93.02325581395348,
-            "shots_to_kill": 9,
-            "ttk": 744.1860465116279,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 8,
+            "ttk": 651.1627906976744,
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 21,
@@ -19033,9 +19033,9 @@
             "lowerleg": 25,
             "stomach": 25,
             "time_between_shots": 93.02325581395348,
-            "shots_to_kill": 11,
-            "ttk": 930.2325581395348,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 837.2093023255813,
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 32
@@ -19064,7 +19064,7 @@
               "name": "Itinerant Light Stock"
             }
           ],
-          "rating": 3.9,
+          "rating": 4.45,
           "description": "Close Range meta build",
           "loadout_code": "S07-6WVQS-9Y11",
           "image": "https://assets.codmunity.gg/optimized/Sturmwolf-45-Close-Range-Warzone-Loadout-CODMunity-1600.webp"
@@ -19128,7 +19128,7 @@
             "time_between_shots": 89.95502248875562,
             "shots_to_kill": 8,
             "ttk": 629.6851574212893,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 667,
@@ -19145,7 +19145,7 @@
             "time_between_shots": 89.95502248875562,
             "shots_to_kill": 10,
             "ttk": 809.5952023988006,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 667,
@@ -19160,9 +19160,9 @@
             "upperleg": 20,
             "lowerleg": 20,
             "time_between_shots": 89.95502248875562,
-            "shots_to_kill": 13,
-            "ttk": 1079.4602698650674,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 12,
+            "ttk": 989.5052473763118,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -19255,7 +19255,7 @@
             "time_between_shots": 136.05442176870747,
             "shots_to_kill": 6,
             "ttk": 680.2721088435374,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 441,
@@ -19272,7 +19272,7 @@
             "time_between_shots": 136.05442176870747,
             "shots_to_kill": 6,
             "ttk": 680.2721088435374,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 441,
@@ -19289,7 +19289,7 @@
             "time_between_shots": 136.05442176870747,
             "shots_to_kill": 7,
             "ttk": 816.3265306122448,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 30
@@ -19353,9 +19353,9 @@
             "upperleg": 27,
             "lowerleg": 27,
             "time_between_shots": 63.02521008403362,
-            "shots_to_kill": 11,
-            "ttk": 630.2521008403362,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 10,
+            "ttk": 567.2268907563025,
+            "enemies_per_magazine": 4
           },
           {
             "base_rpm": 952,
@@ -19372,7 +19372,7 @@
             "time_between_shots": 63.02521008403362,
             "shots_to_kill": 12,
             "ttk": 693.2773109243698,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 952,
@@ -19387,8 +19387,8 @@
             "upperleg": 18,
             "lowerleg": 18,
             "time_between_shots": 63.02521008403362,
-            "shots_to_kill": 16,
-            "ttk": 945.3781512605043,
+            "shots_to_kill": 15,
+            "ttk": 882.3529411764706,
             "enemies_per_magazine": 2
           }
         ],
@@ -19482,7 +19482,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 11,
             "ttk": 549.9541704857928,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -19499,7 +19499,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 12,
             "ttk": 604.9495875343721,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -19514,9 +19514,9 @@
             "lowerleg": 18,
             "stomach": 18,
             "time_between_shots": 54.995417048579284,
-            "shots_to_kill": 15,
-            "ttk": 769.93583868011,
-            "enemies_per_magazine": 1
+            "shots_to_kill": 14,
+            "ttk": 714.9404216315307,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -19545,7 +19545,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.9,
+          "rating": 5.5,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
@@ -19609,7 +19609,7 @@
             "time_between_shots": 77.02182284980745,
             "shots_to_kill": 9,
             "ttk": 616.1745827984596,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 779,
@@ -19626,7 +19626,7 @@
             "time_between_shots": 77.02182284980745,
             "shots_to_kill": 10,
             "ttk": 693.196405648267,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 779,
@@ -19643,7 +19643,7 @@
             "time_between_shots": 77.02182284980745,
             "shots_to_kill": 13,
             "ttk": 924.2618741976894,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 30
@@ -19736,7 +19736,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 12,
             "ttk": 604.9495875343721,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -19753,7 +19753,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 15,
             "ttk": 769.93583868011,
-            "enemies_per_magazine": 1
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1091,
@@ -19804,7 +19804,7 @@
             "time_between_shots": 54.995417048579284,
             "shots_to_kill": 19,
             "ttk": 1019.0286179855382,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 32
@@ -19897,7 +19897,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 7,
             "ttk": 600,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -19914,7 +19914,7 @@
             "time_between_shots": 100,
             "shots_to_kill": 8,
             "ttk": 700,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 600,
@@ -19929,9 +19929,9 @@
             "upperleg": 28,
             "lowerleg": 28,
             "time_between_shots": 100,
-            "shots_to_kill": 11,
-            "ttk": 1000,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 10,
+            "ttk": 900,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 25
@@ -20603,7 +20603,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 5,
             "ttk": 559.4405594405595,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 429,
@@ -20620,7 +20620,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 5,
             "ttk": 559.4405594405595,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 429,
@@ -20637,7 +20637,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 5,
             "ttk": 559.4405594405595,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 429,
@@ -20654,7 +20654,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 6,
             "ttk": 699.3006993006993,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 429,
@@ -20671,7 +20671,7 @@
             "time_between_shots": 139.86013986013987,
             "shots_to_kill": 7,
             "ttk": 839.1608391608393,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 429,
@@ -20915,7 +20915,7 @@
             "time_between_shots": 631.578947368421,
             "shots_to_kill": 2,
             "ttk": 631.578947368421,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 95,
@@ -20932,7 +20932,7 @@
             "time_between_shots": 631.578947368421,
             "shots_to_kill": 3,
             "ttk": 1354.2690058479532,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 6
@@ -20998,7 +20998,7 @@
             "time_between_shots": 319.1489361702128,
             "shots_to_kill": 3,
             "ttk": 638.2978723404256,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 188,
@@ -21015,7 +21015,7 @@
             "time_between_shots": 319.1489361702128,
             "shots_to_kill": 4,
             "ttk": 971.284017812964,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "base_rpm": 188,
@@ -21032,7 +21032,7 @@
             "time_between_shots": 319.1489361702128,
             "shots_to_kill": 4,
             "ttk": 988.3770410687779,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 6
@@ -21098,7 +21098,7 @@
             "time_between_shots": 1363.6363636363637,
             "shots_to_kill": 2,
             "ttk": 1363.6363636363637,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 44,
@@ -21115,7 +21115,7 @@
             "time_between_shots": 1363.6363636363637,
             "shots_to_kill": 2,
             "ttk": 1401.5113636363637,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21181,7 +21181,7 @@
             "time_between_shots": 1666.6666666666667,
             "shots_to_kill": 2,
             "ttk": 1666.6666666666667,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21247,7 +21247,7 @@
             "time_between_shots": 1818.1818181818182,
             "shots_to_kill": 2,
             "ttk": 1818.1818181818182,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 33,
@@ -21264,7 +21264,7 @@
             "time_between_shots": 1818.1818181818182,
             "shots_to_kill": 2,
             "ttk": 1888.1818181818182,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21326,7 +21326,7 @@
             "time_between_shots": 461.53846153846155,
             "shots_to_kill": 3,
             "ttk": 923.0769230769231,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 130,
@@ -21343,7 +21343,7 @@
             "time_between_shots": 461.53846153846155,
             "shots_to_kill": 3,
             "ttk": 944.2964352720451,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 10
@@ -21409,7 +21409,7 @@
             "time_between_shots": 1276.595744680851,
             "shots_to_kill": 2,
             "ttk": 1276.595744680851,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 47,
@@ -21426,7 +21426,7 @@
             "time_between_shots": 1276.595744680851,
             "shots_to_kill": 2,
             "ttk": 1276.595744680851,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 47,
@@ -21441,9 +21441,9 @@
             "upperleg": 86,
             "lowerleg": 86,
             "time_between_shots": 1276.595744680851,
-            "shots_to_kill": 3,
-            "ttk": 2593.454647256439,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 2,
+            "ttk": 1316.858902575588,
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21509,7 +21509,7 @@
             "time_between_shots": 1538.4615384615386,
             "shots_to_kill": 2,
             "ttk": 1538.4615384615386,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 69,
@@ -21526,7 +21526,7 @@
             "time_between_shots": 1538.4615384615386,
             "shots_to_kill": 2,
             "ttk": 1565.989628349179,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21592,7 +21592,7 @@
             "time_between_shots": 1333.3333333333333,
             "shots_to_kill": 2,
             "ttk": 1333.3333333333333,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 61,
@@ -21609,7 +21609,7 @@
             "time_between_shots": 1333.3333333333333,
             "shots_to_kill": 2,
             "ttk": 1350.3663003663003,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -21667,7 +21667,7 @@
             "time_between_shots": 588.2352941176471,
             "shots_to_kill": 3,
             "ttk": 1176.4705882352941,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 10
           },
           {
             "dropoff": 44.4,
@@ -21684,7 +21684,7 @@
             "time_between_shots": 588.2352941176471,
             "shots_to_kill": 3,
             "ttk": 1184.1329258976318,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 10
           },
           {
             "dropoff": 63.5,
@@ -21701,7 +21701,7 @@
             "time_between_shots": 588.2352941176471,
             "shots_to_kill": 3,
             "ttk": 1208.9381207028266,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 10
           }
         ],
         "mag": 30
@@ -21763,7 +21763,7 @@
             "time_between_shots": 1463.4146341463415,
             "shots_to_kill": 2,
             "ttk": 1463.4146341463415,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 41,
@@ -21780,7 +21780,7 @@
             "time_between_shots": 1463.4146341463415,
             "shots_to_kill": 2,
             "ttk": 1480.2567394094995,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           },
           {
             "base_rpm": 41,
@@ -21797,7 +21797,7 @@
             "time_between_shots": 1463.4146341463415,
             "shots_to_kill": 2,
             "ttk": 1520.3883183568678,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 5
           }
         ],
         "mag": 10
@@ -21942,7 +21942,7 @@
             "time_between_shots": 1176.4705882352941,
             "shots_to_kill": 2,
             "ttk": 1176.4705882352941,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 51,
@@ -21959,7 +21959,7 @@
             "time_between_shots": 1176.4705882352941,
             "shots_to_kill": 2,
             "ttk": 1176.4705882352941,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 51,
@@ -21976,7 +21976,7 @@
             "time_between_shots": 1176.4705882352941,
             "shots_to_kill": 3,
             "ttk": 2386.493808049536,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 5
@@ -22038,7 +22038,7 @@
             "time_between_shots": 500,
             "shots_to_kill": 3,
             "ttk": 1000,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "dropoff": 70,
@@ -22055,7 +22055,7 @@
             "time_between_shots": 500,
             "shots_to_kill": 4,
             "ttk": 1526.0869565217392,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 10
@@ -22117,7 +22117,7 @@
             "time_between_shots": 540.5405405405405,
             "shots_to_kill": 3,
             "ttk": 1081.081081081081,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           },
           {
             "dropoff": 54.5,
@@ -22134,7 +22134,7 @@
             "time_between_shots": 540.5405405405405,
             "shots_to_kill": 3,
             "ttk": 1113.6568386568385,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 1
           }
         ],
         "mag": 5
@@ -22200,7 +22200,7 @@
             "time_between_shots": 1666.6666666666667,
             "shots_to_kill": 2,
             "ttk": 1666.6666666666667,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -22266,7 +22266,7 @@
             "time_between_shots": 1538.4615384615386,
             "shots_to_kill": 2,
             "ttk": 1538.4615384615386,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 39,
@@ -22283,7 +22283,7 @@
             "time_between_shots": 1538.4615384615386,
             "shots_to_kill": 2,
             "ttk": 1545.4235637779943,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 39,
@@ -22300,7 +22300,7 @@
             "time_between_shots": 1538.4615384615386,
             "shots_to_kill": 2,
             "ttk": 1578.2083739045765,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -22362,7 +22362,7 @@
             "time_between_shots": 1250,
             "shots_to_kill": 2,
             "ttk": 1250,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 48,
@@ -22379,7 +22379,7 @@
             "time_between_shots": 1250,
             "shots_to_kill": 2,
             "ttk": 1281.25,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 7
@@ -22445,7 +22445,7 @@
             "time_between_shots": 600,
             "shots_to_kill": 3,
             "ttk": 1200,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 100,
@@ -22462,7 +22462,7 @@
             "time_between_shots": 600,
             "shots_to_kill": 3,
             "ttk": 1226.0869565217392,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 10
@@ -22528,7 +22528,7 @@
             "time_between_shots": 1071.4285714285713,
             "shots_to_kill": 2,
             "ttk": 1071.4285714285713,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 90,
@@ -22545,7 +22545,7 @@
             "time_between_shots": 1071.4285714285713,
             "shots_to_kill": 2,
             "ttk": 1112.3376623376623,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 8
@@ -22611,7 +22611,7 @@
             "time_between_shots": 1395.3488372093022,
             "shots_to_kill": 2,
             "ttk": 1395.3488372093022,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 6
@@ -22675,9 +22675,9 @@
             "base_rpm": 136,
             "final_rpm": 136,
             "time_between_shots": 441.1764705882353,
-            "shots_to_kill": 3,
-            "ttk": 882.3529411764706,
-            "enemies_per_magazine": 0
+            "shots_to_kill": 2,
+            "ttk": 441.1764705882353,
+            "enemies_per_magazine": 6
           },
           {
             "dropoff": 80,
@@ -22694,7 +22694,7 @@
             "time_between_shots": 441.1764705882353,
             "shots_to_kill": 3,
             "ttk": 929.9139167862268,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 12
@@ -22760,7 +22760,7 @@
             "time_between_shots": 731.7073170731708,
             "shots_to_kill": 2,
             "ttk": 731.7073170731708,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "base_rpm": 82,
@@ -22777,7 +22777,7 @@
             "time_between_shots": 731.7073170731708,
             "shots_to_kill": 2,
             "ttk": 817.1739837398375,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 5
@@ -22918,7 +22918,7 @@
             "time_between_shots": 116.0541586073501,
             "shots_to_kill": 6,
             "ttk": 580.2707930367505,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           },
           {
             "base_rpm": 517,
@@ -22935,7 +22935,7 @@
             "time_between_shots": 116.0541586073501,
             "shots_to_kill": 7,
             "ttk": 760.3249516441006,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           },
           {
             "dropoff": 20.3,
@@ -22952,7 +22952,7 @@
             "time_between_shots": 116.0541586073501,
             "shots_to_kill": 8,
             "ttk": 965.3791102514507,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 2
           }
         ],
         "mag": 20
@@ -23042,7 +23042,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 10.9,
@@ -23059,7 +23059,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 4
           },
           {
             "dropoff": 17.8,
@@ -23076,7 +23076,7 @@
             "time_between_shots": 120,
             "shots_to_kill": 9,
             "ttk": 960,
-            "enemies_per_magazine": 0
+            "enemies_per_magazine": 3
           }
         ],
         "mag": 32
@@ -23142,7 +23142,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 10,
             "ttk": 675,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 7
           },
           {
             "dropoff": 46,
@@ -23159,7 +23159,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 12,
             "ttk": 827.2727272727273,
-            "enemies_per_magazine": 2
+            "enemies_per_magazine": 5
           },
           {
             "dropoff": 64,
@@ -23176,7 +23176,7 @@
             "time_between_shots": 75,
             "shots_to_kill": 15,
             "ttk": 1072.7272727272727,
-            "enemies_per_magazine": 3
+            "enemies_per_magazine": 4
           }
         ],
         "mag": 70
