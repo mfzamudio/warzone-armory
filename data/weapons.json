@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T06:13:33.875497+00:00",
+  "last_updated": "2026-05-03T06:31:38.156528+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -221,7 +221,7 @@
               "name": "Pugil Heavy Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A02-2G9PV-4C1XB-11",
           "image": "https://assets.codmunity.gg/optimized/AK-27-Long-Range-Warzone-Loadout-CODMunity-8849.webp"
@@ -1481,7 +1481,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 5.8,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1608,7 +1608,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.25,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -3596,7 +3596,7 @@
               "name": "Bowen Linchpin Stock"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.1,
           "description": "Long Range meta build",
           "loadout_code": "A01-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/M15-Mod-0-Long-Range-Warzone-Loadout-CODMunity-2144.webp"
@@ -4131,7 +4131,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.65,
+          "rating": 4.4,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -4485,7 +4485,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.46,
+          "rating": 4.7,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -4866,7 +4866,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.61,
+          "rating": 4.3,
           "description": "Long Range meta build",
           "loadout_code": "A06-34FBS-SSSP3-11",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Long-Range-Warzone-Loadout-CODMunity-5636.webp"
@@ -5912,7 +5912,7 @@
               "name": "V-Last Control Pad"
             }
           ],
-          "rating": 5.7,
+          "rating": 5.8,
           "description": "Long Range meta build",
           "loadout_code": "A09-34FBS-SSUFL-11",
           "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2781.webp"
@@ -6039,7 +6039,7 @@
               "name": "4.73 Caseless Overpressured"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.2,
           "description": "Long Range meta build",
           "loadout_code": "A04-2JFA4-GJ3XM-A311",
           "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-6273.webp"
@@ -8187,7 +8187,7 @@
               "name": "Shock Shield Stock"
             }
           ],
-          "rating": 4.9,
+          "rating": 5.9,
           "description": "Long Range meta build",
           "loadout_code": "L01-2R4XJ-XDNRN-11",
           "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-3467.webp"
@@ -8934,7 +8934,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.15,
           "description": "Long Range meta build",
           "loadout_code": "L04-T43XE-V6NQ5-1",
           "image": "https://assets.codmunity.gg/optimized/Sokol-545-Long-Range-Warzone-Loadout-CODMunity-9120.webp"
@@ -11243,7 +11243,7 @@
               "name": "MFS Penta Burst Mod"
             }
           ],
-          "rating": 4.3,
+          "rating": 3.95,
           "description": "Long Range meta build",
           "loadout_code": "M05-G124X-F71",
           "image": "https://assets.codmunity.gg/optimized/Swordfish-A1-Long-Range-Warzone-Loadout-CODMunity-6124.webp"
@@ -14794,7 +14794,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 4.7,
+          "rating": 5.2,
           "description": "Close Range meta build",
           "loadout_code": "S05-6U1FG-HU51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-6856.webp"

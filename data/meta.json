@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-02T06:13:33.867052+00:00",
+  "last_updated": "2026-05-03T06:31:38.150065+00:00",
   "top_weapons": [
     {
-      "name": "DS20 Mirage",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 1
     },
@@ -17,37 +17,37 @@
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "MK.78",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Kogot-7",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Hawker HX",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Dravec 45",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "AK-27",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "Carbon 57",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 10
     },
@@ -62,7 +62,7 @@
       "rank": 12
     },
     {
-      "name": "MK35 ISR",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 13
     },
@@ -72,27 +72,27 @@
       "rank": 14
     },
     {
-      "name": "MXR-17",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "Razor 9mm",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Razor 9mm",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "VS Recon",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "Ryden 45K",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 19
     },
@@ -104,23 +104,27 @@
   ],
   "top_meta_scores": [
     {
-      "name": "DS20 Mirage",
-      "score": 5.8
+      "name": "MK.78",
+      "score": 5.9
     },
     {
       "name": "Voyak KT-3",
-      "score": 5.7
+      "score": 5.8
     },
     {
       "name": "VST",
       "score": 5.5
     },
     {
+      "name": "Carbon 57",
+      "score": 5.2
+    },
+    {
       "name": "Strider 300",
       "score": 5.2
     },
     {
-      "name": "MK.78",
+      "name": "DS20 Mirage",
       "score": 4.9
     },
     {
@@ -136,15 +140,11 @@
       "score": 4.8
     },
     {
-      "name": "AK-27",
-      "score": 4.7
-    },
-    {
       "name": "EGRT-17",
       "score": 4.7
     },
     {
-      "name": "Carbon 57",
+      "name": "MXR-17",
       "score": 4.7
     },
     {
@@ -152,16 +152,12 @@
       "score": 4.7
     },
     {
-      "name": "MK35 ISR",
-      "score": 4.65
+      "name": "AK-27",
+      "score": 4.6
     },
     {
       "name": "Peacekeeper Mk1",
-      "score": 4.61
-    },
-    {
-      "name": "MXR-17",
-      "score": 4.46
+      "score": 4.6
     },
     {
       "name": "Sturmwolf 45",
@@ -170,6 +166,10 @@
     {
       "name": "Razor 9mm",
       "score": 4.43
+    },
+    {
+      "name": "MK35 ISR",
+      "score": 4.4
     },
     {
       "name": "Ryden 45K",
@@ -188,24 +188,20 @@
       "score": 4.35
     },
     {
-      "name": "X9 Maverick",
-      "score": 4.35
-    },
-    {
-      "name": "Sokol 545",
-      "score": 4.3
-    },
-    {
-      "name": "Swordfish A1",
-      "score": 4.3
-    },
-    {
       "name": "MPC-25",
       "score": 4.3
     },
     {
+      "name": "X9 Maverick",
+      "score": 4.2
+    },
+    {
       "name": "TR2",
       "score": 4.2
+    },
+    {
+      "name": "Sokol 545",
+      "score": 4.15
     },
     {
       "name": "M8A1",
@@ -214,6 +210,10 @@
     {
       "name": "LC10",
       "score": 4.1
+    },
+    {
+      "name": "Swordfish A1",
+      "score": 3.95
     },
     {
       "name": "Maddox RFB",
