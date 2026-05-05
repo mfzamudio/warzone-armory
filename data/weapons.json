@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T06:46:34.696890+00:00",
+  "last_updated": "2026-05-05T06:23:59.551851+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -1481,7 +1481,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.7,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1608,7 +1608,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.25,
+          "rating": 4.4,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -4131,7 +4131,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.25,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -4485,7 +4485,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -5901,7 +5901,7 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
+              "name": "Redwell 30-S 2x"
             },
             {
               "slot": "Magazine",
@@ -5912,10 +5912,10 @@
               "name": "V-Last Control Pad"
             }
           ],
-          "rating": 5.8,
+          "rating": 4.9,
           "description": "Long Range meta build",
-          "loadout_code": "A09-34FBS-SSUFL-11",
-          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2781.webp"
+          "loadout_code": "A09-23Y1W-DYJLY-11",
+          "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2492.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -8176,21 +8176,21 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "VAS Convergence Foregrip"
+              "name": "Redwell 30-S 2x"
             },
             {
               "slot": "Stock",
               "name": "Shock Shield Stock"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "7.62 NATO Overpressured"
             }
           ],
           "rating": 5.9,
           "description": "Long Range meta build",
-          "loadout_code": "L01-2R4XJ-XDNRN-11",
-          "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-3467.webp"
+          "loadout_code": "L01-21XI3-S9M5S-A711",
+          "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-9566.webp"
         },
         "balanced": null,
         "sniper_support": null
@@ -14774,10 +14774,6 @@
         "aggressive": {
           "attachments": [
             {
-              "slot": "Muzzle",
-              "name": "K&S Compensator"
-            },
-            {
               "slot": "Barrel",
               "name": "14\" Rockleigh Barrel"
             },
@@ -14786,18 +14782,22 @@
               "name": "Sapper Guard Handstop"
             },
             {
-              "slot": "Rear Grip",
-              "name": "Bombus Quick Grip"
+              "slot": "Magazine",
+              "name": "MFS Renown Plus Mag"
+            },
+            {
+              "slot": "Stock",
+              "name": "Hammer Platoon Pad"
             },
             {
               "slot": "Fire Mods",
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.5,
           "description": "Close Range meta build",
-          "loadout_code": "S05-6U1FG-HU51",
-          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-6856.webp"
+          "loadout_code": "S05-6K2ZB-UH51",
+          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-5688.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -14894,7 +14894,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.6,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVWP-G8731",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
@@ -16349,7 +16349,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.85,
           "description": "Close Range meta build",
           "loadout_code": "S10-5Q9BU-31",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5417.webp"
@@ -18155,7 +18155,7 @@
               "name": "Serpent Pad"
             }
           ],
-          "rating": 4.43,
+          "rating": 4.2,
           "description": "Close Range meta build",
           "loadout_code": "S03-AUXZ3-92ZB1-1",
           "image": "https://assets.codmunity.gg/optimized/Razor-9mm-Close-Range-Warzone-Loadout-CODMunity-9809.webp"
@@ -19545,7 +19545,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 5.5,
+          "rating": 4.9,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
@@ -22409,7 +22409,7 @@
               "name": ".338 LM Overpressured"
             }
           ],
-          "rating": 4.85,
+          "rating": 4.7,
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": "https://assets.codmunity.gg/optimized/Hawker-HX-undefined-Warzone-Loadout-CODMunity-7970.webp"
@@ -22641,7 +22641,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.6,
           "description": "Sniper meta build",
           "loadout_code": "R01-21WSG-L369K-P711",
           "image": "https://assets.codmunity.gg/optimized/VS-Recon-Sniper-Warzone-Loadout-CODMunity-8935.webp"
@@ -22724,7 +22724,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.3,
           "description": "Sniper meta build",
           "loadout_code": "R03-2JDTU-ZRTEK-J911",
           "image": "https://assets.codmunity.gg/optimized/XR-3-Ion-Long-Range-Warzone-Loadout-CODMunity-7477.webp"
@@ -23005,9 +23005,33 @@
       "name": "Siren",
       "type": "Special",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/siren_bo7_icon.webp",
       "description": "Charge energy weapon. Fires a high damage, slow moving projectile that passes through foes. Charge to improve projectile velocity.",
-      "stats": {},
+      "stats": {
+        "rpm": 150,
+        "ads": 260,
+        "bv": 12.7,
+        "damage": [
+          {
+            "dropoff": 0,
+            "head": 180,
+            "neck": 180,
+            "chest": 180,
+            "stomach": 180,
+            "upperleg": 180,
+            "lowerleg": 180,
+            "upperarm": 180,
+            "lowerarm": 180,
+            "base_rpm": 150,
+            "final_rpm": 150,
+            "time_between_shots": 400,
+            "shots_to_kill": 2,
+            "ttk": 400,
+            "enemies_per_magazine": 3
+          }
+        ],
+        "mag": 6
+      },
       "loadouts": {
         "aggressive": null,
         "long_range": null,
