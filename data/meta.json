@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T06:44:04.672196+00:00",
+  "last_updated": "2026-05-08T06:03:15.788536+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -17,22 +17,22 @@
       "rank": 3
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "VST",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Kogot-7",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "MXR-17",
+      "name": "VST",
       "game": "bo7",
       "rank": 7
     },
@@ -120,15 +120,15 @@
       "score": 4.9
     },
     {
-      "name": "VST",
+      "name": "Kogot-7",
       "score": 4.9
     },
     {
-      "name": "Kogot-7",
-      "score": 4.85
+      "name": "MXR-17",
+      "score": 4.8
     },
     {
-      "name": "MXR-17",
+      "name": "VST",
       "score": 4.8
     },
     {
