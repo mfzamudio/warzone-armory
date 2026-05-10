@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T06:22:24.676477+00:00",
+  "last_updated": "2026-05-10T06:38:41.020983+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -27,7 +27,7 @@
       "rank": 5
     },
     {
-      "name": "MXR-17",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 6
     },
@@ -37,7 +37,7 @@
       "rank": 7
     },
     {
-      "name": "DS20 Mirage",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 8
     },
@@ -124,7 +124,7 @@
       "score": 4.9
     },
     {
-      "name": "MXR-17",
+      "name": "DS20 Mirage",
       "score": 4.8
     },
     {
@@ -132,11 +132,11 @@
       "score": 4.8
     },
     {
-      "name": "DS20 Mirage",
+      "name": "EGRT-17",
       "score": 4.7
     },
     {
-      "name": "EGRT-17",
+      "name": "MXR-17",
       "score": 4.7
     },
     {
