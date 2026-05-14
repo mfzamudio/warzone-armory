@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T06:52:29.686869+00:00",
+  "last_updated": "2026-05-14T06:50:00.019321+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -20694,30 +20694,7 @@
         "mag": 15
       },
       "loadouts": {
-        "aggressive": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Flash Twist-90"
-            },
-            {
-              "slot": "Barrel",
-              "name": "Hyp-LM"
-            },
-            {
-              "slot": "Optic",
-              "name": "Cronen INTLAS MSP-12"
-            },
-            {
-              "slot": "Rear Grip",
-              "name": "Stream-SK"
-            }
-          ],
-          "rating": 1.1,
-          "description": "Close Range meta build",
-          "loadout_code": null,
-          "image": "https://assets.codmunity.gg/optimized/MX-Guardian-Close-Range-Warzone-Loadout-CODMunity-9621.webp"
-        },
+        "aggressive": null,
         "long_range": null,
         "balanced": null,
         "sniper_support": null

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T06:52:29.679484+00:00",
+  "last_updated": "2026-05-14T06:50:00.011796+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -429,11 +429,11 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 273
+      "count": 272
     },
     {
       "slot": "Barrel",
-      "count": 232
+      "count": 231
     },
     {
       "slot": "Magazine",
@@ -441,7 +441,7 @@
     },
     {
       "slot": "Optic",
-      "count": 186
+      "count": 185
     },
     {
       "slot": "Underbarrel",
@@ -453,7 +453,7 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 110
+      "count": 109
     },
     {
       "slot": "Fire Mods",
@@ -473,7 +473,7 @@
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 84,
+    "aggressive": 83,
     "long_range": 125,
     "balanced": 0,
     "sniper_support": 101
