@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T06:50:00.011796+00:00",
+  "last_updated": "2026-05-15T07:29:11.200855+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -12,12 +12,12 @@
       "rank": 2
     },
     {
-      "name": "Strider 300",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Kogot-7",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
@@ -112,15 +112,15 @@
       "score": 5.5
     },
     {
+      "name": "Kogot-7",
+      "score": 5.2
+    },
+    {
       "name": "Strider 300",
       "score": 5.2
     },
     {
       "name": "Voyak KT-3",
-      "score": 4.9
-    },
-    {
-      "name": "Kogot-7",
       "score": 4.9
     },
     {
@@ -429,7 +429,7 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 272
+      "count": 273
     },
     {
       "slot": "Barrel",
@@ -445,11 +445,11 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 149
+      "count": 150
     },
     {
       "slot": "Stock",
-      "count": 122
+      "count": 120
     },
     {
       "slot": "Rear Grip",

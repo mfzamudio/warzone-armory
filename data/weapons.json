@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T06:50:00.019321+00:00",
+  "last_updated": "2026-05-15T07:29:11.208537+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -14774,6 +14774,10 @@
         "aggressive": {
           "attachments": [
             {
+              "slot": "Muzzle",
+              "name": "Kühn Ported Comp"
+            },
+            {
               "slot": "Barrel",
               "name": "14\" Rockleigh Barrel"
             },
@@ -14786,18 +14790,14 @@
               "name": "MFS Renown Plus Mag"
             },
             {
-              "slot": "Stock",
-              "name": "Hammer Platoon Pad"
-            },
-            {
               "slot": "Fire Mods",
               "name": "Accelerated Recoil System"
             }
           ],
           "rating": 5.5,
           "description": "Close Range meta build",
-          "loadout_code": "S05-6K2ZB-UH51",
-          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-5688.webp"
+          "loadout_code": "S05-6K7PE-2S51",
+          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-2492.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -16330,29 +16330,29 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Series 45"
+              "name": "Hawker Ported Comp"
             },
             {
               "slot": "Barrel",
               "name": "13.5\" Canis-05 Barrel"
             },
             {
-              "slot": "Magazine",
-              "name": "Vex Expanse Mag"
+              "slot": "Underbarrel",
+              "name": "EAM Steady-90 Grip"
             },
             {
-              "slot": "Stock",
-              "name": "F7-Howl Stock"
+              "slot": "Magazine",
+              "name": "Vex Expanse Mag"
             },
             {
               "slot": "Fire Mods",
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.9,
+          "rating": 5.2,
           "description": "Close Range meta build",
-          "loadout_code": "S10-5Q9BU-31",
-          "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5417.webp"
+          "loadout_code": "S10-6K4JN-R731",
+          "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -20054,7 +20054,7 @@
       "description": "Full-auto Shotgun. Excellent mobility and handling, balanced by high recoil and short range.",
       "stats": {
         "rpm": 400,
-        "ads": 240,
+        "ads": 210,
         "bv": 320,
         "damage": [],
         "mag": 12
