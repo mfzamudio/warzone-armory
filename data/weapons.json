@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T07:29:11.208537+00:00",
+  "last_updated": "2026-05-16T06:27:36.907245+00:00",
   "season": "S2R",
   "weapon_count": 256,
   "weapons": [
@@ -14794,7 +14794,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 5.5,
+          "rating": 5.3,
           "description": "Close Range meta build",
           "loadout_code": "S05-6K7PE-2S51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-2492.webp"
@@ -16349,7 +16349,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.5,
           "description": "Close Range meta build",
           "loadout_code": "S10-6K4JN-R731",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
@@ -16360,7 +16360,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Series 45"
+              "name": "SWF Tishina-11"
             },
             {
               "slot": "Barrel",
@@ -16371,18 +16371,18 @@
               "name": "FANG HoverPoint ELO"
             },
             {
-              "slot": "Magazine",
-              "name": "Vex Expanse Mag"
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
             },
             {
-              "slot": "Stock",
-              "name": "EMT3 Radlx Stock"
+              "slot": "Magazine",
+              "name": "Vex Expanse Mag"
             }
           ],
-          "rating": 4.14,
+          "rating": 4.4,
           "description": "Sniper Support meta build",
-          "loadout_code": "S10-DBNYV-3SAN1-1",
-          "image": "https://assets.codmunity.gg/optimized/Kogot-7-Sniper-Support-Warzone-Loadout-CODMunity-8681.webp"
+          "loadout_code": "S10-2W2D6-4DALL-11",
+          "image": "https://assets.codmunity.gg/optimized/Kogot-7-Sniper-Support-Warzone-Loadout-CODMunity-2924.webp"
         }
       }
     },

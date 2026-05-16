@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T07:29:11.200855+00:00",
+  "last_updated": "2026-05-16T06:27:36.900305+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -7,12 +7,12 @@
       "rank": 1
     },
     {
-      "name": "Carbon 57",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Kogot-7",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 3
     },
@@ -108,12 +108,12 @@
       "score": 5.9
     },
     {
-      "name": "Carbon 57",
+      "name": "Kogot-7",
       "score": 5.5
     },
     {
-      "name": "Kogot-7",
-      "score": 5.2
+      "name": "Carbon 57",
+      "score": 5.3
     },
     {
       "name": "Strider 300",
@@ -445,11 +445,11 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 150
+      "count": 151
     },
     {
       "slot": "Stock",
-      "count": 120
+      "count": 119
     },
     {
       "slot": "Rear Grip",
