@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-02T08:41:37.932143+00:00",
+  "last_updated": "2026-06-03T08:59:10.604241+00:00",
   "season": "S2R",
-  "weapon_count": 256,
+  "weapon_count": 262,
   "weapons": [
     {
       "id": "abr-a1",
@@ -536,6 +536,21 @@
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/AMES-85-Sniper-Support-Warzone-Loadout-CODMunity-7107.webp"
         }
+      }
+    },
+    {
+      "id": "an-94",
+      "name": "AN-94",
+      "type": "Assault Rifle",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Fully automatic assault rifle. First two rounds fire at a faster rate. Slower handling and mobility.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -5822,6 +5837,21 @@
       }
     },
     {
+      "id": "vx-compact",
+      "name": "VX Compact",
+      "type": "Assault Rifle",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Full-auto assault rifle. Best-in-class rate of fire and excellent handling, offset by lower range and ammo capacity.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
       "id": "voyak-kt-3",
       "name": "Voyak KT-3",
       "type": "Assault Rifle",
@@ -10086,6 +10116,21 @@
       }
     },
     {
+      "id": "krs-762",
+      "name": "KRS-7.62",
+      "type": "Marksman Rifle",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Semi-auto marksman rifle. High damage and great mobility, limited by significant first shot recoil.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
       "id": "kvd-enforcer",
       "name": "KVD Enforcer",
       "type": "Marksman Rifle",
@@ -11882,6 +11927,21 @@
       "game": "mw2",
       "icon": "https://warzoneloadout.games/wp-content/uploads/2023/03/Dual-Kodachis.png",
       "description": "",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
+      "id": "executioners-duet",
+      "name": "Executioner’s Duet",
+      "type": "Melee",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Melee weapon. High damage, short range, and very fast attack speed.",
       "stats": {},
       "loadouts": {
         "aggressive": null,
@@ -14702,6 +14762,21 @@
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/C9-Sniper-Support-Warzone-Loadout-CODMunity-3190.webp"
         }
+      }
+    },
+    {
+      "id": "cbrs-3",
+      "name": "CBRS-3",
+      "type": "SMG",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Full-auto submachine gun with a high capacity, rechambering magazine. Well-rounded with excellent range and recoil.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -22803,6 +22878,21 @@
         "damage": [],
         "mag": 4
       },
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
+      "id": "grimhawk",
+      "name": "Grimhawk",
+      "type": "Special",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Full-auto specialized rifle. Fires low-velocity homing rounds that lock onto targets.",
+      "stats": {},
       "loadouts": {
         "aggressive": null,
         "long_range": null,
