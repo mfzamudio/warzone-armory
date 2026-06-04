@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T08:59:10.597121+00:00",
+  "last_updated": "2026-06-04T08:23:55.665548+00:00",
   "top_weapons": [
     {
       "name": "MK.78",
@@ -32,7 +32,7 @@
       "rank": 6
     },
     {
-      "name": "VST",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 7
     },
@@ -52,22 +52,22 @@
       "rank": 10
     },
     {
-      "name": "Dravec 45",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "AK-27",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "VS Recon",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "VST",
       "game": "bo7",
       "rank": 14
     },
@@ -128,7 +128,7 @@
       "score": 4.8
     },
     {
-      "name": "VST",
+      "name": "Dravec 45",
       "score": 4.8
     },
     {
@@ -144,15 +144,15 @@
       "score": 4.7
     },
     {
-      "name": "Dravec 45",
-      "score": 4.63
-    },
-    {
       "name": "AK-27",
       "score": 4.6
     },
     {
       "name": "Peacekeeper Mk1",
+      "score": 4.6
+    },
+    {
+      "name": "VST",
       "score": 4.6
     },
     {
