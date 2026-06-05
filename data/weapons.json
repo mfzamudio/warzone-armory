@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T08:23:55.672282+00:00",
+  "last_updated": "2026-06-05T08:11:37.650801+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -221,7 +221,7 @@
               "name": "Pugil Heavy Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A02-2G9PV-4C1XB-11",
           "image": "https://assets.codmunity.gg/optimized/AK-27-Long-Range-Warzone-Loadout-CODMunity-8849.webp"
@@ -1496,7 +1496,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 5.8,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1506,7 +1506,11 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Redwell 5.56 Compensator"
+              "name": "VAS 5.56 Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "18.9\" Westerlies Barrel"
             },
             {
               "slot": "Optic",
@@ -1519,16 +1523,12 @@
             {
               "slot": "Stock",
               "name": "Assault Division Stock"
-            },
-            {
-              "slot": "Fire Mods",
-              "name": "Recoil Sync Unit"
             }
           ],
           "rating": 4.65,
           "description": "Sniper Support meta build",
-          "loadout_code": "A05-AUXZ3-94Q55-1",
-          "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2627.webp"
+          "loadout_code": "A05-34FBS-R8HFD-11",
+          "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2582.webp"
         }
       }
     },
@@ -1633,7 +1633,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Redwell Shade-X Suppressor"
+              "name": "EAM Ibis Suppressor"
             },
             {
               "slot": "Barrel",
@@ -1652,10 +1652,10 @@
               "name": "Buffer Springs"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Sniper Support meta build",
-          "loadout_code": "A07-D46PN-131",
-          "image": "https://assets.codmunity.gg/optimized/EGRT-17-Sniper-Support-Warzone-Loadout-CODMunity-8390.webp"
+          "loadout_code": "A07-CYGM8-731",
+          "image": "https://assets.codmunity.gg/optimized/EGRT-17-Sniper-Support-Warzone-Loadout-CODMunity-1692.webp"
         }
       }
     },
@@ -4146,7 +4146,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.25,
+          "rating": 4.35,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -4500,7 +4500,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.2,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -4910,7 +4910,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.55,
           "description": "Sniper Support meta build",
           "loadout_code": "A06-AUXZ9-IJ8J1-1",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Sniper-Support-Warzone-Loadout-CODMunity-1122.webp"
@@ -5942,7 +5942,7 @@
               "name": "V-Last Control Pad"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.7,
           "description": "Long Range meta build",
           "loadout_code": "A09-23Y1W-DYJLY-11",
           "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2492.webp"
@@ -8217,7 +8217,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 5.9,
+          "rating": 3.9,
           "description": "Long Range meta build",
           "loadout_code": "L01-21XI3-S9M5S-A711",
           "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-9566.webp"
@@ -10120,12 +10120,93 @@
       "name": "KRS-7.62",
       "type": "Marksman Rifle",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/KRS-7.62.webp",
       "description": "Semi-auto marksman rifle. High damage and great mobility, limited by significant first shot recoil.",
-      "stats": {},
+      "stats": {
+        "rpm": 200,
+        "ads": 340,
+        "bv": 820,
+        "damage": [
+          {
+            "dropoff": 0,
+            "base_rpm": 200,
+            "final_rpm": 200,
+            "head": 105,
+            "neck": 75,
+            "chest": 75,
+            "upperarm": 75,
+            "lowerarm": 75,
+            "stomach": 67,
+            "upperleg": 67,
+            "lowerleg": 67,
+            "time_between_shots": 300,
+            "shots_to_kill": 4,
+            "ttk": 900,
+            "enemies_per_magazine": 2
+          },
+          {
+            "dropoff": 35,
+            "base_rpm": 200,
+            "final_rpm": 200,
+            "neck": 67,
+            "chest": 67,
+            "upperarm": 67,
+            "lowerarm": 67,
+            "head": 93,
+            "upperleg": 60,
+            "lowerleg": 60,
+            "stomach": 60,
+            "time_between_shots": 300,
+            "shots_to_kill": 5,
+            "ttk": 1200,
+            "enemies_per_magazine": 2
+          },
+          {
+            "dropoff": 50,
+            "base_rpm": 200,
+            "final_rpm": 200,
+            "neck": 54,
+            "chest": 54,
+            "upperarm": 54,
+            "lowerarm": 54,
+            "head": 75,
+            "upperleg": 48,
+            "lowerleg": 48,
+            "stomach": 48,
+            "time_between_shots": 300,
+            "shots_to_kill": 6,
+            "ttk": 1510.9756097560976,
+            "enemies_per_magazine": 1
+          }
+        ],
+        "mag": 10
+      },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "14.7\" KGS Hartha Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "Redwell 30-S 2x"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Satiate Extended Mag"
+            }
+          ],
+          "rating": 3.8,
+          "description": "Semi Auto meta build",
+          "loadout_code": "M07-N6M7S-MCHD1-1",
+          "image": "https://assets.codmunity.gg/optimized/KRS-7.62-Semi-Auto-Warzone-Loadout-CODMunity-5503.webp"
+        },
         "balanced": null,
         "sniper_support": null
       }
@@ -14769,14 +14850,126 @@
       "name": "CBRS-3",
       "type": "SMG",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/CBRS-3.webp",
       "description": "Full-auto submachine gun with a high capacity, rechambering magazine. Well-rounded with excellent range and recoil.",
-      "stats": {},
+      "stats": {
+        "rpm": 740,
+        "ads": 160,
+        "bv": 590,
+        "damage": [
+          {
+            "base_rpm": 740,
+            "final_rpm": 740,
+            "dropoff": 0,
+            "head": 54,
+            "neck": 42,
+            "chest": 42,
+            "upperarm": 42,
+            "lowerarm": 42,
+            "stomach": 39,
+            "upperleg": 39,
+            "lowerleg": 39,
+            "time_between_shots": 81.08108108108108,
+            "shots_to_kill": 8,
+            "ttk": 567.5675675675676,
+            "enemies_per_magazine": 7
+          },
+          {
+            "base_rpm": 740,
+            "final_rpm": 740,
+            "dropoff": 14,
+            "neck": 36,
+            "chest": 36,
+            "upperarm": 36,
+            "lowerarm": 36,
+            "head": 46,
+            "upperleg": 34,
+            "lowerleg": 34,
+            "stomach": 34,
+            "time_between_shots": 81.08108108108108,
+            "shots_to_kill": 9,
+            "ttk": 648.6486486486486,
+            "enemies_per_magazine": 6
+          },
+          {
+            "base_rpm": 740,
+            "final_rpm": 740,
+            "dropoff": 23,
+            "neck": 28,
+            "chest": 28,
+            "upperarm": 28,
+            "lowerarm": 28,
+            "head": 36,
+            "upperleg": 26,
+            "lowerleg": 26,
+            "stomach": 26,
+            "time_between_shots": 81.08108108108108,
+            "shots_to_kill": 11,
+            "ttk": 810.8108108108108,
+            "enemies_per_magazine": 5
+          }
+        ],
+        "mag": 60
+      },
       "loadouts": {
-        "aggressive": null,
+        "aggressive": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Bowen 9mm Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "15\" Redwell Parlay Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "Lethal Tools ELO"
+            },
+            {
+              "slot": "Magazine",
+              "name": "MFS Carrousel Fast Mag"
+            },
+            {
+              "slot": "Stock",
+              "name": "Slipway Stock"
+            }
+          ],
+          "rating": 4.2,
+          "description": "Close Range meta build",
+          "loadout_code": "S15-AUXZ9-IHG31-1",
+          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-3664.webp"
+        },
         "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "15\" Redwell Parlay Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Magazine",
+              "name": "MFS Carrousel Fast Mag"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "9mm Parabellum FMJ"
+            }
+          ],
+          "rating": 4.1,
+          "description": "Sniper Support meta build",
+          "loadout_code": "S15-21YNH-J5IIS-5Y11",
+          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-8592.webp"
+        }
       }
     },
     {
@@ -14895,7 +15088,7 @@
             "base_rpm": 652,
             "final_rpm": 652,
             "dropoff": 0,
-            "head": 53,
+            "head": 54,
             "neck": 44,
             "chest": 44,
             "stomach": 42,
@@ -14911,7 +15104,7 @@
           {
             "base_rpm": 652,
             "final_rpm": 652,
-            "dropoff": 13.5,
+            "dropoff": 14,
             "neck": 36,
             "upperleg": 36,
             "lowerleg": 36,
@@ -14919,7 +15112,7 @@
             "chest": 38,
             "stomach": 36,
             "lowerarm": 38,
-            "head": 46,
+            "head": 47,
             "time_between_shots": 92.02453987730061,
             "shots_to_kill": 8,
             "ttk": 644.1717791411043,
@@ -14950,7 +15143,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Series 45"
+              "name": "Bowen .45 Suppressor"
             },
             {
               "slot": "Barrel",
@@ -14969,10 +15162,10 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 4.8,
+          "rating": 5.5,
           "description": "Close Range meta build",
-          "loadout_code": "S04-BGVWP-G8731",
-          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-9920.webp"
+          "loadout_code": "S04-BGVV5-43931",
+          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-1348.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -14980,7 +15173,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Monolithic Suppressor"
+              "name": "Bowen .45 Suppressor"
             },
             {
               "slot": "Barrel",
@@ -14995,14 +15188,14 @@
               "name": "Lockjaw Extended Mag"
             },
             {
-              "slot": "Fire Mods",
-              "name": "Accelerated Recoil System"
+              "slot": "Laser",
+              "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.63,
+          "rating": 4.7,
           "description": "Sniper Support meta build",
-          "loadout_code": "S04-AUXZ7-Y6R35-1",
-          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Sniper-Support-Warzone-Loadout-CODMunity-3785.webp"
+          "loadout_code": "S04-2WCKP-794MJ-11",
+          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Sniper-Support-Warzone-Loadout-CODMunity-3471.webp"
         }
       }
     },
@@ -16366,7 +16559,7 @@
           {
             "base_rpm": 968,
             "final_rpm": 968,
-            "dropoff": 12.6,
+            "dropoff": 13,
             "neck": 28,
             "chest": 28,
             "upperarm": 28,
@@ -16424,7 +16617,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 5.5,
+          "rating": 4.6,
           "description": "Close Range meta build",
           "loadout_code": "S10-6K4JN-R731",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
@@ -16454,7 +16647,7 @@
               "name": "Vex Expanse Mag"
             }
           ],
-          "rating": 4.4,
+          "rating": 3.9,
           "description": "Sniper Support meta build",
           "loadout_code": "S10-2W2D6-4DALL-11",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Sniper-Support-Warzone-Loadout-CODMunity-2924.webp"
@@ -17077,7 +17270,7 @@
             "chest": 36,
             "stomach": 34,
             "lowerarm": 36,
-            "head": 47,
+            "head": 46,
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 9,
             "ttk": 679.8866855524079,
@@ -17107,30 +17300,30 @@
         "aggressive": {
           "attachments": [
             {
-              "slot": "Muzzle",
-              "name": "K&S Compensator"
-            },
-            {
               "slot": "Barrel",
               "name": "14.5\" VAS Ashe Barrel"
             },
             {
               "slot": "Underbarrel",
-              "name": "Zero Shift Handstop"
+              "name": "Flowguard Foregrip"
             },
             {
               "slot": "Magazine",
               "name": "MPC Overload Drum"
             },
             {
-              "slot": "Fire Mods",
-              "name": "Recoil Sync Unit"
+              "slot": "Rear Grip",
+              "name": "Magnate Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "Viper Wire Stock"
             }
           ],
-          "rating": 4.3,
+          "rating": 5.4,
           "description": "Close Range meta build",
-          "loadout_code": "S06-7YF4R-YD51",
-          "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-1215.webp"
+          "loadout_code": "S06-48B6Z-XW11",
+          "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-7376.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -17930,13 +18123,13 @@
             "final_rpm": 1154,
             "dropoff": 0,
             "head": 30,
-            "neck": 27,
+            "neck": 26,
             "upperleg": 26,
             "lowerleg": 26,
-            "upperarm": 27,
-            "chest": 27,
+            "upperarm": 26,
+            "chest": 26,
             "stomach": 26,
-            "lowerarm": 27,
+            "lowerarm": 26,
             "time_between_shots": 51.99306759098787,
             "shots_to_kill": 12,
             "ttk": 571.9237435008665,
@@ -17945,35 +18138,35 @@
           {
             "base_rpm": 1154,
             "final_rpm": 1154,
-            "dropoff": 12.5,
-            "neck": 22,
+            "dropoff": 12,
+            "neck": 21,
             "upperleg": 21,
             "lowerleg": 21,
-            "upperarm": 22,
-            "chest": 22,
+            "upperarm": 21,
+            "chest": 21,
             "stomach": 21,
-            "lowerarm": 22,
+            "lowerarm": 21,
             "head": 24,
             "time_between_shots": 51.99306759098787,
-            "shots_to_kill": 14,
-            "ttk": 675.9098786828423,
+            "shots_to_kill": 15,
+            "ttk": 727.9029462738301,
             "enemies_per_magazine": 2
           },
           {
             "base_rpm": 1154,
             "final_rpm": 1154,
             "dropoff": 21,
-            "neck": 19,
+            "neck": 18,
             "upperleg": 18,
             "lowerleg": 18,
-            "upperarm": 19,
-            "chest": 19,
+            "upperarm": 18,
+            "chest": 18,
             "stomach": 18,
-            "lowerarm": 19,
+            "lowerarm": 18,
             "head": 20,
             "time_between_shots": 51.99306759098787,
-            "shots_to_kill": 16,
-            "ttk": 779.8960138648181,
+            "shots_to_kill": 17,
+            "ttk": 831.8890814558059,
             "enemies_per_magazine": 2
           }
         ],
@@ -18003,7 +18196,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.38,
+          "rating": 4.4,
           "description": "Close Range meta build",
           "loadout_code": "S09-AUXZ7-Y4Y53-1",
           "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-5731.webp"
@@ -18501,7 +18694,7 @@
               "name": "MFS Full Stock+"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.22,
           "description": "Close Range meta build",
           "loadout_code": "S01-AUY8U-EXTF1-1",
           "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-4682.webp"
@@ -19139,7 +19332,7 @@
               "name": "Itinerant Light Stock"
             }
           ],
-          "rating": 4.45,
+          "rating": 4.26,
           "description": "Close Range meta build",
           "loadout_code": "S07-6WVQS-9Y11",
           "image": "https://assets.codmunity.gg/optimized/Sturmwolf-45-Close-Range-Warzone-Loadout-CODMunity-1600.webp"
@@ -19620,7 +19813,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.4,
           "description": "Close Range meta build",
           "loadout_code": "S12-9CQP5-C311",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
@@ -20564,7 +20757,7 @@
       "description": "Pump-action charge shotgun. Optionally hold trigger to improve hip and ADS spread.",
       "stats": {
         "rpm": 43,
-        "ads": 280,
+        "ads": 250,
         "bv": 320,
         "damage": [],
         "mag": 8
@@ -22627,7 +22820,7 @@
               "name": ".300 WM Overpressured"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.1,
           "description": "Sniper meta build",
           "loadout_code": "R07-2JD6P-5NM5G-6J11",
           "image": "https://assets.codmunity.gg/optimized/Strider-300-Sniper-Warzone-Loadout-CODMunity-9190.webp"
@@ -22890,9 +23083,67 @@
       "name": "Grimhawk",
       "type": "Special",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/grimhawk_bo7_icon.webp",
       "description": "Full-auto specialized rifle. Fires low-velocity homing rounds that lock onto targets.",
-      "stats": {},
+      "stats": {
+        "rpm": 652,
+        "ads": 340,
+        "bv": 40,
+        "damage": [
+          {
+            "base_rpm": 652,
+            "final_rpm": 652,
+            "dropoff": 0,
+            "head": 34,
+            "neck": 30,
+            "upperleg": 30,
+            "lowerleg": 30,
+            "upperarm": 30,
+            "chest": 30,
+            "stomach": 30,
+            "lowerarm": 30,
+            "time_between_shots": 92.02453987730061,
+            "shots_to_kill": 10,
+            "ttk": 828.2208588957055,
+            "enemies_per_magazine": 2
+          },
+          {
+            "base_rpm": 652,
+            "final_rpm": 652,
+            "dropoff": 20,
+            "neck": 25,
+            "upperleg": 25,
+            "lowerleg": 25,
+            "upperarm": 25,
+            "chest": 25,
+            "stomach": 25,
+            "lowerarm": 25,
+            "head": 28,
+            "time_between_shots": 92.02453987730061,
+            "shots_to_kill": 12,
+            "ttk": 1462.2699386503068,
+            "enemies_per_magazine": 2
+          },
+          {
+            "base_rpm": 652,
+            "final_rpm": 652,
+            "dropoff": 30,
+            "neck": 19,
+            "upperleg": 19,
+            "lowerleg": 19,
+            "upperarm": 19,
+            "chest": 19,
+            "stomach": 19,
+            "lowerarm": 19,
+            "head": 21,
+            "time_between_shots": 92.02453987730061,
+            "shots_to_kill": 16,
+            "ttk": 2080.368098159509,
+            "enemies_per_magazine": 1
+          }
+        ],
+        "mag": 25
+      },
       "loadouts": {
         "aggressive": null,
         "long_range": null,
