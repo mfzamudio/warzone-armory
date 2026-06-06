@@ -1,111 +1,115 @@
 {
-  "last_updated": "2026-06-05T08:11:37.642736+00:00",
+  "last_updated": "2026-06-06T06:57:01.148349+00:00",
   "top_weapons": [
     {
-      "name": "DS20 Mirage",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 1
     },
     {
-      "name": "Dravec 45",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "MPC-25",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Carbon 57",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "AK-27",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Hawker HX",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "VS Recon",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "Kogot-7",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "EGRT-17",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "REV-46",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "VST",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "MK35 ISR",
+      "name": "VST",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "M15 Mod 0",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "XR-3 Ion",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "Ryden 45K",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "TR2",
-      "game": "bo6",
+      "name": "Ryden 45K",
+      "game": "bo7",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "DS20 Mirage",
+      "name": "MXR-17",
       "score": 5.8
+    },
+    {
+      "name": "DS20 Mirage",
+      "score": 5.7
     },
     {
       "name": "Dravec 45",
@@ -178,10 +182,6 @@
     {
       "name": "Ryden 45K",
       "score": 4.22
-    },
-    {
-      "name": "MXR-17",
-      "score": 4.2
     },
     {
       "name": "X9 Maverick",
