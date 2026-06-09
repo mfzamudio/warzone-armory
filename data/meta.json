@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T08:58:54.996589+00:00",
+  "last_updated": "2026-06-09T07:56:02.225106+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -17,22 +17,22 @@
       "rank": 3
     },
     {
-      "name": "MPC-25",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Strider 300",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Carbon 57",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "AK-27",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 7
     },
@@ -116,10 +116,6 @@
       "score": 5.5
     },
     {
-      "name": "MPC-25",
-      "score": 5.4
-    },
-    {
       "name": "Strider 300",
       "score": 5.1
     },
@@ -130,6 +126,10 @@
     {
       "name": "AK-27",
       "score": 4.8
+    },
+    {
+      "name": "MPC-25",
+      "score": 4.75
     },
     {
       "name": "Voyak KT-3",
