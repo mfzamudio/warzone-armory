@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T07:56:02.232460+00:00",
+  "last_updated": "2026-06-10T08:12:03.832596+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -15043,7 +15043,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Kühn Ported Comp"
+              "name": "LTI Stentorian Brake"
             },
             {
               "slot": "Barrel",
@@ -15062,7 +15062,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 4.9,
+          "rating": 5.2,
           "description": "Close Range meta build",
           "loadout_code": "S05-6K7PE-2S51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-2492.webp"

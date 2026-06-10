@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T07:56:02.225106+00:00",
+  "last_updated": "2026-06-10T08:12:03.825541+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -17,12 +17,12 @@
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Carbon 57",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 5
     },
@@ -116,12 +116,12 @@
       "score": 5.5
     },
     {
-      "name": "Strider 300",
-      "score": 5.1
+      "name": "Carbon 57",
+      "score": 5.2
     },
     {
-      "name": "Carbon 57",
-      "score": 4.9
+      "name": "Strider 300",
+      "score": 5.1
     },
     {
       "name": "AK-27",
