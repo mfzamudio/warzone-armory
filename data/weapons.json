@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T08:50:10.150375+00:00",
+  "last_updated": "2026-06-12T08:37:23.784334+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -5843,12 +5843,151 @@
       "game": "bo7",
       "icon": 0,
       "description": "Full-auto assault rifle. Best-in-class rate of fire and excellent handling, offset by lower range and ammo capacity.",
-      "stats": {},
+      "stats": {
+        "rpm": 1034,
+        "ads": 210,
+        "bv": 870,
+        "damage": [
+          {
+            "head": 33,
+            "neck": 28,
+            "chest": 28,
+            "upperarm": 28,
+            "lowerarm": 28,
+            "stomach": 25,
+            "upperleg": 25,
+            "lowerleg": 25,
+            "base_rpm": 1034,
+            "final_rpm": 1034,
+            "time_between_shots": 58.02707930367505,
+            "shots_to_kill": 11,
+            "ttk": 580.2707930367505,
+            "enemies_per_magazine": 2,
+            "dropoff": 0
+          },
+          {
+            "dropoff": 30,
+            "neck": 23,
+            "chest": 23,
+            "upperarm": 23,
+            "lowerarm": 23,
+            "base_rpm": 1034,
+            "final_rpm": 1034,
+            "head": 27,
+            "upperleg": 20,
+            "lowerleg": 20,
+            "stomach": 20,
+            "time_between_shots": 58.02707930367505,
+            "shots_to_kill": 14,
+            "ttk": 754.3520309477757,
+            "enemies_per_magazine": 2
+          },
+          {
+            "dropoff": 47,
+            "neck": 19,
+            "chest": 19,
+            "upperarm": 19,
+            "lowerarm": 19,
+            "base_rpm": 1034,
+            "final_rpm": 1034,
+            "head": 22,
+            "stomach": 17,
+            "upperleg": 17,
+            "lowerleg": 17,
+            "time_between_shots": 58.02707930367505,
+            "shots_to_kill": 16,
+            "ttk": 874.4291780608729,
+            "enemies_per_magazine": 1
+          }
+        ],
+        "mag": 30
+      },
       "loadouts": {
-        "aggressive": null,
-        "long_range": null,
+        "aggressive": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "LTI Stentorian Brake"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "EAM Lightpath Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Inclination Extended Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "LTI Hutch Quick Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "Fulmen Aim Stock"
+            }
+          ],
+          "rating": 4.8,
+          "description": "Close Range meta build",
+          "loadout_code": "A14-5FZAL-WV11",
+          "image": "https://assets.codmunity.gg/optimized/VX-Compact-Close-Range-Warzone-Loadout-CODMunity-3368.webp"
+        },
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "13\" Promontory Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Acclivity Extended Mag II"
+            },
+            {
+              "slot": "Stock",
+              "name": "Requite Stability Stock"
+            }
+          ],
+          "rating": 4.4,
+          "description": "Long Range meta build",
+          "loadout_code": "A14-34FBS-PN71Y-11",
+          "image": "https://assets.codmunity.gg/optimized/VX-Compact-Long-Range-Warzone-Loadout-CODMunity-8608.webp"
+        },
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Redwell Shade-X Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "14.3\" Redwell Ascent"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Inclination Extended Mag"
+            },
+            {
+              "slot": "Stock",
+              "name": "Lactic Light Stock"
+            }
+          ],
+          "rating": 4.9,
+          "description": "Sniper Support meta build",
+          "loadout_code": "A14-34FBS-LIF4B-11",
+          "image": "https://assets.codmunity.gg/optimized/VX-Compact-Sniper-Support-Warzone-Loadout-CODMunity-2237.webp"
+        }
       }
     },
     {

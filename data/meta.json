@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T08:50:10.142832+00:00",
+  "last_updated": "2026-06-12T08:37:23.776998+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -27,77 +27,77 @@
       "rank": 5
     },
     {
-      "name": "AK-27",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "MPC-25",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Hawker HX",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "VS Recon",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "Kogot-7",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "EGRT-17",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "REV-46",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "VST",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "MK35 ISR",
+      "name": "VST",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "M15 Mod 0",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "XR-3 Ion",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "Ryden 45K",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 20
     }
@@ -122,6 +122,10 @@
     {
       "name": "Strider 300",
       "score": 5.1
+    },
+    {
+      "name": "VX Compact",
+      "score": 4.9
     },
     {
       "name": "AK-27",
@@ -298,10 +302,6 @@
     {
       "name": "SG-12",
       "score": 3.5
-    },
-    {
-      "name": "Warden 308",
-      "score": 3.45
     }
   ],
   "top_attachments": [
@@ -323,19 +323,19 @@
     },
     {
       "name": "Monolithic Suppressor",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Vertical Foregrip",
       "count": 31
     },
     {
-      "name": "Bruen Pendulum",
+      "name": "FANG HoverPoint ELO",
       "count": 29
     },
     {
-      "name": "FANG HoverPoint ELO",
-      "count": 27
+      "name": "Bruen Pendulum",
+      "count": 29
     },
     {
       "name": "Long Barrel",
@@ -429,31 +429,31 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 275
+      "count": 278
     },
     {
       "slot": "Barrel",
-      "count": 235
+      "count": 237
     },
     {
       "slot": "Magazine",
-      "count": 230
+      "count": 233
     },
     {
       "slot": "Optic",
-      "count": 188
+      "count": 190
     },
     {
       "slot": "Underbarrel",
-      "count": 151
+      "count": 152
     },
     {
       "slot": "Stock",
-      "count": 121
+      "count": 124
     },
     {
       "slot": "Rear Grip",
-      "count": 110
+      "count": 111
     },
     {
       "slot": "Ammunition",
@@ -473,10 +473,10 @@
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 84,
-    "long_range": 126,
+    "aggressive": 85,
+    "long_range": 127,
     "balanced": 0,
-    "sniper_support": 102
+    "sniper_support": 103
   },
   "popularity": [],
   "total_weapons": 262
