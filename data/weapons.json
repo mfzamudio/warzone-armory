@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T08:50:15.074716+00:00",
+  "last_updated": "2026-06-19T09:07:40.335164+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -5841,7 +5841,7 @@
       "name": "VX Compact",
       "type": "Assault Rifle",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/VX-Compact-Long-Range-Warzone-Loadout-CODMunity-9375.webp",
       "description": "Full-auto assault rifle. Best-in-class rate of fire and excellent handling, offset by lower range and ammo capacity.",
       "stats": {
         "rpm": 1034,
@@ -15201,7 +15201,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.5,
           "description": "Close Range meta build",
           "loadout_code": "S05-6K7PE-2S51",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-2492.webp"
@@ -15301,7 +15301,7 @@
               "name": "Bolt Carrier Group"
             }
           ],
-          "rating": 5.5,
+          "rating": 5.2,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGVV5-43931",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-1348.webp"
