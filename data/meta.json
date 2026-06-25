@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T07:48:59.116346+00:00",
+  "last_updated": "2026-06-25T07:50:32.655288+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -47,22 +47,22 @@
       "rank": 9
     },
     {
-      "name": "Voyak KT-3",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "VS Recon",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Kogot-7",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "EGRT-17",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 13
     },
@@ -82,22 +82,22 @@
       "rank": 16
     },
     {
-      "name": "MK35 ISR",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "M15 Mod 0",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "Voyak KT-3",
       "game": "bo7",
       "rank": 20
     }
@@ -136,15 +136,15 @@
       "score": 4.75
     },
     {
-      "name": "Voyak KT-3",
-      "score": 4.7
-    },
-    {
       "name": "Hawker HX",
       "score": 4.7
     },
     {
       "name": "EGRT-17",
+      "score": 4.6
+    },
+    {
+      "name": "MK35 ISR",
       "score": 4.6
     },
     {
@@ -158,10 +158,6 @@
     {
       "name": "Peacekeeper Mk1",
       "score": 4.55
-    },
-    {
-      "name": "MK35 ISR",
-      "score": 4.4
     },
     {
       "name": "REV-46",
@@ -182,6 +178,10 @@
     {
       "name": "Sturmwolf 45",
       "score": 4.26
+    },
+    {
+      "name": "Voyak KT-3",
+      "score": 4.25
     },
     {
       "name": "Ryden 45K",
