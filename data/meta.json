@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T07:36:58.977451+00:00",
+  "last_updated": "2026-07-03T07:29:07.459316+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -47,8 +47,8 @@
       "rank": 9
     },
     {
-      "name": "AN-94",
-      "game": "mw2019",
+      "name": "X9 Maverick",
+      "game": "bo7",
       "rank": 10
     },
     {
@@ -67,12 +67,12 @@
       "rank": 13
     },
     {
-      "name": "MK35 ISR",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 15
     },
@@ -140,15 +140,11 @@
       "score": 4.7
     },
     {
-      "name": "AN-94",
-      "score": 4.65
-    },
-    {
       "name": "EGRT-17",
       "score": 4.6
     },
     {
-      "name": "MK35 ISR",
+      "name": "X9 Maverick",
       "score": 4.6
     },
     {
@@ -162,6 +158,10 @@
     {
       "name": "Peacekeeper Mk1",
       "score": 4.55
+    },
+    {
+      "name": "MK35 ISR",
+      "score": 4.4
     },
     {
       "name": "VST",
@@ -184,16 +184,16 @@
       "score": 4.3
     },
     {
+      "name": "AN-94",
+      "score": 4.26
+    },
+    {
       "name": "Voyak KT-3",
       "score": 4.25
     },
     {
       "name": "Ryden 45K",
       "score": 4.22
-    },
-    {
-      "name": "X9 Maverick",
-      "score": 4.2
     },
     {
       "name": "TR2",
