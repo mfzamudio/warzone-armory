@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T07:29:07.466715+00:00",
+  "last_updated": "2026-07-04T06:52:13.027035+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -6312,18 +6312,18 @@
               "name": "FANG HoverPoint ELO"
             },
             {
-              "slot": "Rear Grip",
-              "name": "Pillory Grip"
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
             },
             {
               "slot": "Fire Mods",
-              "name": "4.73 Caseless Overpressured"
+              "name": "4.73 Caseless FMJ"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.9,
           "description": "Long Range meta build",
-          "loadout_code": "A04-2JFA4-GJ3XM-A311",
-          "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-6273.webp"
+          "loadout_code": "A04-21YVV-ZGCBB-R711",
+          "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-8917.webp"
         },
         "balanced": null,
         "sniper_support": null
@@ -15298,11 +15298,41 @@
             },
             {
               "slot": "Barrel",
-              "name": "14\" Rockleigh Barrel"
+              "name": "8.6\" Orbital Light Barrel"
             },
             {
               "slot": "Underbarrel",
-              "name": "Sapper Guard Handstop"
+              "name": "VAS Convergence Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "MFS Renown Plus Mag"
+            },
+            {
+              "slot": "Stock",
+              "name": "Hammer Platoon Pad"
+            }
+          ],
+          "rating": 5.5,
+          "description": "Close Range meta build",
+          "loadout_code": "S05-9CWYE-H511",
+          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-3844.webp"
+        },
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "K&S Stalker 57-X"
+            },
+            {
+              "slot": "Barrel",
+              "name": "10.2\" EX-3 Heavy Barrel"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
             },
             {
               "slot": "Magazine",
@@ -15310,17 +15340,14 @@
             },
             {
               "slot": "Fire Mods",
-              "name": "Accelerated Recoil System"
+              "name": "5.7x28mm FMJ"
             }
           ],
-          "rating": 5.5,
-          "description": "Close Range meta build",
-          "loadout_code": "S05-6K7PE-2S51",
-          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-2492.webp"
-        },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
+          "rating": 4.6,
+          "description": "Sniper Support meta build",
+          "loadout_code": "S05-21WSG-NNQT8-V311",
+          "image": "https://assets.codmunity.gg/optimized/Carbon-57-Sniper-Support-Warzone-Loadout-CODMunity-6586.webp"
+        }
       }
     },
     {

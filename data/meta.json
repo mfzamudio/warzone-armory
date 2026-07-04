@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T07:29:07.459316+00:00",
+  "last_updated": "2026-07-04T06:52:13.019385+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -22,32 +22,32 @@
       "rank": 4
     },
     {
-      "name": "Dravec 45",
+      "name": "X9 Maverick",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "VX Compact",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "DS20 Mirage",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "MPC-25",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Hawker HX",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "X9 Maverick",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 10
     },
@@ -124,6 +124,10 @@
       "score": 4.9
     },
     {
+      "name": "X9 Maverick",
+      "score": 4.9
+    },
+    {
       "name": "Dravec 45",
       "score": 4.9
     },
@@ -141,10 +145,6 @@
     },
     {
       "name": "EGRT-17",
-      "score": 4.6
-    },
-    {
-      "name": "X9 Maverick",
       "score": 4.6
     },
     {
@@ -410,6 +410,10 @@
       "count": 11
     },
     {
+      "name": "VAS Convergence Foregrip",
+      "count": 10
+    },
+    {
       "name": "Cronen Mini Pro",
       "count": 10
     },
@@ -420,24 +424,20 @@
     {
       "name": "50 Round Mag",
       "count": 9
-    },
-    {
-      "name": "Forge TAC Delta 4",
-      "count": 9
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 280
+      "count": 281
     },
     {
       "slot": "Barrel",
-      "count": 238
+      "count": 239
     },
     {
       "slot": "Magazine",
-      "count": 235
+      "count": 236
     },
     {
       "slot": "Optic",
@@ -445,15 +445,15 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 154
+      "count": 156
     },
     {
       "slot": "Stock",
-      "count": 125
+      "count": 126
     },
     {
       "slot": "Rear Grip",
-      "count": 111
+      "count": 110
     },
     {
       "slot": "Fire Mods",
@@ -476,7 +476,7 @@
     "aggressive": 85,
     "long_range": 128,
     "balanced": 0,
-    "sniper_support": 104
+    "sniper_support": 105
   },
   "popularity": [],
   "total_weapons": 262
