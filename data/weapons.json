@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T07:43:56.787503+00:00",
+  "last_updated": "2026-07-10T07:42:08.719047+00:00",
   "season": "S2R",
   "weapon_count": 262,
   "weapons": [
@@ -221,7 +221,7 @@
               "name": "Pugil Heavy Stock"
             }
           ],
-          "rating": 5.1,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "A02-2G9PV-4C1XB-11",
           "image": "https://assets.codmunity.gg/optimized/AK-27-Long-Range-Warzone-Loadout-CODMunity-8849.webp"
@@ -629,7 +629,7 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.26,
+          "rating": 4.15,
           "description": "Long Range meta build",
           "loadout_code": "A13-34FD7-2SNPJ-11",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-4561.webp"
@@ -1608,7 +1608,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1735,7 +1735,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.45,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -3723,7 +3723,7 @@
               "name": "Bowen Linchpin Stock"
             }
           ],
-          "rating": 4.1,
+          "rating": 3.8,
           "description": "Long Range meta build",
           "loadout_code": "A01-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/M15-Mod-0-Long-Range-Warzone-Loadout-CODMunity-2144.webp"
@@ -4258,7 +4258,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.43,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -6038,7 +6038,7 @@
               "name": "Fulmen Aim Stock"
             }
           ],
-          "rating": 4.3,
+          "rating": 3.82,
           "description": "Close Range meta build",
           "loadout_code": "A14-5FZAL-WV11",
           "image": "https://assets.codmunity.gg/optimized/VX-Compact-Close-Range-Warzone-Loadout-CODMunity-3368.webp"
@@ -6066,7 +6066,7 @@
               "name": "Requite Stability Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.35,
           "description": "Long Range meta build",
           "loadout_code": "A14-34FBS-PN71Y-11",
           "image": "https://assets.codmunity.gg/optimized/VX-Compact-Long-Range-Warzone-Loadout-CODMunity-8608.webp"
@@ -6193,7 +6193,7 @@
               "name": "V-Last Control Pad"
             }
           ],
-          "rating": 4.25,
+          "rating": 4.1,
           "description": "Long Range meta build",
           "loadout_code": "A09-23Y1W-DYJLY-11",
           "image": "https://assets.codmunity.gg/optimized/Voyak-KT-3-Long-Range-Warzone-Loadout-CODMunity-2492.webp"
@@ -6320,7 +6320,7 @@
               "name": "4.73 Caseless FMJ"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A04-21YVV-ZGCBB-R711",
           "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-8917.webp"
@@ -8468,7 +8468,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 3.9,
+          "rating": 3.75,
           "description": "Long Range meta build",
           "loadout_code": "L01-21XI3-S9M5S-A711",
           "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-9566.webp"
@@ -9215,7 +9215,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.15,
+          "rating": 3.85,
           "description": "Long Range meta build",
           "loadout_code": "L04-T43XE-V6NQ5-1",
           "image": "https://assets.codmunity.gg/optimized/Sokol-545-Long-Range-Warzone-Loadout-CODMunity-9120.webp"
@@ -11034,7 +11034,7 @@
               "name": "5.56 NATO Overpressured"
             }
           ],
-          "rating": 3.9,
+          "rating": 3.7,
           "description": "Long Range meta build",
           "loadout_code": "M01-21YL1-T5S9G-RB11",
           "image": "https://assets.codmunity.gg/optimized/M8A1-Long-Range-Warzone-Loadout-CODMunity-7692.webp"
@@ -11620,7 +11620,7 @@
               "name": "MFS Penta Burst Mod"
             }
           ],
-          "rating": 3.95,
+          "rating": 3.65,
           "description": "Long Range meta build",
           "loadout_code": "M05-G124X-F71",
           "image": "https://assets.codmunity.gg/optimized/Swordfish-A1-Long-Range-Warzone-Loadout-CODMunity-6124.webp"
@@ -11785,7 +11785,7 @@
               "name": "TR2 CQB Auto Conversion"
             }
           ],
-          "rating": 4.2,
+          "rating": 3.75,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/TR2-Close-Range-Warzone-Loadout-CODMunity-9695.webp"
@@ -14341,7 +14341,7 @@
               "name": "Vector Sync Laser"
             }
           ],
-          "rating": 3.6,
+          "rating": 3.5,
           "description": "Close Range meta build",
           "loadout_code": "P02-AABQ1-8CVF1-11",
           "image": "https://assets.codmunity.gg/optimized/Velox-5.7-Secondary-Warzone-Loadout-CODMunity-8694.webp"
@@ -15186,7 +15186,7 @@
               "name": "Slipway Stock"
             }
           ],
-          "rating": 4.2,
+          "rating": 3.7,
           "description": "Close Range meta build",
           "loadout_code": "S15-AUXZ9-IHG31-1",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-3664.webp"
@@ -15421,29 +15421,29 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Bowen .45 Suppressor"
+              "name": "LTI Stentorian Brake"
             },
             {
               "slot": "Barrel",
-              "name": "19\" EAM Horizon Barrel"
+              "name": "12\" Cloud Barrel"
             },
             {
               "slot": "Magazine",
               "name": "Gator Extended Mag"
             },
             {
-              "slot": "Laser",
-              "name": "MFS Agile Laser Pro"
+              "slot": "Stock",
+              "name": "EAM Heritage Stock"
             },
             {
-              "slot": "Fire Mods",
-              "name": "Bolt Carrier Group"
+              "slot": "Laser",
+              "name": "MFS Agile Laser Pro"
             }
           ],
           "rating": 4.9,
           "description": "Close Range meta build",
-          "loadout_code": "S04-BGVV5-43931",
-          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-1348.webp"
+          "loadout_code": "S04-BGW2E-IYU11",
+          "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-3989.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -16668,7 +16668,7 @@
               "name": "Recoil Springs"
             }
           ],
-          "rating": 3.65,
+          "rating": 3.55,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/KOMPAKT-92-Close-Range-Warzone-Loadout-CODMunity-7449.webp"
@@ -16768,7 +16768,7 @@
               "name": "Balanced Stock"
             }
           ],
-          "rating": 3.65,
+          "rating": 3.55,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/KSV-Close-Range-Warzone-Loadout-CODMunity-3962.webp"
@@ -16876,7 +16876,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Ported Comp"
+              "name": "LTI Stentorian Brake"
             },
             {
               "slot": "Barrel",
@@ -16895,7 +16895,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.3,
           "description": "Close Range meta build",
           "loadout_code": "S10-6K4JN-R731",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
@@ -17022,7 +17022,7 @@
               "name": "Balanced Stock"
             }
           ],
-          "rating": 4.1,
+          "rating": 3.58,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/LC10-Close-Range-Warzone-Loadout-CODMunity-2859.webp"
@@ -17578,6 +17578,10 @@
         "aggressive": {
           "attachments": [
             {
+              "slot": "Muzzle",
+              "name": "LTI Stentorian Brake"
+            },
+            {
               "slot": "Barrel",
               "name": "14.5\" VAS Ashe Barrel"
             },
@@ -17587,21 +17591,17 @@
             },
             {
               "slot": "Magazine",
-              "name": "MPC Overload Drum"
+              "name": "Sustain-25 Extended Mag"
             },
             {
-              "slot": "Rear Grip",
-              "name": "Magnate Grip"
-            },
-            {
-              "slot": "Stock",
-              "name": "Viper Wire Stock"
+              "slot": "Fire Mods",
+              "name": "Recoil Sync Unit"
             }
           ],
           "rating": 4.75,
           "description": "Close Range meta build",
-          "loadout_code": "S06-48B6Z-XW11",
-          "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-7376.webp"
+          "loadout_code": "S06-3SUZ9-1151",
+          "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-8846.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -17721,7 +17721,7 @@
               "name": "Extended Mag"
             }
           ],
-          "rating": 3.65,
+          "rating": 3.56,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/MX9-Close-Range-Warzone-Loadout-CODMunity-7168.webp"
@@ -17967,7 +17967,7 @@
               "name": "Hollow Extended Stock"
             }
           ],
-          "rating": 3.6,
+          "rating": 3.5,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/PDSW-528-Close-Range-Warzone-Loadout-CODMunity-2914.webp"
@@ -18455,29 +18455,29 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Series 45"
+              "name": "LTI Stentorian Brake"
             },
             {
               "slot": "Barrel",
-              "name": "Caudal Target Barrel"
+              "name": "14.9\" Caudal Target Barrel"
             },
             {
               "slot": "Optic",
-              "name": "Lethal Tools ELO"
+              "name": "LTI Mini"
             },
             {
               "slot": "Magazine",
-              "name": "Komodo Drum Mag"
+              "name": "Cawdor Extended Mag"
             },
             {
               "slot": "Fire Mods",
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.32,
+          "rating": 4.6,
           "description": "Close Range meta build",
-          "loadout_code": "S09-AUXZ7-Y4Y53-1",
-          "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-5731.webp"
+          "loadout_code": "S09-5XGZT-JBY93-1",
+          "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-1482.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -18601,7 +18601,7 @@
               "name": "Accelerated Recoil System"
             }
           ],
-          "rating": 3.6,
+          "rating": 3.5,
           "description": "Close Range meta build",
           "loadout_code": "S02-9YGES-951",
           "image": "https://assets.codmunity.gg/optimized/RK-9-Close-Range-Warzone-Loadout-CODMunity-4134.webp"
@@ -18701,7 +18701,7 @@
               "name": "Serpent Pad"
             }
           ],
-          "rating": 4.2,
+          "rating": 3.8,
           "description": "Close Range meta build",
           "loadout_code": "S03-AUXZ3-92ZB1-1",
           "image": "https://assets.codmunity.gg/optimized/Razor-9mm-Close-Range-Warzone-Loadout-CODMunity-9809.webp"
@@ -18972,7 +18972,7 @@
               "name": "MFS Full Stock+"
             }
           ],
-          "rating": 4.22,
+          "rating": 3.7,
           "description": "Close Range meta build",
           "loadout_code": "S01-AUY8U-EXTF1-1",
           "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-4682.webp"
@@ -19343,7 +19343,7 @@
               "name": "Lachmann MK2 Light"
             }
           ],
-          "rating": 3.9,
+          "rating": 3.57,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Striker-Close-Range-Warzone-Loadout-CODMunity-3665.webp"
@@ -19610,7 +19610,7 @@
               "name": "Itinerant Light Stock"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.2,
           "description": "Close Range meta build",
           "loadout_code": "S07-6WVQS-9Y11",
           "image": "https://assets.codmunity.gg/optimized/Sturmwolf-45-Close-Range-Warzone-Loadout-CODMunity-1600.webp"
@@ -20072,7 +20072,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Hawker Series 45"
+              "name": "LTI Stentorian Brake"
             },
             {
               "slot": "Barrel",
@@ -20084,7 +20084,7 @@
             },
             {
               "slot": "Magazine",
-              "name": "Avarice Extended Mag II"
+              "name": "Amplify Extended Mag I"
             },
             {
               "slot": "Stock",
@@ -20093,8 +20093,8 @@
           ],
           "rating": 4.4,
           "description": "Close Range meta build",
-          "loadout_code": "S12-9CQP5-C311",
-          "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8987.webp"
+          "loadout_code": "S12-9CWYI-5L11",
+          "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-1623.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -20218,7 +20218,7 @@
               "name": "FSS OLE-V laser"
             }
           ],
-          "rating": 3.5,
+          "rating": 3.4,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/04/Vaznev-9k-Warzone-2-Close-Range.png"
@@ -20506,7 +20506,7 @@
               "name": "50 Round Mag"
             }
           ],
-          "rating": 3.5,
+          "rating": 3.4,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/WSP-9-Close-Range-Warzone-Loadout-CODMunity-6025.webp"
@@ -20629,7 +20629,7 @@
               "name": "EAM ScatterLine Laser"
             }
           ],
-          "rating": 3.6,
+          "rating": 3.4,
           "description": "Close Range meta build",
           "loadout_code": "C03-69DQJ-3WL11",
           "image": "https://assets.codmunity.gg/optimized/Akita-Close-Range-Warzone-Loadout-CODMunity-9006.webp"
@@ -21401,7 +21401,7 @@
               "name": "LW Trigger"
             }
           ],
-          "rating": 3.5,
+          "rating": 3.4,
           "description": "Close Range meta build",
           "loadout_code": "C05-BHEKR-6BH31",
           "image": "https://assets.codmunity.gg/optimized/SG-12-Close-Range-Warzone-Loadout-CODMunity-6394.webp"
