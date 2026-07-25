@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:31:54.068362+00:00",
+  "last_updated": "2026-07-25T06:23:21.852636+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -12,12 +12,12 @@
       "rank": 2
     },
     {
-      "name": "Strider 300",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "MXR-17",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
@@ -27,13 +27,13 @@
       "rank": 5
     },
     {
-      "name": "DS20 Mirage",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Carbon 57",
-      "game": "bo7",
+      "name": "AN-94",
+      "game": "bo2",
       "rank": 7
     },
     {
@@ -52,52 +52,52 @@
       "rank": 10
     },
     {
-      "name": "VS Recon",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "MK35 ISR",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "EGRT-17",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Kogot-7",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "M15 Mod 0",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "CBRS-3",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "AK-27",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "MPC-25",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 20
     }
@@ -109,22 +109,22 @@
     },
     {
       "name": "VST",
-      "score": 5.2
+      "score": 5.4
+    },
+    {
+      "name": "MXR-17",
+      "score": 5.3
     },
     {
       "name": "Strider 300",
       "score": 5.1
     },
     {
-      "name": "MXR-17",
-      "score": 4.9
-    },
-    {
       "name": "REV-46",
       "score": 4.9
     },
     {
-      "name": "DS20 Mirage",
+      "name": "AN-94",
       "score": 4.8
     },
     {
@@ -142,6 +142,10 @@
     {
       "name": "Hawker HX",
       "score": 4.7
+    },
+    {
+      "name": "DS20 Mirage",
+      "score": 4.6
     },
     {
       "name": "VS Recon",
@@ -194,10 +198,6 @@
     {
       "name": "X9 Maverick",
       "score": 4.2
-    },
-    {
-      "name": "AN-94",
-      "score": 4.12
     },
     {
       "name": "M8A1",

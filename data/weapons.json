@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:31:54.076089+00:00",
+  "last_updated": "2026-07-25T06:23:21.859702+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -629,7 +629,7 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.12,
+          "rating": 4.8,
           "description": "Long Range meta build",
           "loadout_code": "A13-34FD7-2SNPJ-11",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-4561.webp"
@@ -1608,7 +1608,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -4712,7 +4712,7 @@
               "name": "Winch Stock"
             }
           ],
-          "rating": 4.9,
+          "rating": 5.3,
           "description": "Long Range meta build",
           "loadout_code": "A03-36W2S-J343H-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
@@ -20321,7 +20321,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.4,
           "description": "Close Range meta build",
           "loadout_code": "S12-6KDYX-HL11",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8952.webp"
