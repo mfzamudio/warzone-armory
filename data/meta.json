@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T06:23:21.852636+00:00",
+  "last_updated": "2026-07-26T06:41:20.255366+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -27,37 +27,37 @@
       "rank": 5
     },
     {
-      "name": "Carbon 57",
-      "game": "bo7",
+      "name": "AN-94",
+      "game": "bo2",
       "rank": 6
     },
     {
-      "name": "AN-94",
-      "game": "bo2",
+      "name": "VS Recon",
+      "game": "bo7",
       "rank": 7
-    },
-    {
-      "name": "Dravec 45",
-      "game": "bo7",
-      "rank": 8
-    },
-    {
-      "name": "Hawker HX",
-      "game": "bo7",
-      "rank": 9
     },
     {
       "name": "VX Compact",
       "game": "bo7",
-      "rank": 10
+      "rank": 8
+    },
+    {
+      "name": "Dravec 45",
+      "game": "bo7",
+      "rank": 9
     },
     {
       "name": "DS20 Mirage",
       "game": "bo7",
+      "rank": 10
+    },
+    {
+      "name": "Carbon 57",
+      "game": "bo7",
       "rank": 11
     },
     {
-      "name": "VS Recon",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 12
     },
@@ -77,27 +77,27 @@
       "rank": 15
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Kogot-7",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "M15 Mod 0",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "CBRS-3",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "AK-27",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 20
     }
@@ -121,34 +121,34 @@
     },
     {
       "name": "REV-46",
-      "score": 4.9
+      "score": 4.8
     },
     {
       "name": "AN-94",
-      "score": 4.8
-    },
-    {
-      "name": "Carbon 57",
-      "score": 4.8
+      "score": 4.75
     },
     {
       "name": "VX Compact",
       "score": 4.7
     },
     {
-      "name": "Dravec 45",
+      "name": "VS Recon",
       "score": 4.7
     },
     {
-      "name": "Hawker HX",
-      "score": 4.7
+      "name": "Dravec 45",
+      "score": 4.65
     },
     {
       "name": "DS20 Mirage",
       "score": 4.6
     },
     {
-      "name": "VS Recon",
+      "name": "Carbon 57",
+      "score": 4.6
+    },
+    {
+      "name": "Hawker HX",
       "score": 4.6
     },
     {
@@ -164,19 +164,11 @@
       "score": 4.4
     },
     {
-      "name": "Sturmwolf 45",
-      "score": 4.4
-    },
-    {
-      "name": "Kogot-7",
-      "score": 4.36
-    },
-    {
       "name": "M15 Mod 0",
       "score": 4.35
     },
     {
-      "name": "CBRS-3",
+      "name": "Sturmwolf 45",
       "score": 4.35
     },
     {
@@ -184,7 +176,7 @@
       "score": 4.3
     },
     {
-      "name": "MPC-25",
+      "name": "Kogot-7",
       "score": 4.3
     },
     {
@@ -200,15 +192,23 @@
       "score": 4.2
     },
     {
+      "name": "CBRS-3",
+      "score": 4.2
+    },
+    {
       "name": "M8A1",
       "score": 4.1
     },
     {
-      "name": "Gremlin",
+      "name": "MPC-25",
       "score": 4.1
     },
     {
       "name": "Maddox RFB",
+      "score": 3.9
+    },
+    {
+      "name": "Gremlin",
       "score": 3.9
     },
     {

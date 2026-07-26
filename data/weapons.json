@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T06:23:21.859702+00:00",
+  "last_updated": "2026-07-26T06:41:20.263296+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -629,7 +629,7 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.75,
           "description": "Long Range meta build",
           "loadout_code": "A13-34FD7-2SNPJ-11",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-4561.webp"
@@ -15316,7 +15316,7 @@
               "name": "MFS Carrousel Fast Mag"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.2,
           "description": "Close Range meta build",
           "loadout_code": "S15-2W2AD-Q3QN5-11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-2499.webp"
@@ -15443,7 +15443,7 @@
               "name": "Hammer Platoon Pad"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.6,
           "description": "Close Range meta build",
           "loadout_code": "S05-9CWYE-H511",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-3844.webp"
@@ -15570,7 +15570,7 @@
               "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.4,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGW2E-IYU11",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-3989.webp"
@@ -16256,7 +16256,7 @@
               "name": "Convergence Box Laser"
             }
           ],
-          "rating": 4.1,
+          "rating": 3.9,
           "description": "Close Range meta build",
           "loadout_code": "S16-3M63C-4PF11",
           "image": "https://assets.codmunity.gg/optimized/Gremlin-Close-Range-Warzone-Loadout-CODMunity-1097.webp"
@@ -17125,7 +17125,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.36,
+          "rating": 4.3,
           "description": "Close Range meta build",
           "loadout_code": "S10-6K4JN-R731",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
@@ -17828,7 +17828,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.1,
           "description": "Close Range meta build",
           "loadout_code": "S06-3SUZ9-1151",
           "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-8846.webp"
@@ -18704,7 +18704,7 @@
               "name": "Cawdor Extended Mag"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.8,
           "description": "Close Range meta build",
           "loadout_code": "S09-2W2AD-Q3U75-11",
           "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-1431.webp"
@@ -19840,7 +19840,7 @@
               "name": "Itinerant Light Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.35,
           "description": "Close Range meta build",
           "loadout_code": "S07-6KDYS-AW11",
           "image": "https://assets.codmunity.gg/optimized/Sturmwolf-45-Close-Range-Warzone-Loadout-CODMunity-3540.webp"
@@ -23162,7 +23162,7 @@
               "name": ".338 LM Overpressured"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": "https://assets.codmunity.gg/optimized/Hawker-HX-undefined-Warzone-Loadout-CODMunity-7970.webp"
@@ -23394,7 +23394,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.7,
           "description": "Sniper meta build",
           "loadout_code": "R01-21WSG-L369K-P711",
           "image": "https://assets.codmunity.gg/optimized/VS-Recon-Sniper-Warzone-Loadout-CODMunity-8935.webp"
