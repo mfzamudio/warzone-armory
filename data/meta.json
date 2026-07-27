@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T06:41:20.255366+00:00",
+  "last_updated": "2026-07-27T07:38:40.399099+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -77,27 +77,27 @@
       "rank": 15
     },
     {
-      "name": "M15 Mod 0",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "AK-27",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "Kogot-7",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Kogot-7",
       "game": "bo7",
       "rank": 20
     }
@@ -164,6 +164,10 @@
       "score": 4.4
     },
     {
+      "name": "CBRS-3",
+      "score": 4.4
+    },
+    {
       "name": "M15 Mod 0",
       "score": 4.35
     },
@@ -189,10 +193,6 @@
     },
     {
       "name": "X9 Maverick",
-      "score": 4.2
-    },
-    {
-      "name": "CBRS-3",
       "score": 4.2
     },
     {
