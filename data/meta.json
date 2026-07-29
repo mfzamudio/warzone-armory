@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T06:31:52.948389+00:00",
+  "last_updated": "2026-07-29T06:36:56.881280+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -17,67 +17,67 @@
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "REV-46",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 5
     },
     {
+      "name": "REV-46",
+      "game": "bo7",
+      "rank": 6
+    },
+    {
       "name": "AN-94",
       "game": "bo2",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "VS Recon",
       "game": "bo7",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "VX Compact",
       "game": "bo7",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Dravec 45",
       "game": "bo7",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "DS20 Mirage",
       "game": "bo7",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Carbon 57",
       "game": "bo7",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Hawker HX",
       "game": "bo7",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "MK35 ISR",
       "game": "bo7",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "EGRT-17",
       "game": "bo7",
-      "rank": 14
-    },
-    {
-      "name": "Peacekeeper Mk1",
-      "game": "bo7",
       "rank": 15
     },
     {
-      "name": "CBRS-3",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 16
     },
@@ -114,6 +114,10 @@
     {
       "name": "MXR-17",
       "score": 5.3
+    },
+    {
+      "name": "CBRS-3",
+      "score": 5.2
     },
     {
       "name": "Strider 300",
@@ -161,10 +165,6 @@
     },
     {
       "name": "Peacekeeper Mk1",
-      "score": 4.4
-    },
-    {
-      "name": "CBRS-3",
       "score": 4.4
     },
     {
