@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:36:56.881280+00:00",
+  "last_updated": "2026-07-30T06:33:10.754773+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -7,7 +7,7 @@
       "rank": 1
     },
     {
-      "name": "VST",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 2
     },
@@ -17,7 +17,7 @@
       "rank": 3
     },
     {
-      "name": "CBRS-3",
+      "name": "VST",
       "game": "bo7",
       "rank": 4
     },
@@ -47,37 +47,37 @@
       "rank": 9
     },
     {
-      "name": "Dravec 45",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "DS20 Mirage",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Carbon 57",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "Hawker HX",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "MK35 ISR",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "EGRT-17",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 16
     },
@@ -108,15 +108,15 @@
       "score": 5.6
     },
     {
-      "name": "VST",
-      "score": 5.4
+      "name": "CBRS-3",
+      "score": 5.5
     },
     {
       "name": "MXR-17",
       "score": 5.3
     },
     {
-      "name": "CBRS-3",
+      "name": "VST",
       "score": 5.2
     },
     {
@@ -138,10 +138,6 @@
     {
       "name": "VS Recon",
       "score": 4.7
-    },
-    {
-      "name": "Dravec 45",
-      "score": 4.65
     },
     {
       "name": "DS20 Mirage",
@@ -166,6 +162,10 @@
     {
       "name": "Peacekeeper Mk1",
       "score": 4.4
+    },
+    {
+      "name": "Dravec 45",
+      "score": 4.36
     },
     {
       "name": "M15 Mod 0",
@@ -244,6 +244,10 @@
       "score": 3.75
     },
     {
+      "name": "Striker",
+      "score": 3.75
+    },
+    {
       "name": "Kar98k",
       "score": 3.7
     },
@@ -264,16 +268,20 @@
       "score": 3.6
     },
     {
+      "name": "Bas-P",
+      "score": 3.6
+    },
+    {
       "name": "MX9",
       "score": 3.6
     },
     {
-      "name": "LC10",
+      "name": "HRM-9",
       "score": 3.58
     },
     {
-      "name": "Striker",
-      "score": 3.57
+      "name": "LC10",
+      "score": 3.58
     },
     {
       "name": "KOMPAKT 92",
@@ -294,14 +302,6 @@
     {
       "name": "PDSW 528",
       "score": 3.5
-    },
-    {
-      "name": "RK-9",
-      "score": 3.5
-    },
-    {
-      "name": "Warden 308",
-      "score": 3.45
     }
   ],
   "top_attachments": [

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:36:56.888502+00:00",
+  "last_updated": "2026-07-30T06:33:10.763139+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -15062,7 +15062,7 @@
               "name": "9MM Hollow Point"
             }
           ],
-          "rating": 2.6,
+          "rating": 3.6,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/09/BAS-P-Close-Range-Warzone-2.png"
@@ -15092,7 +15092,7 @@
               "name": "D37 grip"
             }
           ],
-          "rating": 0.5,
+          "rating": 2.8,
           "description": "Sniper Support meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2023/10/Bas-P-Sniper-Support-Warzone-2.png"
@@ -15316,7 +15316,7 @@
               "name": "MFS Carrousel Fast Mag"
             }
           ],
-          "rating": 5.2,
+          "rating": 5.5,
           "description": "Close Range meta build",
           "loadout_code": "S15-2W2AD-Q3QN5-11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-2499.webp"
@@ -15346,7 +15346,7 @@
               "name": "9mm Parabellum FMJ"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.8,
           "description": "Sniper Support meta build",
           "loadout_code": "S15-21YNH-J5IIS-5Y11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-8592.webp"
@@ -15600,7 +15600,7 @@
               "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.65,
+          "rating": 4.35,
           "description": "Sniper Support meta build",
           "loadout_code": "S04-2WCKP-794MJ-11",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Sniper-Support-Warzone-Loadout-CODMunity-3471.webp"
@@ -16356,7 +16356,7 @@
               "name": "Folding Stock"
             }
           ],
-          "rating": 3.4,
+          "rating": 3.58,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/HRM-9-Close-Range-Warzone-Loadout-CODMunity-6169.webp"
@@ -16386,7 +16386,7 @@
               "name": "Folding Stock"
             }
           ],
-          "rating": 1.5,
+          "rating": 2.2,
           "description": "Sniper Support meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/05451db0-7b3a-11ef-92e0-45607784a4f5.webp"
@@ -19573,7 +19573,7 @@
               "name": "Lachmann MK2 Light"
             }
           ],
-          "rating": 3.57,
+          "rating": 3.75,
           "description": "Close Range meta build",
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Striker-Close-Range-Warzone-Loadout-CODMunity-3665.webp"
@@ -19603,7 +19603,7 @@
               "name": ".45 Auto High Grain"
             }
           ],
-          "rating": 1.5,
+          "rating": 2.5,
           "description": "Sniper Support meta build",
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/07/Striker-Sniper-Support-1.png"
@@ -20321,7 +20321,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 5.4,
+          "rating": 5.2,
           "description": "Close Range meta build",
           "loadout_code": "S12-6KDYX-HL11",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8952.webp"
