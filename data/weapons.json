@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:33:10.763139+00:00",
+  "last_updated": "2026-07-31T06:49:24.125464+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -8582,12 +8582,97 @@
       "name": "Mammoth",
       "type": "LMG",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/mammoth_bo7_wpn_icon.webp",
       "description": "Full-auto light machine gun. Twin reciprocating barrels provide massive damage with manageable recoil. Slow rate of fire, mobility, and handling.",
-      "stats": {},
+      "stats": {
+        "rpm": 366,
+        "ads": 295,
+        "bv": 820,
+        "damage": [
+          {
+            "dropoff": 0,
+            "base_rpm": 366,
+            "final_rpm": 366,
+            "head": 60,
+            "neck": 55,
+            "upperleg": 55,
+            "lowerleg": 55,
+            "upperarm": 55,
+            "chest": 55,
+            "stomach": 55,
+            "lowerarm": 55,
+            "time_between_shots": 163.9344262295082,
+            "shots_to_kill": 6,
+            "ttk": 819.672131147541,
+            "enemies_per_magazine": 8
+          },
+          {
+            "base_rpm": 366,
+            "final_rpm": 366,
+            "dropoff": 36,
+            "neck": 46,
+            "upperleg": 46,
+            "lowerleg": 46,
+            "upperarm": 46,
+            "chest": 46,
+            "stomach": 46,
+            "lowerarm": 46,
+            "head": 50,
+            "time_between_shots": 163.9344262295082,
+            "shots_to_kill": 7,
+            "ttk": 983.6065573770493,
+            "enemies_per_magazine": 7
+          },
+          {
+            "base_rpm": 366,
+            "final_rpm": 366,
+            "dropoff": 50,
+            "neck": 39,
+            "upperleg": 39,
+            "lowerleg": 39,
+            "upperarm": 39,
+            "chest": 39,
+            "stomach": 39,
+            "lowerarm": 39,
+            "head": 42,
+            "time_between_shots": 163.9344262295082,
+            "shots_to_kill": 8,
+            "ttk": 1158.516593362655,
+            "enemies_per_magazine": 6
+          }
+        ],
+        "mag": 50
+      },
       "loadouts": {
         "aggressive": null,
-        "long_range": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Monolithic Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "15\" Grovel Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Malady Extended Mag"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": ".300 WM FMJ"
+            }
+          ],
+          "rating": 3.2,
+          "description": "Long Range meta build",
+          "loadout_code": "L10-21YIK-363JK-8F11",
+          "image": "https://assets.codmunity.gg/optimized/Mammoth-Long-Range-Warzone-Loadout-CODMunity-4207.webp"
+        },
         "balanced": null,
         "sniper_support": null
       }
@@ -15308,18 +15393,18 @@
               "name": "FANG HoverPoint ELO"
             },
             {
-              "slot": "Underbarrel",
-              "name": "Sapper Guard Handstop"
-            },
-            {
               "slot": "Magazine",
               "name": "MFS Carrousel Fast Mag"
+            },
+            {
+              "slot": "Stock",
+              "name": "Casino Light Stock"
             }
           ],
           "rating": 5.5,
           "description": "Close Range meta build",
-          "loadout_code": "S15-2W2AD-Q3QN5-11",
-          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-2499.webp"
+          "loadout_code": "S15-2W24T-N4KXW-11",
+          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-8035.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -15327,7 +15412,7 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "Monolithic Suppressor"
+              "name": "Bowen 9mm Suppressor"
             },
             {
               "slot": "Barrel",
@@ -15348,8 +15433,8 @@
           ],
           "rating": 4.8,
           "description": "Sniper Support meta build",
-          "loadout_code": "S15-21YNH-J5IIS-5Y11",
-          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-8592.webp"
+          "loadout_code": "S15-21YNH-J5K45-AW11",
+          "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-1688.webp"
         }
       }
     },

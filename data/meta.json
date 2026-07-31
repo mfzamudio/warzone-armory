@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:33:10.754773+00:00",
+  "last_updated": "2026-07-31T06:49:24.118345+00:00",
   "top_weapons": [
     {
       "name": "FG42",
@@ -327,7 +327,7 @@
     },
     {
       "name": "FANG HoverPoint ELO",
-      "count": 33
+      "count": 34
     },
     {
       "name": "Vertical Foregrip",
@@ -429,39 +429,39 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 285
+      "count": 286
     },
     {
       "slot": "Barrel",
-      "count": 240
+      "count": 241
     },
     {
       "slot": "Magazine",
-      "count": 238
+      "count": 239
     },
     {
       "slot": "Optic",
-      "count": 192
+      "count": 193
     },
     {
       "slot": "Underbarrel",
-      "count": 159
+      "count": 158
     },
     {
       "slot": "Stock",
-      "count": 126
+      "count": 127
     },
     {
       "slot": "Rear Grip",
       "count": 109
     },
     {
-      "slot": "Ammunition",
+      "slot": "Fire Mods",
       "count": 66
     },
     {
-      "slot": "Fire Mods",
-      "count": 65
+      "slot": "Ammunition",
+      "count": 66
     },
     {
       "slot": "Laser",
@@ -474,7 +474,7 @@
   ],
   "playstyle_coverage": {
     "aggressive": 86,
-    "long_range": 129,
+    "long_range": 130,
     "balanced": 0,
     "sniper_support": 105
   },
