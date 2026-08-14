@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T05:43:28.706277+00:00",
+  "last_updated": "2026-08-14T05:41:24.655992+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -12,17 +12,17 @@
       "rank": 2
     },
     {
-      "name": "FG42",
+      "name": "VST",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "VST",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Strider 300",
+      "name": "FG42",
       "game": "bo7",
       "rank": 5
     },
@@ -32,17 +32,17 @@
       "rank": 6
     },
     {
-      "name": "AN-94",
-      "game": "bo2",
+      "name": "VS Recon",
+      "game": "bo7",
       "rank": 7
     },
     {
-      "name": "VS Recon",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "VX Compact",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 9
     },
@@ -52,52 +52,52 @@
       "rank": 10
     },
     {
-      "name": "Carbon 57",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Hawker HX",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "MK35 ISR",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "EGRT-17",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Dravec 45",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "M15 Mod 0",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "AK-27",
-      "game": "bo7",
+      "name": "AN-94",
+      "game": "bo2",
       "rank": 19
     },
     {
-      "name": "Kogot-7",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 20
     }
@@ -112,10 +112,6 @@
       "score": 5.5
     },
     {
-      "name": "FG42",
-      "score": 5.3
-    },
-    {
       "name": "VST",
       "score": 5.2
     },
@@ -124,12 +120,12 @@
       "score": 5.1
     },
     {
-      "name": "REV-46",
-      "score": 4.8
+      "name": "FG42",
+      "score": 4.9
     },
     {
-      "name": "AN-94",
-      "score": 4.75
+      "name": "REV-46",
+      "score": 4.8
     },
     {
       "name": "VX Compact",
@@ -144,16 +140,16 @@
       "score": 4.6
     },
     {
+      "name": "MK35 ISR",
+      "score": 4.6
+    },
+    {
       "name": "Carbon 57",
       "score": 4.6
     },
     {
       "name": "Hawker HX",
       "score": 4.6
-    },
-    {
-      "name": "MK35 ISR",
-      "score": 4.43
     },
     {
       "name": "EGRT-17",
@@ -174,6 +170,14 @@
     {
       "name": "Sturmwolf 45",
       "score": 4.35
+    },
+    {
+      "name": "MK.78",
+      "score": 4.34
+    },
+    {
+      "name": "AN-94",
+      "score": 4.32
     },
     {
       "name": "AK-27",
@@ -234,10 +238,6 @@
     {
       "name": "Victus XMR",
       "score": 3.8
-    },
-    {
-      "name": "MK.78",
-      "score": 3.75
     },
     {
       "name": "TR2",

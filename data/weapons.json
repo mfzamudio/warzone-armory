@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T05:43:28.713654+00:00",
+  "last_updated": "2026-08-14T05:41:24.663340+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -629,7 +629,7 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.75,
+          "rating": 4.32,
           "description": "Long Range meta build",
           "loadout_code": "A13-34FD7-2SNPJ-11",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-4561.webp"
@@ -1608,7 +1608,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.42,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -2016,7 +2016,7 @@
               "name": "Debase Extended Mag"
             }
           ],
-          "rating": 5.3,
+          "rating": 4.9,
           "description": "Long Range meta build",
           "loadout_code": "A16-34FIQ-XHAUL-11",
           "image": "https://assets.codmunity.gg/optimized/FG42-Long-Range-Warzone-Loadout-CODMunity-9842.webp"
@@ -4358,7 +4358,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.43,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A12-34FK5-DRNJU-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
@@ -8568,7 +8568,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 3.75,
+          "rating": 4.34,
           "description": "Long Range meta build",
           "loadout_code": "L01-21XI3-S9M5S-A711",
           "image": "https://assets.codmunity.gg/optimized/MK.78-Long-Range-Warzone-Loadout-CODMunity-9566.webp"
