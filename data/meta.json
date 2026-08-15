@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T05:41:24.655992+00:00",
+  "last_updated": "2026-08-15T04:37:09.433586+00:00",
   "top_weapons": [
     {
       "name": "MXR-17",
@@ -12,12 +12,12 @@
       "rank": 2
     },
     {
-      "name": "VST",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "VST",
       "game": "bo7",
       "rank": 4
     },
@@ -112,15 +112,15 @@
       "score": 5.5
     },
     {
-      "name": "VST",
-      "score": 5.2
-    },
-    {
       "name": "Strider 300",
       "score": 5.1
     },
     {
       "name": "FG42",
+      "score": 4.9
+    },
+    {
+      "name": "VST",
       "score": 4.9
     },
     {
