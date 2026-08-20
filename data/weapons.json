@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T04:42:00.458720+00:00",
+  "last_updated": "2026-08-20T04:42:46.735230+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -554,31 +554,31 @@
             "dropoff": 0,
             "base_rpm": 645,
             "final_rpm": 645,
-            "head": 49,
-            "neck": 38,
-            "chest": 38,
-            "upperarm": 38,
-            "lowerarm": 38,
-            "stomach": 34,
-            "upperleg": 34,
-            "lowerleg": 34,
+            "head": 53,
+            "neck": 41,
+            "chest": 41,
+            "upperarm": 41,
+            "lowerarm": 41,
+            "stomach": 37,
+            "upperleg": 37,
+            "lowerleg": 37,
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 8,
             "ttk": 651.1627906976744,
             "enemies_per_magazine": 3
           },
           {
-            "dropoff": 40,
+            "dropoff": 45,
             "base_rpm": 645,
             "final_rpm": 645,
-            "neck": 34,
-            "chest": 34,
-            "upperarm": 34,
-            "lowerarm": 34,
-            "head": 44,
-            "stomach": 30,
-            "upperleg": 30,
-            "lowerleg": 30,
+            "neck": 37,
+            "chest": 37,
+            "upperarm": 37,
+            "lowerarm": 37,
+            "head": 48,
+            "stomach": 33,
+            "upperleg": 33,
+            "lowerleg": 33,
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 9,
             "ttk": 744.1860465116279,
@@ -588,14 +588,14 @@
             "dropoff": 60,
             "base_rpm": 645,
             "final_rpm": 645,
-            "neck": 32,
-            "chest": 32,
-            "upperarm": 32,
-            "lowerarm": 32,
-            "head": 41,
-            "stomach": 28,
-            "upperleg": 28,
-            "lowerleg": 28,
+            "neck": 33,
+            "chest": 33,
+            "upperarm": 33,
+            "lowerarm": 33,
+            "head": 43,
+            "stomach": 30,
+            "upperleg": 30,
+            "lowerleg": 30,
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 10,
             "ttk": 852.4266936299292,
@@ -618,7 +618,7 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
+              "name": "Redwell 30-S 2x"
             },
             {
               "slot": "Underbarrel",
@@ -629,10 +629,10 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.32,
+          "rating": 4.7,
           "description": "Long Range meta build",
-          "loadout_code": "A13-34FD7-2SNPJ-11",
-          "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-4561.webp"
+          "loadout_code": "A13-23Y3A-MYDVW-11",
+          "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-9521.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -1608,7 +1608,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 4.42,
+          "rating": 435,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1654,7 +1654,7 @@
       "stats": {
         "rpm": 811,
         "ads": 230,
-        "bv": 915,
+        "bv": 880,
         "damage": [
           {
             "dropoff": 0,
@@ -1674,37 +1674,37 @@
             "enemies_per_magazine": 3
           },
           {
-            "dropoff": 38,
+            "dropoff": 42,
             "base_rpm": 811,
             "final_rpm": 811,
-            "neck": 30,
-            "chest": 30,
-            "upperarm": 30,
-            "lowerarm": 30,
-            "head": 36,
-            "upperleg": 27,
-            "lowerleg": 27,
-            "stomach": 27,
+            "neck": 31,
+            "chest": 31,
+            "upperarm": 31,
+            "lowerarm": 31,
+            "head": 37,
+            "upperleg": 28,
+            "lowerleg": 28,
+            "stomach": 28,
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 10,
             "ttk": 665.8446362515413,
             "enemies_per_magazine": 3
           },
           {
-            "dropoff": 55,
+            "dropoff": 60,
             "base_rpm": 811,
             "final_rpm": 811,
-            "neck": 25,
-            "chest": 25,
-            "upperarm": 25,
-            "lowerarm": 25,
-            "head": 30,
-            "upperleg": 22,
-            "lowerleg": 22,
-            "stomach": 22,
+            "neck": 26,
+            "chest": 26,
+            "upperarm": 26,
+            "lowerarm": 26,
+            "head": 31,
+            "upperleg": 23,
+            "lowerleg": 23,
+            "stomach": 23,
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 12,
-            "ttk": 823.9194005915923,
+            "ttk": 831.9919291559241,
             "enemies_per_magazine": 2
           }
         ],
@@ -1735,7 +1735,7 @@
               "name": "Frigate Control Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.6,
           "description": "Long Range meta build",
           "loadout_code": "A07-34FBS-SSUGJ-11",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Long-Range-Warzone-Loadout-CODMunity-8173.webp"
@@ -1975,17 +1975,17 @@
             "base_rpm": 799,
             "final_rpm": 799,
             "dropoff": 58,
-            "neck": 28,
-            "chest": 28,
-            "upperarm": 28,
-            "lowerarm": 28,
-            "head": 32,
-            "stomach": 25,
-            "upperleg": 25,
-            "lowerleg": 25,
+            "neck": 27,
+            "chest": 27,
+            "upperarm": 27,
+            "lowerarm": 27,
+            "head": 31,
+            "stomach": 24,
+            "upperleg": 24,
+            "lowerleg": 24,
             "time_between_shots": 75.09386733416771,
-            "shots_to_kill": 11,
-            "ttk": 763.9821516025468,
+            "shots_to_kill": 12,
+            "ttk": 839.0760189367145,
             "enemies_per_magazine": 2
           }
         ],
@@ -2016,7 +2016,7 @@
               "name": "Debase Extended Mag"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.42,
           "description": "Long Range meta build",
           "loadout_code": "A16-34FIQ-XHAUL-11",
           "image": "https://assets.codmunity.gg/optimized/FG42-Long-Range-Warzone-Loadout-CODMunity-9842.webp"
@@ -3742,7 +3742,7 @@
       "stats": {
         "rpm": 769,
         "ads": 235,
-        "bv": 910,
+        "bv": 920,
         "damage": [
           {
             "dropoff": 0,
@@ -3792,7 +3792,7 @@
             "head": 31,
             "time_between_shots": 78.02340702210664,
             "shots_to_kill": 12,
-            "ttk": 874.191543177239,
+            "ttk": 873.4748685475209,
             "enemies_per_magazine": 2
           }
         ],
@@ -4277,7 +4277,7 @@
       "stats": {
         "rpm": 750,
         "ads": 235,
-        "bv": 910,
+        "bv": 920,
         "damage": [
           {
             "dropoff": 0,
@@ -4299,7 +4299,7 @@
           {
             "base_rpm": 750,
             "final_rpm": 750,
-            "dropoff": 38,
+            "dropoff": 42,
             "neck": 33,
             "chest": 33,
             "upperarm": 33,
@@ -4316,18 +4316,18 @@
           {
             "base_rpm": 750,
             "final_rpm": 750,
-            "dropoff": 52,
-            "neck": 28,
-            "chest": 28,
-            "upperarm": 28,
-            "lowerarm": 28,
-            "head": 36,
-            "upperleg": 24,
-            "lowerleg": 24,
-            "stomach": 24,
+            "dropoff": 58,
+            "neck": 29,
+            "chest": 29,
+            "upperarm": 29,
+            "lowerarm": 29,
+            "head": 37,
+            "upperleg": 25,
+            "lowerleg": 25,
+            "stomach": 25,
             "time_between_shots": 80,
             "shots_to_kill": 11,
-            "ttk": 807.1428571428571,
+            "ttk": 813.0434782608696,
             "enemies_per_magazine": 2
           }
         ],
@@ -4347,7 +4347,7 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
+              "name": "Redwell 30-S 2x"
             },
             {
               "slot": "Underbarrel",
@@ -4358,10 +4358,10 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 4.6,
+          "rating": 5.5,
           "description": "Long Range meta build",
-          "loadout_code": "A12-34FK5-DRNJU-11",
-          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9546.webp"
+          "loadout_code": "A12-23YA8-YXDR7-11",
+          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9706.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -4631,37 +4631,20 @@
       "stats": {
         "rpm": 500,
         "ads": 245,
-        "bv": 900,
+        "bv": 880,
         "damage": [
           {
             "dropoff": 0,
             "base_rpm": 500,
             "final_rpm": 500,
-            "head": 60,
-            "neck": 51,
-            "upperleg": 48,
-            "lowerleg": 48,
-            "upperarm": 51,
-            "chest": 51,
-            "stomach": 48,
-            "lowerarm": 51,
-            "time_between_shots": 120,
-            "shots_to_kill": 6,
-            "ttk": 600,
-            "enemies_per_magazine": 5
-          },
-          {
-            "base_rpm": 500,
-            "final_rpm": 500,
-            "dropoff": 36,
-            "neck": 43,
-            "upperleg": 41,
-            "lowerleg": 41,
-            "upperarm": 43,
-            "chest": 43,
-            "stomach": 41,
-            "lowerarm": 43,
-            "head": 51,
+            "head": 57,
+            "neck": 49,
+            "upperleg": 46,
+            "lowerleg": 46,
+            "upperarm": 49,
+            "chest": 49,
+            "stomach": 46,
+            "lowerarm": 49,
             "time_between_shots": 120,
             "shots_to_kill": 7,
             "ttk": 720,
@@ -4670,18 +4653,35 @@
           {
             "base_rpm": 500,
             "final_rpm": 500,
-            "dropoff": 52,
-            "neck": 42,
-            "upperleg": 40,
-            "lowerleg": 40,
-            "upperarm": 42,
-            "chest": 42,
-            "stomach": 40,
-            "lowerarm": 42,
-            "head": 50,
+            "dropoff": 36,
+            "neck": 40,
+            "upperleg": 38,
+            "lowerleg": 38,
+            "upperarm": 40,
+            "chest": 40,
+            "stomach": 38,
+            "lowerarm": 40,
+            "head": 47,
             "time_between_shots": 120,
             "shots_to_kill": 8,
-            "ttk": 847.7777777777778,
+            "ttk": 840,
+            "enemies_per_magazine": 3
+          },
+          {
+            "base_rpm": 500,
+            "final_rpm": 500,
+            "dropoff": 45,
+            "neck": 36,
+            "upperleg": 34,
+            "lowerleg": 34,
+            "upperarm": 36,
+            "chest": 36,
+            "stomach": 34,
+            "lowerarm": 36,
+            "head": 42,
+            "time_between_shots": 120,
+            "shots_to_kill": 9,
+            "ttk": 961.1363636363636,
             "enemies_per_magazine": 3
           }
         ],
@@ -4701,21 +4701,21 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
+              "name": "Redwell 30-S 2x"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "VAS Convergence Foregrip"
             },
             {
               "slot": "Magazine",
-              "name": "Rhodes Drum Mag"
-            },
-            {
-              "slot": "Stock",
-              "name": "Winch Stock"
+              "name": "Vault Extended Mag"
             }
           ],
           "rating": 5.6,
           "description": "Long Range meta build",
-          "loadout_code": "A03-36W2S-J343H-11",
-          "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-2542.webp"
+          "loadout_code": "A03-23YA8-YXA79-11",
+          "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-1196.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -6058,7 +6058,7 @@
       "stats": {
         "rpm": 1034,
         "ads": 210,
-        "bv": 890,
+        "bv": 910,
         "damage": [
           {
             "head": 33,
@@ -6095,7 +6095,7 @@
             "enemies_per_magazine": 2
           },
           {
-            "dropoff": 50,
+            "dropoff": 55,
             "neck": 19,
             "chest": 19,
             "upperarm": 19,
@@ -6108,7 +6108,7 @@
             "lowerleg": 17,
             "time_between_shots": 58.02707930367505,
             "shots_to_kill": 16,
-            "ttk": 876.5859648360247,
+            "ttk": 880.8457499946862,
             "enemies_per_magazine": 1
           }
         ],
@@ -6166,7 +6166,7 @@
               "name": "Requite Stability Stock"
             }
           ],
-          "rating": 4.15,
+          "rating": 4.4,
           "description": "Long Range meta build",
           "loadout_code": "A14-34FBS-PN71Y-11",
           "image": "https://assets.codmunity.gg/optimized/VX-Compact-Long-Range-Warzone-Loadout-CODMunity-8608.webp"
@@ -8587,20 +8587,37 @@
       "stats": {
         "rpm": 366,
         "ads": 295,
-        "bv": 820,
+        "bv": 870,
         "damage": [
           {
             "dropoff": 0,
             "base_rpm": 366,
             "final_rpm": 366,
-            "head": 60,
-            "neck": 55,
-            "upperleg": 55,
-            "lowerleg": 55,
-            "upperarm": 55,
-            "chest": 55,
-            "stomach": 55,
-            "lowerarm": 55,
+            "head": 75,
+            "neck": 63,
+            "upperleg": 63,
+            "lowerleg": 63,
+            "upperarm": 63,
+            "chest": 63,
+            "stomach": 63,
+            "lowerarm": 63,
+            "time_between_shots": 163.9344262295082,
+            "shots_to_kill": 5,
+            "ttk": 655.7377049180328,
+            "enemies_per_magazine": 10
+          },
+          {
+            "base_rpm": 366,
+            "final_rpm": 366,
+            "dropoff": 36,
+            "neck": 52,
+            "upperleg": 52,
+            "lowerleg": 52,
+            "upperarm": 52,
+            "chest": 52,
+            "stomach": 52,
+            "lowerarm": 52,
+            "head": 62,
             "time_between_shots": 163.9344262295082,
             "shots_to_kill": 6,
             "ttk": 819.672131147541,
@@ -8609,36 +8626,19 @@
           {
             "base_rpm": 366,
             "final_rpm": 366,
-            "dropoff": 36,
-            "neck": 46,
-            "upperleg": 46,
-            "lowerleg": 46,
-            "upperarm": 46,
-            "chest": 46,
-            "stomach": 46,
-            "lowerarm": 46,
-            "head": 50,
+            "dropoff": 50,
+            "neck": 43,
+            "upperleg": 43,
+            "lowerleg": 43,
+            "upperarm": 43,
+            "chest": 43,
+            "stomach": 43,
+            "lowerarm": 43,
+            "head": 51,
             "time_between_shots": 163.9344262295082,
             "shots_to_kill": 7,
-            "ttk": 983.6065573770493,
+            "ttk": 991.0778217448653,
             "enemies_per_magazine": 7
-          },
-          {
-            "base_rpm": 366,
-            "final_rpm": 366,
-            "dropoff": 50,
-            "neck": 39,
-            "upperleg": 39,
-            "lowerleg": 39,
-            "upperarm": 39,
-            "chest": 39,
-            "stomach": 39,
-            "lowerarm": 39,
-            "head": 42,
-            "time_between_shots": 163.9344262295082,
-            "shots_to_kill": 8,
-            "ttk": 1158.516593362655,
-            "enemies_per_magazine": 6
           }
         ],
         "mag": 50
@@ -8668,7 +8668,7 @@
               "name": ".300 WM FMJ"
             }
           ],
-          "rating": 3.2,
+          "rating": 3.8,
           "description": "Long Range meta build",
           "loadout_code": "L10-21YIK-363JK-8F11",
           "image": "https://assets.codmunity.gg/optimized/Mammoth-Long-Range-Warzone-Loadout-CODMunity-4207.webp"
@@ -15327,14 +15327,14 @@
             "base_rpm": 691,
             "final_rpm": 691,
             "dropoff": 0,
-            "head": 54,
-            "neck": 42,
-            "chest": 42,
-            "upperarm": 42,
-            "lowerarm": 42,
-            "stomach": 39,
-            "upperleg": 39,
-            "lowerleg": 39,
+            "head": 49,
+            "neck": 38,
+            "chest": 38,
+            "upperarm": 38,
+            "lowerarm": 38,
+            "stomach": 36,
+            "upperleg": 36,
+            "lowerleg": 36,
             "time_between_shots": 86.83068017366136,
             "shots_to_kill": 8,
             "ttk": 607.8147612156296,
@@ -15343,15 +15343,15 @@
           {
             "base_rpm": 691,
             "final_rpm": 691,
-            "dropoff": 14,
-            "neck": 36,
-            "chest": 36,
-            "upperarm": 36,
-            "lowerarm": 36,
-            "head": 46,
-            "upperleg": 34,
-            "lowerleg": 34,
-            "stomach": 34,
+            "dropoff": 13,
+            "neck": 34,
+            "chest": 34,
+            "upperarm": 34,
+            "lowerarm": 34,
+            "head": 44,
+            "upperleg": 32,
+            "lowerleg": 32,
+            "stomach": 32,
             "time_between_shots": 86.83068017366136,
             "shots_to_kill": 9,
             "ttk": 694.6454413892909,
@@ -15360,7 +15360,7 @@
           {
             "base_rpm": 691,
             "final_rpm": 691,
-            "dropoff": 23,
+            "dropoff": 22,
             "neck": 28,
             "chest": 28,
             "upperarm": 28,
@@ -15528,7 +15528,7 @@
               "name": "Hammer Platoon Pad"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.4,
           "description": "Close Range meta build",
           "loadout_code": "S05-9CWYE-H511",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-3844.webp"
@@ -15655,7 +15655,7 @@
               "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.36,
+          "rating": 4.9,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGW2E-IYU11",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-3989.webp"
@@ -16267,34 +16267,34 @@
             "dropoff": 0,
             "base_rpm": 1071,
             "final_rpm": 1071,
-            "head": 32,
-            "neck": 28,
-            "chest": 28,
-            "upperarm": 28,
-            "lowerarm": 28,
+            "head": 34,
+            "neck": 30,
+            "chest": 30,
+            "upperarm": 30,
+            "lowerarm": 30,
+            "stomach": 28,
+            "upperleg": 28,
+            "lowerleg": 28,
+            "time_between_shots": 56.022408963585434,
+            "shots_to_kill": 10,
+            "ttk": 504.20168067226894,
+            "enemies_per_magazine": 3
+          },
+          {
+            "dropoff": 12.5,
+            "base_rpm": 1071,
+            "final_rpm": 1071,
+            "neck": 26,
+            "chest": 26,
+            "upperarm": 26,
+            "lowerarm": 26,
+            "head": 28,
             "stomach": 24,
             "upperleg": 24,
             "lowerleg": 24,
             "time_between_shots": 56.022408963585434,
-            "shots_to_kill": 11,
-            "ttk": 560.2240896358544,
-            "enemies_per_magazine": 3
-          },
-          {
-            "dropoff": 12,
-            "base_rpm": 1071,
-            "final_rpm": 1071,
-            "neck": 24,
-            "chest": 24,
-            "upperarm": 24,
-            "lowerarm": 24,
-            "head": 26,
-            "stomach": 20,
-            "upperleg": 20,
-            "lowerleg": 20,
-            "time_between_shots": 56.022408963585434,
-            "shots_to_kill": 13,
-            "ttk": 672.2689075630252,
+            "shots_to_kill": 12,
+            "ttk": 616.2464985994397,
             "enemies_per_magazine": 2
           },
           {
@@ -16306,9 +16306,9 @@
             "upperarm": 20,
             "lowerarm": 20,
             "head": 22,
-            "stomach": 18,
-            "upperleg": 18,
-            "lowerleg": 18,
+            "stomach": 19,
+            "upperleg": 19,
+            "lowerleg": 19,
             "time_between_shots": 56.022408963585434,
             "shots_to_kill": 15,
             "ttk": 784.313725490196,
@@ -17839,14 +17839,14 @@
             "base_rpm": 706,
             "final_rpm": 706,
             "dropoff": 0,
-            "head": 52,
-            "neck": 40,
-            "upperleg": 38,
-            "lowerleg": 38,
-            "upperarm": 40,
-            "chest": 40,
-            "stomach": 38,
-            "lowerarm": 40,
+            "head": 54,
+            "neck": 42,
+            "upperleg": 39,
+            "lowerleg": 39,
+            "upperarm": 42,
+            "chest": 42,
+            "stomach": 39,
+            "lowerarm": 42,
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 8,
             "ttk": 594.9008498583569,
@@ -17856,14 +17856,14 @@
             "dropoff": 13,
             "base_rpm": 706,
             "final_rpm": 706,
-            "neck": 36,
-            "upperleg": 34,
-            "lowerleg": 34,
-            "upperarm": 36,
-            "chest": 36,
-            "stomach": 34,
-            "lowerarm": 36,
-            "head": 46,
+            "neck": 37,
+            "upperleg": 35,
+            "lowerleg": 35,
+            "upperarm": 37,
+            "chest": 37,
+            "stomach": 35,
+            "lowerarm": 37,
+            "head": 48,
             "time_between_shots": 84.98583569405099,
             "shots_to_kill": 9,
             "ttk": 679.8866855524079,
@@ -19211,16 +19211,16 @@
         "damage": [
           {
             "dropoff": 0,
-            "head": 39,
-            "neck": 32,
+            "head": 40,
+            "neck": 33,
             "base_rpm": 923,
             "final_rpm": 923,
-            "chest": 32,
-            "upperleg": 30,
-            "lowerleg": 30,
-            "upperarm": 32,
-            "lowerarm": 32,
-            "stomach": 30,
+            "chest": 33,
+            "upperleg": 31,
+            "lowerleg": 31,
+            "upperarm": 33,
+            "lowerarm": 33,
+            "stomach": 31,
             "time_between_shots": 65.00541711809318,
             "shots_to_kill": 10,
             "ttk": 585.0487540628386,
@@ -20406,7 +20406,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.9,
+          "rating": 4.7,
           "description": "Close Range meta build",
           "loadout_code": "S12-6KDYX-HL11",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8952.webp"

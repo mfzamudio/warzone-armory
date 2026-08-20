@@ -1,63 +1,63 @@
 {
-  "last_updated": "2026-08-19T04:42:00.451926+00:00",
+  "last_updated": "2026-08-20T04:42:46.727910+00:00",
   "top_weapons": [
     {
-      "name": "MXR-17",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 1
     },
     {
-      "name": "CBRS-3",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Strider 300",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "VST",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "FG42",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "REV-46",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "VS Recon",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "VX Compact",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Carbon 57",
+      "name": "VST",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "DS20 Mirage",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "Hawker HX",
-      "game": "bo7",
+      "name": "AN-94",
+      "game": "bo2",
       "rank": 11
     },
     {
-      "name": "MK35 ISR",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 12
     },
@@ -67,33 +67,33 @@
       "rank": 13
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "FG42",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Dravec 45",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "M15 Mod 0",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "MK.78",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "AN-94",
-      "game": "bo2",
+      "name": "MK.78",
+      "game": "bo7",
       "rank": 19
     },
     {
@@ -104,8 +104,16 @@
   ],
   "top_meta_scores": [
     {
+      "name": "DS20 Mirage",
+      "score": 435
+    },
+    {
       "name": "MXR-17",
       "score": 5.6
+    },
+    {
+      "name": "MK35 ISR",
+      "score": 5.5
     },
     {
       "name": "CBRS-3",
@@ -116,11 +124,7 @@
       "score": 5.1
     },
     {
-      "name": "FG42",
-      "score": 4.9
-    },
-    {
-      "name": "VST",
+      "name": "Dravec 45",
       "score": 4.9
     },
     {
@@ -128,7 +132,15 @@
       "score": 4.8
     },
     {
+      "name": "AN-94",
+      "score": 4.7
+    },
+    {
       "name": "VX Compact",
+      "score": 4.7
+    },
+    {
+      "name": "VST",
       "score": 4.7
     },
     {
@@ -136,15 +148,7 @@
       "score": 4.7
     },
     {
-      "name": "DS20 Mirage",
-      "score": 4.6
-    },
-    {
-      "name": "MK35 ISR",
-      "score": 4.6
-    },
-    {
-      "name": "Carbon 57",
+      "name": "EGRT-17",
       "score": 4.6
     },
     {
@@ -152,7 +156,7 @@
       "score": 4.6
     },
     {
-      "name": "EGRT-17",
+      "name": "FG42",
       "score": 4.42
     },
     {
@@ -160,8 +164,8 @@
       "score": 4.4
     },
     {
-      "name": "Dravec 45",
-      "score": 4.36
+      "name": "Carbon 57",
+      "score": 4.4
     },
     {
       "name": "M15 Mod 0",
@@ -174,10 +178,6 @@
     {
       "name": "MK.78",
       "score": 4.34
-    },
-    {
-      "name": "AN-94",
-      "score": 4.32
     },
     {
       "name": "AK-27",
@@ -222,6 +222,10 @@
     {
       "name": "Sokol 545",
       "score": 3.85
+    },
+    {
+      "name": "Mammoth",
+      "score": 3.8
     },
     {
       "name": "KRS-7.62",
@@ -298,10 +302,6 @@
     {
       "name": "Velox 5.7",
       "score": 3.5
-    },
-    {
-      "name": "PDSW 528",
-      "score": 3.5
     }
   ],
   "top_attachments": [
@@ -326,11 +326,11 @@
       "count": 41
     },
     {
-      "name": "FANG HoverPoint ELO",
-      "count": 34
+      "name": "Vertical Foregrip",
+      "count": 31
     },
     {
-      "name": "Vertical Foregrip",
+      "name": "FANG HoverPoint ELO",
       "count": 31
     },
     {
@@ -410,15 +410,15 @@
       "count": 11
     },
     {
+      "name": "VAS Convergence Foregrip",
+      "count": 10
+    },
+    {
       "name": "Cronen Mini Pro",
       "count": 10
     },
     {
       "name": "Kepler Microflex",
-      "count": 9
-    },
-    {
-      "name": "VAS Convergence Foregrip",
       "count": 9
     },
     {
@@ -445,11 +445,11 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 158
+      "count": 159
     },
     {
       "slot": "Stock",
-      "count": 127
+      "count": 126
     },
     {
       "slot": "Rear Grip",
