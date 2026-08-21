@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T04:42:46.735230+00:00",
+  "last_updated": "2026-08-21T04:45:13.396837+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -559,9 +559,9 @@
             "chest": 41,
             "upperarm": 41,
             "lowerarm": 41,
-            "stomach": 37,
-            "upperleg": 37,
-            "lowerleg": 37,
+            "stomach": 36,
+            "upperleg": 36,
+            "lowerleg": 36,
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 8,
             "ttk": 651.1627906976744,
@@ -592,10 +592,10 @@
             "chest": 33,
             "upperarm": 33,
             "lowerarm": 33,
-            "head": 43,
-            "stomach": 30,
-            "upperleg": 30,
-            "lowerleg": 30,
+            "head": 42,
+            "stomach": 29,
+            "upperleg": 29,
+            "lowerleg": 29,
             "time_between_shots": 93.02325581395348,
             "shots_to_kill": 10,
             "ttk": 852.4266936299292,
@@ -629,7 +629,7 @@
               "name": "Rexford Extended II"
             }
           ],
-          "rating": 4.7,
+          "rating": 5.8,
           "description": "Long Range meta build",
           "loadout_code": "A13-23Y3A-MYDVW-11",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-9521.webp"
@@ -1608,7 +1608,7 @@
               "name": "Weighted Stock"
             }
           ],
-          "rating": 435,
+          "rating": 4.35,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FBS-SSSND-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Long-Range-Warzone-Loadout-CODMunity-9370.webp"
@@ -1637,7 +1637,7 @@
               "name": "Assault Division Stock"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.4,
           "description": "Sniper Support meta build",
           "loadout_code": "A05-34FBS-R8HFD-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2582.webp"
@@ -1682,9 +1682,9 @@
             "upperarm": 31,
             "lowerarm": 31,
             "head": 37,
-            "upperleg": 28,
-            "lowerleg": 28,
-            "stomach": 28,
+            "upperleg": 27,
+            "lowerleg": 27,
+            "stomach": 27,
             "time_between_shots": 73.98273736128236,
             "shots_to_kill": 10,
             "ttk": 665.8446362515413,
@@ -1764,7 +1764,7 @@
               "name": "Buffer Springs"
             }
           ],
-          "rating": 4.42,
+          "rating": 4.3,
           "description": "Sniper Support meta build",
           "loadout_code": "A07-CYGM8-731",
           "image": "https://assets.codmunity.gg/optimized/EGRT-17-Sniper-Support-Warzone-Loadout-CODMunity-1692.webp"
@@ -2016,7 +2016,7 @@
               "name": "Debase Extended Mag"
             }
           ],
-          "rating": 4.42,
+          "rating": 4.48,
           "description": "Long Range meta build",
           "loadout_code": "A16-34FIQ-XHAUL-11",
           "image": "https://assets.codmunity.gg/optimized/FG42-Long-Range-Warzone-Loadout-CODMunity-9842.webp"
@@ -3852,7 +3852,7 @@
               "name": "Telescopic Stock"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.1,
           "description": "Sniper Support meta build",
           "loadout_code": "A01-42KKR-VS11",
           "image": "https://assets.codmunity.gg/optimized/M15-Mod-0-Sniper-Support-Warzone-Loadout-CODMunity-8165.webp"
@@ -4322,9 +4322,9 @@
             "upperarm": 29,
             "lowerarm": 29,
             "head": 37,
-            "upperleg": 25,
-            "lowerleg": 25,
-            "stomach": 25,
+            "upperleg": 24,
+            "lowerleg": 24,
+            "stomach": 24,
             "time_between_shots": 80,
             "shots_to_kill": 11,
             "ttk": 813.0434782608696,
@@ -4358,7 +4358,7 @@
               "name": "Bowen Siren Drum"
             }
           ],
-          "rating": 5.5,
+          "rating": 5.6,
           "description": "Long Range meta build",
           "loadout_code": "A12-23YA8-YXDR7-11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9706.webp"
@@ -4387,7 +4387,7 @@
               "name": "Bowen ST-Move Stock ADS"
             }
           ],
-          "rating": 4.36,
+          "rating": 4.1,
           "description": "Sniper Support meta build",
           "loadout_code": "A12-9LGAJ-6F11",
           "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Sniper-Support-Warzone-Loadout-CODMunity-6991.webp"
@@ -4712,7 +4712,7 @@
               "name": "Vault Extended Mag"
             }
           ],
-          "rating": 5.6,
+          "rating": 4.36,
           "description": "Long Range meta build",
           "loadout_code": "A03-23YA8-YXA79-11",
           "image": "https://assets.codmunity.gg/optimized/MXR-17-Long-Range-Warzone-Loadout-CODMunity-1196.webp"
@@ -5122,7 +5122,7 @@
               "name": "MFS Counterforce-C1 Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.2,
           "description": "Sniper Support meta build",
           "loadout_code": "A06-AUXZ9-IJ8J1-1",
           "image": "https://assets.codmunity.gg/optimized/Peacekeeper-Mk1-Sniper-Support-Warzone-Loadout-CODMunity-1122.webp"
@@ -6420,7 +6420,7 @@
               "name": "4.73 Caseless FMJ"
             }
           ],
-          "rating": 4.2,
+          "rating": 4.42,
           "description": "Long Range meta build",
           "loadout_code": "A04-21YVV-ZGCBB-R711",
           "image": "https://assets.codmunity.gg/optimized/X9-Maverick-Long-Range-Warzone-Loadout-CODMunity-8917.webp"
@@ -11263,7 +11263,7 @@
               "name": "MFS Striker Tactical Stock"
             }
           ],
-          "rating": 4.1,
+          "rating": 3.4,
           "description": "Sniper Support meta build",
           "loadout_code": "M01-A2L5R-711",
           "image": "https://assets.codmunity.gg/optimized/M8A1-Sniper-Support-Warzone-Loadout-CODMunity-1283.webp"
@@ -15401,7 +15401,7 @@
               "name": "Casino Light Stock"
             }
           ],
-          "rating": 5.5,
+          "rating": 4.3,
           "description": "Close Range meta build",
           "loadout_code": "S15-2W24T-N4KXW-11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Close-Range-Warzone-Loadout-CODMunity-8035.webp"
@@ -15431,7 +15431,7 @@
               "name": "9mm Parabellum FMJ"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.3,
           "description": "Sniper Support meta build",
           "loadout_code": "S15-21YNH-J5K45-AW11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-1688.webp"
@@ -15528,7 +15528,7 @@
               "name": "Hammer Platoon Pad"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.3,
           "description": "Close Range meta build",
           "loadout_code": "S05-9CWYE-H511",
           "image": "https://assets.codmunity.gg/optimized/Carbon-57-Close-Range-Warzone-Loadout-CODMunity-3844.webp"
@@ -16281,7 +16281,7 @@
             "enemies_per_magazine": 3
           },
           {
-            "dropoff": 12.5,
+            "dropoff": 13,
             "base_rpm": 1071,
             "final_rpm": 1071,
             "neck": 26,
@@ -16306,9 +16306,9 @@
             "upperarm": 20,
             "lowerarm": 20,
             "head": 22,
-            "stomach": 19,
-            "upperleg": 19,
-            "lowerleg": 19,
+            "stomach": 18,
+            "upperleg": 18,
+            "lowerleg": 18,
             "time_between_shots": 56.022408963585434,
             "shots_to_kill": 15,
             "ttk": 784.313725490196,
@@ -17210,7 +17210,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.1,
           "description": "Close Range meta build",
           "loadout_code": "S10-6K4JN-R731",
           "image": "https://assets.codmunity.gg/optimized/Kogot-7-Close-Range-Warzone-Loadout-CODMunity-5573.webp"
@@ -17913,7 +17913,7 @@
               "name": "Recoil Sync Unit"
             }
           ],
-          "rating": 4.1,
+          "rating": 4.8,
           "description": "Close Range meta build",
           "loadout_code": "S06-3SUZ9-1151",
           "image": "https://assets.codmunity.gg/optimized/MPC-25-Close-Range-Warzone-Loadout-CODMunity-8846.webp"
@@ -18789,7 +18789,7 @@
               "name": "Cawdor Extended Mag"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.85,
           "description": "Close Range meta build",
           "loadout_code": "S09-2W2AD-Q3U75-11",
           "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-1431.webp"
@@ -19211,7 +19211,7 @@
         "damage": [
           {
             "dropoff": 0,
-            "head": 40,
+            "head": 41,
             "neck": 33,
             "base_rpm": 923,
             "final_rpm": 923,
@@ -19925,7 +19925,7 @@
               "name": "Itinerant Light Stock"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.2,
           "description": "Close Range meta build",
           "loadout_code": "S07-6KDYS-AW11",
           "image": "https://assets.codmunity.gg/optimized/Sturmwolf-45-Close-Range-Warzone-Loadout-CODMunity-3540.webp"
@@ -20406,7 +20406,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 4.7,
+          "rating": 5.4,
           "description": "Close Range meta build",
           "loadout_code": "S12-6KDYX-HL11",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8952.webp"

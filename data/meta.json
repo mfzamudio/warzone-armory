@@ -1,38 +1,38 @@
 {
-  "last_updated": "2026-08-20T04:42:46.727910+00:00",
+  "last_updated": "2026-08-21T04:45:13.389573+00:00",
   "top_weapons": [
     {
-      "name": "DS20 Mirage",
-      "game": "bo7",
+      "name": "AN-94",
+      "game": "bo2",
       "rank": 1
-    },
-    {
-      "name": "MXR-17",
-      "game": "bo7",
-      "rank": 2
     },
     {
       "name": "MK35 ISR",
       "game": "bo7",
-      "rank": 3
+      "rank": 2
     },
     {
-      "name": "CBRS-3",
+      "name": "VST",
       "game": "bo7",
-      "rank": 4
+      "rank": 3
     },
     {
       "name": "Strider 300",
       "game": "bo7",
-      "rank": 5
+      "rank": 4
     },
     {
       "name": "Dravec 45",
       "game": "bo7",
-      "rank": 6
+      "rank": 5
     },
     {
       "name": "REV-46",
+      "game": "bo7",
+      "rank": 6
+    },
+    {
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 7
     },
@@ -42,82 +42,78 @@
       "rank": 8
     },
     {
-      "name": "VST",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "VX Compact",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "AN-94",
-      "game": "bo2",
-      "rank": 11
-    },
-    {
-      "name": "Hawker HX",
-      "game": "bo7",
-      "rank": 12
-    },
-    {
       "name": "EGRT-17",
       "game": "bo7",
-      "rank": 13
+      "rank": 11
     },
     {
       "name": "FG42",
       "game": "bo7",
+      "rank": 12
+    },
+    {
+      "name": "X9 Maverick",
+      "game": "bo7",
+      "rank": 13
+    },
+    {
+      "name": "DS20 Mirage",
+      "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Carbon 57",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "M15 Mod 0",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "MK.78",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "AK-27",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "DS20 Mirage",
-      "score": 435
-    },
-    {
-      "name": "MXR-17",
-      "score": 5.6
+      "name": "AN-94",
+      "score": 5.8
     },
     {
       "name": "MK35 ISR",
-      "score": 5.5
+      "score": 5.6
     },
     {
-      "name": "CBRS-3",
-      "score": 5.5
+      "name": "VST",
+      "score": 5.4
     },
     {
       "name": "Strider 300",
@@ -129,18 +125,14 @@
     },
     {
       "name": "REV-46",
+      "score": 4.85
+    },
+    {
+      "name": "MPC-25",
       "score": 4.8
     },
     {
-      "name": "AN-94",
-      "score": 4.7
-    },
-    {
       "name": "VX Compact",
-      "score": 4.7
-    },
-    {
-      "name": "VST",
       "score": 4.7
     },
     {
@@ -157,23 +149,19 @@
     },
     {
       "name": "FG42",
+      "score": 4.48
+    },
+    {
+      "name": "X9 Maverick",
       "score": 4.42
     },
     {
-      "name": "Peacekeeper Mk1",
+      "name": "DS20 Mirage",
       "score": 4.4
     },
     {
-      "name": "Carbon 57",
-      "score": 4.4
-    },
-    {
-      "name": "M15 Mod 0",
-      "score": 4.35
-    },
-    {
-      "name": "Sturmwolf 45",
-      "score": 4.35
+      "name": "MXR-17",
+      "score": 4.36
     },
     {
       "name": "MK.78",
@@ -184,7 +172,11 @@
       "score": 4.3
     },
     {
-      "name": "Kogot-7",
+      "name": "CBRS-3",
+      "score": 4.3
+    },
+    {
+      "name": "Carbon 57",
       "score": 4.3
     },
     {
@@ -192,19 +184,23 @@
       "score": 4.3
     },
     {
+      "name": "Sturmwolf 45",
+      "score": 4.25
+    },
+    {
+      "name": "Peacekeeper Mk1",
+      "score": 4.2
+    },
+    {
       "name": "Voyak KT-3",
       "score": 4.2
     },
     {
-      "name": "X9 Maverick",
-      "score": 4.2
-    },
-    {
-      "name": "M8A1",
+      "name": "M15 Mod 0",
       "score": 4.1
     },
     {
-      "name": "MPC-25",
+      "name": "Kogot-7",
       "score": 4.1
     },
     {
@@ -253,6 +249,10 @@
     },
     {
       "name": "Kar98k",
+      "score": 3.7
+    },
+    {
+      "name": "M8A1",
       "score": 3.7
     },
     {
