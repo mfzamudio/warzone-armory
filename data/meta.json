@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T04:45:13.389573+00:00",
+  "last_updated": "2026-08-22T04:38:48.303934+00:00",
   "top_weapons": [
     {
       "name": "AN-94",
@@ -7,47 +7,47 @@
       "rank": 1
     },
     {
-      "name": "MK35 ISR",
+      "name": "VST",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "VST",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "Dravec 45",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "REV-46",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "MPC-25",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "VS Recon",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "VX Compact",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "Hawker HX",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 10
     },
@@ -108,10 +108,6 @@
       "score": 5.8
     },
     {
-      "name": "MK35 ISR",
-      "score": 5.6
-    },
-    {
       "name": "VST",
       "score": 5.4
     },
@@ -120,15 +116,15 @@
       "score": 5.1
     },
     {
-      "name": "Dravec 45",
+      "name": "MK35 ISR",
       "score": 4.9
     },
     {
-      "name": "REV-46",
-      "score": 4.85
+      "name": "MPC-25",
+      "score": 4.9
     },
     {
-      "name": "MPC-25",
+      "name": "Dravec 45",
       "score": 4.8
     },
     {
@@ -141,6 +137,10 @@
     },
     {
       "name": "EGRT-17",
+      "score": 4.6
+    },
+    {
+      "name": "REV-46",
       "score": 4.6
     },
     {
