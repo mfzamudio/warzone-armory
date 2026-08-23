@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T04:38:48.303934+00:00",
+  "last_updated": "2026-08-23T04:43:09.500221+00:00",
   "top_weapons": [
     {
       "name": "AN-94",
@@ -72,32 +72,32 @@
       "rank": 14
     },
     {
-      "name": "MXR-17",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "MK.78",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "AK-27",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "Carbon 57",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "CBRS-3",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 20
     }
@@ -160,6 +160,10 @@
       "score": 4.4
     },
     {
+      "name": "Sturmwolf 45",
+      "score": 4.4
+    },
+    {
       "name": "MXR-17",
       "score": 4.36
     },
@@ -182,10 +186,6 @@
     {
       "name": "XR-3 Ion",
       "score": 4.3
-    },
-    {
-      "name": "Sturmwolf 45",
-      "score": 4.25
     },
     {
       "name": "Peacekeeper Mk1",
