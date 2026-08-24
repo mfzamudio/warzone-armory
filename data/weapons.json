@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T04:43:09.506089+00:00",
+  "last_updated": "2026-08-24T04:52:08.211591+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -15655,7 +15655,7 @@
               "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.8,
+          "rating": 4.7,
           "description": "Close Range meta build",
           "loadout_code": "S04-BGW2E-IYU11",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Close-Range-Warzone-Loadout-CODMunity-3989.webp"
@@ -19267,30 +19267,30 @@
         "aggressive": {
           "attachments": [
             {
+              "slot": "Muzzle",
+              "name": "LTI Stentorian Brake"
+            },
+            {
               "slot": "Barrel",
-              "name": "12\" Vienna Barrel"
+              "name": "9\" Basilisk Barrel"
             },
             {
               "slot": "Optic",
-              "name": "Lethal Tools ELO"
+              "name": "FANG HoverPoint ELO"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "Flowguard Foregrip"
             },
             {
               "slot": "Magazine",
               "name": "Forward Breach Mag"
-            },
-            {
-              "slot": "Rear Grip",
-              "name": "Eruption Grip"
-            },
-            {
-              "slot": "Stock",
-              "name": "MFS Full Stock+"
             }
           ],
-          "rating": 3.7,
+          "rating": 4.8,
           "description": "Close Range meta build",
-          "loadout_code": "S01-AUY8U-EXTF1-1",
-          "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-4682.webp"
+          "loadout_code": "S01-2W27L-7461D-11",
+          "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Close-Range-Warzone-Loadout-CODMunity-8692.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -19317,7 +19317,7 @@
               "name": "VAS Interlock Stock"
             }
           ],
-          "rating": 3.7,
+          "rating": 4.1,
           "description": "Sniper Support meta build",
           "loadout_code": "S01-DBNYY-8FQ91-1",
           "image": "https://assets.codmunity.gg/optimized/Ryden-45K-Sniper-Support-Warzone-Loadout-CODMunity-8491.webp"

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T04:43:09.500221+00:00",
+  "last_updated": "2026-08-24T04:52:08.204435+00:00",
   "top_weapons": [
     {
       "name": "AN-94",
@@ -27,7 +27,7 @@
       "rank": 5
     },
     {
-      "name": "Dravec 45",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 6
     },
@@ -37,67 +37,67 @@
       "rank": 7
     },
     {
-      "name": "VX Compact",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Hawker HX",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "REV-46",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "EGRT-17",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "FG42",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "X9 Maverick",
+      "name": "FG42",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "DS20 Mirage",
+      "name": "X9 Maverick",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "MXR-17",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "MK.78",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "AK-27",
+      "name": "MK.78",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "Carbon 57",
+      "name": "AK-27",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "XR-3 Ion",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 20
     }
@@ -124,11 +124,15 @@
       "score": 4.9
     },
     {
-      "name": "Dravec 45",
+      "name": "Ryden 45K",
       "score": 4.8
     },
     {
       "name": "VX Compact",
+      "score": 4.7
+    },
+    {
+      "name": "Dravec 45",
       "score": 4.7
     },
     {
@@ -256,10 +260,6 @@
       "score": 3.7
     },
     {
-      "name": "Ryden 45K",
-      "score": 3.7
-    },
-    {
       "name": "Swordfish A1",
       "score": 3.65
     },
@@ -326,11 +326,11 @@
       "count": 41
     },
     {
-      "name": "Vertical Foregrip",
-      "count": 31
+      "name": "FANG HoverPoint ELO",
+      "count": 32
     },
     {
-      "name": "FANG HoverPoint ELO",
+      "name": "Vertical Foregrip",
       "count": 31
     },
     {
@@ -414,22 +414,22 @@
       "count": 10
     },
     {
+      "name": "LTI Stentorian Brake",
+      "count": 10
+    },
+    {
       "name": "Cronen Mini Pro",
       "count": 10
     },
     {
       "name": "Kepler Microflex",
       "count": 9
-    },
-    {
-      "name": "50 Round Mag",
-      "count": 9
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 286
+      "count": 287
     },
     {
       "slot": "Barrel",
@@ -445,15 +445,15 @@
     },
     {
       "slot": "Underbarrel",
-      "count": 159
+      "count": 160
     },
     {
       "slot": "Stock",
-      "count": 126
+      "count": 125
     },
     {
       "slot": "Rear Grip",
-      "count": 109
+      "count": 108
     },
     {
       "slot": "Fire Mods",
