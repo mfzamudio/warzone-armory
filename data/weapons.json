@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T04:44:46.481666+00:00",
+  "last_updated": "2026-08-26T04:46:11.859930+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -651,7 +651,7 @@
             },
             {
               "slot": "Stock",
-              "name": "Trammel Stock"
+              "name": "Pro-Am Mobility Stock"
             },
             {
               "slot": "Fire Mods",
@@ -660,7 +660,7 @@
           ],
           "rating": 3.8,
           "description": "Sniper Support meta build",
-          "loadout_code": "A13-21WSG-GQHZ1-Q911",
+          "loadout_code": "A13-2EJF4-G711",
           "image": "https://assets.codmunity.gg/optimized/AN-94-Sniper-Support-Warzone-Loadout-CODMunity-1153.webp"
         }
       }
