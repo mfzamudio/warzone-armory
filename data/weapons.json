@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:46:11.859930+00:00",
+  "last_updated": "2026-08-27T15:05:37.504315+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -1637,7 +1637,7 @@
               "name": "Assault Division Stock"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.2,
           "description": "Sniper Support meta build",
           "loadout_code": "A05-34FBS-R8HFD-11",
           "image": "https://assets.codmunity.gg/optimized/DS20-Mirage-Sniper-Support-Warzone-Loadout-CODMunity-2582.webp"
@@ -6195,7 +6195,7 @@
               "name": "Lactic Light Stock"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.6,
           "description": "Sniper Support meta build",
           "loadout_code": "A14-34FBS-LIF4B-11",
           "image": "https://assets.codmunity.gg/optimized/VX-Compact-Sniper-Support-Warzone-Loadout-CODMunity-2237.webp"
@@ -15431,7 +15431,7 @@
               "name": "9mm Parabellum FMJ"
             }
           ],
-          "rating": 4.3,
+          "rating": 3.9,
           "description": "Sniper Support meta build",
           "loadout_code": "S15-21YNH-J5K45-AW11",
           "image": "https://assets.codmunity.gg/optimized/CBRS-3-Sniper-Support-Warzone-Loadout-CODMunity-1688.webp"
@@ -15685,7 +15685,7 @@
               "name": "MFS Agile Laser Pro"
             }
           ],
-          "rating": 4.35,
+          "rating": 4.4,
           "description": "Sniper Support meta build",
           "loadout_code": "S04-2WCKP-794MJ-11",
           "image": "https://assets.codmunity.gg/optimized/Dravec-45-Sniper-Support-Warzone-Loadout-CODMunity-3471.webp"
@@ -18778,7 +18778,7 @@
             },
             {
               "slot": "Optic",
-              "name": "FANG HoverPoint ELO"
+              "name": "Lethal Tools ELO"
             },
             {
               "slot": "Underbarrel",
@@ -18789,10 +18789,10 @@
               "name": "Cawdor Extended Mag"
             }
           ],
-          "rating": 4.6,
+          "rating": 5.4,
           "description": "Close Range meta build",
           "loadout_code": "S09-2W2AD-Q3U75-11",
-          "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-1431.webp"
+          "image": "https://assets.codmunity.gg/optimized/REV-46-Close-Range-Warzone-Loadout-CODMunity-3733.webp"
         },
         "long_range": null,
         "balanced": null,
@@ -20406,7 +20406,7 @@
               "name": "Hawker Cub-55 Pad"
             }
           ],
-          "rating": 5.4,
+          "rating": 5.2,
           "description": "Close Range meta build",
           "loadout_code": "S12-6KDYX-HL11",
           "image": "https://assets.codmunity.gg/optimized/VST-Close-Range-Warzone-Loadout-CODMunity-8952.webp"

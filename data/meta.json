@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:46:11.852027+00:00",
+  "last_updated": "2026-08-27T15:05:37.496504+00:00",
   "top_weapons": [
     {
       "name": "AN-94",
@@ -7,42 +7,42 @@
       "rank": 1
     },
     {
-      "name": "VST",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 2
     },
     {
-      "name": "Strider 300",
+      "name": "VST",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "MPC-25",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "MK35 ISR",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "Ryden 45K",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "VS Recon",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Dravec 45",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "VX Compact",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 9
     },
@@ -52,12 +52,12 @@
       "rank": 10
     },
     {
-      "name": "REV-46",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "EGRT-17",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 12
     },
@@ -72,17 +72,17 @@
       "rank": 14
     },
     {
-      "name": "DS20 Mirage",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "MXR-17",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "MXR-17",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 17
     },
@@ -108,8 +108,12 @@
       "score": 5.8
     },
     {
-      "name": "VST",
+      "name": "REV-46",
       "score": 5.4
+    },
+    {
+      "name": "VST",
+      "score": 5.2
     },
     {
       "name": "Strider 300",
@@ -128,10 +132,6 @@
       "score": 4.8
     },
     {
-      "name": "VX Compact",
-      "score": 4.7
-    },
-    {
       "name": "Dravec 45",
       "score": 4.7
     },
@@ -144,7 +144,7 @@
       "score": 4.6
     },
     {
-      "name": "REV-46",
+      "name": "VX Compact",
       "score": 4.6
     },
     {
@@ -160,16 +160,16 @@
       "score": 4.42
     },
     {
-      "name": "DS20 Mirage",
-      "score": 4.4
-    },
-    {
       "name": "Sturmwolf 45",
       "score": 4.4
     },
     {
       "name": "MXR-17",
       "score": 4.36
+    },
+    {
+      "name": "DS20 Mirage",
+      "score": 4.35
     },
     {
       "name": "MK.78",
@@ -326,11 +326,11 @@
       "count": 41
     },
     {
-      "name": "FANG HoverPoint ELO",
-      "count": 32
+      "name": "Vertical Foregrip",
+      "count": 31
     },
     {
-      "name": "Vertical Foregrip",
+      "name": "FANG HoverPoint ELO",
       "count": 31
     },
     {
