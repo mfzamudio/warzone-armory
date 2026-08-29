@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T16:29:18.356581+00:00",
+  "last_updated": "2026-08-29T10:57:28.266632+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -626,13 +626,13 @@
             },
             {
               "slot": "Magazine",
-              "name": "Rexford Extended II"
+              "name": "Vernal Flip Mag"
             }
           ],
           "rating": 5.8,
           "description": "Long Range meta build",
-          "loadout_code": "A13-23Y3A-MYDVW-11",
-          "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-9521.webp"
+          "loadout_code": "A13-23Y3A-MYACG-11",
+          "image": "https://assets.codmunity.gg/optimized/AN-94-Long-Range-Warzone-Loadout-CODMunity-9209.webp"
         },
         "balanced": null,
         "sniper_support": {
