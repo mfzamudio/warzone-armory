@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T08:49:18.677646+00:00",
+  "last_updated": "2026-09-04T08:44:24.018088+00:00",
   "season": "S2R",
   "weapon_count": 266,
   "weapons": [
@@ -12655,7 +12655,7 @@
       "name": "Mace",
       "type": "Melee",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/mace_bo7_wpn_icon.webp",
       "description": "Melee weapon. High damage, long range, and slow attack speed.",
       "stats": {},
       "loadouts": {
