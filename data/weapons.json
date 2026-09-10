@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-09T08:52:14.300210+00:00",
+  "last_updated": "2026-09-10T08:51:20.174185+00:00",
   "season": "S2R",
-  "weapon_count": 266,
+  "weapon_count": 270,
   "weapons": [
     {
       "id": "abr-a1",
@@ -4355,13 +4355,13 @@
             },
             {
               "slot": "Magazine",
-              "name": "Bowen Siren Drum"
+              "name": "Siskin Flip Mag"
             }
           ],
           "rating": 4.9,
           "description": "Long Range meta build",
-          "loadout_code": "A12-23YA8-YXDR7-11",
-          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-9706.webp"
+          "loadout_code": "A12-23YA8-YXA7Q-11",
+          "image": "https://assets.codmunity.gg/optimized/MK35-ISR-Long-Range-Warzone-Loadout-CODMunity-4594.webp"
         },
         "balanced": null,
         "sniper_support": {
@@ -5923,6 +5923,21 @@
           "loadout_code": null,
           "image": "https://warzoneloadout.games/wp-content/uploads/2024/02/Geist-Sniper-Support.png"
         }
+      }
+    },
+    {
+      "id": "tr51-para",
+      "name": "TR51 Para",
+      "type": "Assault Rifle",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Semi-auto assault rifle. Very high damage and easy to control at range. Average handling and can be configured to full auto.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {
@@ -12328,6 +12343,21 @@
           "loadout_code": "M02-QMDD9-HQUQ3-1",
           "image": "https://assets.codmunity.gg/optimized/Warden-308-Long-Range-Warzone-Loadout-CODMunity-2935.webp"
         },
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
+      "id": "arcblade",
+      "name": "Arcblade",
+      "type": "Melee",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Melee Weapon. High damage, fast attack speed, and moderate range.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
         "balanced": null,
         "sniper_support": null
       }
@@ -20317,6 +20347,21 @@
       }
     },
     {
+      "id": "vmp",
+      "name": "VMP",
+      "type": "SMG",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Full-auto submachine gun. Fast handling with a fast fire rate. Reliable damage and accuracy with light falloff at range.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
       "id": "vst",
       "name": "VST",
       "type": "SMG",
@@ -23906,6 +23951,21 @@
           "loadout_code": null,
           "image": "https://assets.codmunity.gg/optimized/Olympia-Close-Range-Warzone-Loadout-CODMunity-8181.webp"
         },
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
+      }
+    },
+    {
+      "id": "roc-20mm",
+      "name": "Roc 20mm",
+      "type": "Special",
+      "game": "bo7",
+      "icon": 0,
+      "description": "Semi-auto cannon. Fires a massive 20mm round for devastating damage output with heavy recoil. Can be configured to fire full auto.",
+      "stats": {},
+      "loadouts": {
+        "aggressive": null,
         "long_range": null,
         "balanced": null,
         "sniper_support": null
