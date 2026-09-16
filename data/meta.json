@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T09:19:05.955471+00:00",
+  "last_updated": "2026-09-16T09:12:12.881896+00:00",
   "top_weapons": [
     {
       "name": "AN-94",
@@ -12,52 +12,52 @@
       "rank": 2
     },
     {
-      "name": "VST",
+      "name": "Strider 300",
       "game": "bo7",
       "rank": 3
     },
     {
-      "name": "Strider 300",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "MPC-25",
+      "name": "VST",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "MK35 ISR",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Ryden 45K",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "VS Recon",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Dravec 45",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "Hawker HX",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "EGRT-17",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "VX Compact",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 12
     },
@@ -112,10 +112,6 @@
       "score": 5.4
     },
     {
-      "name": "VST",
-      "score": 5.2
-    },
-    {
       "name": "Strider 300",
       "score": 5.1
     },
@@ -124,15 +120,15 @@
       "score": 4.9
     },
     {
-      "name": "MPC-25",
+      "name": "VST",
       "score": 4.9
     },
     {
-      "name": "Ryden 45K",
+      "name": "MPC-25",
       "score": 4.8
     },
     {
-      "name": "Dravec 45",
+      "name": "Ryden 45K",
       "score": 4.7
     },
     {
@@ -150,6 +146,10 @@
     {
       "name": "Hawker HX",
       "score": 4.6
+    },
+    {
+      "name": "Dravec 45",
+      "score": 4.49
     },
     {
       "name": "FG42",
