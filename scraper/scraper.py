@@ -16,6 +16,7 @@ import json
 import logging
 import re
 import shutil
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,7 @@ import requests
 ROOT_DIR    = Path(__file__).parent.parent
 DATA_DIR    = ROOT_DIR / "data"
 DEBUG_DIR   = Path(__file__).parent / "debug"
+STREAM_DECODER = Path(__file__).parent / "decode_codmunity_stream.js"
 OUTPUT_FILE  = DATA_DIR / "weapons.json"
 META_FILE    = DATA_DIR / "meta.json"
 BACKUP_FILE  = DATA_DIR / "weapons.backup.json"
@@ -92,28 +94,42 @@ def fetch_page(url: str) -> str:
 
 
 def extract_json_state(html: str) -> dict:
-    """Extract the embedded Angular JSON transfer state from the page.
-    Tries all <script type='application/json'> tags and returns the largest one
-    (most likely to be the Angular transfer state with weapon data).
-    """
+    """Extract legacy JSON state or decode the current CODMunity SSR stream."""
     matches = re.findall(r'<script[^>]+application/json[^>]*>(.*?)</script>', html, re.DOTALL)
-    if not matches:
-        raise ValueError("Could not find <script type='application/json'> in page")
-
-    best = None
-    for raw in matches:
+    for raw in sorted(matches, key=len, reverse=True):
         try:
-            parsed = json.loads(raw)
-            if best is None or len(raw) > len(best[0]):
-                best = (raw, parsed)
+            state = json.loads(raw)
+            log.info(f"Found legacy JSON state ({len(raw):,} chars)")
+            return state
         except json.JSONDecodeError:
             continue
 
-    if best is None:
-        raise ValueError("No valid JSON found in <script type='application/json'> tags")
+    if not STREAM_DECODER.exists():
+        raise ValueError(f"CODMunity SSR decoder not found: {STREAM_DECODER}")
 
-    log.info(f"Found JSON state ({len(best[0]):,} chars), top-level keys: {list(best[1].keys())[:10]}")
-    return best[1]
+    try:
+        result = subprocess.run(
+            ["node", str(STREAM_DECODER)],
+            input=html,
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=30,
+        )
+    except FileNotFoundError as exc:
+        raise RuntimeError("Node.js is required to decode CODMunity SSR data") from exc
+    except subprocess.CalledProcessError as exc:
+        detail = exc.stderr.strip() or "unknown decoder error"
+        raise ValueError(f"Could not decode CODMunity SSR stream: {detail}") from exc
+
+    state = json.loads(result.stdout)
+    log.info(
+        "Decoded CODMunity SSR state: %s weapons, %s loadouts, %s stat entries",
+        len(state.get("weapons", [])),
+        len(state.get("metaLoadouts", [])),
+        len(state.get("weaponStats", [])),
+    )
+    return state
 
 
 # ---------------------------------------------------------------------------

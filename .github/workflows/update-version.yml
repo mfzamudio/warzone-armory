@@ -6,6 +6,9 @@ on:
     paths-ignore:
       - 'data/version.json'   # Evita loop infinito
 
+permissions:
+  contents: write
+
 jobs:
   version:
     runs-on: ubuntu-latest
