@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-09-16T09:12:12.881896+00:00",
+  "last_updated": "2026-09-25T14:31:26.867752+00:00",
   "top_weapons": [
     {
-      "name": "AN-94",
-      "game": "bo2",
+      "name": "Voyak KT-3",
+      "game": "bo7",
       "rank": 1
     },
     {
-      "name": "REV-46",
+      "name": "VMP",
       "game": "bo7",
       "rank": 2
     },
@@ -17,17 +17,17 @@
       "rank": 3
     },
     {
-      "name": "MK35 ISR",
+      "name": "MPC-25",
       "game": "bo7",
       "rank": 4
     },
     {
-      "name": "VST",
+      "name": "TR51 Para",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "MPC-25",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 6
     },
@@ -42,89 +42,89 @@
       "rank": 8
     },
     {
-      "name": "Hawker HX",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "EGRT-17",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "VX Compact",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "Dravec 45",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "FG42",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "X9 Maverick",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "VST",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "MXR-17",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "DS20 Mirage",
+      "name": "X9 Maverick",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "MK.78",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "AK-27",
+      "name": "XR-3 Ion",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "Carbon 57",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "AN-94",
+      "name": "Voyak KT-3",
       "score": 5.8
     },
     {
-      "name": "REV-46",
-      "score": 5.4
+      "name": "VMP",
+      "score": 5.2
     },
     {
       "name": "Strider 300",
       "score": 5.1
     },
     {
-      "name": "MK35 ISR",
-      "score": 4.9
-    },
-    {
-      "name": "VST",
-      "score": 4.9
-    },
-    {
       "name": "MPC-25",
+      "score": 4.9
+    },
+    {
+      "name": "TR51 Para",
+      "score": 4.81
+    },
+    {
+      "name": "REV-46",
       "score": 4.8
     },
     {
@@ -136,11 +136,19 @@
       "score": 4.7
     },
     {
+      "name": "VX Compact",
+      "score": 4.65
+    },
+    {
+      "name": "Dravec 45",
+      "score": 4.65
+    },
+    {
       "name": "EGRT-17",
       "score": 4.6
     },
     {
-      "name": "VX Compact",
+      "name": "Sturmwolf 45",
       "score": 4.6
     },
     {
@@ -148,35 +156,27 @@
       "score": 4.6
     },
     {
-      "name": "Dravec 45",
-      "score": 4.49
-    },
-    {
-      "name": "FG42",
-      "score": 4.48
-    },
-    {
-      "name": "X9 Maverick",
-      "score": 4.42
-    },
-    {
-      "name": "Sturmwolf 45",
+      "name": "DS20 Mirage",
       "score": 4.4
     },
     {
-      "name": "MXR-17",
+      "name": "VST",
+      "score": 4.4
+    },
+    {
+      "name": "M15 Mod 0",
+      "score": 4.39
+    },
+    {
+      "name": "X9 Maverick",
+      "score": 4.38
+    },
+    {
+      "name": "MK35 ISR",
       "score": 4.36
     },
     {
-      "name": "DS20 Mirage",
-      "score": 4.35
-    },
-    {
-      "name": "MK.78",
-      "score": 4.34
-    },
-    {
-      "name": "AK-27",
+      "name": "FG42",
       "score": 4.3
     },
     {
@@ -184,28 +184,36 @@
       "score": 4.3
     },
     {
-      "name": "Carbon 57",
+      "name": "XR-3 Ion",
       "score": 4.3
     },
     {
-      "name": "XR-3 Ion",
-      "score": 4.3
+      "name": "AN-94",
+      "score": 4.2
     },
     {
       "name": "Peacekeeper Mk1",
       "score": 4.2
     },
     {
-      "name": "Voyak KT-3",
+      "name": "Carbon 57",
       "score": 4.2
     },
     {
-      "name": "M15 Mod 0",
+      "name": "MK.78",
+      "score": 4.15
+    },
+    {
+      "name": "AK-27",
       "score": 4.1
     },
     {
       "name": "Kogot-7",
       "score": 4.1
+    },
+    {
+      "name": "MXR-17",
+      "score": 3.9
     },
     {
       "name": "Maddox RFB",
@@ -294,14 +302,6 @@
     {
       "name": "KSV",
       "score": 3.55
-    },
-    {
-      "name": "CR-56 Amax",
-      "score": 3.5
-    },
-    {
-      "name": "Velox 5.7",
-      "score": 3.5
     }
   ],
   "top_attachments": [
@@ -323,7 +323,7 @@
     },
     {
       "name": "Monolithic Suppressor",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Vertical Foregrip",
@@ -331,7 +331,7 @@
     },
     {
       "name": "FANG HoverPoint ELO",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Bruen Pendulum",
@@ -382,6 +382,10 @@
       "count": 14
     },
     {
+      "name": "VAS Convergence Foregrip",
+      "count": 14
+    },
+    {
       "name": "60 Round Mag",
       "count": 14
     },
@@ -410,12 +414,8 @@
       "count": 11
     },
     {
-      "name": "VAS Convergence Foregrip",
-      "count": 10
-    },
-    {
       "name": "LTI Stentorian Brake",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Cronen Mini Pro",
@@ -429,27 +429,27 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 287
+      "count": 290
     },
     {
       "slot": "Barrel",
-      "count": 241
+      "count": 244
     },
     {
       "slot": "Magazine",
-      "count": 239
+      "count": 241
     },
     {
       "slot": "Optic",
-      "count": 193
+      "count": 194
     },
     {
       "slot": "Underbarrel",
-      "count": 160
+      "count": 166
     },
     {
       "slot": "Stock",
-      "count": 125
+      "count": 124
     },
     {
       "slot": "Rear Grip",
@@ -457,7 +457,7 @@
     },
     {
       "slot": "Fire Mods",
-      "count": 66
+      "count": 67
     },
     {
       "slot": "Ammunition",
@@ -473,10 +473,10 @@
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 86,
-    "long_range": 130,
+    "aggressive": 87,
+    "long_range": 131,
     "balanced": 0,
-    "sniper_support": 105
+    "sniper_support": 106
   },
   "popularity": [],
   "total_weapons": 270
