@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T14:32:46.565995+00:00",
+  "last_updated": "2026-09-26T09:15:34.262088+00:00",
   "season": "S2R",
   "weapon_count": 270,
   "weapons": [
@@ -629,7 +629,7 @@
               "name": "Vernal Flip Mag"
             }
           ],
-          "rating": 4.2,
+          "rating": 1.16,
           "description": "Long Range meta build",
           "loadout_code": "A13-23Y3A-MYACG-11",
           "image": null
@@ -1608,7 +1608,7 @@
               "name": "Pinion Flip Mags"
             }
           ],
-          "rating": 4.4,
+          "rating": 4.42,
           "description": "Long Range meta build",
           "loadout_code": "A05-34FK5-DRNJD-11",
           "image": null
@@ -2016,7 +2016,7 @@
               "name": "Debase Extended Mag"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.1,
           "description": "Long Range meta build",
           "loadout_code": "A16-34FIQ-XHAUL-11",
           "image": null
@@ -3823,7 +3823,7 @@
               "name": "Backline Flip Mags"
             }
           ],
-          "rating": 4.39,
+          "rating": 4.3,
           "description": "Long Range meta build",
           "loadout_code": "A01-34FK5-DRNJD-11",
           "image": null
@@ -4358,7 +4358,7 @@
               "name": "Siskin Flip Mag"
             }
           ],
-          "rating": 4.36,
+          "rating": 4.4,
           "description": "Long Range meta build",
           "loadout_code": "A12-23YA8-YXA7Q-11",
           "image": null
@@ -4712,7 +4712,7 @@
               "name": "Vault Extended Mag"
             }
           ],
-          "rating": 3.9,
+          "rating": 3.7,
           "description": "Long Range meta build",
           "loadout_code": "A03-23YA8-YXA79-11",
           "image": null
@@ -6266,7 +6266,7 @@
               "name": "Acclivity Extended Mag II"
             }
           ],
-          "rating": 4.65,
+          "rating": 4.35,
           "description": "Long Range meta build",
           "loadout_code": "A14-34FK5-ALWHH-11",
           "image": null
@@ -6520,7 +6520,7 @@
               "name": "4.73 Caseless FMJ"
             }
           ],
-          "rating": 4.38,
+          "rating": 4.2,
           "description": "Long Range meta build",
           "loadout_code": "A04-21YVV-ZGCBB-R711",
           "image": null
@@ -8768,7 +8768,7 @@
               "name": ".300 WM FMJ"
             }
           ],
-          "rating": 3.8,
+          "rating": 3.71,
           "description": "Long Range meta build",
           "loadout_code": "L10-21YIK-363JK-8F11",
           "image": null
@@ -9515,7 +9515,7 @@
               "name": "Buffer Spring"
             }
           ],
-          "rating": 3.85,
+          "rating": 3.72,
           "description": "Long Range meta build",
           "loadout_code": "L04-T43XE-V6NQ5-1",
           "image": null
@@ -18893,7 +18893,7 @@
             },
             {
               "slot": "Optic",
-              "name": "Lethal Tools ELO"
+              "name": "FANG HoverPoint ELO"
             },
             {
               "slot": "Underbarrel",
@@ -19120,7 +19120,7 @@
             },
             {
               "slot": "Optic",
-              "name": "Lethal Tools ELO"
+              "name": "FANG HoverPoint ELO"
             },
             {
               "slot": "Magazine",
@@ -23489,7 +23489,7 @@
               "name": ".338 LM Overpressured"
             }
           ],
-          "rating": 4.6,
+          "rating": 4.3,
           "description": "Sniper meta build",
           "loadout_code": "R05-21WSG-FI4AP-A311",
           "image": null
@@ -23721,7 +23721,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.7,
+          "rating": 4.4,
           "description": "Sniper meta build",
           "loadout_code": "R01-21WSG-L369K-P711",
           "image": null
@@ -23804,7 +23804,7 @@
               "name": "7.62 NATO Overpressured"
             }
           ],
-          "rating": 4.3,
+          "rating": 4.1,
           "description": "Sniper meta build",
           "loadout_code": "R03-2JDTU-ZRTEK-J911",
           "image": null
