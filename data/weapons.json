@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T09:55:21.759194+00:00",
+  "last_updated": "2026-09-28T10:45:04.722455+00:00",
   "season": "S2R",
   "weapon_count": 270,
   "weapons": [
@@ -12437,7 +12437,7 @@
       "name": "Arcblade",
       "type": "Melee",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/arcblade_bo7_icon.webp",
       "description": "",
       "stats": {},
       "loadouts": {
@@ -24158,7 +24158,7 @@
       "name": "Roc 20mm",
       "type": "Special",
       "game": "bo7",
-      "icon": 0,
+      "icon": "https://assets.codmunity.gg/optimized/roc20mm_bo7_icon.webp",
       "description": "",
       "stats": {},
       "loadouts": {
