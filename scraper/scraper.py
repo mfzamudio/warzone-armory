@@ -58,9 +58,6 @@ PLAYSTYLE_MAP = {
     "Secondary":        "sniper_support",   # compact backup weapon alongside a primary
 }
 
-# If weapon count drops more than this vs previous run, abort
-MAX_DROP_FRACTION = 0.20
-
 # ---------------------------------------------------------------------------
 # Logging
 # ---------------------------------------------------------------------------
@@ -366,26 +363,29 @@ def build_meta(state: dict, weapons: list[dict]) -> dict:
     }
 
 
-def save_output(weapons: list[dict], dry_run: bool):
+def save_output(weapons: list[dict], source_weapon_count: int, dry_run: bool):
     if dry_run:
         log.info(f"[dry-run] Would save {len(weapons)} weapons to {OUTPUT_FILE}")
         return
 
     DATA_DIR.mkdir(exist_ok=True)
 
-    # Safety check: abort if weapon count dropped significantly
+    # Safety check: every eligible source weapon must survive normalization.
+    if source_weapon_count and len(weapons) < source_weapon_count:
+        log.error(
+            f"ABORTED: normalized weapon count is lower than the source "
+            f"({source_weapon_count} -> {len(weapons)}). Possible parsing failure."
+        )
+        sys.exit(1)
+
     if OUTPUT_FILE.exists():
         existing = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
         prev_count = len(existing.get("weapons", []))
-        if prev_count > 0:
-            drop = (prev_count - len(weapons)) / prev_count
-            if drop > MAX_DROP_FRACTION:
-                log.error(
-                    f"ABORTED: weapon count dropped {drop:.0%} "
-                    f"({prev_count} -> {len(weapons)}). "
-                    "Possible scraping failure. Previous data kept."
-                )
-                sys.exit(1)
+        if prev_count > len(weapons):
+            log.warning(
+                f"Source catalog changed: {prev_count} previous weapons, "
+                f"{len(weapons)} current weapons."
+            )
 
         shutil.copy(OUTPUT_FILE, BACKUP_FILE)
         log.info(f"Backup -> {BACKUP_FILE.name}")
@@ -440,7 +440,11 @@ def main():
     for t, count in sorted(by_type.items()):
         log.info(f"  {t}: {count}")
 
-    save_output(weapons, dry_run=args.dry_run)
+    source_weapon_count = sum(
+        1 for weapon in state.get("weapons", [])
+        if weapon.get("appGame") in WARZONE_GAMES
+    )
+    save_output(weapons, source_weapon_count, dry_run=args.dry_run)
 
     if not args.dry_run:
         META_FILE.write_text(
