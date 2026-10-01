@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T16:30:38.120493+00:00",
+  "last_updated": "2026-10-01T10:50:14.418209+00:00",
   "top_weapons": [
     {
       "name": "Voyak KT-3",
@@ -22,82 +22,82 @@
       "rank": 4
     },
     {
-      "name": "TR51 Para",
+      "name": "REV-46",
       "game": "bo7",
       "rank": 5
     },
     {
-      "name": "REV-46",
+      "name": "Ryden 45K",
       "game": "bo7",
       "rank": 6
     },
     {
-      "name": "Ryden 45K",
+      "name": "Dravec 45",
       "game": "bo7",
       "rank": 7
     },
     {
-      "name": "Dravec 45",
+      "name": "Sturmwolf 45",
       "game": "bo7",
       "rank": 8
     },
     {
-      "name": "Sturmwolf 45",
+      "name": "EGRT-17",
       "game": "bo7",
       "rank": 9
     },
     {
-      "name": "EGRT-17",
+      "name": "VX Compact",
       "game": "bo7",
       "rank": 10
     },
     {
-      "name": "VX Compact",
+      "name": "DS20 Mirage",
       "game": "bo7",
       "rank": 11
     },
     {
-      "name": "DS20 Mirage",
+      "name": "VS Recon",
       "game": "bo7",
       "rank": 12
     },
     {
-      "name": "VS Recon",
+      "name": "MK35 ISR",
       "game": "bo7",
       "rank": 13
     },
     {
-      "name": "MK35 ISR",
+      "name": "VST",
       "game": "bo7",
       "rank": 14
     },
     {
-      "name": "VST",
+      "name": "M15 Mod 0",
       "game": "bo7",
       "rank": 15
     },
     {
-      "name": "M15 Mod 0",
+      "name": "Hawker HX",
       "game": "bo7",
       "rank": 16
     },
     {
-      "name": "Hawker HX",
+      "name": "CBRS-3",
       "game": "bo7",
       "rank": 17
     },
     {
-      "name": "CBRS-3",
+      "name": "X9 Maverick",
       "game": "bo7",
       "rank": 18
     },
     {
-      "name": "X9 Maverick",
+      "name": "Carbon 57",
       "game": "bo7",
       "rank": 19
     },
     {
-      "name": "Carbon 57",
+      "name": "Peacekeeper Mk1",
       "game": "bo7",
       "rank": 20
     }
@@ -118,10 +118,6 @@
     {
       "name": "MPC-25",
       "score": 4.9
-    },
-    {
-      "name": "TR51 Para",
-      "score": 4.81
     },
     {
       "name": "REV-46",
@@ -177,6 +173,10 @@
     },
     {
       "name": "Peacekeeper Mk1",
+      "score": 4.2
+    },
+    {
+      "name": "TR51 Para",
       "score": 4.2
     },
     {
@@ -338,10 +338,6 @@
       "count": 5
     },
     {
-      "name": "7.62 NATO Overpressured",
-      "count": 4
-    },
-    {
       "name": "Vertical Foregrip",
       "count": 4
     },
@@ -379,6 +375,10 @@
     },
     {
       "name": "Volzhskiy Reflex",
+      "count": 3
+    },
+    {
+      "name": "7.62 NATO Overpressured",
       "count": 3
     },
     {
@@ -437,7 +437,7 @@
     },
     {
       "slot": "Magazine",
-      "count": 54
+      "count": 55
     },
     {
       "slot": "Optic",
@@ -449,7 +449,7 @@
     },
     {
       "slot": "Fire Mods",
-      "count": 31
+      "count": 30
     },
     {
       "slot": "Stock",
