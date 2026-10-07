@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-06T11:08:50.644582+00:00",
+  "last_updated": "2026-10-07T10:57:32.059785+00:00",
   "season": "S2R",
-  "weapon_count": 51,
+  "weapon_count": 50,
   "weapons": [
     {
       "id": "ak-27",
@@ -126,133 +126,6 @@
           "rating": 4.1,
           "description": "Sniper Support meta build",
           "loadout_code": "A02-42FVN-ZW51",
-          "image": null
-        }
-      }
-    },
-    {
-      "id": "an-94",
-      "name": "AN-94",
-      "type": "Assault Rifle",
-      "game": "bo7",
-      "icon": "https://assets.codmunity.gg/optimized/an94_b07_icon.webp",
-      "description": "",
-      "stats": {
-        "rpm": 645,
-        "ads": 245,
-        "bv": 890,
-        "damage": [
-          {
-            "base_rpm": 645,
-            "chest": 38,
-            "dropoff": 0,
-            "enemies_per_magazine": 3,
-            "final_rpm": 645,
-            "head": 45,
-            "lowerarm": 38,
-            "lowerleg": 34,
-            "neck": 38,
-            "shots_to_kill": 8,
-            "stomach": 34,
-            "time_between_shots": 93.02325581395348,
-            "ttk": 651.1627906976744,
-            "upperarm": 38,
-            "upperleg": 34
-          },
-          {
-            "base_rpm": 645,
-            "chest": 34,
-            "dropoff": 38,
-            "enemies_per_magazine": 3,
-            "final_rpm": 645,
-            "head": 40,
-            "lowerarm": 34,
-            "lowerleg": 30,
-            "neck": 34,
-            "shots_to_kill": 9,
-            "stomach": 30,
-            "time_between_shots": 93.02325581395348,
-            "ttk": 744.1860465116279,
-            "upperarm": 34,
-            "upperleg": 30
-          },
-          {
-            "base_rpm": 645,
-            "chest": 31,
-            "dropoff": 52,
-            "enemies_per_magazine": 3,
-            "final_rpm": 645,
-            "head": 37,
-            "lowerarm": 31,
-            "lowerleg": 27,
-            "neck": 31,
-            "shots_to_kill": 10,
-            "stomach": 27,
-            "time_between_shots": 93.02325581395348,
-            "ttk": 845.6362686177162,
-            "upperarm": 31,
-            "upperleg": 27
-          }
-        ],
-        "mag": 30
-      },
-      "loadouts": {
-        "aggressive": null,
-        "long_range": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Monolithic Suppressor"
-            },
-            {
-              "slot": "Barrel",
-              "name": "15\" Benthic Barrel"
-            },
-            {
-              "slot": "Optic",
-              "name": "Redwell 30-S 2x"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "VAS Convergence Foregrip"
-            },
-            {
-              "slot": "Magazine",
-              "name": "Vernal Flip Mag"
-            }
-          ],
-          "rating": 1.16,
-          "description": "Long Range meta build",
-          "loadout_code": "A13-23Y3A-MYACG-11",
-          "image": null
-        },
-        "balanced": null,
-        "sniper_support": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "VAS 5.56 Suppressor"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "VAS Convergence Foregrip"
-            },
-            {
-              "slot": "Magazine",
-              "name": "Valens Extended Mag"
-            },
-            {
-              "slot": "Stock",
-              "name": "Pro-Am Mobility Stock"
-            },
-            {
-              "slot": "Fire Mods",
-              "name": "5.45 FMJ"
-            }
-          ],
-          "rating": 3.8,
-          "description": "Sniper Support meta build",
-          "loadout_code": "A13-2EJF4-G711",
           "image": null
         }
       }
