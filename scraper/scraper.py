@@ -2,8 +2,8 @@
 Warzone Loadout Scraper
 Extracts weapon data and best loadouts from CODMunity.gg.
 
-The page embeds all data in a <script type="application/json"> tag —
-no browser automation needed, plain requests works fine.
+The page embeds all data in a streamed SSR payload —
+no browser automation needed, plain requests and Node.js decoding are enough.
 
 Usage:
   python scraper.py              # Normal run -> updates data/weapons.json
@@ -121,10 +121,8 @@ def extract_json_state(html: str) -> dict:
 
     state = json.loads(result.stdout)
     log.info(
-        "Decoded CODMunity SSR state: %s weapons, %s loadouts, %s stat entries",
+        "Decoded CODMunity SSR state: %s stream records",
         len(state.get("weapons", [])),
-        len(state.get("metaLoadouts", [])),
-        len(state.get("weaponStats", [])),
     )
     return state
 
@@ -441,7 +439,7 @@ def main():
         log.info(f"  {t}: {count}")
 
     source_weapon_count = sum(
-        1 for weapon in state.get("weapons", [])
+        1 for weapon in find_page_data(state).get("weapons", [])
         if weapon.get("appGame") in WARZONE_GAMES
     )
     save_output(weapons, source_weapon_count, dry_run=args.dry_run)
