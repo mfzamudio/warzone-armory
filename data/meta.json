@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T09:18:13.803941+00:00",
+  "last_updated": "2026-10-27T15:00:20.856942+00:00",
   "top_weapons": [
     {
       "name": "Voyak KT-3",
@@ -362,6 +362,10 @@
       "count": 3
     },
     {
+      "name": "Casus Brake",
+      "count": 3
+    },
+    {
       "name": "EAM Steady-90 Grip",
       "count": 3
     },
@@ -398,6 +402,14 @@
       "count": 2
     },
     {
+      "name": "JAK Glassless Optic",
+      "count": 2
+    },
+    {
+      "name": "40 Round Mag",
+      "count": 2
+    },
+    {
       "name": "MFS Counterforce-C1 Stock",
       "count": 2
     },
@@ -412,24 +424,12 @@
     {
       "name": "Long Barrel",
       "count": 2
-    },
-    {
-      "name": "MFS Carrousel Fast Mag",
-      "count": 2
-    },
-    {
-      "name": "9mm Parabellum FMJ",
-      "count": 2
-    },
-    {
-      "name": "MFS Renown Plus Mag",
-      "count": 2
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 67
+      "count": 69
     },
     {
       "slot": "Barrel",
@@ -437,11 +437,15 @@
     },
     {
       "slot": "Magazine",
-      "count": 53
+      "count": 55
     },
     {
       "slot": "Optic",
-      "count": 39
+      "count": 41
+    },
+    {
+      "slot": "Stock",
+      "count": 29
     },
     {
       "slot": "Underbarrel",
@@ -452,16 +456,12 @@
       "count": 29
     },
     {
-      "slot": "Stock",
-      "count": 28
-    },
-    {
       "slot": "Rear Grip",
-      "count": 22
+      "count": 23
     },
     {
       "slot": "Ammunition",
-      "count": 5
+      "count": 6
     },
     {
       "slot": "Laser",
@@ -469,15 +469,15 @@
     },
     {
       "slot": "Conversion Kit",
-      "count": 2
+      "count": 3
     }
   ],
   "playstyle_coverage": {
     "aggressive": 20,
-    "long_range": 30,
+    "long_range": 31,
     "balanced": 0,
-    "sniper_support": 19
+    "sniper_support": 20
   },
   "popularity": [],
-  "total_weapons": 50
+  "total_weapons": 51
 }

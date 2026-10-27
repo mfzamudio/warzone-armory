@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-22T09:18:13.806235+00:00",
+  "last_updated": "2026-10-27T15:00:20.859003+00:00",
   "season": "S2R",
-  "weapon_count": 50,
+  "weapon_count": 51,
   "weapons": [
     {
       "id": "ak-27",
@@ -385,6 +385,133 @@
       }
     },
     {
+      "id": "kastov-762",
+      "name": "Kastov 762",
+      "type": "Assault Rifle",
+      "game": "mw2",
+      "icon": "",
+      "description": "",
+      "stats": {
+        "rpm": 600,
+        "ads": 260,
+        "bv": 720,
+        "damage": [
+          {
+            "base_rpm": 600,
+            "chest": 36,
+            "dropoff": 0,
+            "enemies_per_magazine": 3,
+            "final_rpm": 600,
+            "head": 41,
+            "lowerarm": 36,
+            "lowerleg": 32,
+            "neck": 36,
+            "shots_to_kill": 9,
+            "stomach": 32,
+            "time_between_shots": 100,
+            "ttk": 800,
+            "upperarm": 36,
+            "upperleg": 32
+          },
+          {
+            "base_rpm": 600,
+            "chest": 31,
+            "dropoff": 40.6,
+            "enemies_per_magazine": 3,
+            "final_rpm": 600,
+            "head": 35,
+            "lowerarm": 31,
+            "lowerleg": 27,
+            "neck": 31,
+            "shots_to_kill": 10,
+            "stomach": 27,
+            "time_between_shots": 100,
+            "ttk": 906.3888888888889,
+            "upperarm": 31,
+            "upperleg": 27
+          },
+          {
+            "base_rpm": 600,
+            "chest": 28,
+            "dropoff": 53.3,
+            "enemies_per_magazine": 2,
+            "final_rpm": 600,
+            "head": 32,
+            "lowerarm": 28,
+            "lowerleg": 25,
+            "neck": 28,
+            "shots_to_kill": 11,
+            "stomach": 25,
+            "time_between_shots": 100,
+            "ttk": 1024.0277777777778,
+            "upperarm": 28,
+            "upperleg": 25
+          }
+        ],
+        "mag": 30
+      },
+      "loadouts": {
+        "aggressive": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Casus Brake"
+            },
+            {
+              "slot": "Optic",
+              "name": "JAK Glassless Optic"
+            },
+            {
+              "slot": "Magazine",
+              "name": "40 Round Mag"
+            },
+            {
+              "slot": "Conversion Kit",
+              "name": "JAK Requiem"
+            },
+            {
+              "slot": "Ammunition",
+              "name": "7.62x39mm High Grain"
+            }
+          ],
+          "rating": 1.2,
+          "description": "Long Range meta build",
+          "loadout_code": null,
+          "image": null
+        },
+        "balanced": null,
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Casus Brake"
+            },
+            {
+              "slot": "Optic",
+              "name": "JAK Glassless Optic"
+            },
+            {
+              "slot": "Magazine",
+              "name": "40 Round Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Demo-X2 Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "EXO-TAC"
+            }
+          ],
+          "rating": 0.5,
+          "description": "Sniper Support meta build",
+          "loadout_code": null,
+          "image": null
+        }
+      }
+    },
+    {
       "id": "m15-mod-0",
       "name": "M15 Mod 0",
       "type": "Assault Rifle",
@@ -628,7 +755,7 @@
             },
             {
               "slot": "Stock",
-              "name": "Bowen ST-Move Stock ADS"
+              "name": "Bowen ST-Move Stock"
             }
           ],
           "rating": 4.1,
@@ -1862,7 +1989,7 @@
             },
             {
               "slot": "Conversion Kit",
-              "name": "JAK Protean"
+              "name": "JAK Protean (Full Auto)"
             },
             {
               "slot": "Ammunition",
@@ -2228,7 +2355,7 @@
             },
             {
               "slot": "Ammunition",
-              "name": "7.92 High Grain Rounds"
+              "name": "9mm High Grain Rounds"
             }
           ],
           "rating": 3.7,
@@ -3152,7 +3279,7 @@
             },
             {
               "slot": "Magazine",
-              "name": "MFS Carrousel Fast Mag"
+              "name": "MFS Carousel Fast Mag"
             },
             {
               "slot": "Stock",
@@ -3182,7 +3309,7 @@
             },
             {
               "slot": "Magazine",
-              "name": "MFS Carrousel Fast Mag"
+              "name": "MFS Carousel Fast Mag"
             },
             {
               "slot": "Fire Mods",
@@ -3809,7 +3936,7 @@
             },
             {
               "slot": "Barrel",
-              "name": "Caudal Target Barrel"
+              "name": "14.9\" Caudal Target Barrel"
             },
             {
               "slot": "Optic",
@@ -4468,7 +4595,7 @@
             },
             {
               "slot": "Underbarrel",
-              "name": "Lighweight Bipod"
+              "name": "Lightweight Bipod"
             },
             {
               "slot": "Rear Grip",
