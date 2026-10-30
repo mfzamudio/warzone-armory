@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-29T10:47:32.107639+00:00",
+  "last_updated": "2026-10-30T10:46:42.252186+00:00",
   "season": "S2R",
-  "weapon_count": 51,
+  "weapon_count": 52,
   "weapons": [
     {
       "id": "ak-27",
@@ -385,133 +385,6 @@
       }
     },
     {
-      "id": "kastov-762",
-      "name": "Kastov 762",
-      "type": "Assault Rifle",
-      "game": "mw2",
-      "icon": "",
-      "description": "",
-      "stats": {
-        "rpm": 600,
-        "ads": 260,
-        "bv": 720,
-        "damage": [
-          {
-            "base_rpm": 600,
-            "chest": 36,
-            "dropoff": 0,
-            "enemies_per_magazine": 3,
-            "final_rpm": 600,
-            "head": 41,
-            "lowerarm": 36,
-            "lowerleg": 32,
-            "neck": 36,
-            "shots_to_kill": 9,
-            "stomach": 32,
-            "time_between_shots": 100,
-            "ttk": 800,
-            "upperarm": 36,
-            "upperleg": 32
-          },
-          {
-            "base_rpm": 600,
-            "chest": 31,
-            "dropoff": 40.6,
-            "enemies_per_magazine": 3,
-            "final_rpm": 600,
-            "head": 35,
-            "lowerarm": 31,
-            "lowerleg": 27,
-            "neck": 31,
-            "shots_to_kill": 10,
-            "stomach": 27,
-            "time_between_shots": 100,
-            "ttk": 906.3888888888889,
-            "upperarm": 31,
-            "upperleg": 27
-          },
-          {
-            "base_rpm": 600,
-            "chest": 28,
-            "dropoff": 53.3,
-            "enemies_per_magazine": 2,
-            "final_rpm": 600,
-            "head": 32,
-            "lowerarm": 28,
-            "lowerleg": 25,
-            "neck": 28,
-            "shots_to_kill": 11,
-            "stomach": 25,
-            "time_between_shots": 100,
-            "ttk": 1024.0277777777778,
-            "upperarm": 28,
-            "upperleg": 25
-          }
-        ],
-        "mag": 30
-      },
-      "loadouts": {
-        "aggressive": null,
-        "long_range": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Casus Brake"
-            },
-            {
-              "slot": "Optic",
-              "name": "JAK Glassless Optic"
-            },
-            {
-              "slot": "Magazine",
-              "name": "40 Round Mag"
-            },
-            {
-              "slot": "Conversion Kit",
-              "name": "JAK Requiem"
-            },
-            {
-              "slot": "Ammunition",
-              "name": "7.62x39mm High Grain"
-            }
-          ],
-          "rating": 1.2,
-          "description": "Long Range meta build",
-          "loadout_code": null,
-          "image": null
-        },
-        "balanced": null,
-        "sniper_support": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Casus Brake"
-            },
-            {
-              "slot": "Optic",
-              "name": "JAK Glassless Optic"
-            },
-            {
-              "slot": "Magazine",
-              "name": "40 Round Mag"
-            },
-            {
-              "slot": "Rear Grip",
-              "name": "Demo-X2 Grip"
-            },
-            {
-              "slot": "Stock",
-              "name": "EXO-TAC"
-            }
-          ],
-          "rating": 0.5,
-          "description": "Sniper Support meta build",
-          "loadout_code": null,
-          "image": null
-        }
-      }
-    },
-    {
       "id": "m15-mod-0",
       "name": "M15 Mod 0",
       "type": "Assault Rifle",
@@ -634,6 +507,136 @@
           "rating": 4.1,
           "description": "Sniper Support meta build",
           "loadout_code": "A01-42KKR-VS11",
+          "image": null
+        }
+      }
+    },
+    {
+      "id": "m4",
+      "name": "M4",
+      "type": "Assault Rifle",
+      "game": "mw2",
+      "icon": "",
+      "description": "",
+      "stats": {
+        "rpm": 811,
+        "ads": 240,
+        "bv": 590,
+        "damage": [
+          {
+            "base_rpm": 811,
+            "chest": 23,
+            "dropoff": 0,
+            "enemies_per_magazine": 2,
+            "final_rpm": 811,
+            "head": 28,
+            "lowerarm": 23,
+            "lowerleg": 23,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.2174,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 23,
+            "shots_to_kill": 14,
+            "stomach": 23,
+            "time_between_shots": 73.98273736128236,
+            "ttk": 961.7755856966706,
+            "upperarm": 23,
+            "upperleg": 23
+          },
+          {
+            "base_rpm": 811,
+            "chest": 19,
+            "dropoff": 26,
+            "enemies_per_magazine": 1,
+            "final_rpm": 811,
+            "head": 23,
+            "lowerarm": 19,
+            "lowerleg": 19,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.2105,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 19,
+            "shots_to_kill": 16,
+            "stomach": 19,
+            "time_between_shots": 73.98273736128236,
+            "ttk": 1109.7410604192355,
+            "upperarm": 19,
+            "upperleg": 19
+          }
+        ],
+        "mag": 30
+      },
+      "loadouts": {
+        "aggressive": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Echoline GS-X"
+            },
+            {
+              "slot": "Barrel",
+              "name": "Hightower 20\" Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "JAK Glassless Optic"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "XRK Bowbreaker"
+            },
+            {
+              "slot": "Magazine",
+              "name": "60 Round Mag"
+            }
+          ],
+          "rating": 2.2,
+          "description": "Long Range meta build",
+          "loadout_code": null,
+          "image": null
+        },
+        "balanced": null,
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Xten Havoc 90"
+            },
+            {
+              "slot": "Barrel",
+              "name": "Hightower 20\" Barrel"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "JAK Slash"
+            },
+            {
+              "slot": "Magazine",
+              "name": "45 Round Mag"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Phantom Grip"
+            }
+          ],
+          "rating": 1.3,
+          "description": "Sniper Support meta build",
+          "loadout_code": null,
           "image": null
         }
       }
@@ -3829,6 +3832,163 @@
           "loadout_code": "S06-AUXZ3-92J15-1",
           "image": null
         }
+      }
+    },
+    {
+      "id": "ppsh-41",
+      "name": "PPSh-41",
+      "type": "SMG",
+      "game": "bo6",
+      "icon": "https://assets.codmunity.gg/optimized/PPSh-41.webp",
+      "description": "",
+      "stats": {
+        "rpm": 1110,
+        "ads": 280,
+        "bv": 550,
+        "damage": [
+          {
+            "base_rpm": 1110,
+            "chest": 18,
+            "dropoff": 0,
+            "enemies_per_magazine": 4,
+            "final_rpm": 1110,
+            "head": 23,
+            "lowerarm": 18,
+            "lowerleg": 17,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.2778,
+              "lowerarm": 1,
+              "lowerleg": 0.9444,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 0.9444
+            },
+            "neck": 18,
+            "shots_to_kill": 17,
+            "stomach": 18,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 864.8648648648649,
+            "upperarm": 18,
+            "upperleg": 17
+          },
+          {
+            "base_rpm": 1110,
+            "chest": 15,
+            "dropoff": 11,
+            "enemies_per_magazine": 3,
+            "final_rpm": 1110,
+            "head": 19,
+            "lowerarm": 15,
+            "lowerleg": 14,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.2667,
+              "lowerarm": 1,
+              "lowerleg": 0.9333,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 0.9333
+            },
+            "neck": 15,
+            "shots_to_kill": 20,
+            "stomach": 15,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 1027.027027027027,
+            "upperarm": 15,
+            "upperleg": 14
+          },
+          {
+            "base_rpm": 1110,
+            "chest": 13,
+            "dropoff": 20,
+            "enemies_per_magazine": 2,
+            "final_rpm": 1110,
+            "head": 16,
+            "lowerarm": 13,
+            "lowerleg": 12,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.2308,
+              "lowerarm": 1,
+              "lowerleg": 0.9231,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 0.9231
+            },
+            "neck": 13,
+            "shots_to_kill": 24,
+            "stomach": 13,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 1243.2432432432433,
+            "upperarm": 13,
+            "upperleg": 12
+          },
+          {
+            "base_rpm": 1110,
+            "chest": 12,
+            "dropoff": 29,
+            "enemies_per_magazine": 2,
+            "final_rpm": 1110,
+            "head": 15,
+            "lowerarm": 12,
+            "lowerleg": 11,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.25,
+              "lowerarm": 1,
+              "lowerleg": 0.9167,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 0.9167
+            },
+            "neck": 12,
+            "shots_to_kill": 25,
+            "stomach": 12,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 1300.02457002457,
+            "upperarm": 12,
+            "upperleg": 11
+          }
+        ],
+        "mag": 71
+      },
+      "loadouts": {
+        "aggressive": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Suppressor"
+            },
+            {
+              "slot": "Barrel",
+              "name": "Long Barrel"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "Vertical Foregrip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "Extended Mag II"
+            },
+            {
+              "slot": "Fire Mods",
+              "name": "Recoil Springs"
+            }
+          ],
+          "rating": 2.7,
+          "description": "Close Range meta build",
+          "loadout_code": null,
+          "image": null
+        },
+        "long_range": null,
+        "balanced": null,
+        "sniper_support": null
       }
     },
     {

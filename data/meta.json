@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T10:47:32.105404+00:00",
+  "last_updated": "2026-10-30T10:46:42.250817+00:00",
   "top_weapons": [
     {
       "name": "Voyak KT-3",
@@ -252,8 +252,16 @@
       "score": 2.9
     },
     {
+      "name": "PPSh-41",
+      "score": 2.7
+    },
+    {
       "name": "PML 5.56",
       "score": 2.4
+    },
+    {
+      "name": "M4",
+      "score": 2.2
     },
     {
       "name": "Feng 82",
@@ -294,14 +302,6 @@
     {
       "name": "Gravemark .357 Revolver",
       "score": 1.5
-    },
-    {
-      "name": "Grekhova",
-      "score": 1.5
-    },
-    {
-      "name": "Stryder .22",
-      "score": 1.5
     }
   ],
   "top_attachments": [
@@ -323,11 +323,11 @@
     },
     {
       "name": "Extended Mag II",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Recoil Springs",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Redwell 30-S 2x",
@@ -339,7 +339,7 @@
     },
     {
       "name": "Vertical Foregrip",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Reinforced Barrel",
@@ -359,10 +359,6 @@
     },
     {
       "name": "Buffer Spring",
-      "count": 3
-    },
-    {
-      "name": "Casus Brake",
       "count": 3
     },
     {
@@ -398,15 +394,15 @@
       "count": 3
     },
     {
+      "name": "Long Barrel",
+      "count": 3
+    },
+    {
       "name": "VAS 5.56 Suppressor",
       "count": 2
     },
     {
-      "name": "JAK Glassless Optic",
-      "count": 2
-    },
-    {
-      "name": "40 Round Mag",
+      "name": "Hightower 20\" Barrel",
       "count": 2
     },
     {
@@ -422,38 +418,42 @@
       "count": 2
     },
     {
-      "name": "Long Barrel",
+      "name": "MFS Carousel Fast Mag",
+      "count": 2
+    },
+    {
+      "name": "9mm Parabellum FMJ",
       "count": 2
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 69
+      "count": 70
     },
     {
       "slot": "Barrel",
-      "count": 64
+      "count": 67
     },
     {
       "slot": "Magazine",
-      "count": 55
+      "count": 56
     },
     {
       "slot": "Optic",
-      "count": 41
-    },
-    {
-      "slot": "Stock",
-      "count": 29
+      "count": 40
     },
     {
       "slot": "Underbarrel",
-      "count": 29
+      "count": 32
     },
     {
       "slot": "Fire Mods",
-      "count": 29
+      "count": 30
+    },
+    {
+      "slot": "Stock",
+      "count": 28
     },
     {
       "slot": "Rear Grip",
@@ -461,7 +461,7 @@
     },
     {
       "slot": "Ammunition",
-      "count": 6
+      "count": 5
     },
     {
       "slot": "Laser",
@@ -469,15 +469,15 @@
     },
     {
       "slot": "Conversion Kit",
-      "count": 3
+      "count": 2
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 20,
+    "aggressive": 21,
     "long_range": 31,
     "balanced": 0,
     "sniper_support": 20
   },
   "popularity": [],
-  "total_weapons": 51
+  "total_weapons": 52
 }
