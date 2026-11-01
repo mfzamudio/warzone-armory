@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T10:16:02.455424+00:00",
+  "last_updated": "2026-11-01T11:09:38.603143+00:00",
   "top_weapons": [
     {
       "name": "Voyak KT-3",
@@ -256,6 +256,10 @@
       "score": 2.7
     },
     {
+      "name": "VEL 46",
+      "score": 2.7
+    },
+    {
       "name": "PML 5.56",
       "score": 2.4
     },
@@ -298,10 +302,6 @@
     {
       "name": "GS45",
       "score": 1.5
-    },
-    {
-      "name": "Gravemark .357 Revolver",
-      "score": 1.5
     }
   ],
   "top_attachments": [
@@ -340,6 +340,14 @@
     {
       "name": "Vertical Foregrip",
       "count": 5
+    },
+    {
+      "name": "Casus Brake",
+      "count": 4
+    },
+    {
+      "name": "JAK Glassless Optic",
+      "count": 4
     },
     {
       "name": "Reinforced Barrel",
@@ -402,66 +410,58 @@
       "count": 2
     },
     {
+      "name": "40 Round Mag",
+      "count": 2
+    },
+    {
       "name": "Hightower 20\" Barrel",
       "count": 2
     },
     {
+      "name": "60 Round Mag",
+      "count": 2
+    },
+    {
       "name": "MFS Counterforce-C1 Stock",
-      "count": 2
-    },
-    {
-      "name": "Inclination Extended Mag",
-      "count": 2
-    },
-    {
-      "name": "Willis 3x",
-      "count": 2
-    },
-    {
-      "name": "MFS Carousel Fast Mag",
-      "count": 2
-    },
-    {
-      "name": "9mm Parabellum FMJ",
       "count": 2
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 70
+      "count": 74
     },
     {
       "slot": "Barrel",
-      "count": 67
+      "count": 68
     },
     {
       "slot": "Magazine",
-      "count": 56
+      "count": 60
     },
     {
       "slot": "Optic",
-      "count": 40
+      "count": 43
     },
     {
       "slot": "Underbarrel",
-      "count": 32
+      "count": 34
+    },
+    {
+      "slot": "Stock",
+      "count": 30
     },
     {
       "slot": "Fire Mods",
       "count": 30
     },
     {
-      "slot": "Stock",
-      "count": 28
-    },
-    {
       "slot": "Rear Grip",
-      "count": 23
+      "count": 25
     },
     {
       "slot": "Ammunition",
-      "count": 5
+      "count": 6
     },
     {
       "slot": "Laser",
@@ -469,15 +469,15 @@
     },
     {
       "slot": "Conversion Kit",
-      "count": 2
+      "count": 3
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 21,
-    "long_range": 31,
+    "aggressive": 22,
+    "long_range": 32,
     "balanced": 0,
-    "sniper_support": 20
+    "sniper_support": 22
   },
   "popularity": [],
-  "total_weapons": 52
+  "total_weapons": 54
 }
