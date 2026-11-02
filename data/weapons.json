@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-01T11:09:38.605644+00:00",
+  "last_updated": "2026-11-02T12:11:02.770994+00:00",
   "season": "S2R",
-  "weapon_count": 54,
+  "weapon_count": 55,
   "weapons": [
     {
       "id": "ak-27",
@@ -1531,6 +1531,163 @@
         },
         "balanced": null,
         "sniper_support": null
+      }
+    },
+    {
+      "id": "cronen-squall",
+      "name": "Cronen Squall",
+      "type": "Battle Rifle",
+      "game": "mw2",
+      "icon": "",
+      "description": "",
+      "stats": {
+        "rpm": 674,
+        "ads": 305,
+        "bv": 660,
+        "damage": [
+          {
+            "base_rpm": 674,
+            "chest": 30,
+            "dropoff": 0,
+            "enemies_per_magazine": 2,
+            "final_rpm": 674,
+            "head": 37,
+            "lowerarm": 28,
+            "lowerleg": 28,
+            "multipliers": {
+              "chest": 1.0714,
+              "head": 1.3214,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1.0714,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 30,
+            "shots_to_kill": 10,
+            "stomach": 28,
+            "time_between_shots": 89.02077151335311,
+            "ttk": 801.186943620178,
+            "upperarm": 28,
+            "upperleg": 28
+          },
+          {
+            "base_rpm": 674,
+            "chest": 28,
+            "dropoff": 26,
+            "enemies_per_magazine": 1,
+            "final_rpm": 674,
+            "head": 35,
+            "lowerarm": 26,
+            "lowerleg": 26,
+            "multipliers": {
+              "chest": 1.0769,
+              "head": 1.3462,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1.0769,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 28,
+            "shots_to_kill": 11,
+            "stomach": 26,
+            "time_between_shots": 89.02077151335311,
+            "ttk": 890.2077151335311,
+            "upperarm": 26,
+            "upperleg": 26
+          },
+          {
+            "base_rpm": 674,
+            "chest": 24,
+            "dropoff": 37,
+            "enemies_per_magazine": 1,
+            "final_rpm": 674,
+            "head": 29,
+            "lowerarm": 22,
+            "lowerleg": 22,
+            "multipliers": {
+              "chest": 1.0909,
+              "head": 1.3182,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1.0909,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 24,
+            "shots_to_kill": 13,
+            "stomach": 22,
+            "time_between_shots": 89.02077151335311,
+            "ttk": 1074.3098642208433,
+            "upperarm": 22,
+            "upperleg": 22
+          }
+        ],
+        "mag": 20
+      },
+      "loadouts": {
+        "aggressive": null,
+        "long_range": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Casus Brake"
+            },
+            {
+              "slot": "Barrel",
+              "name": "HR6.8 Barrel"
+            },
+            {
+              "slot": "Optic",
+              "name": "JAK Glassless Optic"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "Paracord Grip"
+            },
+            {
+              "slot": "Magazine",
+              "name": "50 Round Drum"
+            }
+          ],
+          "rating": 1.1,
+          "description": "Long Range meta build",
+          "loadout_code": null,
+          "image": null
+        },
+        "balanced": null,
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Casus Brake"
+            },
+            {
+              "slot": "Optic",
+              "name": "Cronen Mini Pro"
+            },
+            {
+              "slot": "Magazine",
+              "name": "50 Round Drum"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "Phantom Grip"
+            },
+            {
+              "slot": "Laser",
+              "name": "FSS OLE-V laser"
+            }
+          ],
+          "rating": 0.4,
+          "description": "Sniper Support meta build",
+          "loadout_code": null,
+          "image": null
+        }
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T11:09:38.603143+00:00",
+  "last_updated": "2026-11-02T12:11:02.768668+00:00",
   "top_weapons": [
     {
       "name": "Voyak KT-3",
@@ -330,7 +330,15 @@
       "count": 7
     },
     {
+      "name": "Casus Brake",
+      "count": 6
+    },
+    {
       "name": "Redwell 30-S 2x",
+      "count": 5
+    },
+    {
+      "name": "JAK Glassless Optic",
       "count": 5
     },
     {
@@ -340,14 +348,6 @@
     {
       "name": "Vertical Foregrip",
       "count": 5
-    },
-    {
-      "name": "Casus Brake",
-      "count": 4
-    },
-    {
-      "name": "JAK Glassless Optic",
-      "count": 4
     },
     {
       "name": "Reinforced Barrel",
@@ -375,6 +375,10 @@
     },
     {
       "name": "Redwell Shade-X Suppressor",
+      "count": 3
+    },
+    {
+      "name": "Paracord Grip",
       "count": 3
     },
     {
@@ -420,32 +424,28 @@
     {
       "name": "60 Round Mag",
       "count": 2
-    },
-    {
-      "name": "MFS Counterforce-C1 Stock",
-      "count": 2
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 74
+      "count": 76
     },
     {
       "slot": "Barrel",
-      "count": 68
+      "count": 69
     },
     {
       "slot": "Magazine",
-      "count": 60
+      "count": 62
     },
     {
       "slot": "Optic",
-      "count": 43
+      "count": 45
     },
     {
       "slot": "Underbarrel",
-      "count": 34
+      "count": 35
     },
     {
       "slot": "Stock",
@@ -457,7 +457,7 @@
     },
     {
       "slot": "Rear Grip",
-      "count": 25
+      "count": 26
     },
     {
       "slot": "Ammunition",
@@ -465,7 +465,7 @@
     },
     {
       "slot": "Laser",
-      "count": 5
+      "count": 6
     },
     {
       "slot": "Conversion Kit",
@@ -474,10 +474,10 @@
   ],
   "playstyle_coverage": {
     "aggressive": 22,
-    "long_range": 32,
+    "long_range": 33,
     "balanced": 0,
-    "sniper_support": 22
+    "sniper_support": 23
   },
   "popularity": [],
-  "total_weapons": 54
+  "total_weapons": 55
 }
