@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T11:57:09.196512+00:00",
+  "last_updated": "2026-11-07T10:57:20.000495+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -47,52 +47,52 @@
       "rank": 9
     },
     {
-      "name": "WZ.55 Striga",
+      "name": "PPSh-41",
       "game": "mw4",
       "rank": 10
     },
     {
-      "name": "PPSh-41",
+      "name": "Rezi 12",
       "game": "mw4",
       "rank": 11
     },
     {
-      "name": "Oden",
+      "name": "Warlord",
       "game": "mw4",
       "rank": 12
     },
     {
-      "name": "Patriot XMR",
+      "name": "Astaroth .57",
       "game": "mw4",
       "rank": 13
     },
     {
-      "name": "Astaroth .57",
+      "name": "Kastov 762",
       "game": "mw4",
       "rank": 14
     },
     {
-      "name": "Kastov 762",
+      "name": "Signal 50",
       "game": "mw4",
       "rank": 15
     },
     {
-      "name": "Signal 50",
+      "name": "Cronen Squall",
       "game": "mw4",
       "rank": 16
     },
     {
-      "name": "Cronen Squall",
+      "name": "Patriot XMR",
       "game": "mw4",
       "rank": 17
     },
     {
-      "name": "APOC-338",
+      "name": "FiNN LMG",
       "game": "mw4",
       "rank": 18
     },
     {
-      "name": "FiNN LMG",
+      "name": "Oden",
       "game": "mw4",
       "rank": 19
     },
@@ -110,6 +110,10 @@
     {
       "name": "M4",
       "score": 4.9
+    },
+    {
+      "name": "PPSh-41",
+      "score": 4.35
     },
     {
       "name": "Kastov 762",
@@ -154,6 +158,26 @@
       "count": 1
     },
     {
+      "name": "Full Port Comp",
+      "count": 1
+    },
+    {
+      "name": "TT Banseok-24N",
+      "count": 1
+    },
+    {
+      "name": "ZLR Type C",
+      "count": 1
+    },
+    {
+      "name": "Mire-50 Tac Grip",
+      "count": 1
+    },
+    {
+      "name": "MT-L5 Jinhwa",
+      "count": 1
+    },
+    {
       "name": "TA TacPro-56",
       "count": 1
     },
@@ -166,7 +190,7 @@
       "count": 1
     },
     {
-      "name": "V46 R-Skel Grip",
+      "name": "EXP U-Turn Stock",
       "count": 1
     },
     {
@@ -177,15 +201,19 @@
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 3
+      "count": 4
     },
     {
       "slot": "Barrel",
-      "count": 3
+      "count": 4
     },
     {
       "slot": "Optic",
-      "count": 2
+      "count": 3
+    },
+    {
+      "slot": "Stock",
+      "count": 3
     },
     {
       "slot": "Magazine",
@@ -196,24 +224,16 @@
       "count": 2
     },
     {
-      "slot": "Stock",
-      "count": 1
-    },
-    {
       "slot": "Underbarrel",
-      "count": 1
-    },
-    {
-      "slot": "Rear Grip",
-      "count": 1
+      "count": 2
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 1,
+    "aggressive": 2,
     "long_range": 2,
     "balanced": 0,
     "sniper_support": 0
   },
   "popularity": [],
-  "total_weapons": 5
+  "total_weapons": 4
 }

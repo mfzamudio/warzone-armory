@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-06T11:57:09.198438+00:00",
+  "last_updated": "2026-11-07T10:57:20.001214+00:00",
   "season": "S2R",
-  "weapon_count": 5,
+  "weapon_count": 4,
   "weapons": [
     {
       "id": "kastov-762",
@@ -264,103 +264,130 @@
       }
     },
     {
-      "id": "voyak-kt-3",
-      "name": "Voyak KT-3",
-      "type": "Assault Rifle",
-      "game": "bo7",
-      "icon": "https://assets.codmunity.gg/optimized/VOYAK-KT-3.webp",
+      "id": "ppsh-41",
+      "name": "PPSh-41",
+      "type": "SMG",
+      "game": "bo6",
+      "icon": "https://assets.codmunity.gg/optimized/PPSh-41.webp",
       "description": "",
       "stats": {
-        "rpm": 659,
-        "ads": 230,
-        "bv": 910,
+        "rpm": 1110,
+        "ads": 210,
+        "bv": 550,
         "damage": [
           {
-            "base_rpm": 659,
-            "chest": 42,
+            "base_rpm": 1110,
+            "chest": 28,
             "dropoff": 0,
-            "enemies_per_magazine": 3,
-            "final_rpm": 659,
-            "head": 54,
-            "lowerarm": 42,
-            "lowerleg": 42,
+            "enemies_per_magazine": 6,
+            "final_rpm": 1110,
+            "head": 32,
+            "lowerarm": 28,
+            "lowerleg": 23,
             "multipliers": {
-              "chest": 1,
-              "head": 1.2857,
-              "lowerarm": 1,
+              "chest": 1.2174,
+              "head": 1.3913,
+              "lowerarm": 1.2174,
               "lowerleg": 1,
-              "neck": 1,
+              "neck": 1.2174,
               "stomach": 1,
-              "upperarm": 1,
+              "upperarm": 1.2174,
               "upperleg": 1
             },
-            "neck": 42,
-            "shots_to_kill": 8,
-            "stomach": 42,
-            "time_between_shots": 91.04704097116844,
-            "ttk": 637.329286798179,
-            "upperarm": 42,
-            "upperleg": 42
+            "neck": 28,
+            "shots_to_kill": 11,
+            "stomach": 23,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 540.5405405405405,
+            "upperarm": 28,
+            "upperleg": 23
           },
           {
-            "base_rpm": 659,
-            "chest": 37,
-            "dropoff": 40,
-            "enemies_per_magazine": 3,
-            "final_rpm": 659,
-            "head": 48,
-            "lowerarm": 37,
-            "lowerleg": 37,
+            "base_rpm": 1110,
+            "chest": 25,
+            "dropoff": 10,
+            "enemies_per_magazine": 5,
+            "final_rpm": 1110,
+            "head": 28,
+            "lowerarm": 25,
+            "lowerleg": 21,
             "multipliers": {
-              "chest": 1,
-              "head": 1.2973,
-              "lowerarm": 1,
+              "chest": 1.1905,
+              "head": 1.3333,
+              "lowerarm": 1.1905,
               "lowerleg": 1,
-              "neck": 1,
+              "neck": 1.1905,
               "stomach": 1,
-              "upperarm": 1,
+              "upperarm": 1.1905,
               "upperleg": 1
             },
-            "neck": 37,
-            "shots_to_kill": 9,
-            "stomach": 37,
-            "time_between_shots": 91.04704097116844,
-            "ttk": 728.3763277693475,
-            "upperarm": 37,
-            "upperleg": 37
+            "neck": 25,
+            "shots_to_kill": 12,
+            "stomach": 21,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 594.5945945945946,
+            "upperarm": 25,
+            "upperleg": 21
           },
           {
-            "base_rpm": 659,
-            "chest": 32,
-            "dropoff": 60,
-            "enemies_per_magazine": 3,
-            "final_rpm": 659,
-            "head": 41,
-            "lowerarm": 32,
-            "lowerleg": 32,
+            "base_rpm": 1110,
+            "chest": 19,
+            "dropoff": 20,
+            "enemies_per_magazine": 4,
+            "final_rpm": 1110,
+            "head": 21,
+            "lowerarm": 19,
+            "lowerleg": 16,
             "multipliers": {
-              "chest": 1,
-              "head": 1.2813,
-              "lowerarm": 1,
+              "chest": 1.1875,
+              "head": 1.3125,
+              "lowerarm": 1.1875,
               "lowerleg": 1,
-              "neck": 1,
+              "neck": 1.1875,
               "stomach": 1,
-              "upperarm": 1,
+              "upperarm": 1.1875,
               "upperleg": 1
             },
-            "neck": 32,
-            "shots_to_kill": 10,
-            "stomach": 32,
-            "time_between_shots": 91.04704097116844,
-            "ttk": 835.357434674582,
-            "upperarm": 32,
-            "upperleg": 32
+            "neck": 19,
+            "shots_to_kill": 16,
+            "stomach": 16,
+            "time_between_shots": 54.054054054054056,
+            "ttk": 810.8108108108108,
+            "upperarm": 19,
+            "upperleg": 16
           }
         ],
-        "mag": 30
+        "mag": 71
       },
       "loadouts": {
-        "aggressive": null,
+        "aggressive": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "Full Port Comp"
+            },
+            {
+              "slot": "Barrel",
+              "name": "TT Banseok-24N"
+            },
+            {
+              "slot": "Optic",
+              "name": "ZLR Type C"
+            },
+            {
+              "slot": "Underbarrel",
+              "name": "Mire-50 Tac Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "MT-L5 Jinhwa"
+            }
+          ],
+          "rating": 4.35,
+          "description": "Close Range meta build",
+          "loadout_code": "S05-AV35W-SP4W1-1",
+          "image": null
+        },
         "long_range": null,
         "balanced": null,
         "sniper_support": null
@@ -478,8 +505,8 @@
               "name": "FSS Fireline Grip"
             },
             {
-              "slot": "Rear Grip",
-              "name": "V46 R-Skel Grip"
+              "slot": "Stock",
+              "name": "EXP U-Turn Stock"
             },
             {
               "slot": "Ammunition",
@@ -488,112 +515,9 @@
           ],
           "rating": 5.6,
           "description": "Close Range meta build",
-          "loadout_code": "S03-3K9Y5-LGNEQ-SN11",
+          "loadout_code": "S03-3K9Y5-L7T46-8711",
           "image": null
         },
-        "long_range": null,
-        "balanced": null,
-        "sniper_support": null
-      }
-    },
-    {
-      "id": "vmp",
-      "name": "VMP",
-      "type": "SMG",
-      "game": "bo7",
-      "icon": "https://assets.codmunity.gg/optimized/VMP.webp",
-      "description": "",
-      "stats": {
-        "rpm": 952,
-        "ads": 160,
-        "bv": 540,
-        "damage": [
-          {
-            "base_rpm": 952,
-            "chest": 33,
-            "dropoff": 0,
-            "enemies_per_magazine": 4,
-            "final_rpm": 952,
-            "head": 41,
-            "lowerarm": 33,
-            "lowerleg": 29,
-            "multipliers": {
-              "chest": 1.1379,
-              "head": 1.4138,
-              "lowerarm": 1.1379,
-              "lowerleg": 1,
-              "neck": 1.1379,
-              "stomach": 1,
-              "upperarm": 1.1379,
-              "upperleg": 1
-            },
-            "neck": 33,
-            "shots_to_kill": 10,
-            "stomach": 29,
-            "time_between_shots": 63.02521008403362,
-            "ttk": 567.2268907563025,
-            "upperarm": 33,
-            "upperleg": 29
-          },
-          {
-            "base_rpm": 952,
-            "chest": 28,
-            "dropoff": 13,
-            "enemies_per_magazine": 3,
-            "final_rpm": 952,
-            "head": 35,
-            "lowerarm": 28,
-            "lowerleg": 25,
-            "multipliers": {
-              "chest": 1.12,
-              "head": 1.4,
-              "lowerarm": 1.12,
-              "lowerleg": 1,
-              "neck": 1.12,
-              "stomach": 1,
-              "upperarm": 1.12,
-              "upperleg": 1
-            },
-            "neck": 28,
-            "shots_to_kill": 11,
-            "stomach": 25,
-            "time_between_shots": 63.02521008403362,
-            "ttk": 630.2521008403362,
-            "upperarm": 28,
-            "upperleg": 25
-          },
-          {
-            "base_rpm": 952,
-            "chest": 22,
-            "dropoff": 23,
-            "enemies_per_magazine": 2,
-            "final_rpm": 952,
-            "head": 27,
-            "lowerarm": 22,
-            "lowerleg": 19,
-            "multipliers": {
-              "chest": 1.1579,
-              "head": 1.4211,
-              "lowerarm": 1.1579,
-              "lowerleg": 1,
-              "neck": 1.1579,
-              "stomach": 1,
-              "upperarm": 1.1579,
-              "upperleg": 1
-            },
-            "neck": 22,
-            "shots_to_kill": 14,
-            "stomach": 19,
-            "time_between_shots": 63.02521008403362,
-            "ttk": 819.327731092437,
-            "upperarm": 22,
-            "upperleg": 19
-          }
-        ],
-        "mag": 40
-      },
-      "loadouts": {
-        "aggressive": null,
         "long_range": null,
         "balanced": null,
         "sniper_support": null
