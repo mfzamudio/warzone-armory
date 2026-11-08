@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T10:57:20.000495+00:00",
+  "last_updated": "2026-11-08T11:10:32.736429+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -12,17 +12,17 @@
       "rank": 2
     },
     {
-      "name": "KG-7 Vulcan",
+      "name": "ISO Nightshade",
       "game": "mw4",
       "rank": 3
     },
     {
-      "name": "M4",
+      "name": "KG-7 Vulcan",
       "game": "mw4",
       "rank": 4
     },
     {
-      "name": "ISO Nightshade",
+      "name": "M4",
       "game": "mw4",
       "rank": 5
     },
@@ -37,67 +37,67 @@
       "rank": 7
     },
     {
-      "name": "Axion",
+      "name": "Mosin-Nagant",
       "game": "mw4",
       "rank": 8
     },
     {
-      "name": "Hyeon Burst",
+      "name": "WZ.55 Striga",
       "game": "mw4",
       "rank": 9
     },
     {
-      "name": "PPSh-41",
+      "name": "Axion",
       "game": "mw4",
       "rank": 10
     },
     {
-      "name": "Rezi 12",
+      "name": "Hyeon Burst",
       "game": "mw4",
       "rank": 11
     },
     {
-      "name": "Warlord",
+      "name": "PPSh-41",
       "game": "mw4",
       "rank": 12
     },
     {
-      "name": "Astaroth .57",
+      "name": "Kastov 762",
       "game": "mw4",
       "rank": 13
     },
     {
-      "name": "Kastov 762",
+      "name": "Astaroth .57",
       "game": "mw4",
       "rank": 14
     },
     {
-      "name": "Signal 50",
+      "name": "Cronen Squall",
       "game": "mw4",
       "rank": 15
     },
     {
-      "name": "Cronen Squall",
+      "name": "Patriot XMR",
       "game": "mw4",
       "rank": 16
     },
     {
-      "name": "Patriot XMR",
+      "name": "Type 73",
       "game": "mw4",
       "rank": 17
     },
     {
-      "name": "FiNN LMG",
+      "name": "Oden",
       "game": "mw4",
       "rank": 18
     },
     {
-      "name": "Oden",
+      "name": "Oris 8.6",
       "game": "mw4",
       "rank": 19
     },
     {
-      "name": "Mosin-Nagant",
+      "name": "CSG-35",
       "game": "mw4",
       "rank": 20
     }
@@ -117,7 +117,7 @@
     },
     {
       "name": "Kastov 762",
-      "score": 3.75
+      "score": 4.3
     }
   ],
   "top_attachments": [
