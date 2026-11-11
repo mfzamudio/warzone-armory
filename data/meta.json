@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T12:23:17.672716+00:00",
+  "last_updated": "2026-11-11T11:45:57.874498+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -22,7 +22,7 @@
       "rank": 4
     },
     {
-      "name": "M4",
+      "name": "Kastov 762",
       "game": "mw4",
       "rank": 5
     },
@@ -37,12 +37,12 @@
       "rank": 7
     },
     {
-      "name": "X-58 Nyx",
+      "name": "WZ.55 Striga",
       "game": "mw4",
       "rank": 8
     },
     {
-      "name": "WZ.55 Striga",
+      "name": "M4",
       "game": "mw4",
       "rank": 9
     },
@@ -52,73 +52,73 @@
       "rank": 10
     },
     {
-      "name": "Hyeon Burst",
+      "name": "Cronen Squall",
       "game": "mw4",
       "rank": 11
     },
     {
-      "name": "PPSh-41",
+      "name": "FiNN LMG",
       "game": "mw4",
       "rank": 12
     },
     {
-      "name": "Kastov 762",
+      "name": "Hyeon Burst",
       "game": "mw4",
       "rank": 13
     },
     {
-      "name": "CSG-35",
+      "name": "X-58 Nyx",
       "game": "mw4",
       "rank": 14
     },
     {
-      "name": "Patriot XMR",
+      "name": "PPSh-41",
       "game": "mw4",
       "rank": 15
     },
     {
-      "name": "Astaroth .57",
+      "name": "CSG-35",
       "game": "mw4",
       "rank": 16
     },
     {
-      "name": "Cronen Squall",
+      "name": "Patriot XMR",
       "game": "mw4",
       "rank": 17
     },
     {
-      "name": "Type 73",
+      "name": "Astaroth .57",
       "game": "mw4",
       "rank": 18
     },
     {
-      "name": "Oden",
+      "name": "Type 73",
       "game": "mw4",
       "rank": 19
     },
     {
-      "name": "Oris 8.6",
+      "name": "Oden",
       "game": "mw4",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "PPSh-41",
-      "score": 4.35
-    },
-    {
-      "name": "Cronen Squall",
-      "score": 3.6
+      "name": "Kastov 762",
+      "score": 4.8
     }
   ],
   "top_attachments": [
     {
-      "name": "EXP Undertow Gen. 2",
+      "name": "45 Round Mag 7.62",
+      "count": 2
+    },
+    {
+      "name": "Gauge-12 Mono",
       "count": 1
     },
     {
-      "name": "FJX Sypher 27",
+      "name": "BCS-K 589mm Barrel",
       "count": 1
     },
     {
@@ -126,31 +126,23 @@
       "count": 1
     },
     {
-      "name": "30 Round Mag",
+      "name": "Hanbit Blitz v.9",
       "count": 1
     },
     {
-      "name": "6.8 Wrath High Velocity",
+      "name": "DS RKT-90",
       "count": 1
     },
     {
-      "name": "Full Port Comp",
+      "name": "SZ Micro D-3",
       "count": 1
     },
     {
-      "name": "TT Banseok-24N",
+      "name": "FJX Kastov Grip",
       "count": 1
     },
     {
-      "name": "ZLR Type C",
-      "count": 1
-    },
-    {
-      "name": "Mire-50 Tac Grip",
-      "count": 1
-    },
-    {
-      "name": "MT-L5 Jinhwa",
+      "name": "Kastov Combat Lite Stock",
       "count": 1
     }
   ],
@@ -160,36 +152,32 @@
       "count": 2
     },
     {
-      "slot": "Barrel",
-      "count": 2
-    },
-    {
       "slot": "Optic",
       "count": 2
     },
     {
       "slot": "Magazine",
-      "count": 1
-    },
-    {
-      "slot": "Ammunition",
-      "count": 1
-    },
-    {
-      "slot": "Underbarrel",
-      "count": 1
+      "count": 2
     },
     {
       "slot": "Stock",
+      "count": 2
+    },
+    {
+      "slot": "Barrel",
+      "count": 1
+    },
+    {
+      "slot": "Rear Grip",
       "count": 1
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 1,
+    "aggressive": 0,
     "long_range": 1,
     "balanced": 0,
-    "sniper_support": 0
+    "sniper_support": 1
   },
   "popularity": [],
-  "total_weapons": 2
+  "total_weapons": 1
 }

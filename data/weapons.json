@@ -1,103 +1,103 @@
 {
-  "last_updated": "2026-11-10T12:23:17.673732+00:00",
+  "last_updated": "2026-11-11T11:45:57.875189+00:00",
   "season": "S2R",
-  "weapon_count": 2,
+  "weapon_count": 1,
   "weapons": [
     {
-      "id": "cronen-squall",
-      "name": "Cronen Squall",
-      "type": "Battle Rifle",
+      "id": "kastov-762",
+      "name": "Kastov 762",
+      "type": "Assault Rifle",
       "game": "mw2",
       "icon": "",
       "description": "",
       "stats": {
-        "rpm": 674,
+        "rpm": 600,
         "ads": 245,
-        "bv": 910,
+        "bv": 920,
         "damage": [
           {
-            "base_rpm": 674,
-            "chest": 41,
+            "base_rpm": 600,
+            "chest": 44,
             "dropoff": 0,
-            "enemies_per_magazine": 2,
-            "final_rpm": 674,
-            "head": 50,
-            "lowerarm": 41,
-            "lowerleg": 36,
+            "enemies_per_magazine": 4,
+            "final_rpm": 600,
+            "head": 56,
+            "lowerarm": 44,
+            "lowerleg": 42,
             "multipliers": {
-              "chest": 1.1389,
-              "head": 1.3889,
-              "lowerarm": 1.1389,
+              "chest": 1.0476,
+              "head": 1.3333,
+              "lowerarm": 1.0476,
               "lowerleg": 1,
-              "neck": 1.1389,
+              "neck": 1.0476,
               "stomach": 1,
-              "upperarm": 1.1389,
+              "upperarm": 1.0476,
               "upperleg": 1
             },
-            "neck": 41,
+            "neck": 44,
+            "shots_to_kill": 7,
+            "stomach": 42,
+            "time_between_shots": 100,
+            "ttk": 600,
+            "upperarm": 44,
+            "upperleg": 42
+          },
+          {
+            "base_rpm": 600,
+            "chest": 38,
+            "dropoff": 44,
+            "enemies_per_magazine": 3,
+            "final_rpm": 600,
+            "head": 49,
+            "lowerarm": 38,
+            "lowerleg": 37,
+            "multipliers": {
+              "chest": 1.027,
+              "head": 1.3243,
+              "lowerarm": 1.027,
+              "lowerleg": 1,
+              "neck": 1.027,
+              "stomach": 1,
+              "upperarm": 1.027,
+              "upperleg": 1
+            },
+            "neck": 38,
             "shots_to_kill": 8,
-            "stomach": 36,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 623.1454005934718,
-            "upperarm": 41,
-            "upperleg": 36
+            "stomach": 37,
+            "time_between_shots": 100,
+            "ttk": 700,
+            "upperarm": 38,
+            "upperleg": 37
           },
           {
-            "base_rpm": 674,
-            "chest": 34,
-            "dropoff": 38,
-            "enemies_per_magazine": 2,
-            "final_rpm": 674,
-            "head": 42,
-            "lowerarm": 34,
-            "lowerleg": 30,
+            "base_rpm": 600,
+            "chest": 35,
+            "dropoff": 64,
+            "enemies_per_magazine": 3,
+            "final_rpm": 600,
+            "head": 45,
+            "lowerarm": 35,
+            "lowerleg": 34,
             "multipliers": {
-              "chest": 1.1333,
-              "head": 1.4,
-              "lowerarm": 1.1333,
+              "chest": 1.0294,
+              "head": 1.3235,
+              "lowerarm": 1.0294,
               "lowerleg": 1,
-              "neck": 1.1333,
+              "neck": 1.0294,
               "stomach": 1,
-              "upperarm": 1.1333,
+              "upperarm": 1.0294,
               "upperleg": 1
             },
-            "neck": 34,
+            "neck": 35,
             "shots_to_kill": 9,
-            "stomach": 30,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 712.1661721068249,
-            "upperarm": 34,
-            "upperleg": 30
-          },
-          {
-            "base_rpm": 674,
-            "chest": 29,
-            "dropoff": 62,
-            "enemies_per_magazine": 1,
-            "final_rpm": 674,
-            "head": 36,
-            "lowerarm": 29,
-            "lowerleg": 26,
-            "multipliers": {
-              "chest": 1.1154,
-              "head": 1.3846,
-              "lowerarm": 1.1154,
-              "lowerleg": 1,
-              "neck": 1.1154,
-              "stomach": 1,
-              "upperarm": 1.1154,
-              "upperleg": 1
-            },
-            "neck": 29,
-            "shots_to_kill": 11,
-            "stomach": 26,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 908.3395832653993,
-            "upperarm": 29,
-            "upperleg": 26
+            "stomach": 34,
+            "time_between_shots": 100,
+            "ttk": 819.5652173913044,
+            "upperarm": 35,
+            "upperleg": 34
           }
         ],
-        "mag": 20
+        "mag": 30
       },
       "loadouts": {
         "aggressive": null,
@@ -105,11 +105,11 @@
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "EXP Undertow Gen. 2"
+              "name": "Gauge-12 Mono"
             },
             {
               "slot": "Barrel",
-              "name": "FJX Sypher 27"
+              "name": "BCS-K 589mm Barrel"
             },
             {
               "slot": "Optic",
@@ -117,150 +117,47 @@
             },
             {
               "slot": "Magazine",
-              "name": "30 Round Mag"
-            },
-            {
-              "slot": "Ammunition",
-              "name": "6.8 Wrath High Velocity"
-            }
-          ],
-          "rating": 3.6,
-          "description": "Long Range meta build",
-          "loadout_code": "B03-3KB4J-BPH2Q-EW11",
-          "image": null
-        },
-        "balanced": null,
-        "sniper_support": null
-      }
-    },
-    {
-      "id": "ppsh-41",
-      "name": "PPSh-41",
-      "type": "SMG",
-      "game": "bo6",
-      "icon": "https://assets.codmunity.gg/optimized/PPSh-41.webp",
-      "description": "",
-      "stats": {
-        "rpm": 1110,
-        "ads": 210,
-        "bv": 550,
-        "damage": [
-          {
-            "base_rpm": 1110,
-            "chest": 28,
-            "dropoff": 0,
-            "enemies_per_magazine": 6,
-            "final_rpm": 1110,
-            "head": 32,
-            "lowerarm": 28,
-            "lowerleg": 23,
-            "multipliers": {
-              "chest": 1.2174,
-              "head": 1.3913,
-              "lowerarm": 1.2174,
-              "lowerleg": 1,
-              "neck": 1.2174,
-              "stomach": 1,
-              "upperarm": 1.2174,
-              "upperleg": 1
-            },
-            "neck": 28,
-            "shots_to_kill": 11,
-            "stomach": 23,
-            "time_between_shots": 54.054054054054056,
-            "ttk": 540.5405405405405,
-            "upperarm": 28,
-            "upperleg": 23
-          },
-          {
-            "base_rpm": 1110,
-            "chest": 25,
-            "dropoff": 10,
-            "enemies_per_magazine": 5,
-            "final_rpm": 1110,
-            "head": 28,
-            "lowerarm": 25,
-            "lowerleg": 21,
-            "multipliers": {
-              "chest": 1.1905,
-              "head": 1.3333,
-              "lowerarm": 1.1905,
-              "lowerleg": 1,
-              "neck": 1.1905,
-              "stomach": 1,
-              "upperarm": 1.1905,
-              "upperleg": 1
-            },
-            "neck": 25,
-            "shots_to_kill": 12,
-            "stomach": 21,
-            "time_between_shots": 54.054054054054056,
-            "ttk": 594.5945945945946,
-            "upperarm": 25,
-            "upperleg": 21
-          },
-          {
-            "base_rpm": 1110,
-            "chest": 19,
-            "dropoff": 20,
-            "enemies_per_magazine": 4,
-            "final_rpm": 1110,
-            "head": 21,
-            "lowerarm": 19,
-            "lowerleg": 16,
-            "multipliers": {
-              "chest": 1.1875,
-              "head": 1.3125,
-              "lowerarm": 1.1875,
-              "lowerleg": 1,
-              "neck": 1.1875,
-              "stomach": 1,
-              "upperarm": 1.1875,
-              "upperleg": 1
-            },
-            "neck": 19,
-            "shots_to_kill": 16,
-            "stomach": 16,
-            "time_between_shots": 54.054054054054056,
-            "ttk": 810.8108108108108,
-            "upperarm": 19,
-            "upperleg": 16
-          }
-        ],
-        "mag": 71
-      },
-      "loadouts": {
-        "aggressive": {
-          "attachments": [
-            {
-              "slot": "Muzzle",
-              "name": "Full Port Comp"
-            },
-            {
-              "slot": "Barrel",
-              "name": "TT Banseok-24N"
-            },
-            {
-              "slot": "Optic",
-              "name": "ZLR Type C"
-            },
-            {
-              "slot": "Underbarrel",
-              "name": "Mire-50 Tac Grip"
+              "name": "45 Round Mag 7.62"
             },
             {
               "slot": "Stock",
-              "name": "MT-L5 Jinhwa"
+              "name": "Hanbit Blitz v.9"
             }
           ],
-          "rating": 4.35,
-          "description": "Close Range meta build",
-          "loadout_code": "S05-AV35W-SP4W1-1",
+          "rating": 4.8,
+          "description": "Long Range meta build",
+          "loadout_code": "A01-23Y1W-CE5UH-11",
           "image": null
         },
-        "long_range": null,
         "balanced": null,
-        "sniper_support": null
+        "sniper_support": {
+          "attachments": [
+            {
+              "slot": "Muzzle",
+              "name": "DS RKT-90"
+            },
+            {
+              "slot": "Optic",
+              "name": "SZ Micro D-3"
+            },
+            {
+              "slot": "Magazine",
+              "name": "45 Round Mag 7.62"
+            },
+            {
+              "slot": "Rear Grip",
+              "name": "FJX Kastov Grip"
+            },
+            {
+              "slot": "Stock",
+              "name": "Kastov Combat Lite Stock"
+            }
+          ],
+          "rating": 3.9,
+          "description": "Sniper Support meta build",
+          "loadout_code": "A01-DBP8T-J1TB1-1",
+          "image": null
+        }
       }
     }
   ]
