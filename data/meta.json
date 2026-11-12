@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T11:45:57.874498+00:00",
+  "last_updated": "2026-11-12T12:25:46.232287+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -12,7 +12,7 @@
       "rank": 2
     },
     {
-      "name": "ISO Nightshade",
+      "name": "WZ.55 Striga",
       "game": "mw4",
       "rank": 3
     },
@@ -22,12 +22,12 @@
       "rank": 4
     },
     {
-      "name": "Kastov 762",
+      "name": "Mosin-Nagant",
       "game": "mw4",
       "rank": 5
     },
     {
-      "name": "Mosin-Nagant",
+      "name": "ISO Nightshade",
       "game": "mw4",
       "rank": 6
     },
@@ -37,12 +37,12 @@
       "rank": 7
     },
     {
-      "name": "WZ.55 Striga",
+      "name": "M4",
       "game": "mw4",
       "rank": 8
     },
     {
-      "name": "M4",
+      "name": "Kastov 762",
       "game": "mw4",
       "rank": 9
     },
@@ -104,79 +104,59 @@
   ],
   "top_meta_scores": [
     {
-      "name": "Kastov 762",
-      "score": 4.8
+      "name": "PPSh-41",
+      "score": 4.35
     }
   ],
   "top_attachments": [
     {
-      "name": "45 Round Mag 7.62",
-      "count": 2
-    },
-    {
-      "name": "Gauge-12 Mono",
+      "name": "Full Port Comp",
       "count": 1
     },
     {
-      "name": "BCS-K 589mm Barrel",
+      "name": "TT Banseok-24N",
       "count": 1
     },
     {
-      "name": "Cronen R808",
+      "name": "ZLR Type C",
       "count": 1
     },
     {
-      "name": "Hanbit Blitz v.9",
+      "name": "Mire-50 Tac Grip",
       "count": 1
     },
     {
-      "name": "DS RKT-90",
-      "count": 1
-    },
-    {
-      "name": "SZ Micro D-3",
-      "count": 1
-    },
-    {
-      "name": "FJX Kastov Grip",
-      "count": 1
-    },
-    {
-      "name": "Kastov Combat Lite Stock",
+      "name": "MT-L5 Jinhwa",
       "count": 1
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 2
-    },
-    {
-      "slot": "Optic",
-      "count": 2
-    },
-    {
-      "slot": "Magazine",
-      "count": 2
-    },
-    {
-      "slot": "Stock",
-      "count": 2
+      "count": 1
     },
     {
       "slot": "Barrel",
       "count": 1
     },
     {
-      "slot": "Rear Grip",
+      "slot": "Optic",
+      "count": 1
+    },
+    {
+      "slot": "Underbarrel",
+      "count": 1
+    },
+    {
+      "slot": "Stock",
       "count": 1
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 0,
-    "long_range": 1,
+    "aggressive": 1,
+    "long_range": 0,
     "balanced": 0,
-    "sniper_support": 1
+    "sniper_support": 0
   },
   "popularity": [],
   "total_weapons": 1
