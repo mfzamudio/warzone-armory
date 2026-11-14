@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T12:00:41.211314+00:00",
+  "last_updated": "2026-11-14T11:18:44.249335+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -22,22 +22,22 @@
       "rank": 4
     },
     {
-      "name": "Mosin-Nagant",
+      "name": "M4",
       "game": "mw4",
       "rank": 5
     },
     {
-      "name": "ISO Nightshade",
+      "name": "Mosin-Nagant",
       "game": "mw4",
       "rank": 6
     },
     {
-      "name": "Han 86",
+      "name": "ISO Nightshade",
       "game": "mw4",
       "rank": 7
     },
     {
-      "name": "M4",
+      "name": "Han 86",
       "game": "mw4",
       "rank": 8
     },
@@ -82,7 +82,7 @@
       "rank": 16
     },
     {
-      "name": "Patriot XMR",
+      "name": ".50 GS",
       "game": "mw4",
       "rank": 17
     },
@@ -92,41 +92,41 @@
       "rank": 18
     },
     {
-      "name": "Type 73",
+      "name": "Patriot XMR",
       "game": "mw4",
       "rank": 19
     },
     {
-      "name": "Oden",
+      "name": "Type 73",
       "game": "mw4",
       "rank": 20
     }
   ],
   "top_meta_scores": [
     {
-      "name": "PPSh-41",
-      "score": 4.35
+      "name": "Cronen Squall",
+      "score": 4.44
     }
   ],
   "top_attachments": [
     {
-      "name": "Full Port Comp",
+      "name": "EXP Undertow Gen. 2",
       "count": 1
     },
     {
-      "name": "TT Banseok-24N",
+      "name": "FJX Sypher 27",
       "count": 1
     },
     {
-      "name": "ZLR Type C",
+      "name": "Cronen R808",
       "count": 1
     },
     {
-      "name": "Mire-50 Tac Grip",
+      "name": "30 Round Mag",
       "count": 1
     },
     {
-      "name": "MT-L5 Jinhwa",
+      "name": "6.8 Wrath High Velocity",
       "count": 1
     }
   ],
@@ -144,17 +144,17 @@
       "count": 1
     },
     {
-      "slot": "Underbarrel",
+      "slot": "Magazine",
       "count": 1
     },
     {
-      "slot": "Stock",
+      "slot": "Ammunition",
       "count": 1
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 1,
-    "long_range": 0,
+    "aggressive": 0,
+    "long_range": 1,
     "balanced": 0,
     "sniper_support": 0
   },
