@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T11:51:10.272761+00:00",
+  "last_updated": "2026-11-17T12:58:50.808945+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -12,17 +12,17 @@
       "rank": 2
     },
     {
-      "name": "VEL 46",
+      "name": "KG-7 Vulcan",
       "game": "mw4",
       "rank": 3
     },
     {
-      "name": "KG-7 Vulcan",
+      "name": "M4",
       "game": "mw4",
       "rank": 4
     },
     {
-      "name": "M4",
+      "name": "VEL 46",
       "game": "mw4",
       "rank": 5
     },
@@ -104,39 +104,35 @@
   ],
   "top_meta_scores": [
     {
-      "name": "Cronen Squall",
-      "score": 4.44
+      "name": ".50 GS",
+      "score": 4.25
     }
   ],
   "top_attachments": [
     {
-      "name": "EXP Undertow Gen. 2",
+      "name": "Bruen Retort .50",
       "count": 1
     },
     {
-      "name": "FJX Sypher 27",
+      "name": "KV Corsac Holo",
       "count": 1
     },
     {
-      "name": "Cronen R808",
+      "name": "25 Round Drum Mag",
       "count": 1
     },
     {
-      "name": "30 Round Mag",
+      "name": "TT Iron Guard Kit",
       "count": 1
     },
     {
-      "name": "6.8 Wrath High Velocity",
+      "name": "Corvus Aves-3",
       "count": 1
     }
   ],
   "top_slots": [
     {
       "slot": "Muzzle",
-      "count": 1
-    },
-    {
-      "slot": "Barrel",
       "count": 1
     },
     {
@@ -148,13 +144,17 @@
       "count": 1
     },
     {
-      "slot": "Ammunition",
+      "slot": "Rear Grip",
+      "count": 1
+    },
+    {
+      "slot": "Laser",
       "count": 1
     }
   ],
   "playstyle_coverage": {
-    "aggressive": 0,
-    "long_range": 1,
+    "aggressive": 1,
+    "long_range": 0,
     "balanced": 0,
     "sniper_support": 0
   },

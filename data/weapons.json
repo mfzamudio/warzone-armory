@@ -1,134 +1,134 @@
 {
-  "last_updated": "2026-11-15T11:51:10.273292+00:00",
+  "last_updated": "2026-11-17T12:58:50.809516+00:00",
   "season": "S2R",
   "weapon_count": 1,
   "weapons": [
     {
-      "id": "cronen-squall",
-      "name": "Cronen Squall",
-      "type": "Battle Rifle",
+      "id": "50-gs",
+      "name": ".50 GS",
+      "type": "Pistol",
       "game": "mw2",
       "icon": "",
       "description": "",
       "stats": {
-        "rpm": 674,
-        "ads": 245,
-        "bv": 910,
+        "rpm": 167,
+        "ads": 180,
+        "bv": 460,
         "damage": [
           {
-            "base_rpm": 674,
-            "chest": 41,
+            "base_rpm": 167,
+            "chest": 75,
             "dropoff": 0,
-            "enemies_per_magazine": 2,
-            "final_rpm": 674,
-            "head": 50,
-            "lowerarm": 41,
-            "lowerleg": 36,
-            "multipliers": {
-              "chest": 1.1389,
-              "head": 1.3889,
-              "lowerarm": 1.1389,
-              "lowerleg": 1,
-              "neck": 1.1389,
-              "stomach": 1,
-              "upperarm": 1.1389,
-              "upperleg": 1
-            },
-            "neck": 41,
-            "shots_to_kill": 8,
-            "stomach": 36,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 623.1454005934718,
-            "upperarm": 41,
-            "upperleg": 36
-          },
-          {
-            "base_rpm": 674,
-            "chest": 34,
-            "dropoff": 38,
-            "enemies_per_magazine": 2,
-            "final_rpm": 674,
-            "head": 42,
-            "lowerarm": 34,
-            "lowerleg": 30,
-            "multipliers": {
-              "chest": 1.1333,
-              "head": 1.4,
-              "lowerarm": 1.1333,
-              "lowerleg": 1,
-              "neck": 1.1333,
-              "stomach": 1,
-              "upperarm": 1.1333,
-              "upperleg": 1
-            },
-            "neck": 34,
-            "shots_to_kill": 9,
-            "stomach": 30,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 712.1661721068249,
-            "upperarm": 34,
-            "upperleg": 30
-          },
-          {
-            "base_rpm": 674,
-            "chest": 29,
-            "dropoff": 62,
             "enemies_per_magazine": 1,
-            "final_rpm": 674,
-            "head": 36,
-            "lowerarm": 29,
-            "lowerleg": 26,
+            "final_rpm": 167,
+            "head": 100,
+            "lowerarm": 75,
+            "lowerleg": 75,
             "multipliers": {
-              "chest": 1.1154,
-              "head": 1.3846,
-              "lowerarm": 1.1154,
+              "chest": 1,
+              "head": 1.3333,
+              "lowerarm": 1,
               "lowerleg": 1,
-              "neck": 1.1154,
+              "neck": 1,
               "stomach": 1,
-              "upperarm": 1.1154,
+              "upperarm": 1,
               "upperleg": 1
             },
-            "neck": 29,
-            "shots_to_kill": 11,
-            "stomach": 26,
-            "time_between_shots": 89.02077151335311,
-            "ttk": 908.3395832653993,
-            "upperarm": 29,
-            "upperleg": 26
+            "neck": 75,
+            "shots_to_kill": 4,
+            "stomach": 75,
+            "time_between_shots": 359.2814371257485,
+            "ttk": 1077.8443113772455,
+            "upperarm": 75,
+            "upperleg": 75
+          },
+          {
+            "base_rpm": 167,
+            "chest": 67,
+            "dropoff": 11,
+            "enemies_per_magazine": 1,
+            "final_rpm": 167,
+            "head": 90,
+            "lowerarm": 67,
+            "lowerleg": 67,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.3433,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 67,
+            "shots_to_kill": 5,
+            "stomach": 67,
+            "time_between_shots": 359.2814371257485,
+            "ttk": 1437.125748502994,
+            "upperarm": 67,
+            "upperleg": 67
+          },
+          {
+            "base_rpm": 167,
+            "chest": 52,
+            "dropoff": 20,
+            "enemies_per_magazine": 1,
+            "final_rpm": 167,
+            "head": 70,
+            "lowerarm": 52,
+            "lowerleg": 52,
+            "multipliers": {
+              "chest": 1,
+              "head": 1.3462,
+              "lowerarm": 1,
+              "lowerleg": 1,
+              "neck": 1,
+              "stomach": 1,
+              "upperarm": 1,
+              "upperleg": 1
+            },
+            "neck": 52,
+            "shots_to_kill": 6,
+            "stomach": 52,
+            "time_between_shots": 359.2814371257485,
+            "ttk": 1796.4071856287424,
+            "upperarm": 52,
+            "upperleg": 52
           }
         ],
-        "mag": 20
+        "mag": 7
       },
       "loadouts": {
-        "aggressive": null,
-        "long_range": {
+        "aggressive": {
           "attachments": [
             {
               "slot": "Muzzle",
-              "name": "EXP Undertow Gen. 2"
-            },
-            {
-              "slot": "Barrel",
-              "name": "FJX Sypher 27"
+              "name": "Bruen Retort .50"
             },
             {
               "slot": "Optic",
-              "name": "Cronen R808"
+              "name": "KV Corsac Holo"
             },
             {
               "slot": "Magazine",
-              "name": "30 Round Mag"
+              "name": "25 Round Drum Mag"
             },
             {
-              "slot": "Ammunition",
-              "name": "6.8 Wrath High Velocity"
+              "slot": "Rear Grip",
+              "name": "TT Iron Guard Kit"
+            },
+            {
+              "slot": "Laser",
+              "name": "Corvus Aves-3"
             }
           ],
-          "rating": 4.44,
-          "description": "Long Range meta build",
-          "loadout_code": "B03-3KB4J-BPH2Q-EW11",
+          "rating": 4.25,
+          "description": "Close Range meta build",
+          "loadout_code": "P02-VMGBY-353W1-1",
           "image": null
         },
+        "long_range": null,
         "balanced": null,
         "sniper_support": null
       }
