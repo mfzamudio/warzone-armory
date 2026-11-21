@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T12:40:24.890031+00:00",
+  "last_updated": "2026-11-21T12:21:19.897331+00:00",
   "top_weapons": [
     {
       "name": "Cronen Osprey",
@@ -104,136 +104,60 @@
   ],
   "top_meta_scores": [
     {
-      "name": "Kastov 762",
-      "score": 4.49
-    },
-    {
-      "name": "Cronen Squall",
-      "score": 4.44
-    },
-    {
-      "name": "PPSh-41",
-      "score": 4.35
+      "name": ".50 GS",
+      "score": 4.25
     }
   ],
   "top_attachments": [
     {
-      "name": "Cronen R808",
-      "count": 2
-    },
-    {
-      "name": "Gauge-12 Mono",
+      "name": "Bruen Retort .50",
       "count": 1
     },
     {
-      "name": "BCS-K 589mm Barrel",
+      "name": "KV Corsac Holo",
       "count": 1
     },
     {
-      "name": "45 Round Mag 7.62",
+      "name": "25 Round Drum Mag",
       "count": 1
     },
     {
-      "name": "Hanbit Blitz v.9",
+      "name": "TT Iron Guard Kit",
       "count": 1
     },
     {
-      "name": "FJX Ghostfire 16.3\"",
-      "count": 1
-    },
-    {
-      "name": "SZ Helios Holo",
-      "count": 1
-    },
-    {
-      "name": "45 Round Mag",
-      "count": 1
-    },
-    {
-      "name": "FJX Kastov Grip",
-      "count": 1
-    },
-    {
-      "name": "Kastov Dogfighter 27",
-      "count": 1
-    },
-    {
-      "name": "EXP Undertow Gen. 2",
-      "count": 1
-    },
-    {
-      "name": "FJX Sypher 27",
-      "count": 1
-    },
-    {
-      "name": "30 Round Mag",
-      "count": 1
-    },
-    {
-      "name": "6.8 Wrath High Velocity",
-      "count": 1
-    },
-    {
-      "name": "Full Port Comp",
-      "count": 1
-    },
-    {
-      "name": "TT Banseok-24N",
-      "count": 1
-    },
-    {
-      "name": "ZLR Type C",
-      "count": 1
-    },
-    {
-      "name": "Mire-50 Tac Grip",
-      "count": 1
-    },
-    {
-      "name": "MT-L5 Jinhwa",
+      "name": "Corvus Aves-3",
       "count": 1
     }
   ],
   "top_slots": [
     {
-      "slot": "Barrel",
-      "count": 4
+      "slot": "Muzzle",
+      "count": 1
     },
     {
       "slot": "Optic",
-      "count": 4
-    },
-    {
-      "slot": "Muzzle",
-      "count": 3
+      "count": 1
     },
     {
       "slot": "Magazine",
-      "count": 3
-    },
-    {
-      "slot": "Stock",
-      "count": 3
+      "count": 1
     },
     {
       "slot": "Rear Grip",
       "count": 1
     },
     {
-      "slot": "Ammunition",
-      "count": 1
-    },
-    {
-      "slot": "Underbarrel",
+      "slot": "Laser",
       "count": 1
     }
   ],
   "playstyle_coverage": {
     "aggressive": 1,
-    "long_range": 2,
+    "long_range": 0,
     "balanced": 0,
-    "sniper_support": 1
+    "sniper_support": 0
   },
   "popularity": [],
-  "total_weapons": 3
+  "total_weapons": 1
 }
